@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abk.gps_forground">
+    <!-- Required for foreground services on P+. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <application>
+        <!-- Foreground services in Q+ require type. -->
+
+        <!--        <service-->
+        <!--            android:name="com.abk.distance.services.MyService"-->
+        <!--            android:enabled="true"-->
+        <!--            android:exported="true"-->
+        <!--            android:process=":different" />-->
+
+        <service
+            android:name="com.abk.distance.services.LocationService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="location"
+            android:process=":different" />
+
+    </application>
+
+</manifest>
