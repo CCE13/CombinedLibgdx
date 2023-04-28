@@ -37,8 +37,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], exclude: ['classes2.jar'], dir: 'libs')
-    implementation project(path: ':core')
-    implementation project(path: ':core')
+    implementation project(path: ':UnityCallbacks')
 
     compileOnly files('libs/classes2.jar')
 
@@ -50,5 +49,4 @@ dependencies {
 
 }
 repositories {
-    mavenCentral()
 }

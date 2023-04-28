@@ -15,7 +15,7 @@ import android.util.Log;
 import androidx.core.app.ActivityCompat;
 
 import com.abk.distance.services.LocationService;
-import com.abk.distance.utils.UnityCallbacks;
+import com.runai.unitycallbacks.UnityCallbacks;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.PermissionToken;
@@ -69,7 +69,7 @@ public class WalkingServiceBridge {
         if (checkPermissions()) {
             startAhead();
         } else {
-//            UnityCallbacks.permissionDenied("ACTIVITY_RECOGNITION");
+           UnityCallbacks.permissionDenied("ACTIVITY_RECOGNITION");
             takePermission();
         }
     }
@@ -131,7 +131,7 @@ public class WalkingServiceBridge {
                 JSONObject obj = new JSONObject();
                 obj.put("distance", distance);
                 obj.put("steps", steps);
-                //UnityCallbacks.onUpdateData(obj.toString());
+                UnityCallbacks.onUpdateData(obj.toString());
             } catch (JSONException e) {
                 throw new RuntimeException(e);
             }

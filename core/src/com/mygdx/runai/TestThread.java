@@ -1,10 +1,11 @@
 package com.mygdx.runai;
 
-public class TestThread extends Thread{
+public class TestThread extends Thread implements Runnable{
     private Test game;
     private boolean running = true;
 
     public TestThread(Test game) {
+
         this.game = game;
     }
 
@@ -23,3 +24,6 @@ public class TestThread extends Thread{
         }
     }
 }
+
+
+

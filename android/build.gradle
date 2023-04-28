@@ -89,6 +89,3 @@ task run(type: Exec) {
     commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.mygdx.runai/com.mygdx.runai.AndroidLauncher'
 }
 
-dependencies {
-implementation project(path: ':distance_matrix.androidlib')
-}

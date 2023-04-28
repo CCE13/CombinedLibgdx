@@ -1,3 +1,5 @@
 include ':launcher', ':unityLibrary'
+include ':UnityCallbacks'
 include 'desktop', 'android', 'core'
 include ':distance_matrix.androidlib'
+

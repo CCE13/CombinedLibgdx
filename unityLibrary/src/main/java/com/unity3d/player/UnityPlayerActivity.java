@@ -3,18 +3,10 @@ package com.unity3d.player;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
-import android.view.View;
 import android.view.Window;
-import android.view.WindowManager;
-import android.os.Process;
-
-import com.abk.distance.WalkingServiceBridge;
-import com.badlogic.gdx.backends.android.AndroidApplication;
-import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.mygdx.runai.RunAI;
 import com.mygdx.runai.Test;
 import com.mygdx.runai.TestThread;
@@ -23,7 +15,6 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
 {
     protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
     private TestThread libGDXThread;
-    private WalkingServiceBridge service;
     // Override this in your custom UnityPlayerActivity to tweak the command line arguments passed to the Unity Android Player
     // The command line arguments are passed as a string, separated by spaces
     // UnityPlayerActivity calls this from 'onCreate'
@@ -48,8 +39,6 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
         mUnityPlayer = new UnityPlayer(this, this);
         setContentView(mUnityPlayer);
         mUnityPlayer.requestFocus();
-        service = new WalkingServiceBridge(this);
-        service.startForegroundService();
 
         Test game =  new Test();
         libGDXThread = new TestThread(game);
@@ -111,10 +100,8 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     {
         super.onPause();
 
-        MultiWindowSupport.saveMultiWindowMode(this);
-
-        if (MultiWindowSupport.getAllowResizableWindow(this))
-            return;
+        MultiWindowSupport.saveMultiWindowMode(this);if (MultiWindowSupport.getAllowResizableWindow(this))
+        return;
 
         mUnityPlayer.pause();
     }
