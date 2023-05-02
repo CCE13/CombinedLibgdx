@@ -4,6 +4,8 @@ public class TestThread extends Thread implements Runnable{
     private Test game;
     private boolean running = true;
 
+    public static int count;
+
     public TestThread(Test game) {
 
         this.game = game;
@@ -14,6 +16,8 @@ public class TestThread extends Thread implements Runnable{
         while (running) {
             // Add your code here
             System.out.println("Thread is running...");
+            count++;
+            System.out.println(count);
 
             try {
                 // Add a delay to reduce CPU usage

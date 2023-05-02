@@ -15,15 +15,12 @@ import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
 import com.abk.distance.WalkingServiceBridge
 import com.abk.gps_forground.R
-import com.badlogic.gdx.graphics.Texture
-import com.mygdx.runai.RunAI
 import java.io.FileWriter
 import java.io.IOException
 import java.text.SimpleDateFormat
 import android.graphics.Bitmap
 import android.opengl.GLES20
-import com.badlogic.gdx.Gdx
-import com.badlogic.gdx.graphics.GL20
+import com.mygdx.runai.RunAI
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.nio.IntBuffer

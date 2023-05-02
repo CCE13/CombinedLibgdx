@@ -4,14 +4,15 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation fileTree(dir: 'assets', include: ['*.jar', '*.aar'])
-    implementation project(path: ':core')
+    implementation files('libs/unity-classes.jar')
     implementation project(path: ':distance_matrix.androidlib')
+    implementation project(path: ':core')
 
 }
 
 android {
     compileSdkVersion 33
-    buildToolsVersion '29.0.2'
+    buildToolsVersion '30.0.2'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

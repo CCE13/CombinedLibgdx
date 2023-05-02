@@ -4540,6 +4540,8 @@ struct DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___dataSending_4;
 	// System.Action`1<System.String> DistanceService::onFail
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___onFail_5;
+	// System.Action`1<System.String> DistanceService::Testings
+	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___Testings_6;
 };
 
 // Cinemachine.Documentation

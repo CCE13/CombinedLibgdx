@@ -6,7 +6,7 @@ dependencies {
 
 android {
     compileSdkVersion 33
-    buildToolsVersion '29.0.2'
+    buildToolsVersion '30.0.2'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -32,9 +32,9 @@ android {
     signingConfigs {
         release {
             storeFile file('C:/School/Projects/RunAI/Assets/Keystore/user.keystore')
-            storePassword ''
+            storePassword 'run.ai'
             keyAlias 'runai'
-            keyPassword ''
+            keyPassword 'run.ai'
         }
     }
 

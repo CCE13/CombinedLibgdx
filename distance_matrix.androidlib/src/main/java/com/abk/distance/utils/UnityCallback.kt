@@ -1,4 +1,4 @@
-package com.runai.unitycallbacks
+package com.abk.distance.utils
 
 import com.unity3d.player.UnityPlayer
 
@@ -10,7 +10,7 @@ class UnityCallbacks {
 
         const val onUpdateData: String = "onUpdateData"
         const val onPermissionDenied: String = "onPermissionDenied"
-        const val onUpdateAI : String = "onUpdateAI"
+        const val onUpdateAI : String = "Testing"
 
         @JvmStatic
         fun onUpdateData(data: String) {

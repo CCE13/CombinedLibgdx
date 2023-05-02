@@ -3344,6 +3344,8 @@ struct DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___dataSending_4;
 	// System.Action`1<System.String> DistanceService::onFail
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___onFail_5;
+	// System.Action`1<System.String> DistanceService::Testings
+	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___Testings_6;
 };
 
 // Cinemachine.Documentation
@@ -40485,9 +40487,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8712[11] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8714[15] = 
 {
 	static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___m_Component_0)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___m_SerializableComponent_1)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___originalOrthoSize_2)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___hasPostProcessLayer_3)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___cropFrameXAndY_4)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___cropFrameXOrY_5)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___useStretchFill_6)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___zoom_7)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___useOffscreenRT_8)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___offscreenRTWidth_9)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___offscreenRTHeight_10)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___pixelRect_11)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___orthoSize_12)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___unitsPerPixel_13)),static_cast<int32_t>(offsetof(PixelPerfectCameraInternal_t3A785975106C548143FC2C057233A72DC250FEFE, ___cinemachineVCamZoom_14)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8728[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8728[8] = 
 {
-	0,static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___gameObject_1)),static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___walkingServiceBridge_2)),static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___onDataSuccess_3)),static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___dataSending_4)),static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___onFail_5)),0,};
+	0,static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___gameObject_1)),static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___walkingServiceBridge_2)),static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___onDataSuccess_3)),static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___dataSending_4)),static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___onFail_5)),static_cast<int32_t>(offsetof(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields, ___Testings_6)),0,};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8732[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};

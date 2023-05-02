@@ -15,12 +15,13 @@ import android.util.Log;
 import androidx.core.app.ActivityCompat;
 
 import com.abk.distance.services.LocationService;
-import com.runai.unitycallbacks.UnityCallbacks;
+import com.abk.distance.utils.UnityCallbacks;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
+import com.mygdx.runai.TestThread;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -126,6 +127,7 @@ public class WalkingServiceBridge {
 //        Log.e(TAG, "onReceive: called process ::: " + Process.myPid());
             double distance = intent.getDoubleExtra("distance", -1.0);
             int steps = intent.getIntExtra("steps", -1);
+            UnityCallbacks.updateAI(String.valueOf(TestThread.count));
             Log.e(TAG, "onReceive: called ::: " + distance + " ::: " + steps);
             try {
                 JSONObject obj = new JSONObject();
