@@ -8,13 +8,13 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.Window;
 import com.mygdx.runai.RunAI;
-import com.mygdx.runai.Test;
-import com.mygdx.runai.TestThread;
+import com.mygdx.runai.Initialiser;
+import com.mygdx.runai.BackgroundThread;
 
 public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecycleEvents
 {
     protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
-    private TestThread libGDXThread;
+    private BackgroundThread libGDXThread;
     // Override this in your custom UnityPlayerActivity to tweak the command line arguments passed to the Unity Android Player
     // The command line arguments are passed as a string, separated by spaces
     // UnityPlayerActivity calls this from 'onCreate'
@@ -40,8 +40,8 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
         setContentView(mUnityPlayer);
         mUnityPlayer.requestFocus();
 
-        Test game =  new Test();
-        libGDXThread = new TestThread(game);
+        Initialiser game =  new Initialiser();
+        libGDXThread = new BackgroundThread(game);
         libGDXThread.start();
     }
 

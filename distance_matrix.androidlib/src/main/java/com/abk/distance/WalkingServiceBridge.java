@@ -9,7 +9,6 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Process;
-import android.os.SystemClock;
 import android.util.Log;
 
 import androidx.core.app.ActivityCompat;
@@ -21,13 +20,11 @@ import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
-import com.mygdx.runai.TestThread;
+import com.mygdx.runai.BackgroundThread;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.List;
 
 public class WalkingServiceBridge {
@@ -127,12 +124,14 @@ public class WalkingServiceBridge {
 //        Log.e(TAG, "onReceive: called process ::: " + Process.myPid());
             double distance = intent.getDoubleExtra("distance", -1.0);
             int steps = intent.getIntExtra("steps", -1);
-            UnityCallbacks.updateAI(String.valueOf(TestThread.count));
-            Log.e(TAG, "onReceive: called ::: " + distance + " ::: " + steps);
+            int timeSeconds = intent.getIntExtra("totalSeconds",0);
+            UnityCallbacks.updateAI(String.valueOf(BackgroundThread.count));
+            Log.e(TAG, "onReceive: called ::: " + distance + " ::: " + steps + "::: total raw time"  + timeSeconds);
             try {
                 JSONObject obj = new JSONObject();
                 obj.put("distance", distance);
                 obj.put("steps", steps);
+                obj.put("totalSeconds",timeSeconds);
                 UnityCallbacks.onUpdateData(obj.toString());
             } catch (JSONException e) {
                 throw new RuntimeException(e);

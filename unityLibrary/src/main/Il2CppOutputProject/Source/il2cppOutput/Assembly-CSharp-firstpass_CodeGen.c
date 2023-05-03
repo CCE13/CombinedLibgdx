@@ -26,11 +26,9 @@ extern void CallbackHandler_HandleException_m3A00C4679538447B2CC906929F719CBC072
 extern void CallbackHandler_onPermissionDenied_mDD14B7E827B4BA32E8A2BD1490E645F06191E0F8 (void);
 // 0x00000007 System.Void DistanceService/CallbackHandler::onUpdateData(System.String)
 extern void CallbackHandler_onUpdateData_mB27077E3181645FBDC0151F374DFFA9777D0C9E2 (void);
-// 0x00000008 System.Void DistanceService/CallbackHandler::Testing(System.String)
-extern void CallbackHandler_Testing_m388820530EC9ACA80287DBE0FC55C5AD2D64CF77 (void);
-// 0x00000009 System.Void DistanceService/CallbackHandler::.ctor()
+// 0x00000008 System.Void DistanceService/CallbackHandler::.ctor()
 extern void CallbackHandler__ctor_m7E628F26513EC2C375875538E3CCFAC3B6B5293C (void);
-static Il2CppMethodPointer s_methodPointers[9] = 
+static Il2CppMethodPointer s_methodPointers[8] = 
 {
 	DistanceService__cctor_mB4AADE4BC0321727438B29F7589431698DC483A1,
 	DistanceService_startForegroundService_mF820989E76D44F9A8F9E7C3DD359D5AE13BBE74E,
@@ -39,16 +37,14 @@ static Il2CppMethodPointer s_methodPointers[9] =
 	CallbackHandler_HandleException_m3A00C4679538447B2CC906929F719CBC072BC822,
 	CallbackHandler_onPermissionDenied_mDD14B7E827B4BA32E8A2BD1490E645F06191E0F8,
 	CallbackHandler_onUpdateData_mB27077E3181645FBDC0151F374DFFA9777D0C9E2,
-	CallbackHandler_Testing_m388820530EC9ACA80287DBE0FC55C5AD2D64CF77,
 	CallbackHandler__ctor_m7E628F26513EC2C375875538E3CCFAC3B6B5293C,
 };
-static const int32_t s_InvokerIndices[9] = 
+static const int32_t s_InvokerIndices[8] = 
 {
 	11100,
 	10184,
 	11100,
 	11100,
-	5955,
 	5955,
 	5955,
 	5955,
@@ -58,7 +54,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGe
 const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule = 
 {
 	"Assembly-CSharp-firstpass.dll",
-	9,
+	8,
 	s_methodPointers,
 	0,
 	NULL,

@@ -139,8 +139,6 @@ struct DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___dataSending_4;
 	// System.Action`1<System.String> DistanceService::onFail
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___onFail_5;
-	// System.Action`1<System.String> DistanceService::Testings
-	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___Testings_6;
 };
 
 // System.String
@@ -798,47 +796,6 @@ IL_002b:
 		String_t* L_7 = ___data0;
 		NullCheck(G_B5_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B5_0, L_7, NULL);
-		// }
-		return;
-	}
-}
-// System.Void DistanceService/CallbackHandler::Testing(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallbackHandler_Testing_m388820530EC9ACA80287DBE0FC55C5AD2D64CF77 (CallbackHandler_tD28E7031691B17A9084E69F47AF9287CB29A062F* __this, String_t* ___data0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B2_0 = NULL;
-	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B1_0 = NULL;
-	{
-		// Debug.Log(data);
-		String_t* L_0 = ___data0;
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_0, NULL);
-		// Testings?.Invoke(data);
-		il2cpp_codegen_runtime_class_init_inline(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_il2cpp_TypeInfo_var);
-		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = ((DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields*)il2cpp_codegen_static_fields_for(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_il2cpp_TypeInfo_var))->___Testings_6;
-		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1;
-		G_B1_0 = L_2;
-		if (L_2)
-		{
-			G_B2_0 = L_2;
-			goto IL_0010;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0010:
-	{
-		String_t* L_3 = ___data0;
-		NullCheck(G_B2_0);
-		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B2_0, L_3, NULL);
 		// }
 		return;
 	}

@@ -324,6 +324,7 @@ class LocationService : Service(), LocationListener {
             addCategory("action.category.distance")
             putExtra("distance", distance)
             putExtra("steps", getStepsFromDistance(distance = distance))
+            putExtra("totalSeconds",secondsRaw)
         })
 
         return durationText
