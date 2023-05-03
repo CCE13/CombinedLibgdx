@@ -15,6 +15,8 @@ import androidx.core.app.ActivityCompat;
 
 import com.abk.distance.services.LocationService;
 import com.abk.distance.utils.UnityCallbacks;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.PermissionToken;
@@ -25,12 +27,19 @@ import com.mygdx.runai.BackgroundThread;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
+import java.util.TimerTask;
 
 public class WalkingServiceBridge {
     public static final String TAG = "WalkingServiceBridge";
     Activity activity;
     private MyReceiver receiver;
+
+    private TimerTask _timerTask;
 
     public WalkingServiceBridge(Activity activity) {
         this.activity = activity;
@@ -61,6 +70,14 @@ public class WalkingServiceBridge {
                 .check();
     }
 
+    public void PauseForegroundService()
+    {
+        System.out.print("Reached to pause");
+        LocationService.SetIsPaused();
+    }
+
+
+
 
     public void startForegroundService() {
         Log.e(TAG, "startForegroundService: called process ::: " + Process.myPid());
@@ -71,13 +88,10 @@ public class WalkingServiceBridge {
             takePermission();
         }
     }
-
     public void stopForegroundService() {
         Intent mServiceIntent = new Intent(activity, LocationService.class);
         activity.stopService(mServiceIntent);
-        if (receiver != null) {
-            activity.unregisterReceiver(receiver);
-        }
+        destroyListener();
     }
 
     /**
@@ -125,7 +139,6 @@ public class WalkingServiceBridge {
             double distance = intent.getDoubleExtra("distance", -1.0);
             int steps = intent.getIntExtra("steps", -1);
             int timeSeconds = intent.getIntExtra("totalSeconds",0);
-            UnityCallbacks.updateAI(String.valueOf(BackgroundThread.count));
             Log.e(TAG, "onReceive: called ::: " + distance + " ::: " + steps + "::: total raw time"  + timeSeconds);
             try {
                 JSONObject obj = new JSONObject();

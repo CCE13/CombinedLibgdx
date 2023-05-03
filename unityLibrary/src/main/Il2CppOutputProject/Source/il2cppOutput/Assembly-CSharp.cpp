@@ -79,6 +79,8 @@ struct InterfaceFuncInvoker0
 
 // System.Action`1<System.Collections.Generic.List`1<System.String>>
 struct Action_1_t1BE9FFD7ABE2F9A84A2AAC659087F565C1B12DDD;
+// System.Action`1<System.Boolean>
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C;
 // System.Action`1<ChartAndGraph.ChartItemEffect>
 struct Action_1_t1855E4482ABB3C5B238CEC303C1E2A7240BA727C;
 // System.Action`1<System.Int32>
@@ -6504,7 +6506,7 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public Compet
 	// System.Single PlayerMovement::_distanceMovingRealTime
 	float ____distanceMovingRealTime_21;
 	// UnityEngine.Animator PlayerMovement::_characterModelAnimator
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_27;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_28;
 };
 
 struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
@@ -6517,8 +6519,10 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
 	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___SetPaceUI_24;
 	// System.Action`2<System.Single,System.Single> PlayerMovement::Lapping
 	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___Lapping_25;
+	// System.Action`1<System.Boolean> PlayerMovement::CompetitionPaused
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___CompetitionPaused_26;
 	// AchievementGroupEnumTypes PlayerMovement::test
-	int32_t ___test_26;
+	int32_t ___test_27;
 };
 
 // ChartAndGraph.PyramidChart

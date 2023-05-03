@@ -8097,10 +8097,10 @@ struct U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA_StaticFields
 {
 	// PluginInit/<>c PluginInit/<>c::<>9
 	U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA* ___U3CU3E9_0;
-	// System.Action`1<System.String> PluginInit/<>c::<>9__4_0
-	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___U3CU3E9__4_0_1;
-	// System.Action`1<System.String> PluginInit/<>c::<>9__4_1
-	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___U3CU3E9__4_1_2;
+	// System.Action`1<System.String> PluginInit/<>c::<>9__5_0
+	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___U3CU3E9__5_0_1;
+	// System.Action`1<System.String> PluginInit/<>c::<>9__5_1
+	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___U3CU3E9__5_1_2;
 };
 
 // PluginInit/DistanceData
@@ -32798,7 +32798,7 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public Compet
 	// System.Single PlayerMovement::_distanceMovingRealTime
 	float ____distanceMovingRealTime_21;
 	// UnityEngine.Animator PlayerMovement::_characterModelAnimator
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_27;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_28;
 };
 
 struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
@@ -32811,8 +32811,10 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
 	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___SetPaceUI_24;
 	// System.Action`2<System.Single,System.Single> PlayerMovement::Lapping
 	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___Lapping_25;
+	// System.Action`1<System.Boolean> PlayerMovement::CompetitionPaused
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___CompetitionPaused_26;
 	// AchievementGroupEnumTypes PlayerMovement::test
-	int32_t ___test_26;
+	int32_t ___test_27;
 };
 
 // UnityEngine.UI.RectMask2D
@@ -38667,15 +38669,15 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7861[7] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7862[6] = 
 {
 	static_cast<int32_t>(offsetof(CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63, ___CompetitionStarted_4)),static_cast<int32_t>(offsetof(CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63, ___U3CRunDataU3Ek__BackingField_5)),static_cast<int32_t>(offsetof(CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63, ___StopRunning_6)),static_cast<int32_t>(offsetof(CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63, ____competitionPaused_7)),static_cast<int32_t>(offsetof(CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63_StaticFields, ___S_DISTANCETORUN_8)),static_cast<int32_t>(offsetof(CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63_StaticFields, ___SetLogOnLeaderboard_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7863[18] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7863[19] = 
 {
-	static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____useDistanceChecking_10)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ___TargetSpeed_11)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ___acclerationSpeed_12)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____speed_13)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____randomSpeed_14)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ___runDataSO_15)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____previousTimingPerKM_16)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____previousTimingPerKMGraph_17)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____startZ_18)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____endZ_19)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ___stopMoving_20)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____distanceMovingRealTime_21)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___CompetitionStopped_22)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___UpdateAchievements_23)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___SetPaceUI_24)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___Lapping_25)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___test_26)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____characterModelAnimator_27)),};
+	static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____useDistanceChecking_10)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ___TargetSpeed_11)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ___acclerationSpeed_12)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____speed_13)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____randomSpeed_14)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ___runDataSO_15)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____previousTimingPerKM_16)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____previousTimingPerKMGraph_17)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____startZ_18)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____endZ_19)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ___stopMoving_20)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____distanceMovingRealTime_21)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___CompetitionStopped_22)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___UpdateAchievements_23)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___SetPaceUI_24)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___Lapping_25)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___CompetitionPaused_26)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields, ___test_27)),static_cast<int32_t>(offsetof(PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351, ____characterModelAnimator_28)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7864[3] = 
 {
 	static_cast<int32_t>(offsetof(DistanceData_tBD52B1D5927366AF08D9EA1BFA5596EBC8997FCB, ___distance_0)),static_cast<int32_t>(offsetof(DistanceData_tBD52B1D5927366AF08D9EA1BFA5596EBC8997FCB, ___steps_1)),static_cast<int32_t>(offsetof(DistanceData_tBD52B1D5927366AF08D9EA1BFA5596EBC8997FCB, ___totalSeconds_2)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7865[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA_StaticFields, ___U3CU3E9__4_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA_StaticFields, ___U3CU3E9__4_1_2)),};
+	static_cast<int32_t>(offsetof(U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA_StaticFields, ___U3CU3E9__5_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA_StaticFields, ___U3CU3E9__5_1_2)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7866[3] = 
 {
 	static_cast<int32_t>(offsetof(PluginInit_tAEC8AD73C3E17094A32439DF3065CD15DC7A1BFD_StaticFields, ___S_DISTANCERUNNNING_4)),static_cast<int32_t>(offsetof(PluginInit_tAEC8AD73C3E17094A32439DF3065CD15DC7A1BFD, ___test_5)),static_cast<int32_t>(offsetof(PluginInit_tAEC8AD73C3E17094A32439DF3065CD15DC7A1BFD_StaticFields, ___S_DISTANCEDATA_6)),};

@@ -18,8 +18,8 @@ extern void DistanceService__cctor_mB4AADE4BC0321727438B29F7589431698DC483A1 (vo
 extern void DistanceService_startForegroundService_mF820989E76D44F9A8F9E7C3DD359D5AE13BBE74E (void);
 // 0x00000003 System.Void DistanceService::stopForegroundService()
 extern void DistanceService_stopForegroundService_m947E6FDF978F8DBA65FBF8F43C2F1591CB4835B9 (void);
-// 0x00000004 System.Void DistanceService::destroy()
-extern void DistanceService_destroy_mD8663840ADB33CA2528081D9C3044334472B01A8 (void);
+// 0x00000004 System.Void DistanceService::PauseForegroundService()
+extern void DistanceService_PauseForegroundService_mA6EC94D34C4EF36BE13EA09CCD4A85D873F7874D (void);
 // 0x00000005 System.Void DistanceService/CallbackHandler::HandleException(System.String)
 extern void CallbackHandler_HandleException_m3A00C4679538447B2CC906929F719CBC072BC822 (void);
 // 0x00000006 System.Void DistanceService/CallbackHandler::onPermissionDenied(System.String)
@@ -33,7 +33,7 @@ static Il2CppMethodPointer s_methodPointers[8] =
 	DistanceService__cctor_mB4AADE4BC0321727438B29F7589431698DC483A1,
 	DistanceService_startForegroundService_mF820989E76D44F9A8F9E7C3DD359D5AE13BBE74E,
 	DistanceService_stopForegroundService_m947E6FDF978F8DBA65FBF8F43C2F1591CB4835B9,
-	DistanceService_destroy_mD8663840ADB33CA2528081D9C3044334472B01A8,
+	DistanceService_PauseForegroundService_mA6EC94D34C4EF36BE13EA09CCD4A85D873F7874D,
 	CallbackHandler_HandleException_m3A00C4679538447B2CC906929F719CBC072BC822,
 	CallbackHandler_onPermissionDenied_mDD14B7E827B4BA32E8A2BD1490E645F06191E0F8,
 	CallbackHandler_onUpdateData_mB27077E3181645FBDC0151F374DFFA9777D0C9E2,

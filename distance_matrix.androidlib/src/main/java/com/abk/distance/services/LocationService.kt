@@ -8,24 +8,21 @@ import android.graphics.Color
 import android.location.*
 import android.os.*
 import android.util.Log
-import android.widget.ImageView
 import android.widget.RemoteViews
-import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.core.app.NotificationCompat
-import androidx.core.content.ContextCompat
+import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.abk.distance.WalkingServiceBridge
 import com.abk.gps_forground.R
+import com.badlogic.gdx.Gdx
+import com.mygdx.runai.RunAI
+import java.io.BufferedReader
+import java.io.BufferedWriter
 import java.io.FileWriter
 import java.io.IOException
 import java.text.SimpleDateFormat
-import android.graphics.Bitmap
-import android.opengl.GLES20
-import com.mygdx.runai.RunAI
-import java.nio.ByteBuffer
-import java.nio.ByteOrder
-import java.nio.IntBuffer
 import java.util.*
 import kotlin.concurrent.fixedRateTimer
+
 
 class LocationService : Service(), LocationListener {
     private var wakeLock: PowerManager.WakeLock? = null
@@ -33,8 +30,8 @@ class LocationService : Service(), LocationListener {
     private val binder = LocationServiceBinder()
 
     private val NOTI_ID: Int = 2
-    private var timer: Timer? = null
     private var startTime: Long = 0
+    private  var timer: Timer? = null
     val manager: NotificationManager by lazy { getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager }
 
 
@@ -51,6 +48,8 @@ class LocationService : Service(), LocationListener {
     var gpsCount = 0
     var goodGpsCount = 0
     val distanceIntent = Intent(SEND_DISTANCE_DATA)
+    var _timer= 0;
+
 
     override fun onCreate() {
         isLocationManagerUpdatingLocation = false
@@ -247,6 +246,9 @@ class LocationService : Service(), LocationListener {
             kalmanNGLocationList!!.clear()
             val locationManager = getSystemService(LOCATION_SERVICE) as LocationManager
 
+            //System.out.println(paused)
+
+
             //Exception thrown when GPS or Network provider were not available on the user's device.
             try {
                 val criteria = Criteria()
@@ -263,7 +265,7 @@ class LocationService : Service(), LocationListener {
                 //criteria.verticalAccuracy = Criteria.ACCURACY_HIGH
                 //criteria.setBearingAccuracy(Criteria.ACCURACY_HIGH);
                 //criteria.setSpeedAccuracy(Criteria.ACCURACY_HIGH);
-                val gpsFreqInMillis = 1000
+                val gpsFreqInMillis = 200
                 val gpsFreqInDistance = 1 // in meters
                 locationManager.requestLocationUpdates(
                     gpsFreqInMillis.toLong(),
@@ -275,36 +277,42 @@ class LocationService : Service(), LocationListener {
                 gpsCount = 0
                 goodGpsCount = 0
 
-                timer = fixedRateTimer("timer", initialDelay = 1000L, period = 1000) {
+                    timer = fixedRateTimer("timer", initialDelay = 0, period = 1000) {
+                        
+                        if(!paused){
+                            var distnace = 0.0
 
-                    var distnace = 0.0
-                    locationList!!.forEachIndexed { index, location ->
-                        if (index != locationList!!.lastIndex) {
-                            distnace += location.distanceTo(locationList!![index + 1])
+                            locationList!!.forEachIndexed { index, location ->
+                                if (index != locationList!!.lastIndex) {
+                                    distnace += location.distanceTo(locationList!![index + 1])
+                                }
+                            }
+                            _timer++;
+                            val formattedText = getFormattedText(distnace,_timer)
+                            Log.d(TAG, "startUpdates: text : $formattedText")
+                            val notification =
+                                createNotificationChanel(formattedText)
+                            manager.notify(NOTI_ID, notification)
                         }
+
                     }
-                    val formattedText = getFormattedText(distnace)
-                    Log.d(TAG, "startUpdates: text : $formattedText")
-                    val notification =
-                        createNotificationChanel(formattedText)
-                    manager.notify(NOTI_ID, notification)
-                }
             } catch (e: RuntimeException) {
                 Log.e(LOG_TAG, e.localizedMessage.toString())
             }
+
         }
     }
 
 
-    private fun getFormattedText(distance: Double): String {
+    private fun getFormattedText(distance: Double, rawSeconds: Int): String {
         Log.e(TAG, "getFormattedText: raw distance : $distance")
-        val currentTime = System.currentTimeMillis()
-        val milliseconds = (currentTime - startTime)
+        val milliseconds = rawSeconds * 1000;
 
         val seconds = (milliseconds / 1000).toInt() % 60
         val minutes = (milliseconds / (1000 * 60) % 60).toInt()
         val hours = (milliseconds / (1000 * 60 * 60) % 24).toInt()
-        val secondsRaw = (milliseconds / 1000).toInt()
+
+        System.out.println("$rawSeconds ::: Calculated raw from script")
 
         distanceIntent.putExtra("distance", distance)
         sendBroadcast(distanceIntent)
@@ -312,7 +320,7 @@ class LocationService : Service(), LocationListener {
         val meters = (distance % 1000).toInt()
         val kilometers: Int = ((distance.toInt() - meters) / 1000)
 
-        RunAI.getInstance().setPlayerCurrentMetersandTime(meters, secondsRaw)
+        RunAI.getInstance().setPlayerCurrentMetersandTime(meters, rawSeconds)
 
         val durationText = "Duration: ${String.format("%02d:%02d:%02d", hours, minutes, seconds)}"
         val distanceStr =
@@ -324,7 +332,7 @@ class LocationService : Service(), LocationListener {
             addCategory("action.category.distance")
             putExtra("distance", distance)
             putExtra("steps", getStepsFromDistance(distance = distance))
-            putExtra("totalSeconds",secondsRaw)
+            putExtra("totalSeconds",rawSeconds)
         })
 
         return durationText
@@ -526,7 +534,14 @@ class LocationService : Service(), LocationListener {
     }
 
     companion object {
+        @kotlin.jvm.JvmField
         val LOG_TAG = LocationService::class.java.simpleName
         const val SEND_DISTANCE_DATA = "com.abk.distance.SEND_DISTANCE_DATA"
+
+        var paused: Boolean = false;
+        @kotlin.jvm.JvmStatic
+        fun SetIsPaused(){
+            paused = !paused
+        }
     }
 }

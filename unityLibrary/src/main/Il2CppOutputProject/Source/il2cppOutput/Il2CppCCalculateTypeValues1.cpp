@@ -10938,10 +10938,10 @@ struct U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA_StaticFields
 {
 	// PluginInit/<>c PluginInit/<>c::<>9
 	U3CU3Ec_tE0AA5900E57044CCB47F41E95CEE0A7D6B52E3DA* ___U3CU3E9_0;
-	// System.Action`1<System.String> PluginInit/<>c::<>9__4_0
-	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___U3CU3E9__4_0_1;
-	// System.Action`1<System.String> PluginInit/<>c::<>9__4_1
-	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___U3CU3E9__4_1_2;
+	// System.Action`1<System.String> PluginInit/<>c::<>9__5_0
+	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___U3CU3E9__5_0_1;
+	// System.Action`1<System.String> PluginInit/<>c::<>9__5_1
+	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___U3CU3E9__5_1_2;
 };
 
 // PluginInit/DistanceData
@@ -42579,7 +42579,7 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public Compet
 	// System.Single PlayerMovement::_distanceMovingRealTime
 	float ____distanceMovingRealTime_21;
 	// UnityEngine.Animator PlayerMovement::_characterModelAnimator
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_27;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_28;
 };
 
 struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
@@ -42592,8 +42592,10 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
 	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___SetPaceUI_24;
 	// System.Action`2<System.Single,System.Single> PlayerMovement::Lapping
 	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___Lapping_25;
+	// System.Action`1<System.Boolean> PlayerMovement::CompetitionPaused
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___CompetitionPaused_26;
 	// AchievementGroupEnumTypes PlayerMovement::test
-	int32_t ___test_26;
+	int32_t ___test_27;
 };
 
 // ChartAndGraph.PyramidChart
