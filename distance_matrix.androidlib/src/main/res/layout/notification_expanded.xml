@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:background="#009427"
         android:padding="8dp"
-        android:text="Custom Notification Test"
+        android:text="Tracking Your Run!"
         android:textAlignment="center"
         android:textColor="#FFFF" />
 
@@ -41,7 +41,7 @@
     <ImageView
         android:id="@+id/image_view_expanded"
         android:layout_width="match_parent"
-        android:layout_height="143dp"
+        android:layout_height="113dp"
         android:background="#000000"
         android:scaleType="centerCrop"
         android:scaleX="1"
@@ -51,7 +51,10 @@
 
 
 
+
+
     />
+
 
 
 

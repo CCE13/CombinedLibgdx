@@ -42,6 +42,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], exclude: ['classes2.jar'], dir: 'libs')
     implementation project(path: ':core')
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
 
     compileOnly files('libs/classes2.jar')
 

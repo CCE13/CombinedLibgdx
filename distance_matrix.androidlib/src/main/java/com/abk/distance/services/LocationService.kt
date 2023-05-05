@@ -15,10 +15,7 @@ import androidx.core.app.NotificationCompat
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.abk.distance.WalkingServiceBridge
 import com.abk.gps_forground.R
-import com.badlogic.gdx.Gdx
 import com.mygdx.runai.RunAI
-import java.io.BufferedReader
-import java.io.BufferedWriter
 import java.io.FileWriter
 import java.io.IOException
 import java.text.SimpleDateFormat
@@ -53,6 +50,7 @@ class LocationService : Service(), LocationListener {
     var _timer= 0;
 
     var _paused : Boolean = false
+    var dataTypes : Map<String,String>? = null;
 
 
     override fun onCreate() {
@@ -64,12 +62,11 @@ class LocationService : Service(), LocationListener {
         kalmanNGLocationList = ArrayList()
         kalmanFilter = KalmanLatLong(1f)
         isLogging = true
+
         val filter = IntentFilter("com.abk.distance.PAUSE_STATE_CHANGE")
         registerReceiver(pauseStateReceiver, filter)
         val notification = createNotificationChanel("Fetching Data........")
         startForeground(NOTI_ID, notification)
-
-
     }
 
     override fun onStartCommand(i: Intent, flags: Int, startId: Int): Int {
@@ -83,7 +80,7 @@ class LocationService : Service(), LocationListener {
         timer?.cancel()
     }
 
-    private fun createNotificationChanel(text: String): Notification {
+    private fun createNotificationChanel(text: String = ""): Notification {
         val NOTIFICATION_CHANNEL_ID = "com.getDistance"
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
             val channelName = "Foreground Service"
@@ -120,12 +117,13 @@ class LocationService : Service(), LocationListener {
         val collapsedView = RemoteViews(packageName, R.layout.notification_collapsed)
         val expandedView = RemoteViews(packageName, R.layout.notification_expanded)
 
+        expandedView?.setTextViewText(R.id.DistanceRan, dataTypes?.get(R.id.DistanceRan.toString()))
+        expandedView?.setTextViewText(R.id.TimeTaken, dataTypes?.get(R.id.TimeTaken.toString()))
+        if(text != "")
+        {
+            expandedView?.setTextViewText(R.id.text_view_expanded,text)
+        }
 
-
-        val parts = text.split(",")
-        expandedView?.setTextViewText(R.id.DistanceRan, parts.getOrNull(1))
-
-        expandedView?.setTextViewText(R.id.TimeTaken, parts.getOrNull(0))
 
         val notification: Notification = builder
             //.setContentTitle("RunAI is tracking your run")
@@ -302,15 +300,14 @@ class LocationService : Service(), LocationListener {
                                 }
                             }
                             _timer++;
-                            val formattedText = getFormattedText(distnace,_timer)
-                            Log.d(TAG, "startUpdates: text : $formattedText")
+                            FormatText(distnace,_timer)
                             val notification =
-                                createNotificationChanel(formattedText)
+                                createNotificationChanel()
                             manager.notify(NOTI_ID, notification)
                         }
                         else{
                             val notification =
-                                createNotificationChanel("Run is paused, timer stopped")
+                                createNotificationChanel("Run is paused timer stopped")
                             manager.notify(NOTI_ID, notification)
                         }
 
@@ -324,7 +321,7 @@ class LocationService : Service(), LocationListener {
     }
 
 
-    private fun getFormattedText(distance: Double, rawSeconds: Int): String {
+    private fun FormatText(distance: Double, rawSeconds: Int){
         Log.e(TAG, "getFormattedText: raw distance : $distance")
         val milliseconds = rawSeconds * 1000;
 
@@ -347,6 +344,12 @@ class LocationService : Service(), LocationListener {
             "Distance: ${if (kilometers > 0) "$kilometers km $meters m" else "$meters m"}"
 //        val distance = "$currentNumberOfStepCount : ${getDistanceRun(currentNumberOfStepCount)} km"
 
+
+        dataTypes = mapOf<String,String>(
+            R.id.DistanceRan.toString() to distanceStr,
+            R.id.TimeTaken.toString() to durationText
+        )
+
         sendBroadcast(Intent().apply {
             action = "action.data_update"
             addCategory("action.category.distance")
@@ -355,10 +358,6 @@ class LocationService : Service(), LocationListener {
             putExtra("totalSeconds",rawSeconds)
         })
 
-        return durationText
-            .plus(",")
-            .plus(distanceStr)
-            .plus("-----$distance")
     }
 
     //function to determine the distance run in kilometers using average step length for men and number of steps

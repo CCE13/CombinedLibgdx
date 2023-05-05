@@ -7136,6 +7136,8 @@ inline RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* SavingManager_Load_Tis
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RunData__ctor_mEE20744E1B9624D3208CB97B606897C24E30E07E (RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* __this, const RuntimeMethod* method) ;
 // System.Void RunDataSO::SetRunData(RunData)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RunDataSO_SetRunData_m759AAD816C87BCF5C96F8814AAA43B233B3AD0C5_inline (RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2* __this, RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* ___runData0, const RuntimeMethod* method) ;
+// System.Void PluginInit::StartService()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PluginInit_StartService_m8750BDF3CDAF7E15DFC573FB4BE8FB880B67247B (PluginInit_tAEC8AD73C3E17094A32439DF3065CD15DC7A1BFD* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.String>::.ctor(System.Object,System.IntPtr)
 inline void Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -11475,6 +11477,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PluginInit_Start_m53BE542D2F1A07F56D3756
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		// StartService();
+		PluginInit_StartService_m8750BDF3CDAF7E15DFC573FB4BE8FB880B67247B(__this, NULL);
 		// DistanceService.dataSending += SetDistanceTravelled;
 		il2cpp_codegen_runtime_class_init_inline(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_il2cpp_TypeInfo_var);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ((DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields*)il2cpp_codegen_static_fields_for(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_il2cpp_TypeInfo_var))->___dataSending_4;
