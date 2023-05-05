@@ -157,6 +157,8 @@ struct Dictionary_2_t5C4E27C3097A0C00394EDBCDD9241BB7CFB15E4D;
 struct Dictionary_2_t3A9C8543F193037FEA667251D91BC499ABD0158C;
 // System.Collections.Generic.Dictionary`2<System.String,StackedGraphManager/CategoryEntry>
 struct Dictionary_2_tA7C938230F79A98D62C2FDE4FABEC83ACD3287C3;
+// System.Collections.Generic.Dictionary`2<RunDataUI/DataType,System.Action`1<RunData>>
+struct Dictionary_2_tCE757F4AEF3EDFA689048224467DDFF23CDB9C11;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,System.Int32>,UnityEngine.Vector3>
 struct Func_2_t02FA65445FDB0972487E45A000B16A8FE54CD877;
 // System.Func`2<System.DateTime,System.Object>
@@ -6121,10 +6123,14 @@ struct RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F  : public MonoBehavio
 {
 	// System.Collections.Generic.List`1<System.String> RunDataUI::_positionalSubtext
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____positionalSubtext_4;
+	// RunDataSO RunDataUI::_playerData
+	RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2* ____playerData_5;
 	// RunDataUI/DataType RunDataUI::Type
-	int32_t ___Type_5;
+	int32_t ___Type_6;
 	// TMPro.TMP_Text RunDataUI::_dataText
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ____dataText_6;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ____dataText_7;
+	// System.Collections.Generic.Dictionary`2<RunDataUI/DataType,System.Action`1<RunData>> RunDataUI::DataActions
+	Dictionary_2_tCE757F4AEF3EDFA689048224467DDFF23CDB9C11* ___DataActions_8;
 };
 
 // StackedGraphExample

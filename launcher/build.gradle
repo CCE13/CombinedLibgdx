@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 dependencies {
     implementation project(':unityLibrary')
-    implementation project(path: ':core')
     implementation project(path: ':distance_matrix.androidlib')
 }
 
@@ -70,7 +69,7 @@ android {
             enableSplit = false
         }
         abi {
-            enableSplit = false
+            enableSplit = true
         }
     }
 }

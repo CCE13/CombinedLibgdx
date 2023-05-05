@@ -23,6 +23,7 @@ import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
 import com.mygdx.runai.BackgroundThread;
+import com.mygdx.runai.Initialiser;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -39,7 +40,7 @@ public class WalkingServiceBridge {
     Activity activity;
     private MyReceiver receiver;
 
-    private TimerTask _timerTask;
+    private Boolean _isPaused = false;
 
     public WalkingServiceBridge(Activity activity) {
         this.activity = activity;
@@ -72,8 +73,13 @@ public class WalkingServiceBridge {
 
     public void PauseForegroundService()
     {
-        System.out.print("Reached to pause");
-        LocationService.SetIsPaused();
+        System.out.println("Reached to pause");
+        _isPaused = !_isPaused;
+        Intent intent = new Intent("com.abk.distance.PAUSE_STATE_CHANGE");
+        intent.putExtra("isPaused",_isPaused);
+        activity.sendBroadcast(intent);
+        System.out.println("Sending Intent");
+
     }
 
 
@@ -108,20 +114,24 @@ public class WalkingServiceBridge {
     }
 
     private void startAhead() {
-
-
         Intent mServiceIntent = new Intent(activity, LocationService.class);
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             activity.startForegroundService(mServiceIntent);
         } else {
             activity.startService(mServiceIntent);
         }
         receiver = new MyReceiver();
+        StartAIThread();
         IntentFilter filter = new IntentFilter();
         filter.addAction("action.data_update");
         filter.addCategory("action.category.distance");
         activity.registerReceiver(receiver, filter);
+    }
+
+    private void StartAIThread(){
+        Initialiser game =  new Initialiser();
+        BackgroundThread libGDXThread = new BackgroundThread(game);
+        libGDXThread.start();
     }
 
     public void destroyListener() {

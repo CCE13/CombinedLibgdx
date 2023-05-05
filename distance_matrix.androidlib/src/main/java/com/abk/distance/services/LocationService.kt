@@ -2,8 +2,10 @@ package com.abk.distance.services
 
 import android.annotation.SuppressLint
 import android.app.*
+import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
 import android.graphics.Color
 import android.location.*
 import android.os.*
@@ -31,7 +33,7 @@ class LocationService : Service(), LocationListener {
 
     private val NOTI_ID: Int = 2
     private var startTime: Long = 0
-    private  var timer: Timer? = null
+    var timer: Timer? = null
     val manager: NotificationManager by lazy { getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager }
 
 
@@ -50,6 +52,8 @@ class LocationService : Service(), LocationListener {
     val distanceIntent = Intent(SEND_DISTANCE_DATA)
     var _timer= 0;
 
+    var _paused : Boolean = false
+
 
     override fun onCreate() {
         isLocationManagerUpdatingLocation = false
@@ -60,14 +64,23 @@ class LocationService : Service(), LocationListener {
         kalmanNGLocationList = ArrayList()
         kalmanFilter = KalmanLatLong(1f)
         isLogging = true
+        val filter = IntentFilter("com.abk.distance.PAUSE_STATE_CHANGE")
+        registerReceiver(pauseStateReceiver, filter)
         val notification = createNotificationChanel("Fetching Data........")
         startForeground(NOTI_ID, notification)
+
+
     }
 
     override fun onStartCommand(i: Intent, flags: Int, startId: Int): Int {
         super.onStartCommand(i, flags, startId)
         startUpdatingLocation()
         return START_STICKY
+    }
+
+    fun PauseTimer(){
+        System.out.print(timer.toString())
+        timer?.cancel()
     }
 
     private fun createNotificationChanel(text: String): Notification {
@@ -163,6 +176,8 @@ class LocationService : Service(), LocationListener {
         stopUpdatingLocation()
         manager.cancel(NOTI_ID)
         timer?.cancel()
+        // Unregister pause state receiver
+        unregisterReceiver(pauseStateReceiver)
         super.onDestroy()
     }
 
@@ -277,9 +292,8 @@ class LocationService : Service(), LocationListener {
                 gpsCount = 0
                 goodGpsCount = 0
 
-                    timer = fixedRateTimer("timer", initialDelay = 0, period = 1000) {
-                        
-                        if(!paused){
+                    timer = fixedRateTimer("timer", initialDelay = 3000, period = 1000) {
+                        if(!_paused){
                             var distnace = 0.0
 
                             locationList!!.forEachIndexed { index, location ->
@@ -294,6 +308,12 @@ class LocationService : Service(), LocationListener {
                                 createNotificationChanel(formattedText)
                             manager.notify(NOTI_ID, notification)
                         }
+                        else{
+                            val notification =
+                                createNotificationChanel("Run is paused, timer stopped")
+                            manager.notify(NOTI_ID, notification)
+                        }
+
 
                     }
             } catch (e: RuntimeException) {
@@ -531,17 +551,20 @@ class LocationService : Service(), LocationListener {
                 }
             }
         }
+
     }
+    private val pauseStateReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context, intent: Intent) {
+            System.out.println("Recieved Intent");
+            _paused = intent.getBooleanExtra("isPaused", false)
+            System.out.println("$_paused  Hello from pause state receiver")
+        }
+    }
+
 
     companion object {
         @kotlin.jvm.JvmField
         val LOG_TAG = LocationService::class.java.simpleName
         const val SEND_DISTANCE_DATA = "com.abk.distance.SEND_DISTANCE_DATA"
-
-        var paused: Boolean = false;
-        @kotlin.jvm.JvmStatic
-        fun SetIsPaused(){
-            paused = !paused
-        }
     }
 }

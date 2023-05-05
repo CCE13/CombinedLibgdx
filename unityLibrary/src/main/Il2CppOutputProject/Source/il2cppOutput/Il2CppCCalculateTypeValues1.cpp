@@ -506,6 +506,8 @@ struct Dictionary_2_t38E92DE43DC11F4F58609F42AA96BA0846B31923;
 struct Dictionary_2_t52F25AB533FD203C36B7274F20F5B8E8C2148F6F;
 // System.Collections.Generic.Dictionary`2<RadarDataFiller/DataType,RadarDataFiller/CategoryLoader>
 struct Dictionary_2_tD02036E5C3349E4980AE3A1B1C3924475027D5F7;
+// System.Collections.Generic.Dictionary`2<RunDataUI/DataType,System.Action`1<RunData>>
+struct Dictionary_2_tCE757F4AEF3EDFA689048224467DDFF23CDB9C11;
 // UnityEngine.Rendering.DynamicArray`1<UnityEngine.Experimental.Rendering.RenderGraphModule.IRenderGraphResource>
 struct DynamicArray_1_t401F46C0081DE185BCAB1D30DE8D6B6DC9AA6AFB;
 // UnityEngine.Rendering.DynamicArray`1<UnityEngine.Experimental.Rendering.RenderGraphModule.RendererListResource>
@@ -40029,10 +40031,14 @@ struct RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F  : public MonoBehavio
 {
 	// System.Collections.Generic.List`1<System.String> RunDataUI::_positionalSubtext
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____positionalSubtext_4;
+	// RunDataSO RunDataUI::_playerData
+	RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2* ____playerData_5;
 	// RunDataUI/DataType RunDataUI::Type
-	int32_t ___Type_5;
+	int32_t ___Type_6;
 	// TMPro.TMP_Text RunDataUI::_dataText
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ____dataText_6;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ____dataText_7;
+	// System.Collections.Generic.Dictionary`2<RunDataUI/DataType,System.Action`1<RunData>> RunDataUI::DataActions
+	Dictionary_2_tCE757F4AEF3EDFA689048224467DDFF23CDB9C11* ___DataActions_8;
 };
 
 // SavingManager

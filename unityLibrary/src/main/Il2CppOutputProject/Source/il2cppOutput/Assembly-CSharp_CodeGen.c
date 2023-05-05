@@ -1206,397 +1206,423 @@ extern void RunDataUI_Awake_mBF2D8D2EE8440C09D6DC8CA5652B42DDD7EBB74D (void);
 extern void RunDataUI_SetData_mB742E61BA7DD680168B03D06042CADF192BCB39D (void);
 // 0x00000265 System.Void RunDataUI::.ctor()
 extern void RunDataUI__ctor_m5B2D9BD49906C3566498AEB314C8A5658DFC8D6D (void);
-// 0x00000266 System.Void RunDataSO::SetRunData(RunData)
+// 0x00000266 System.Void RunDataUI::<Awake>b__6_0(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_0_m46356ADC0A8ED34C5A018CAB7C78E89084E35984 (void);
+// 0x00000267 System.Void RunDataUI::<Awake>b__6_1(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_1_m3D4B23B636C87C304F8BC407FCD05A7DAE885154 (void);
+// 0x00000268 System.Void RunDataUI::<Awake>b__6_2(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_2_m76FDB06507E6D650BCD86E70EADB3A033FB02255 (void);
+// 0x00000269 System.Void RunDataUI::<Awake>b__6_3(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_3_mDB5998FEB639E74A8E56C123C1C40AF8D19D4198 (void);
+// 0x0000026A System.Void RunDataUI::<Awake>b__6_4(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_4_m3BFB89BADDB263C3E17480E7B7859F8D6BBEEA5F (void);
+// 0x0000026B System.Void RunDataUI::<Awake>b__6_5(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_5_m98D654C03A0752633A230F65C09E31BF1C7F7569 (void);
+// 0x0000026C System.Void RunDataUI::<Awake>b__6_6(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_6_mE869CC859C1B88167E329EA285868F5AC6042183 (void);
+// 0x0000026D System.Void RunDataUI::<Awake>b__6_7(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_7_mCC5352561A3BC264BBBF86D6913B4F93408BA6AA (void);
+// 0x0000026E System.Void RunDataUI::<Awake>b__6_8(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_8_m9EC1C4A4CB73FEDB08AA0345B4A198A6C8DD9B86 (void);
+// 0x0000026F System.Void RunDataUI::<Awake>b__6_9(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_9_mC853AC97B3BD540C628F432B85E1BDA878F3F1C0 (void);
+// 0x00000270 System.Void RunDataUI::<Awake>b__6_10(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_10_m5610FDAC5279ABE65FDFA153F39AAFD1ACC5FD1E (void);
+// 0x00000271 System.Void RunDataUI::<Awake>b__6_11(RunData)
+extern void RunDataUI_U3CAwakeU3Eb__6_11_m2C9A4C8EE6683996C61FDC4103E1DD8C085F5DED (void);
+// 0x00000272 System.Void RunDataSO::SetRunData(RunData)
 extern void RunDataSO_SetRunData_m759AAD816C87BCF5C96F8814AAA43B233B3AD0C5 (void);
-// 0x00000267 RunData RunDataSO::GetRunData()
+// 0x00000273 RunData RunDataSO::GetRunData()
 extern void RunDataSO_GetRunData_m63006E3630272C82E725CA954AC619BA68A9347B (void);
-// 0x00000268 System.Void RunDataSO::.ctor()
+// 0x00000274 System.Void RunDataSO::.ctor()
 extern void RunDataSO__ctor_m1D5695D1B57D583D0C96FE729F988F536BF6CA55 (void);
-// 0x00000269 System.Void SavingManager::Start()
+// 0x00000275 System.Void SavingManager::Start()
 extern void SavingManager_Start_mD8B20F975A3CF3F2823DFC8B9DD12C587E14CFA9 (void);
-// 0x0000026A System.Void SavingManager::Add(System.String,System.String)
+// 0x00000276 System.Void SavingManager::Add(System.String,System.String)
 extern void SavingManager_Add_m7C0CB8EF08E3913BA7199E1CE1471C9C905A83C6 (void);
-// 0x0000026B System.Collections.Generic.List`1<System.String> SavingManager::LoadSavedFilesName(System.String)
+// 0x00000277 System.Collections.Generic.List`1<System.String> SavingManager::LoadSavedFilesName(System.String)
 extern void SavingManager_LoadSavedFilesName_m5A2BF89B1EBC390F4179822E5CED246D28635DAD (void);
-// 0x0000026C System.Void SavingManager::Save(T,System.String,System.String,System.Boolean)
-// 0x0000026D T SavingManager::Load(System.String,System.String)
-// 0x0000026E System.Void SavingManager::DeleteSaveData(System.String,System.String,System.Boolean)
+// 0x00000278 System.Void SavingManager::Save(T,System.String,System.String,System.Boolean)
+// 0x00000279 T SavingManager::Load(System.String,System.String)
+// 0x0000027A System.Void SavingManager::DeleteSaveData(System.String,System.String,System.Boolean)
 extern void SavingManager_DeleteSaveData_mFFF37C72DAD77E5229A304E21D038E8324B5C1F6 (void);
-// 0x0000026F System.Boolean SavingManager::SaveExists(System.String,System.String)
+// 0x0000027B System.Boolean SavingManager::SaveExists(System.String,System.String)
 extern void SavingManager_SaveExists_mF56211E927E2DA52BA30DD9E0D568ACEC02C190E (void);
-// 0x00000270 System.Void SavingManager::CopyDataToStreamingAssets(System.String,System.String,System.String)
+// 0x0000027C System.Void SavingManager::CopyDataToStreamingAssets(System.String,System.String,System.String)
 extern void SavingManager_CopyDataToStreamingAssets_m26829247BEB3B2702734B36BBABAEEE8AAC9F853 (void);
-// 0x00000271 System.Void SavingManager::DeleteFileInStreamingAssets(System.String,System.String)
+// 0x0000027D System.Void SavingManager::DeleteFileInStreamingAssets(System.String,System.String)
 extern void SavingManager_DeleteFileInStreamingAssets_m993E45EDCECB298A86BB02EE5F432FBBE6E57A64 (void);
-// 0x00000272 System.Collections.IEnumerator SavingManager::LoadBinaryFileFromStreamingAssets(System.String,System.String,System.Action`1<T>)
-// 0x00000273 System.Void SavingManager::.ctor()
+// 0x0000027E System.Collections.IEnumerator SavingManager::LoadBinaryFileFromStreamingAssets(System.String,System.String,System.Action`1<T>)
+// 0x0000027F System.Void SavingManager::.ctor()
 extern void SavingManager__ctor_m7F70879AF4F7B3F6AB203C8CC850F5D14100E30C (void);
-// 0x00000274 System.Void SavingManager::.cctor()
+// 0x00000280 System.Void SavingManager::.cctor()
 extern void SavingManager__cctor_m052F17AF30E57B01B89797CC8BC68878642CC962 (void);
-// 0x00000275 System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::.ctor(System.Int32)
-// 0x00000276 System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::System.IDisposable.Dispose()
-// 0x00000277 System.Boolean SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::MoveNext()
-// 0x00000278 System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::<>m__Finally1()
-// 0x00000279 System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-// 0x0000027A System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::System.Collections.IEnumerator.Reset()
-// 0x0000027B System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::System.Collections.IEnumerator.get_Current()
-// 0x0000027C System.Void StartingPageController::Start()
+// 0x00000281 System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::.ctor(System.Int32)
+// 0x00000282 System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::System.IDisposable.Dispose()
+// 0x00000283 System.Boolean SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::MoveNext()
+// 0x00000284 System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::<>m__Finally1()
+// 0x00000285 System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000286 System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::System.Collections.IEnumerator.Reset()
+// 0x00000287 System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::System.Collections.IEnumerator.get_Current()
+// 0x00000288 System.Void StartingPageController::Start()
 extern void StartingPageController_Start_mB1BFDE8169DB8F28C3FBAE3989C8316A61CFD829 (void);
-// 0x0000027D System.Void StartingPageController::NextButtonPressed()
+// 0x00000289 System.Void StartingPageController::NextButtonPressed()
 extern void StartingPageController_NextButtonPressed_m50C5150BD2A18A3B3D9323061ABEA4F11677B6E2 (void);
-// 0x0000027E System.Void StartingPageController::FixedUpdate()
+// 0x0000028A System.Void StartingPageController::FixedUpdate()
 extern void StartingPageController_FixedUpdate_m80D6F5A789CDF1B9D5E71409B679B9BB03679B72 (void);
-// 0x0000027F System.Void StartingPageController::.ctor()
+// 0x0000028B System.Void StartingPageController::.ctor()
 extern void StartingPageController__ctor_m47CBB233DD0BB31389294D32DEB11FA5B1F3488C (void);
-// 0x00000280 System.ValueTuple`2<System.Int32,System.Int32> Extentions::CalculatePace(System.Single,System.Single,System.Boolean)
+// 0x0000028C System.ValueTuple`2<System.Int32,System.Int32> Extentions::CalculatePace(System.Single,System.Single,System.Boolean)
 extern void Extentions_CalculatePace_m534DBFD216999DEA6158F20F2AF9DED2FF19F4D1 (void);
-// 0x00000281 System.Int32 Extentions::CalculateCaloriesBurnt(System.Single,System.Single,System.Single)
+// 0x0000028D System.Int32 Extentions::CalculateCaloriesBurnt(System.Single,System.Single,System.Single)
 extern void Extentions_CalculateCaloriesBurnt_mA7AE9C0A4F4DC4B0F155F25A7BC236730F762889 (void);
-// 0x00000282 System.String Extentions::GetStringBetweenCharacters(System.String,System.Char,System.Char)
+// 0x0000028E System.String Extentions::GetStringBetweenCharacters(System.String,System.Char,System.Char)
 extern void Extentions_GetStringBetweenCharacters_m91405935B025BE93E9FA3078C083310458948E43 (void);
-// 0x00000283 System.Int32 Extentions::FloorIntRound(System.Single,System.Int32)
+// 0x0000028F System.Int32 Extentions::FloorIntRound(System.Single,System.Int32)
 extern void Extentions_FloorIntRound_m03D8C991D01D8F92CD13269FFD32888103347BBD (void);
-// 0x00000284 System.Single Extentions::FloorFloatRound(System.Single,System.Int32)
+// 0x00000290 System.Single Extentions::FloorFloatRound(System.Single,System.Int32)
 extern void Extentions_FloorFloatRound_m0717B2A59636959DE21ED9DA3C84A45D90E5081A (void);
-// 0x00000285 System.Single Extentions::Round(System.Single,System.Int32)
+// 0x00000291 System.Single Extentions::Round(System.Single,System.Int32)
 extern void Extentions_Round_m6281C2DB88F82D4ED5894FFD1E9687B1DCCD4F5C (void);
-// 0x00000286 System.Void DisplayHistory::Start()
+// 0x00000292 System.Void DisplayHistory::Start()
 extern void DisplayHistory_Start_m181D5E4E4F9D41FD213249CAC778767D140F3DBE (void);
-// 0x00000287 System.Void DisplayHistory::LoadRunHistory()
+// 0x00000293 System.Void DisplayHistory::LoadRunHistory()
 extern void DisplayHistory_LoadRunHistory_m1B57F34FBDFF58007458BBD1543CCCC179AA29EA (void);
-// 0x00000288 System.Void DisplayHistory::.ctor()
+// 0x00000294 System.Void DisplayHistory::.ctor()
 extern void DisplayHistory__ctor_m0DF2C78F88A2CAE639EB083F581450033B11E24B (void);
-// 0x00000289 System.Void DisplayStats::Start()
+// 0x00000295 System.Void DisplayStats::Start()
 extern void DisplayStats_Start_m54A57CCA9A145A471D86720E130EB29C68ADA48B (void);
-// 0x0000028A System.Void DisplayStats::.ctor()
+// 0x00000296 System.Void DisplayStats::.ctor()
 extern void DisplayStats__ctor_m9AF37BF0F01CC7898C8719123D689E3F5EFC6D22 (void);
-// 0x0000028B System.Void GameplayUI::add_SetLogsOnLeaderboard(System.Action)
+// 0x00000297 System.Void GameplayUI::add_SetLogsOnLeaderboard(System.Action)
 extern void GameplayUI_add_SetLogsOnLeaderboard_mC92C620B7AAFE86F765ABB6920CA0203CDA0D933 (void);
-// 0x0000028C System.Void GameplayUI::remove_SetLogsOnLeaderboard(System.Action)
+// 0x00000298 System.Void GameplayUI::remove_SetLogsOnLeaderboard(System.Action)
 extern void GameplayUI_remove_SetLogsOnLeaderboard_m9568CFEC4E9C2F1E7F0CA2F016D60F940C209967 (void);
-// 0x0000028D System.Void GameplayUI::Start()
+// 0x00000299 System.Void GameplayUI::Start()
 extern void GameplayUI_Start_mC8021565CA3FE82FF733B13DEB174215D151A230 (void);
-// 0x0000028E System.Void GameplayUI::OnDestroy()
+// 0x0000029A System.Void GameplayUI::OnDestroy()
 extern void GameplayUI_OnDestroy_mFE209B92E0EAD337FE737101A2B729A19ECC0F15 (void);
-// 0x0000028F System.Void GameplayUI::PauseCompetition()
+// 0x0000029B System.Void GameplayUI::PauseCompetition()
 extern void GameplayUI_PauseCompetition_m137B6D1D257D52CE46BA6B26B3691D784F710381 (void);
-// 0x00000290 System.Void GameplayUI::ForceStopCompetition()
+// 0x0000029C System.Void GameplayUI::ForceStopCompetition()
 extern void GameplayUI_ForceStopCompetition_mCBE92D80CBCE8983E44A02C19F43B27C7B3CC832 (void);
-// 0x00000291 System.Void GameplayUI::ShowUI(RunData)
+// 0x0000029D System.Void GameplayUI::ShowUI(RunData)
 extern void GameplayUI_ShowUI_m4550719489AE5690304235AF5F7045362418DD79 (void);
-// 0x00000292 System.Void GameplayUI::Substring(TMPro.TMP_Text)
+// 0x0000029E System.Void GameplayUI::DistanceDifferenceChecking(RunData)
+extern void GameplayUI_DistanceDifferenceChecking_mB3E1F0F46C0EB99A82086144A839508438DAF6F1 (void);
+// 0x0000029F System.Void GameplayUI::Substring(TMPro.TMP_Text)
 extern void GameplayUI_Substring_m45B8C403679E7EEC998A3E696D491C593FDA337E (void);
-// 0x00000293 System.Void GameplayUI::.ctor()
+// 0x000002A0 System.Void GameplayUI::.ctor()
 extern void GameplayUI__ctor_m0E9DF281FCC754060949DCC7766F6578F5B30551 (void);
-// 0x00000294 System.Void swatchr.SwatchASEFile::.ctor(System.String)
+// 0x000002A1 System.Void swatchr.SwatchASEFile::.ctor(System.String)
 extern void SwatchASEFile__ctor_m6098A49201AB99BA741A179385A6000455A2C7DF (void);
-// 0x00000295 System.Void swatchr.SwatchASEFile::.ctor(System.Byte[])
+// 0x000002A2 System.Void swatchr.SwatchASEFile::.ctor(System.Byte[])
 extern void SwatchASEFile__ctor_m084CDCBD611E572CBAB16C45DDE07A9BDD94159F (void);
-// 0x00000296 System.Void swatchr.SwatchASEFile::ParseSwatch(System.IO.BinaryReader,System.Collections.Generic.List`1<swatchr.SwatchASEFile/FloatThree>)
+// 0x000002A3 System.Void swatchr.SwatchASEFile::ParseSwatch(System.IO.BinaryReader,System.Collections.Generic.List`1<swatchr.SwatchASEFile/FloatThree>)
 extern void SwatchASEFile_ParseSwatch_m9ACB118F11F3A522AD5425F859FE32E7A0A23468 (void);
-// 0x00000297 System.Void swatchr.SwatchASEFile::DictForChunk(System.IO.BinaryReader,System.String&,swatchr.SwatchASEFile/FloatThree&)
+// 0x000002A4 System.Void swatchr.SwatchASEFile::DictForChunk(System.IO.BinaryReader,System.String&,swatchr.SwatchASEFile/FloatThree&)
 extern void SwatchASEFile_DictForChunk_m225F32D28717A2C25D77556180A5908E9056CD1E (void);
-// 0x00000298 System.Int32 swatchr.SwatchASEFile::ReadBigEndianInt32(System.IO.BinaryReader)
+// 0x000002A5 System.Int32 swatchr.SwatchASEFile::ReadBigEndianInt32(System.IO.BinaryReader)
 extern void SwatchASEFile_ReadBigEndianInt32_m6BE78E68A17D839475FA4FF7710F581DD9F9420B (void);
-// 0x00000299 System.Int16 swatchr.SwatchASEFile::ReadBigEndianInt16(System.IO.BinaryReader)
+// 0x000002A6 System.Int16 swatchr.SwatchASEFile::ReadBigEndianInt16(System.IO.BinaryReader)
 extern void SwatchASEFile_ReadBigEndianInt16_m84C98B64AC02F50F762D1DFD8B612AF4C5F7A027 (void);
-// 0x0000029A System.Int16 swatchr.SwatchASEFile::ReadBigEndianInt16(System.Byte[],System.Int32)
+// 0x000002A7 System.Int16 swatchr.SwatchASEFile::ReadBigEndianInt16(System.Byte[],System.Int32)
 extern void SwatchASEFile_ReadBigEndianInt16_mCB8ABB4753E61856A10A513A1EF9B8F3E7FC5C9C (void);
-// 0x0000029B System.UInt32 swatchr.SwatchASEFile::ReadBigEndianUInt32(System.IO.BinaryReader)
+// 0x000002A8 System.UInt32 swatchr.SwatchASEFile::ReadBigEndianUInt32(System.IO.BinaryReader)
 extern void SwatchASEFile_ReadBigEndianUInt32_mEA0F5485BF46E6255A7694FE96320EA443C6F4A0 (void);
-// 0x0000029C System.UInt16 swatchr.SwatchASEFile::ReadBigEndianUInt16(System.IO.BinaryReader)
+// 0x000002A9 System.UInt16 swatchr.SwatchASEFile::ReadBigEndianUInt16(System.IO.BinaryReader)
 extern void SwatchASEFile_ReadBigEndianUInt16_mBD529FE52483A9139902B2E46EAEFA607E970DA1 (void);
-// 0x0000029D System.Single swatchr.SwatchASEFile::ReadBigEndianFloat(System.Byte[],System.Int32)
+// 0x000002AA System.Single swatchr.SwatchASEFile::ReadBigEndianFloat(System.Byte[],System.Int32)
 extern void SwatchASEFile_ReadBigEndianFloat_m053F75DDB0B2DDD75D5CAF4DD90676B1E30283B3 (void);
-// 0x0000029E System.String swatchr.SwatchASEFile::ReadBigEndianU16String(System.Byte[],System.Int32,System.Int32)
+// 0x000002AB System.String swatchr.SwatchASEFile::ReadBigEndianU16String(System.Byte[],System.Int32,System.Int32)
 extern void SwatchASEFile_ReadBigEndianU16String_m4C3D9D1C29811D51CB136E7ABF5179D25D0C2606 (void);
-// 0x0000029F swatchr.SwatchASEFile/FloatThree swatchr.SwatchASEFile::CMYKtoRGB(System.Single,System.Single,System.Single,System.Single)
+// 0x000002AC swatchr.SwatchASEFile/FloatThree swatchr.SwatchASEFile::CMYKtoRGB(System.Single,System.Single,System.Single,System.Single)
 extern void SwatchASEFile_CMYKtoRGB_m97C32712EABC797E63607239B61F8396A4687074 (void);
-// 0x000002A0 swatchr.SwatchASEFile/FloatThree swatchr.SwatchASEFile::HSVToRGB(System.Single,System.Single,System.Single)
+// 0x000002AD swatchr.SwatchASEFile/FloatThree swatchr.SwatchASEFile::HSVToRGB(System.Single,System.Single,System.Single)
 extern void SwatchASEFile_HSVToRGB_m5813FD345A44402BCB7477FE77FDC8D06F508D52 (void);
-// 0x000002A1 System.Void swatchr.SwatchASEFile/FloatThree::.ctor(System.Single,System.Single,System.Single)
+// 0x000002AE System.Void swatchr.SwatchASEFile/FloatThree::.ctor(System.Single,System.Single,System.Single)
 extern void FloatThree__ctor_m919AF6B1CA74BABF5E3B9D6C28286F9ECDC86535 (void);
-// 0x000002A2 System.Int32 swatchr.Swatch::get_numColors()
+// 0x000002AF System.Int32 swatchr.Swatch::get_numColors()
 extern void Swatch_get_numColors_m4FD1CF522C94CDA38FED83D85D2EFAF45A77F494 (void);
-// 0x000002A3 UnityEngine.Texture2D swatchr.Swatch::get_cachedTexture()
+// 0x000002B0 UnityEngine.Texture2D swatchr.Swatch::get_cachedTexture()
 extern void Swatch_get_cachedTexture_mB250AB30BA164A3B441C3A1C4E2A08C880F7B489 (void);
-// 0x000002A4 System.Void swatchr.Swatch::RegenerateTexture()
+// 0x000002B1 System.Void swatchr.Swatch::RegenerateTexture()
 extern void Swatch_RegenerateTexture_m484E244B65E8A89D32C3A3B7944A73C851BF8B46 (void);
-// 0x000002A5 UnityEngine.Texture2D swatchr.Swatch::CreateTexture()
+// 0x000002B2 UnityEngine.Texture2D swatchr.Swatch::CreateTexture()
 extern void Swatch_CreateTexture_m9C70740A2B57F4155B93AB57459554EA53B71C68 (void);
-// 0x000002A6 System.Void swatchr.Swatch::add_OnSwatchChanged(System.EventHandler)
+// 0x000002B3 System.Void swatchr.Swatch::add_OnSwatchChanged(System.EventHandler)
 extern void Swatch_add_OnSwatchChanged_m4E3E07FF6EADDBEA90C87E8A239374EAD9B0B78D (void);
-// 0x000002A7 System.Void swatchr.Swatch::remove_OnSwatchChanged(System.EventHandler)
+// 0x000002B4 System.Void swatchr.Swatch::remove_OnSwatchChanged(System.EventHandler)
 extern void Swatch_remove_OnSwatchChanged_m80825693F3B8080FF68D1BFB57CCF1729CC2FE85 (void);
-// 0x000002A8 UnityEngine.Color swatchr.Swatch::GetColor(System.Int32)
+// 0x000002B5 UnityEngine.Color swatchr.Swatch::GetColor(System.Int32)
 extern void Swatch_GetColor_m36B19FDA7411B525B780E2DAEB32F5B78E23A15D (void);
-// 0x000002A9 swatchr.Swatch swatchr.Swatch::FromSwatchASEFile(swatchr.SwatchASEFile)
+// 0x000002B6 swatchr.Swatch swatchr.Swatch::FromSwatchASEFile(swatchr.SwatchASEFile)
 extern void Swatch_FromSwatchASEFile_m76E09FB2C4BE977B9622E66BE05BFBAC461DEF9B (void);
-// 0x000002AA System.Void swatchr.Swatch::AddColorsFromASEFile(swatchr.SwatchASEFile)
+// 0x000002B7 System.Void swatchr.Swatch::AddColorsFromASEFile(swatchr.SwatchASEFile)
 extern void Swatch_AddColorsFromASEFile_m67DF573C53686F9EE66FF6ED182FB0F9B8ED738E (void);
-// 0x000002AB System.Void swatchr.Swatch::AddColorsFromOtherSwatch(swatchr.Swatch)
+// 0x000002B8 System.Void swatchr.Swatch::AddColorsFromOtherSwatch(swatchr.Swatch)
 extern void Swatch_AddColorsFromOtherSwatch_mEE630D928E4F300BA26DC2F485FE8F16371EC659 (void);
-// 0x000002AC System.Void swatchr.Swatch::ReplaceSelfWithOtherSwatch(swatchr.Swatch)
+// 0x000002B9 System.Void swatchr.Swatch::ReplaceSelfWithOtherSwatch(swatchr.Swatch)
 extern void Swatch_ReplaceSelfWithOtherSwatch_mEE415EBDEBD9CC07F848471CDFCA55B8C95AA420 (void);
-// 0x000002AD System.Void swatchr.Swatch::SignalChange()
+// 0x000002BA System.Void swatchr.Swatch::SignalChange()
 extern void Swatch_SignalChange_m35B5D4F2DE1EDF603A7EBF1D6AC54950F31E396A (void);
-// 0x000002AE System.Void swatchr.Swatch::.ctor()
+// 0x000002BB System.Void swatchr.Swatch::.ctor()
 extern void Swatch__ctor_mAA4C214F40B5BE7981A377A556429841C5043FAD (void);
-// 0x000002AF System.Void swatchr.SwatchrAmbientLightColor::Apply()
+// 0x000002BC System.Void swatchr.SwatchrAmbientLightColor::Apply()
 extern void SwatchrAmbientLightColor_Apply_mA63C6AA860D2A3B53E86203870C476FFA26D3A87 (void);
-// 0x000002B0 System.Void swatchr.SwatchrAmbientLightColor::.ctor()
+// 0x000002BD System.Void swatchr.SwatchrAmbientLightColor::.ctor()
 extern void SwatchrAmbientLightColor__ctor_m5EF5BC183CF2F16151C1DFA7EDB0BF17055976DC (void);
-// 0x000002B1 System.Void swatchr.SwatchrAmbientTriLightingColor::OnDestroy()
+// 0x000002BE System.Void swatchr.SwatchrAmbientTriLightingColor::OnDestroy()
 extern void SwatchrAmbientTriLightingColor_OnDestroy_m6290D6A74B9D31CAB657DC5528A9AFFCC3CBCA52 (void);
-// 0x000002B2 System.Void swatchr.SwatchrAmbientTriLightingColor::OnDisable()
+// 0x000002BF System.Void swatchr.SwatchrAmbientTriLightingColor::OnDisable()
 extern void SwatchrAmbientTriLightingColor_OnDisable_m6228C3D45B2E36E0633FD77E56DED50536AA3FA3 (void);
-// 0x000002B3 System.Void swatchr.SwatchrAmbientTriLightingColor::OnEnable()
+// 0x000002C0 System.Void swatchr.SwatchrAmbientTriLightingColor::OnEnable()
 extern void SwatchrAmbientTriLightingColor_OnEnable_m739E358D50A87A8C7042DC307243D858A7BDA9BF (void);
-// 0x000002B4 System.Void swatchr.SwatchrAmbientTriLightingColor::Apply()
+// 0x000002C1 System.Void swatchr.SwatchrAmbientTriLightingColor::Apply()
 extern void SwatchrAmbientTriLightingColor_Apply_m8C749A080A8C01FA08F953ABCE05D107792914E6 (void);
-// 0x000002B5 System.Void swatchr.SwatchrAmbientTriLightingColor::.ctor()
+// 0x000002C2 System.Void swatchr.SwatchrAmbientTriLightingColor::.ctor()
 extern void SwatchrAmbientTriLightingColor__ctor_m15A9BBC3205F79BA3E4744516AFD2359D6DF3DF7 (void);
-// 0x000002B6 System.Void swatchr.SwatchrCameraColor::Apply()
+// 0x000002C3 System.Void swatchr.SwatchrCameraColor::Apply()
 extern void SwatchrCameraColor_Apply_mCAC804027390E1468F09B550E2D739248A3403BF (void);
-// 0x000002B7 System.Void swatchr.SwatchrCameraColor::.ctor()
+// 0x000002C4 System.Void swatchr.SwatchrCameraColor::.ctor()
 extern void SwatchrCameraColor__ctor_m0EF3C4D1F208298AD984B3FDD770CAD648832F69 (void);
-// 0x000002B8 System.Void swatchr.SwatchrColor::.ctor()
+// 0x000002C5 System.Void swatchr.SwatchrColor::.ctor()
 extern void SwatchrColor__ctor_m73B426525A699E6F50C8A57E265B8AD042039892 (void);
-// 0x000002B9 System.Void swatchr.SwatchrColor::OnEnable()
+// 0x000002C6 System.Void swatchr.SwatchrColor::OnEnable()
 extern void SwatchrColor_OnEnable_m99CEB34B89F5A6BF5AFCC4EE29ABC3A32D7369AD (void);
-// 0x000002BA System.Void swatchr.SwatchrColor::OnDisable()
+// 0x000002C7 System.Void swatchr.SwatchrColor::OnDisable()
 extern void SwatchrColor_OnDisable_m2B4A89BD6C9D5954BF16F2579FD6B7FA7E3DD2E7 (void);
-// 0x000002BB System.Void swatchr.SwatchrColor::OnSwatchChanged(System.Object,System.EventArgs)
+// 0x000002C8 System.Void swatchr.SwatchrColor::OnSwatchChanged(System.Object,System.EventArgs)
 extern void SwatchrColor_OnSwatchChanged_mF1215042BF92F9F30FDA336E0FAA4AD862F8B8A1 (void);
-// 0x000002BC swatchr.Swatch swatchr.SwatchrColor::get_swatch()
+// 0x000002C9 swatchr.Swatch swatchr.SwatchrColor::get_swatch()
 extern void SwatchrColor_get_swatch_mE4BC61A9F44DF28BCA8133F121E9FE79398B5680 (void);
-// 0x000002BD System.Void swatchr.SwatchrColor::set_swatch(swatchr.Swatch)
+// 0x000002CA System.Void swatchr.SwatchrColor::set_swatch(swatchr.Swatch)
 extern void SwatchrColor_set_swatch_m0CAD6ACDD15079CD15061515F55D9686847ACA9F (void);
-// 0x000002BE System.Int32 swatchr.SwatchrColor::get_colorIndex()
+// 0x000002CB System.Int32 swatchr.SwatchrColor::get_colorIndex()
 extern void SwatchrColor_get_colorIndex_mE8005F461EB4B1248F2ACE42C3DC92CBB5B21188 (void);
-// 0x000002BF System.Void swatchr.SwatchrColor::set_colorIndex(System.Int32)
+// 0x000002CC System.Void swatchr.SwatchrColor::set_colorIndex(System.Int32)
 extern void SwatchrColor_set_colorIndex_mC7AC01F3A168F573171038D5D1D8C110E861D8C9 (void);
-// 0x000002C0 UnityEngine.Color swatchr.SwatchrColor::get_color()
+// 0x000002CD UnityEngine.Color swatchr.SwatchrColor::get_color()
 extern void SwatchrColor_get_color_mA2C61C56D1EDBF0B7217BF65D1BEED41172FBEA3 (void);
-// 0x000002C1 System.Void swatchr.SwatchrColor::add_OnColorChanged(System.Action)
+// 0x000002CE System.Void swatchr.SwatchrColor::add_OnColorChanged(System.Action)
 extern void SwatchrColor_add_OnColorChanged_mCE6484E75CCD1356E04B1636A37FD24DD843D026 (void);
-// 0x000002C2 System.Void swatchr.SwatchrColor::remove_OnColorChanged(System.Action)
+// 0x000002CF System.Void swatchr.SwatchrColor::remove_OnColorChanged(System.Action)
 extern void SwatchrColor_remove_OnColorChanged_m5F15896BC2120F36A4AD3142FCFEEAC6FCB6E0D7 (void);
-// 0x000002C3 System.Void swatchr.SwatchrColorApplier::OnDestroy()
+// 0x000002D0 System.Void swatchr.SwatchrColorApplier::OnDestroy()
 extern void SwatchrColorApplier_OnDestroy_mF4C9181658DE3240C6C12E1412D2B85C580B2E53 (void);
-// 0x000002C4 System.Void swatchr.SwatchrColorApplier::OnDisable()
+// 0x000002D1 System.Void swatchr.SwatchrColorApplier::OnDisable()
 extern void SwatchrColorApplier_OnDisable_m4F1EFFAB044E11BB9F338F7C8C1EDF94634DBB32 (void);
-// 0x000002C5 System.Void swatchr.SwatchrColorApplier::OnEnable()
+// 0x000002D2 System.Void swatchr.SwatchrColorApplier::OnEnable()
 extern void SwatchrColorApplier_OnEnable_m6E980C366C5DC72DF221318CB18D3B05D9124814 (void);
-// 0x000002C6 System.Void swatchr.SwatchrColorApplier::Apply()
-// 0x000002C7 System.Void swatchr.SwatchrColorApplier::.ctor()
+// 0x000002D3 System.Void swatchr.SwatchrColorApplier::Apply()
+// 0x000002D4 System.Void swatchr.SwatchrColorApplier::.ctor()
 extern void SwatchrColorApplier__ctor_m77903FCEB98179101201D591FC0F9651BD579FBB (void);
-// 0x000002C8 System.Void swatchr.SwatchrExportToTexture::ExportSwatchToTexture(swatchr.Swatch,System.String)
+// 0x000002D5 System.Void swatchr.SwatchrExportToTexture::ExportSwatchToTexture(swatchr.Swatch,System.String)
 extern void SwatchrExportToTexture_ExportSwatchToTexture_m6F094DFEE3C5E055278C34D50CC1BC64CDC4FE2E (void);
-// 0x000002C9 System.Void swatchr.SwatchrLight::Apply()
+// 0x000002D6 System.Void swatchr.SwatchrLight::Apply()
 extern void SwatchrLight_Apply_m0A037D72B1041F9D917B373E93B2312063E86F24 (void);
-// 0x000002CA System.Void swatchr.SwatchrLight::.ctor()
+// 0x000002D7 System.Void swatchr.SwatchrLight::.ctor()
 extern void SwatchrLight__ctor_m07BFF15FA4A9C5B06CD99E8D50772D592CC78F7A (void);
-// 0x000002CB System.Void swatchr.SwatchrMultiRenderer::GatherChildren()
+// 0x000002D8 System.Void swatchr.SwatchrMultiRenderer::GatherChildren()
 extern void SwatchrMultiRenderer_GatherChildren_mF64FE070BC5F4E7C13314B7AD7D611F7B2B9E841 (void);
-// 0x000002CC System.Void swatchr.SwatchrMultiRenderer::Apply()
+// 0x000002D9 System.Void swatchr.SwatchrMultiRenderer::Apply()
 extern void SwatchrMultiRenderer_Apply_m6B3BD8E45F02859C6C97B5A7F9FBA76BD1694BD3 (void);
-// 0x000002CD System.Void swatchr.SwatchrMultiRenderer::.ctor()
+// 0x000002DA System.Void swatchr.SwatchrMultiRenderer::.ctor()
 extern void SwatchrMultiRenderer__ctor_m68C1201EE283BC2E253A990A5BC46CB9F30C6B0E (void);
-// 0x000002CE System.Void swatchr.SwatchrParticleSystem::Apply()
+// 0x000002DB System.Void swatchr.SwatchrParticleSystem::Apply()
 extern void SwatchrParticleSystem_Apply_mE0886251D0B5C0C936AA558B71D7D30E9B0DD8AE (void);
-// 0x000002CF System.Void swatchr.SwatchrParticleSystem::.ctor()
+// 0x000002DC System.Void swatchr.SwatchrParticleSystem::.ctor()
 extern void SwatchrParticleSystem__ctor_m3573D15F01CA4FD304FCC679B7F6A4519ADEE6CA (void);
-// 0x000002D0 System.Void swatchr.SwatchrRenderer::Apply()
+// 0x000002DD System.Void swatchr.SwatchrRenderer::Apply()
 extern void SwatchrRenderer_Apply_mA34EC99F6B4D301F31C0CFA65D0FA217B095B780 (void);
-// 0x000002D1 System.Void swatchr.SwatchrRenderer::.ctor()
+// 0x000002DE System.Void swatchr.SwatchrRenderer::.ctor()
 extern void SwatchrRenderer__ctor_m1D1803DD3D7D1FD08B3BE3E2DC087744512E44DA (void);
-// 0x000002D2 System.Single Zaikman.InspectorButtonAttribute::get_ButtonWidth()
+// 0x000002DF System.Single Zaikman.InspectorButtonAttribute::get_ButtonWidth()
 extern void InspectorButtonAttribute_get_ButtonWidth_mE8F0505194552300A0E3BB2BE12DB08DF7A824A4 (void);
-// 0x000002D3 System.Void Zaikman.InspectorButtonAttribute::set_ButtonWidth(System.Single)
+// 0x000002E0 System.Void Zaikman.InspectorButtonAttribute::set_ButtonWidth(System.Single)
 extern void InspectorButtonAttribute_set_ButtonWidth_mB81D4F9A7E1F073F207D5CC473FD3125D81F2E44 (void);
-// 0x000002D4 System.Void Zaikman.InspectorButtonAttribute::.ctor(System.String)
+// 0x000002E1 System.Void Zaikman.InspectorButtonAttribute::.ctor(System.String)
 extern void InspectorButtonAttribute__ctor_m5DA9600D66A69A722C0E35A85F82675CE71E2885 (void);
-// 0x000002D5 System.Void Zaikman.InspectorButtonAttribute::.cctor()
+// 0x000002E2 System.Void Zaikman.InspectorButtonAttribute::.cctor()
 extern void InspectorButtonAttribute__cctor_m92A7B9414D2AA49823F104004D53FCC62B9ADFDD (void);
-// 0x000002D6 System.Void SmartWeakEvent.FastSmartWeakEvent`1::.cctor()
-// 0x000002D7 System.Delegate SmartWeakEvent.FastSmartWeakEvent`1::GetRaiseDelegateInternal()
-// 0x000002D8 System.Void SmartWeakEvent.FastSmartWeakEvent`1::AddToRaiseDelegate(System.Delegate)
-// 0x000002D9 System.Void SmartWeakEvent.FastSmartWeakEvent`1::RemoveFromRaiseDelegate(System.Delegate)
-// 0x000002DA System.Void SmartWeakEvent.FastSmartWeakEvent`1::Add(T)
-// 0x000002DB System.Void SmartWeakEvent.FastSmartWeakEvent`1::RemoveDeadEntries()
-// 0x000002DC System.Void SmartWeakEvent.FastSmartWeakEvent`1::Remove(T)
-// 0x000002DD T SmartWeakEvent.FastSmartWeakEvent`1::GetRaiseDelegate()
-// 0x000002DE System.Boolean SmartWeakEvent.FastSmartWeakEvent`1::get_HasListeners()
-// 0x000002DF System.Reflection.Emit.DynamicMethod SmartWeakEvent.FastSmartWeakEvent`1::GetInvoker(System.Reflection.MethodInfo)
-// 0x000002E0 System.Void SmartWeakEvent.FastSmartWeakEvent`1::.ctor()
-// 0x000002E1 System.Void SmartWeakEvent.FastSmartWeakEvent`1/HandlerEntry::.ctor(SmartWeakEvent.FastSmartWeakEvent`1<T>,System.Object,System.Reflection.MethodInfo)
-// 0x000002E2 System.Object SmartWeakEvent.FastSmartWeakEvent`1/HandlerEntry::get_TargetInstance()
-// 0x000002E3 System.Void SmartWeakEvent.FastSmartWeakEvent`1/HandlerEntry::CalledWhenDead()
-// 0x000002E4 System.Void SmartWeakEvent.FastSmartWeakEventRaiseExtensions::Raise(SmartWeakEvent.FastSmartWeakEvent`1<System.EventHandler>,System.Object,System.EventArgs)
+// 0x000002E3 System.Void SmartWeakEvent.FastSmartWeakEvent`1::.cctor()
+// 0x000002E4 System.Delegate SmartWeakEvent.FastSmartWeakEvent`1::GetRaiseDelegateInternal()
+// 0x000002E5 System.Void SmartWeakEvent.FastSmartWeakEvent`1::AddToRaiseDelegate(System.Delegate)
+// 0x000002E6 System.Void SmartWeakEvent.FastSmartWeakEvent`1::RemoveFromRaiseDelegate(System.Delegate)
+// 0x000002E7 System.Void SmartWeakEvent.FastSmartWeakEvent`1::Add(T)
+// 0x000002E8 System.Void SmartWeakEvent.FastSmartWeakEvent`1::RemoveDeadEntries()
+// 0x000002E9 System.Void SmartWeakEvent.FastSmartWeakEvent`1::Remove(T)
+// 0x000002EA T SmartWeakEvent.FastSmartWeakEvent`1::GetRaiseDelegate()
+// 0x000002EB System.Boolean SmartWeakEvent.FastSmartWeakEvent`1::get_HasListeners()
+// 0x000002EC System.Reflection.Emit.DynamicMethod SmartWeakEvent.FastSmartWeakEvent`1::GetInvoker(System.Reflection.MethodInfo)
+// 0x000002ED System.Void SmartWeakEvent.FastSmartWeakEvent`1::.ctor()
+// 0x000002EE System.Void SmartWeakEvent.FastSmartWeakEvent`1/HandlerEntry::.ctor(SmartWeakEvent.FastSmartWeakEvent`1<T>,System.Object,System.Reflection.MethodInfo)
+// 0x000002EF System.Object SmartWeakEvent.FastSmartWeakEvent`1/HandlerEntry::get_TargetInstance()
+// 0x000002F0 System.Void SmartWeakEvent.FastSmartWeakEvent`1/HandlerEntry::CalledWhenDead()
+// 0x000002F1 System.Void SmartWeakEvent.FastSmartWeakEventRaiseExtensions::Raise(SmartWeakEvent.FastSmartWeakEvent`1<System.EventHandler>,System.Object,System.EventArgs)
 extern void FastSmartWeakEventRaiseExtensions_Raise_mB09BC0D22E8D60015ECA399FD759EABB04F216ED (void);
-// 0x000002E5 System.Void SmartWeakEvent.FastSmartWeakEventRaiseExtensions::Raise(SmartWeakEvent.FastSmartWeakEvent`1<System.EventHandler`1<T>>,System.Object,T)
-// 0x000002E6 System.Void DebugStuff.BuildDebugger::OnEnable()
+// 0x000002F2 System.Void SmartWeakEvent.FastSmartWeakEventRaiseExtensions::Raise(SmartWeakEvent.FastSmartWeakEvent`1<System.EventHandler`1<T>>,System.Object,T)
+// 0x000002F3 System.Void DebugStuff.BuildDebugger::OnEnable()
 extern void BuildDebugger_OnEnable_m1E06BBA4A69462A8C3E666376C41327F15E2C783 (void);
-// 0x000002E7 System.Void DebugStuff.BuildDebugger::OnDisable()
+// 0x000002F4 System.Void DebugStuff.BuildDebugger::OnDisable()
 extern void BuildDebugger_OnDisable_mFF0B98459F547719DCB4B8EC787878D2F7D4967B (void);
-// 0x000002E8 System.Void DebugStuff.BuildDebugger::Log(System.String,System.String,UnityEngine.LogType)
+// 0x000002F5 System.Void DebugStuff.BuildDebugger::Log(System.String,System.String,UnityEngine.LogType)
 extern void BuildDebugger_Log_m77D5E7148FF00DC1CCFE2FA38C3088F64574C1A4 (void);
-// 0x000002E9 System.Void DebugStuff.BuildDebugger::OnGUI()
+// 0x000002F6 System.Void DebugStuff.BuildDebugger::OnGUI()
 extern void BuildDebugger_OnGUI_mCE2DF539A9C9337C8BF9A06B3E3BD878864681E6 (void);
-// 0x000002EA System.Void DebugStuff.BuildDebugger::.ctor()
+// 0x000002F7 System.Void DebugStuff.BuildDebugger::.ctor()
 extern void BuildDebugger__ctor_mC253D4CFCF7DB24C2517FD32B66C380027B6CF79 (void);
-// 0x000002EB System.Void DebugStuff.BuildDebugger::.cctor()
+// 0x000002F8 System.Void DebugStuff.BuildDebugger::.cctor()
 extern void BuildDebugger__cctor_m2120FFCC5980BDAF05963DB8C594EFD4B18045D4 (void);
-// 0x000002EC System.String NodeCanvas.Tasks.Actions.Math::OnInit()
+// 0x000002F9 System.String NodeCanvas.Tasks.Actions.Math::OnInit()
 extern void Math_OnInit_mD11586B19C98EBFB4F221E44BC21076484D5462A (void);
-// 0x000002ED System.Void NodeCanvas.Tasks.Actions.Math::OnExecute()
+// 0x000002FA System.Void NodeCanvas.Tasks.Actions.Math::OnExecute()
 extern void Math_OnExecute_m008600F9B8B2D7CAEED75AFF6B20F743C12945AC (void);
-// 0x000002EE System.Void NodeCanvas.Tasks.Actions.Math::OnUpdate()
+// 0x000002FB System.Void NodeCanvas.Tasks.Actions.Math::OnUpdate()
 extern void Math_OnUpdate_mDBAF6BFAEFE602DD72B770FD7E74F7B709B91EAD (void);
-// 0x000002EF System.Void NodeCanvas.Tasks.Actions.Math::OnStop()
+// 0x000002FC System.Void NodeCanvas.Tasks.Actions.Math::OnStop()
 extern void Math_OnStop_mAF0CCAF29786B003B69F684BA5858984B7EAEB7D (void);
-// 0x000002F0 System.Void NodeCanvas.Tasks.Actions.Math::OnPause()
+// 0x000002FD System.Void NodeCanvas.Tasks.Actions.Math::OnPause()
 extern void Math_OnPause_m758D695F05E75137858702CC70C1CF42DE4F5AD8 (void);
-// 0x000002F1 System.Void NodeCanvas.Tasks.Actions.Math::.ctor()
+// 0x000002FE System.Void NodeCanvas.Tasks.Actions.Math::.ctor()
 extern void Math__ctor_m622F98525119EB03E853711B439A7CE4B4405949 (void);
-// 0x000002F2 System.String NodeCanvas.Tasks.Actions.MoveForward::OnInit()
+// 0x000002FF System.String NodeCanvas.Tasks.Actions.MoveForward::OnInit()
 extern void MoveForward_OnInit_m98B0677F0AB31EC8BE6BD4CA5E603C6A2CB1A6D9 (void);
-// 0x000002F3 System.Void NodeCanvas.Tasks.Actions.MoveForward::OnExecute()
+// 0x00000300 System.Void NodeCanvas.Tasks.Actions.MoveForward::OnExecute()
 extern void MoveForward_OnExecute_m431293A0E2A2FB57E7145041C50973E553B5E0BC (void);
-// 0x000002F4 System.Void NodeCanvas.Tasks.Actions.MoveForward::OnUpdate()
+// 0x00000301 System.Void NodeCanvas.Tasks.Actions.MoveForward::OnUpdate()
 extern void MoveForward_OnUpdate_mDD33B8B8B9774F0A02A1D90375F626982CE55C7E (void);
-// 0x000002F5 System.Void NodeCanvas.Tasks.Actions.MoveForward::OnStop()
+// 0x00000302 System.Void NodeCanvas.Tasks.Actions.MoveForward::OnStop()
 extern void MoveForward_OnStop_m5007E3043EECED231FEE9803F09E10DCABC48878 (void);
-// 0x000002F6 System.Void NodeCanvas.Tasks.Actions.MoveForward::OnPause()
+// 0x00000303 System.Void NodeCanvas.Tasks.Actions.MoveForward::OnPause()
 extern void MoveForward_OnPause_mD91E8123D37E770ADE75F330F678314CFE38834B (void);
-// 0x000002F7 System.Void NodeCanvas.Tasks.Actions.MoveForward::.ctor()
+// 0x00000304 System.Void NodeCanvas.Tasks.Actions.MoveForward::.ctor()
 extern void MoveForward__ctor_mDA862AC0668E7104A33ADEA3800CC66AC8C4D4FE (void);
-// 0x000002F8 System.String NodeCanvas.Tasks.Actions.MoveTo::OnInit()
+// 0x00000305 System.String NodeCanvas.Tasks.Actions.MoveTo::OnInit()
 extern void MoveTo_OnInit_m0A6AEC61BFF9F83B36E64356584DB9EE9F2C5A92 (void);
-// 0x000002F9 System.Void NodeCanvas.Tasks.Actions.MoveTo::OnExecute()
+// 0x00000306 System.Void NodeCanvas.Tasks.Actions.MoveTo::OnExecute()
 extern void MoveTo_OnExecute_m29AEEFF876500775E786DA0B195D96943BF99357 (void);
-// 0x000002FA System.Void NodeCanvas.Tasks.Actions.MoveTo::OnUpdate()
+// 0x00000307 System.Void NodeCanvas.Tasks.Actions.MoveTo::OnUpdate()
 extern void MoveTo_OnUpdate_m05F93589085A57E1BB6C64EB376F533F6458A77B (void);
-// 0x000002FB System.Void NodeCanvas.Tasks.Actions.MoveTo::OnStop()
+// 0x00000308 System.Void NodeCanvas.Tasks.Actions.MoveTo::OnStop()
 extern void MoveTo_OnStop_m3E6DFD131CE79E6635DCAF0E8B19AF7AEA99389C (void);
-// 0x000002FC System.Void NodeCanvas.Tasks.Actions.MoveTo::OnPause()
+// 0x00000309 System.Void NodeCanvas.Tasks.Actions.MoveTo::OnPause()
 extern void MoveTo_OnPause_mB481A65C1D6F387A81463F36B709E37A70160030 (void);
-// 0x000002FD System.Void NodeCanvas.Tasks.Actions.MoveTo::.ctor()
+// 0x0000030A System.Void NodeCanvas.Tasks.Actions.MoveTo::.ctor()
 extern void MoveTo__ctor_m5A91584E6AA8CAFE18273F9F15889B151E52B268 (void);
-// 0x000002FE System.String NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnInit()
+// 0x0000030B System.String NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnInit()
 extern void PlayerWorkDoneCheck_OnInit_mE0D1C239FBBEBBFE84FF8112B51112C963090EBC (void);
-// 0x000002FF System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnExecute()
+// 0x0000030C System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnExecute()
 extern void PlayerWorkDoneCheck_OnExecute_m328E3E839D1B0A63437277A25F1AB15B7015A695 (void);
-// 0x00000300 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnUpdate()
+// 0x0000030D System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnUpdate()
 extern void PlayerWorkDoneCheck_OnUpdate_m913E34A9F809590E5514962BD58142B117E8865E (void);
-// 0x00000301 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::ReadCSV()
+// 0x0000030E System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::ReadCSV()
 extern void PlayerWorkDoneCheck_ReadCSV_m4596B1A5A4C68E3BDF4B107BFF689887EB4F7C72 (void);
-// 0x00000302 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnStop()
+// 0x0000030F System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnStop()
 extern void PlayerWorkDoneCheck_OnStop_mE07FA2A49ACF98E9C68E52D4E250FD46C5A0C707 (void);
-// 0x00000303 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnPause()
+// 0x00000310 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::OnPause()
 extern void PlayerWorkDoneCheck_OnPause_m73F85D86B7E63065B540CC23DD884ABF5617B12E (void);
-// 0x00000304 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::.ctor()
+// 0x00000311 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck::.ctor()
 extern void PlayerWorkDoneCheck__ctor_m1400006D923F1F70B6ABC89821ED573F21AEAB43 (void);
-// 0x00000305 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck/CompetitorData::.ctor()
+// 0x00000312 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck/CompetitorData::.ctor()
 extern void CompetitorData__ctor_m7FD1EE30F03993420BE8283086B0A7A136849A72 (void);
-// 0x00000306 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck/CompetitorList::.ctor()
+// 0x00000313 System.Void NodeCanvas.Tasks.Actions.PlayerWorkDoneCheck/CompetitorList::.ctor()
 extern void CompetitorList__ctor_mD75F4AD8B8DC646A691E37765988EE5309986ED0 (void);
-// 0x00000307 System.String NodeCanvas.Tasks.Actions.SetAIList::OnInit()
+// 0x00000314 System.String NodeCanvas.Tasks.Actions.SetAIList::OnInit()
 extern void SetAIList_OnInit_m7DD30D0C22F0B78F84913487868418187DB7B378 (void);
-// 0x00000308 System.Void NodeCanvas.Tasks.Actions.SetAIList::OnExecute()
+// 0x00000315 System.Void NodeCanvas.Tasks.Actions.SetAIList::OnExecute()
 extern void SetAIList_OnExecute_m90F18A0A732B6F236C8430322E8F1D2F9E653D3F (void);
-// 0x00000309 System.Single NodeCanvas.Tasks.Actions.SetAIList::UniqueRandomInt(System.Int32,System.Int32)
+// 0x00000316 System.Single NodeCanvas.Tasks.Actions.SetAIList::UniqueRandomInt(System.Int32,System.Int32)
 extern void SetAIList_UniqueRandomInt_mEF2D6F0AA9EDECD417D75E85FF99A7E355C868EC (void);
-// 0x0000030A System.Void NodeCanvas.Tasks.Actions.SetAIList::OnUpdate()
+// 0x00000317 System.Void NodeCanvas.Tasks.Actions.SetAIList::OnUpdate()
 extern void SetAIList_OnUpdate_m0F793C4934907FDE36FC3E75AEF68971C961CF81 (void);
-// 0x0000030B System.Void NodeCanvas.Tasks.Actions.SetAIList::OnStop()
+// 0x00000318 System.Void NodeCanvas.Tasks.Actions.SetAIList::OnStop()
 extern void SetAIList_OnStop_mD431D6093D96B6EA65D12D53A00CFA150F3B7BCA (void);
-// 0x0000030C System.Void NodeCanvas.Tasks.Actions.SetAIList::OnPause()
+// 0x00000319 System.Void NodeCanvas.Tasks.Actions.SetAIList::OnPause()
 extern void SetAIList_OnPause_m5ADD2C79C3BD43AAD6C98FDB6372583A58C4BC48 (void);
-// 0x0000030D System.Void NodeCanvas.Tasks.Actions.SetAIList::.ctor()
+// 0x0000031A System.Void NodeCanvas.Tasks.Actions.SetAIList::.ctor()
 extern void SetAIList__ctor_mBE092F6A60479D7AC142749EB8F450EC3E6F3A2D (void);
-// 0x0000030E System.String NodeCanvas.Tasks.Actions.SetAISpeed::OnInit()
+// 0x0000031B System.String NodeCanvas.Tasks.Actions.SetAISpeed::OnInit()
 extern void SetAISpeed_OnInit_m7CD528345A936AC451D30083593122CEFFBE346F (void);
-// 0x0000030F System.Void NodeCanvas.Tasks.Actions.SetAISpeed::OnExecute()
+// 0x0000031C System.Void NodeCanvas.Tasks.Actions.SetAISpeed::OnExecute()
 extern void SetAISpeed_OnExecute_mEEE49F1FB2322ECAB094E6BA73CC480A7263E51C (void);
-// 0x00000310 System.Void NodeCanvas.Tasks.Actions.SetAISpeed::OnUpdate()
+// 0x0000031D System.Void NodeCanvas.Tasks.Actions.SetAISpeed::OnUpdate()
 extern void SetAISpeed_OnUpdate_mBB4DAD73B85F3E531FBA78B905C2AEC1A42D4E0A (void);
-// 0x00000311 System.Void NodeCanvas.Tasks.Actions.SetAISpeed::OnStop()
+// 0x0000031E System.Void NodeCanvas.Tasks.Actions.SetAISpeed::OnStop()
 extern void SetAISpeed_OnStop_m4C96AE963028E92D14B21F56CDFD2B6D9478C0A3 (void);
-// 0x00000312 System.Void NodeCanvas.Tasks.Actions.SetAISpeed::OnPause()
+// 0x0000031F System.Void NodeCanvas.Tasks.Actions.SetAISpeed::OnPause()
 extern void SetAISpeed_OnPause_m59889DEDCA2379E252B0371C1CCC00FC14AB079C (void);
-// 0x00000313 System.Void NodeCanvas.Tasks.Actions.SetAISpeed::.ctor()
+// 0x00000320 System.Void NodeCanvas.Tasks.Actions.SetAISpeed::.ctor()
 extern void SetAISpeed__ctor_mAE90F5ADC659424B65731E250B92C1470717DA64 (void);
-// 0x00000314 System.String NodeCanvas.Tasks.Actions.SetAnimation::OnInit()
+// 0x00000321 System.String NodeCanvas.Tasks.Actions.SetAnimation::OnInit()
 extern void SetAnimation_OnInit_m577402B8FC91C04AB109F9196EA3B840718C6046 (void);
-// 0x00000315 System.Void NodeCanvas.Tasks.Actions.SetAnimation::OnExecute()
+// 0x00000322 System.Void NodeCanvas.Tasks.Actions.SetAnimation::OnExecute()
 extern void SetAnimation_OnExecute_m1912F4277C6130224D861551F185B12717234786 (void);
-// 0x00000316 System.Void NodeCanvas.Tasks.Actions.SetAnimation::OnUpdate()
+// 0x00000323 System.Void NodeCanvas.Tasks.Actions.SetAnimation::OnUpdate()
 extern void SetAnimation_OnUpdate_m59B3A2918A4C017F1A6ECC3F557496FABFE1D0F3 (void);
-// 0x00000317 System.Void NodeCanvas.Tasks.Actions.SetAnimation::OnStop()
+// 0x00000324 System.Void NodeCanvas.Tasks.Actions.SetAnimation::OnStop()
 extern void SetAnimation_OnStop_m1EF92B0094E39085D7266645FDFDC0276D59F9D7 (void);
-// 0x00000318 System.Void NodeCanvas.Tasks.Actions.SetAnimation::OnPause()
+// 0x00000325 System.Void NodeCanvas.Tasks.Actions.SetAnimation::OnPause()
 extern void SetAnimation_OnPause_m9ED07A25203DE9A24669B546C068B11C60B5E156 (void);
-// 0x00000319 System.Void NodeCanvas.Tasks.Actions.SetAnimation::.ctor()
+// 0x00000326 System.Void NodeCanvas.Tasks.Actions.SetAnimation::.ctor()
 extern void SetAnimation__ctor_m1BE724D2AC536900D8F7DAF0E331FC92BA68FAC5 (void);
-// 0x0000031A System.Boolean Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::get_hasFloatLabel()
+// 0x00000327 System.Boolean Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::get_hasFloatLabel()
 extern void ExampleUIToggleAnimators_get_hasFloatLabel_mDD7A549DAC1C3FB5C870920B5A34C12BDAF61D37 (void);
-// 0x0000031B System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::set_hasFloatLabel(System.Boolean)
+// 0x00000328 System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::set_hasFloatLabel(System.Boolean)
 extern void ExampleUIToggleAnimators_set_hasFloatLabel_mFAA03390A46FEF49737EE286F0A0495FE464112A (void);
-// 0x0000031C System.Boolean Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::get_hasIntLabel()
+// 0x00000329 System.Boolean Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::get_hasIntLabel()
 extern void ExampleUIToggleAnimators_get_hasIntLabel_mE3292C50486C8740F1A64C003AE788FD02E0CE8C (void);
-// 0x0000031D System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::set_hasIntLabel(System.Boolean)
+// 0x0000032A System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::set_hasIntLabel(System.Boolean)
 extern void ExampleUIToggleAnimators_set_hasIntLabel_mF1407EFE20807023ED95921ED33E6CD676F35890 (void);
-// 0x0000031E System.Boolean Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::get_hasVector2Label()
+// 0x0000032B System.Boolean Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::get_hasVector2Label()
 extern void ExampleUIToggleAnimators_get_hasVector2Label_mC2703E6CBC3A61CD28E6E0F4B3C1F1A40EE99648 (void);
-// 0x0000031F System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::set_hasVector2Label(System.Boolean)
+// 0x0000032C System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::set_hasVector2Label(System.Boolean)
 extern void ExampleUIToggleAnimators_set_hasVector2Label_mBD21F6D87CE5A4A212808261DDD624AC09F1969D (void);
-// 0x00000320 System.Boolean Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::get_hasVector3Label()
+// 0x0000032D System.Boolean Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::get_hasVector3Label()
 extern void ExampleUIToggleAnimators_get_hasVector3Label_m8FB0351327DF5DCF49485C807C2F5EACC5BE1DB7 (void);
-// 0x00000321 System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::set_hasVector3Label(System.Boolean)
+// 0x0000032E System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::set_hasVector3Label(System.Boolean)
 extern void ExampleUIToggleAnimators_set_hasVector3Label_m0AFBAB56E37541021A7F2F43D17D2E0010049B74 (void);
-// 0x00000322 System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::OnEnable()
+// 0x0000032F System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::OnEnable()
 extern void ExampleUIToggleAnimators_OnEnable_m0DB58A2C2647C0B867B75A6E530A2681C74FB936 (void);
-// 0x00000323 System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::LateUpdate()
+// 0x00000330 System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::LateUpdate()
 extern void ExampleUIToggleAnimators_LateUpdate_mECC13A4F500ED1F3A17222994033CE1971F40550 (void);
-// 0x00000324 System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::.ctor()
+// 0x00000331 System.Void Doozy.Runtime.UIManager.Doozy._Examples.E25___Toggle___UIToggle_Animators.ExampleUIToggleAnimators::.ctor()
 extern void ExampleUIToggleAnimators__ctor_mCE9AAFC6E65597B489CF82BBBD93A29C3339E0D4 (void);
-// 0x00000325 System.Void Doozy._Examples.E24___Popup___with_Two_Buttons.ShowTwoButtonsPopup::Show()
+// 0x00000332 System.Void Doozy._Examples.E24___Popup___with_Two_Buttons.ShowTwoButtonsPopup::Show()
 extern void ShowTwoButtonsPopup_Show_mCA84DD9422A36BED1302488615A90767DA642D2A (void);
-// 0x00000326 System.Void Doozy._Examples.E24___Popup___with_Two_Buttons.ShowTwoButtonsPopup::.ctor()
+// 0x00000333 System.Void Doozy._Examples.E24___Popup___with_Two_Buttons.ShowTwoButtonsPopup::.ctor()
 extern void ShowTwoButtonsPopup__ctor_m13E0B2186E472D9852A790F6B709DAD444D1B723 (void);
-// 0x00000327 System.Void Doozy._Examples.E23___Popup___with_One_Button.ShowOneButtonPopup::Show()
+// 0x00000334 System.Void Doozy._Examples.E23___Popup___with_One_Button.ShowOneButtonPopup::Show()
 extern void ShowOneButtonPopup_Show_mC1A5BF2707AA40D0E154C0B4018F277B022AAB0C (void);
-// 0x00000328 System.Void Doozy._Examples.E23___Popup___with_One_Button.ShowOneButtonPopup::.ctor()
+// 0x00000335 System.Void Doozy._Examples.E23___Popup___with_One_Button.ShowOneButtonPopup::.ctor()
 extern void ShowOneButtonPopup__ctor_mE82F4CE81B94E5979333B12BD8B8283963C1CB95 (void);
-// 0x00000329 System.Void Doozy._Examples.E22___Popup___without_Buttons.ShowSimplePopup::Show()
+// 0x00000336 System.Void Doozy._Examples.E22___Popup___without_Buttons.ShowSimplePopup::Show()
 extern void ShowSimplePopup_Show_mD357A354C4BE276A07C2CEB5C1046BF6D07A0318 (void);
-// 0x0000032A System.Void Doozy._Examples.E22___Popup___without_Buttons.ShowSimplePopup::.ctor()
+// 0x00000337 System.Void Doozy._Examples.E22___Popup___without_Buttons.ShowSimplePopup::.ctor()
 extern void ShowSimplePopup__ctor_m6E33C5255B3E596DBED4F7BC84218A0B072A76C1 (void);
-// 0x0000032B System.Void Doozy.Sandbox.Common.Runtime.PrintToConsole::DebugLog(System.String)
+// 0x00000338 System.Void Doozy.Sandbox.Common.Runtime.PrintToConsole::DebugLog(System.String)
 extern void PrintToConsole_DebugLog_m2F7A311284BC1D9CE7088EDBA0E8E75583E86A58 (void);
-// 0x0000032C System.Void Doozy.Sandbox.Common.Runtime.PrintToConsole::.ctor()
+// 0x00000339 System.Void Doozy.Sandbox.Common.Runtime.PrintToConsole::.ctor()
 extern void PrintToConsole__ctor_m8FE9D752F682CA2D2E8A070D16348447D8E52E56 (void);
-// 0x0000032D System.Void ChartAndGraph.SelectScene::Start()
+// 0x0000033A System.Void ChartAndGraph.SelectScene::Start()
 extern void SelectScene_Start_mCAFA3FF32D741D01B6BD4A83D3F772198D62F47F (void);
-// 0x0000032E System.Void ChartAndGraph.SelectScene::ChangeCanvas()
+// 0x0000033B System.Void ChartAndGraph.SelectScene::ChangeCanvas()
 extern void SelectScene_ChangeCanvas_m175A895575E6B2594774374663292F18F56236F2 (void);
-// 0x0000032F System.Void ChartAndGraph.SelectScene::Select(System.String)
+// 0x0000033C System.Void ChartAndGraph.SelectScene::Select(System.String)
 extern void SelectScene_Select_mEB9CDF5FCB9B706753843B1426F94437FD876387 (void);
-// 0x00000330 System.Void ChartAndGraph.SelectScene::SelectMain()
+// 0x0000033D System.Void ChartAndGraph.SelectScene::SelectMain()
 extern void SelectScene_SelectMain_mDEFE2F771D84A782AE4E786F89B01137A7349719 (void);
-// 0x00000331 System.Void ChartAndGraph.SelectScene::.ctor()
+// 0x0000033E System.Void ChartAndGraph.SelectScene::.ctor()
 extern void SelectScene__ctor_m47ACF4B4CCDAF64D1407B1EF29AA7EF33C22B859 (void);
-// 0x00000332 System.Void ChartAndGraph.SelectScene/<>c__DisplayClass6_0::.ctor()
+// 0x0000033F System.Void ChartAndGraph.SelectScene/<>c__DisplayClass6_0::.ctor()
 extern void U3CU3Ec__DisplayClass6_0__ctor_mB42EE33B8FE44B04B304A76E9333F59B30932571 (void);
-// 0x00000333 System.Void ChartAndGraph.SelectScene/<>c__DisplayClass6_0::<Start>b__0()
+// 0x00000340 System.Void ChartAndGraph.SelectScene/<>c__DisplayClass6_0::<Start>b__0()
 extern void U3CU3Ec__DisplayClass6_0_U3CStartU3Eb__0_mB4E5C9AD493FFCCD66BFD93A2EF654A59865FA16 (void);
-// 0x00000334 System.Void ChartAndGraph.BubbleGraphFeed::Start()
+// 0x00000341 System.Void ChartAndGraph.BubbleGraphFeed::Start()
 extern void BubbleGraphFeed_Start_mD29D7BDC07277E3622A44457EC24846D6AAD481B (void);
-// 0x00000335 System.Void ChartAndGraph.BubbleGraphFeed::.ctor()
+// 0x00000342 System.Void ChartAndGraph.BubbleGraphFeed::.ctor()
 extern void BubbleGraphFeed__ctor_mA67BE26ED31470887F42284A1489144BB932446B (void);
-static Il2CppMethodPointer s_methodPointers[821] = 
+static Il2CppMethodPointer s_methodPointers[834] = 
 {
 	testMarker_Start_m29F16C1ADDE2324CED5532D5AC22DF63E15B3ABD,
 	testMarker_Update_m878A5BD986628F955F33FA62DAACF18755CAB789,
@@ -2211,6 +2237,18 @@ static Il2CppMethodPointer s_methodPointers[821] =
 	RunDataUI_Awake_mBF2D8D2EE8440C09D6DC8CA5652B42DDD7EBB74D,
 	RunDataUI_SetData_mB742E61BA7DD680168B03D06042CADF192BCB39D,
 	RunDataUI__ctor_m5B2D9BD49906C3566498AEB314C8A5658DFC8D6D,
+	RunDataUI_U3CAwakeU3Eb__6_0_m46356ADC0A8ED34C5A018CAB7C78E89084E35984,
+	RunDataUI_U3CAwakeU3Eb__6_1_m3D4B23B636C87C304F8BC407FCD05A7DAE885154,
+	RunDataUI_U3CAwakeU3Eb__6_2_m76FDB06507E6D650BCD86E70EADB3A033FB02255,
+	RunDataUI_U3CAwakeU3Eb__6_3_mDB5998FEB639E74A8E56C123C1C40AF8D19D4198,
+	RunDataUI_U3CAwakeU3Eb__6_4_m3BFB89BADDB263C3E17480E7B7859F8D6BBEEA5F,
+	RunDataUI_U3CAwakeU3Eb__6_5_m98D654C03A0752633A230F65C09E31BF1C7F7569,
+	RunDataUI_U3CAwakeU3Eb__6_6_mE869CC859C1B88167E329EA285868F5AC6042183,
+	RunDataUI_U3CAwakeU3Eb__6_7_mCC5352561A3BC264BBBF86D6913B4F93408BA6AA,
+	RunDataUI_U3CAwakeU3Eb__6_8_m9EC1C4A4CB73FEDB08AA0345B4A198A6C8DD9B86,
+	RunDataUI_U3CAwakeU3Eb__6_9_mC853AC97B3BD540C628F432B85E1BDA878F3F1C0,
+	RunDataUI_U3CAwakeU3Eb__6_10_m5610FDAC5279ABE65FDFA153F39AAFD1ACC5FD1E,
+	RunDataUI_U3CAwakeU3Eb__6_11_m2C9A4C8EE6683996C61FDC4103E1DD8C085F5DED,
 	RunDataSO_SetRunData_m759AAD816C87BCF5C96F8814AAA43B233B3AD0C5,
 	RunDataSO_GetRunData_m63006E3630272C82E725CA954AC619BA68A9347B,
 	RunDataSO__ctor_m1D5695D1B57D583D0C96FE729F988F536BF6CA55,
@@ -2255,6 +2293,7 @@ static Il2CppMethodPointer s_methodPointers[821] =
 	GameplayUI_PauseCompetition_m137B6D1D257D52CE46BA6B26B3691D784F710381,
 	GameplayUI_ForceStopCompetition_mCBE92D80CBCE8983E44A02C19F43B27C7B3CC832,
 	GameplayUI_ShowUI_m4550719489AE5690304235AF5F7045362418DD79,
+	GameplayUI_DistanceDifferenceChecking_mB3E1F0F46C0EB99A82086144A839508438DAF6F1,
 	GameplayUI_Substring_m45B8C403679E7EEC998A3E696D491C593FDA337E,
 	GameplayUI__ctor_m0E9DF281FCC754060949DCC7766F6578F5B30551,
 	SwatchASEFile__ctor_m6098A49201AB99BA741A179385A6000455A2C7DF,
@@ -2501,7 +2540,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[39] =
 	{ 0x06000149, PaceAchievementData_set_NameOfIconToShow_m24680F6BDE65CA8199A3E321C635BCBBA5F5EF3A_AdjustorThunk },
 	{ 0x0600014A, PaceAchievementData_SliderValues_m6B8059160A5BFF7A36D09824CF6ABB202AFBA9AD_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[821] = 
+static const int32_t s_InvokerIndices[834] = 
 {
 	7473,
 	7473,
@@ -3117,6 +3156,18 @@ static const int32_t s_InvokerIndices[821] =
 	5955,
 	7473,
 	5955,
+	5955,
+	5955,
+	5955,
+	5955,
+	5955,
+	5955,
+	5955,
+	5955,
+	5955,
+	5955,
+	5955,
+	5955,
 	7329,
 	7473,
 	7473,
@@ -3159,6 +3210,7 @@ static const int32_t s_InvokerIndices[821] =
 	7473,
 	7473,
 	7473,
+	5955,
 	5955,
 	5955,
 	7473,
@@ -3334,10 +3386,10 @@ static const Il2CppTokenRangePair s_rgctxIndices[11] =
 	{ 0x02000096, { 45, 2 } },
 	{ 0x06000102, { 0, 6 } },
 	{ 0x06000163, { 22, 2 } },
-	{ 0x0600026C, { 24, 1 } },
-	{ 0x0600026D, { 25, 1 } },
-	{ 0x06000272, { 26, 2 } },
-	{ 0x060002E5, { 47, 4 } },
+	{ 0x06000278, { 24, 1 } },
+	{ 0x06000279, { 25, 1 } },
+	{ 0x0600027E, { 26, 2 } },
+	{ 0x060002F2, { 47, 4 } },
 };
 extern const uint32_t g_rgctx_CreatingObject_1_CreateObject_m8FA6517834B1949AEE06456E9E580273E5F52B21;
 extern const uint32_t g_rgctx_CreatingObject_1_t57925984BF516B80E5737B3E5AC4920EF49EED5B;
@@ -3448,7 +3500,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	821,
+	834,
 	s_methodPointers,
 	39,
 	s_adjustorThunks,

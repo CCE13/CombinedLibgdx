@@ -426,6 +426,8 @@ struct Dictionary_2_t4C24DAED9184D8A74F6AEC259CCC28776158D484;
 struct Dictionary_2_t38E92DE43DC11F4F58609F42AA96BA0846B31923;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Experimental.Rendering.ProbeReferenceVolume/Volume,System.Collections.Generic.List`1<UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick>>
 struct Dictionary_2_t52F25AB533FD203C36B7274F20F5B8E8C2148F6F;
+// System.Collections.Generic.Dictionary`2<RunDataUI/DataType,System.Action`1<RunData>>
+struct Dictionary_2_tCE757F4AEF3EDFA689048224467DDFF23CDB9C11;
 // UnityEngine.Rendering.DynamicArray`1<UnityEngine.Experimental.Rendering.RenderGraphModule.IRenderGraphResource>
 struct DynamicArray_1_t401F46C0081DE185BCAB1D30DE8D6B6DC9AA6AFB;
 // UnityEngine.Rendering.DynamicArray`1<UnityEngine.Experimental.Rendering.RenderGraphModule.RendererListResource>
@@ -30590,10 +30592,14 @@ struct RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F  : public MonoBehavio
 {
 	// System.Collections.Generic.List`1<System.String> RunDataUI::_positionalSubtext
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____positionalSubtext_4;
+	// RunDataSO RunDataUI::_playerData
+	RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2* ____playerData_5;
 	// RunDataUI/DataType RunDataUI::Type
-	int32_t ___Type_5;
+	int32_t ___Type_6;
 	// TMPro.TMP_Text RunDataUI::_dataText
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ____dataText_6;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ____dataText_7;
+	// System.Collections.Generic.Dictionary`2<RunDataUI/DataType,System.Action`1<RunData>> RunDataUI::DataActions
+	Dictionary_2_tCE757F4AEF3EDFA689048224467DDFF23CDB9C11* ___DataActions_8;
 };
 
 // SavingManager
@@ -38717,9 +38723,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7878[25] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7879[13] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7880[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7880[5] = 
 {
-	static_cast<int32_t>(offsetof(RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F, ____positionalSubtext_4)),static_cast<int32_t>(offsetof(RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F, ___Type_5)),static_cast<int32_t>(offsetof(RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F, ____dataText_6)),};
+	static_cast<int32_t>(offsetof(RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F, ____positionalSubtext_4)),static_cast<int32_t>(offsetof(RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F, ____playerData_5)),static_cast<int32_t>(offsetof(RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F, ___Type_6)),static_cast<int32_t>(offsetof(RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F, ____dataText_7)),static_cast<int32_t>(offsetof(RunDataUI_t40BE3C30E3151969E760916CCF64CF55D754EB6F, ___DataActions_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7881[1] = 
 {
 	static_cast<int32_t>(offsetof(RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2, ___runData_4)),};
