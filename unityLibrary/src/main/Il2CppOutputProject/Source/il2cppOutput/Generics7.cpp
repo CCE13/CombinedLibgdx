@@ -1199,42 +1199,46 @@ struct RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916  : public RuntimeObject
 	int32_t ___SlowestPaceMins_5;
 	// System.Int32 RunData::SlowestPaceSeconds
 	int32_t ___SlowestPaceSeconds_6;
+	// System.Int32 RunData::BestLapMins
+	int32_t ___BestLapMins_7;
+	// System.Int32 RunData::BestLapSeconds
+	int32_t ___BestLapSeconds_8;
 	// System.Single RunData::DistanceToTravel
-	float ___DistanceToTravel_7;
+	float ___DistanceToTravel_9;
 	// System.Single RunData::DistanceTravelled
-	float ___DistanceTravelled_8;
+	float ___DistanceTravelled_10;
 	// System.Single RunData::PreciseDistance
-	float ___PreciseDistance_9;
+	float ___PreciseDistance_11;
 	// System.Single RunData::DistanceDifferenceFromTheFirstPos
-	float ___DistanceDifferenceFromTheFirstPos_10;
+	float ___DistanceDifferenceFromTheFirstPos_12;
 	// System.Single RunData::LapInterval
-	float ___LapInterval_11;
+	float ___LapInterval_13;
 	// System.Single RunData::<DistanceToNextLap>k__BackingField
-	float ___U3CDistanceToNextLapU3Ek__BackingField_12;
+	float ___U3CDistanceToNextLapU3Ek__BackingField_14;
 	// System.Collections.Generic.List`1<System.Single> RunData::LapDistance
-	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___LapDistance_13;
+	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___LapDistance_15;
 	// System.Collections.Generic.List`1<System.Single> RunData::LapTimings
-	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___LapTimings_14;
+	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___LapTimings_16;
 	// System.Single RunData::GraphingInterval
-	float ___GraphingInterval_15;
+	float ___GraphingInterval_17;
 	// System.Single RunData::OGGraphingInterval
-	float ___OGGraphingInterval_16;
+	float ___OGGraphingInterval_18;
 	// System.Collections.Generic.List`1<System.Single> RunData::GraphPacePoints
-	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___GraphPacePoints_17;
+	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___GraphPacePoints_19;
 	// System.Collections.Generic.List`1<System.Single> RunData::GraphTimingPoints
-	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___GraphTimingPoints_18;
+	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___GraphTimingPoints_20;
 	// System.Single RunData::TimeTaken
-	float ___TimeTaken_19;
+	float ___TimeTaken_21;
 	// System.Int32 RunData::Position
-	int32_t ___Position_20;
+	int32_t ___Position_22;
 	// System.Int32 RunData::CaloriesBurnt
-	int32_t ___CaloriesBurnt_21;
+	int32_t ___CaloriesBurnt_23;
 	// System.String RunData::DayStarted
-	String_t* ___DayStarted_22;
+	String_t* ___DayStarted_24;
 	// System.String RunData::DateStarted
-	String_t* ___DateStarted_23;
+	String_t* ___DateStarted_25;
 	// System.String RunData::TimeStarted
-	String_t* ___TimeStarted_24;
+	String_t* ___TimeStarted_26;
 };
 
 // System.String

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.Window;
+
 import com.mygdx.runai.RunAI;
 
 public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecycleEvents

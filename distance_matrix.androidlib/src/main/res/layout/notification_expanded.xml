@@ -2,46 +2,55 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="256dp"
+    android:layout_height="230dp"
     android:background="#000000"
     android:orientation="vertical"
     tools:ignore="ExtraText">
 
     <TextView
-        android:id="@+id/text_view_expanded"
+        android:id="@+id/Notification_Text_Header"
         style="@style/TextAppearance.Compat.Notification"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#009427"
         android:padding="8dp"
-        android:text="Tracking Your Run!"
+        android:text="Custom Notification Test"
         android:textAlignment="center"
         android:textColor="#FFFF" />
 
-    <TextView
-        android:id="@+id/DistanceRan"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:text="Distance"
-        android:textColor="#FFFFFF" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/TimeTaken"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:text="TimeTaken"
-        android:textColor="#FFFFFF" />
+        <TextView
+            android:id="@+id/DistanceRan"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Distance"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TimeTaken"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Duration : 00:00:00"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/image_view_expanded"
         android:layout_width="match_parent"
-        android:layout_height="113dp"
+        android:layout_height="156dp"
         android:background="#000000"
         android:scaleType="centerCrop"
         android:scaleX="1"

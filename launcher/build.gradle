@@ -2,8 +2,7 @@ apply plugin: 'com.android.application'
 
 dependencies {
     implementation project(':unityLibrary')
-    implementation project(path: ':distance_matrix.androidlib')
-}
+    }
 
 android {
     compileSdkVersion 33

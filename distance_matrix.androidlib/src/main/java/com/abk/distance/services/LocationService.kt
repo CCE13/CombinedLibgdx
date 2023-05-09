@@ -65,7 +65,7 @@ class LocationService : Service(), LocationListener {
 
         val filter = IntentFilter("com.abk.distance.PAUSE_STATE_CHANGE")
         registerReceiver(pauseStateReceiver, filter)
-        val notification = createNotificationChanel("Fetching Data........")
+        val notification = createNotificationChanel()
         startForeground(NOTI_ID, notification)
     }
 
@@ -80,7 +80,7 @@ class LocationService : Service(), LocationListener {
         timer?.cancel()
     }
 
-    private fun createNotificationChanel(text: String = ""): Notification {
+    private fun createNotificationChanel(): Notification {
         val NOTIFICATION_CHANNEL_ID = "com.getDistance"
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
             val channelName = "Foreground Service"
@@ -119,11 +119,13 @@ class LocationService : Service(), LocationListener {
 
         expandedView?.setTextViewText(R.id.DistanceRan, dataTypes?.get(R.id.DistanceRan.toString()))
         expandedView?.setTextViewText(R.id.TimeTaken, dataTypes?.get(R.id.TimeTaken.toString()))
-        if(text != "")
+        if(_paused)
         {
-            expandedView?.setTextViewText(R.id.text_view_expanded,text)
+            expandedView?.setTextViewText(R.id.Notification_Text_Header,"Run Paused")
         }
-
+        else{
+            expandedView?.setTextViewText(R.id.Notification_Text_Header,"Tracking Your Run")
+        }
 
         val notification: Notification = builder
             //.setContentTitle("RunAI is tracking your run")
@@ -135,14 +137,8 @@ class LocationService : Service(), LocationListener {
             .setCustomBigContentView(expandedView)
             .setStyle(NotificationCompat.DecoratedCustomViewStyle())
             .build()
-
-
-
         return notification
-
     }
-
-
     private fun getMainActivityClass(context: Context): Class<*>? {
         val packageName = context.packageName
         val launchIntent = context.packageManager.getLaunchIntentForPackage(packageName)
@@ -301,15 +297,10 @@ class LocationService : Service(), LocationListener {
                             }
                             _timer++;
                             FormatText(distnace,_timer)
-                            val notification =
-                                createNotificationChanel()
-                            manager.notify(NOTI_ID, notification)
                         }
-                        else{
-                            val notification =
-                                createNotificationChanel("Run is paused timer stopped")
-                            manager.notify(NOTI_ID, notification)
-                        }
+                        val notification =
+                            createNotificationChanel()
+                        manager.notify(NOTI_ID, notification)
 
 
                     }
