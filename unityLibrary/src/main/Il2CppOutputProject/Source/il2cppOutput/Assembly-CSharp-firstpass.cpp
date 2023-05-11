@@ -66,6 +66,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078
 IL2CPP_EXTERN_C String_t* _stringLiteral88F193D314B409A05289247C80042E53762D4590;
 IL2CPP_EXTERN_C String_t* _stringLiteralA55507872ABDCE7C0A7DC544312D6B5566E79948;
 IL2CPP_EXTERN_C String_t* _stringLiteralA61474C5ECB6C503695E92048E3AB4A7EFDA8F8F;
+IL2CPP_EXTERN_C String_t* _stringLiteralB032068F667D3E745D14ED808CE7F5A9F65AFB45;
 IL2CPP_EXTERN_C String_t* _stringLiteralCE36B7913A100A2D1EACA3945BB318B8257D76B6;
 IL2CPP_EXTERN_C String_t* _stringLiteralD2C712DD35080ACE65D49DE6104AD1FDF1E66102;
 IL2CPP_EXTERN_C String_t* _stringLiteralE53650F6B092CC241C1CB875675CC493896FC8EA;
@@ -662,6 +663,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceService_PauseForegroundService_m
 		L_1 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_0, _stringLiteralE53650F6B092CC241C1CB875675CC493896FC8EA, L_1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void DistanceService::SendAIIndex(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceService_SendAIIndex_m4CA0D3ABEB543649E1DE653CFE5790A74561D68E (String_t* ___jsonString0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB032068F667D3E745D14ED808CE7F5A9F65AFB45);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// walkingServiceBridge.Call("GetAIIndexValues", jsonString);
+		il2cpp_codegen_runtime_class_init_inline(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_il2cpp_TypeInfo_var);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_StaticFields*)il2cpp_codegen_static_fields_for(DistanceService_t03A5217098494581FC50CEEFD9C2E3F9C4FCB402_il2cpp_TypeInfo_var))->___walkingServiceBridge_2;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
+		String_t* L_3 = ___jsonString0;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
+		NullCheck(L_0);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_0, _stringLiteralB032068F667D3E745D14ED808CE7F5A9F65AFB45, L_2, NULL);
 		// }
 		return;
 	}

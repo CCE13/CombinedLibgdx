@@ -15,25 +15,21 @@ import androidx.core.app.ActivityCompat;
 
 import com.abk.distance.services.LocationService;
 import com.abk.distance.utils.UnityCallbacks;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.files.FileHandle;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
+import com.mygdx.runai.AIData.AIDataClassHolder;
 import com.mygdx.runai.BackgroundThread;
 import com.mygdx.runai.Initialiser;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import com.google.gson.Gson;
+
 import java.util.List;
-import java.util.TimerTask;
 
 public class WalkingServiceBridge {
     public static final String TAG = "WalkingServiceBridge";
@@ -42,10 +38,44 @@ public class WalkingServiceBridge {
 
     private Boolean _isPaused = false;
 
+    private BackgroundThread _backgroundThread;
+
     public WalkingServiceBridge(Activity activity) {
         this.activity = activity;
     }
 
+    public void PauseForegroundService()
+    {
+        System.out.println("Reached to pause");
+        _isPaused = !_isPaused;
+        Intent intent = new Intent("com.abk.distance.PAUSE_STATE_CHANGE");
+        intent.putExtra("isPaused",_isPaused);
+        activity.sendBroadcast(intent);
+        System.out.println("Sending Intent");
+
+    }
+    public void startForegroundService() {
+        Log.e(TAG, "startForegroundService: called process ::: " + Process.myPid());
+        if (checkPermissions()) {
+            startAhead();
+        } else {
+            UnityCallbacks.permissionDenied("ACTIVITY_RECOGNITION");
+            takePermission();
+        }
+    }
+    public void stopForegroundService() {
+        Intent mServiceIntent = new Intent(activity, LocationService.class);
+        activity.stopService(mServiceIntent);
+        _backgroundThread.StopRunning();
+        destroyListener();
+    }
+
+    public void GetAIIndexValues(String JsonString){
+        System.out.println(JsonString);
+        Gson gson = new Gson();
+        AIDataClassHolder holder = gson.fromJson(JsonString,AIDataClassHolder.class);
+        _backgroundThread.SetAIData(holder);
+    }
 
     private void takePermission() {
         Dexter.withContext(activity)
@@ -69,35 +99,6 @@ public class WalkingServiceBridge {
                     }
                 })
                 .check();
-    }
-
-    public void PauseForegroundService()
-    {
-        System.out.println("Reached to pause");
-        _isPaused = !_isPaused;
-        Intent intent = new Intent("com.abk.distance.PAUSE_STATE_CHANGE");
-        intent.putExtra("isPaused",_isPaused);
-        activity.sendBroadcast(intent);
-        System.out.println("Sending Intent");
-
-    }
-
-
-
-
-    public void startForegroundService() {
-        Log.e(TAG, "startForegroundService: called process ::: " + Process.myPid());
-        if (checkPermissions()) {
-            startAhead();
-        } else {
-           UnityCallbacks.permissionDenied("ACTIVITY_RECOGNITION");
-            takePermission();
-        }
-    }
-    public void stopForegroundService() {
-        Intent mServiceIntent = new Intent(activity, LocationService.class);
-        activity.stopService(mServiceIntent);
-        destroyListener();
     }
 
     /**
@@ -130,8 +131,8 @@ public class WalkingServiceBridge {
 
     private void StartAIThread(){
         Initialiser game =  new Initialiser();
-        BackgroundThread libGDXThread = new BackgroundThread(game);
-        libGDXThread.start();
+        _backgroundThread = new BackgroundThread(game);
+        _backgroundThread.start();
     }
 
     public void destroyListener() {
@@ -161,6 +162,4 @@ public class WalkingServiceBridge {
             }
         }
     }
-
-
 }

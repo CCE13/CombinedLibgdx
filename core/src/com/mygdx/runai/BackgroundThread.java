@@ -1,5 +1,7 @@
 package com.mygdx.runai;
 
+import com.mygdx.runai.AIData.AIDataClassHolder;
+
 public class BackgroundThread extends Thread implements Runnable{
     private Initialiser game;
     private boolean running = true;
@@ -21,6 +23,14 @@ public class BackgroundThread extends Thread implements Runnable{
                 e.printStackTrace();
             }
         }
+    }
+
+    public void SetAIData(AIDataClassHolder holder){
+        System.out.println(holder.holder.size() + " Hello i have reached the backgroudThread");
+    }
+
+    public void StopRunning(){
+        running = false;
     }
 }
 
