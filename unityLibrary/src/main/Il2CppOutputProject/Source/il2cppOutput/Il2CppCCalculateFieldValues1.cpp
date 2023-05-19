@@ -29580,14 +29580,16 @@ struct FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A  : public
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CLappingSlotPrefabU3Ek__BackingField_6;
 	// OnlineMaps FocusedHistoryDisplay::_map
 	OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* ____map_7;
+	// UnityEngine.GameObject FocusedHistoryDisplay::_playerMarker
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____playerMarker_8;
 	// Doozy.Runtime.Reactor.Animators.Internal.ReactorAnimator FocusedHistoryDisplay::_animator
-	ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770* ____animator_8;
+	ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770* ____animator_9;
 	// CompiledRunDataUI FocusedHistoryDisplay::_compiledRunDataUI
-	CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E* ____compiledRunDataUI_9;
+	CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E* ____compiledRunDataUI_10;
 	// LeaderboardUIManager FocusedHistoryDisplay::_leaderboardUI
-	LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* ____leaderboardUI_10;
+	LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* ____leaderboardUI_11;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<UnityEngine.GameObject>> FocusedHistoryDisplay::_objectPool
-	Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* ____objectPool_11;
+	Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* ____objectPool_12;
 };
 
 // InfinityCode.OnlineMapsExamples.FollowGameObject
@@ -35289,9 +35291,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3111[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3113[4] = 
 {
 	static_cast<int32_t>(offsetof(EndCompetitionController_t4FB3A6B4B10278123A40B40BB09D0ADBEA4CBD44, ____stats_4)),static_cast<int32_t>(offsetof(EndCompetitionController_t4FB3A6B4B10278123A40B40BB09D0ADBEA4CBD44, ____bg_5)),static_cast<int32_t>(offsetof(EndCompetitionController_t4FB3A6B4B10278123A40B40BB09D0ADBEA4CBD44, ____leaderboardPanelHolder_6)),static_cast<int32_t>(offsetof(EndCompetitionController_t4FB3A6B4B10278123A40B40BB09D0ADBEA4CBD44, ____playerData_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3114[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3114[9] = 
 {
-	static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____lapping_4)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ___U3CLeaderboardSlotPrefabU3Ek__BackingField_5)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ___U3CLappingSlotPrefabU3Ek__BackingField_6)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____map_7)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____animator_8)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____compiledRunDataUI_9)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____leaderboardUI_10)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____objectPool_11)),};
+	static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____lapping_4)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ___U3CLeaderboardSlotPrefabU3Ek__BackingField_5)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ___U3CLappingSlotPrefabU3Ek__BackingField_6)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____map_7)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____playerMarker_8)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____animator_9)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____compiledRunDataUI_10)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____leaderboardUI_11)),static_cast<int32_t>(offsetof(FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A, ____objectPool_12)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3115[2] = 
 {
 	static_cast<int32_t>(offsetof(FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865, ___PlayerData_0)),static_cast<int32_t>(offsetof(FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865, ___PlacementData_1)),};

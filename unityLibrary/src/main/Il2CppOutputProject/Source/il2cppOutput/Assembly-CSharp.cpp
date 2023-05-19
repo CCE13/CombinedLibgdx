@@ -109,6 +109,10 @@ struct Action_1_tDCAC64896DED218A23A5A4370E928F2733A483D8;
 struct Action_1_t862B18C4743DEAA0B5BC3530769627CB7F5574F0;
 // System.Action`1<OnlineMapsJSONObject>
 struct Action_1_t5E22FA5BC911DA4C861080EE00282EF7EDE5EE1A;
+// System.Action`1<OnlineMapsMarker3D>
+struct Action_1_t9684633F09B574017996A5D55E17C7DC9CEAF7F1;
+// System.Action`1<OnlineMapsMarkerBase>
+struct Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225;
 // System.Action`1<OnlineMapsTextWebService>
 struct Action_1_t940227B220DE5A9D384120FF46DB7A857C8F2921;
 // System.Action`1<OnlineMapsWebServiceAPI>
@@ -125,6 +129,8 @@ struct Action_2_t6AAF2E215E74E16A4EEF0A0749A4A325D99F5BA6;
 struct Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C;
 // System.Action`2<OnlineMapsOSMWay,System.Collections.Generic.List`1<OnlineMapsOSMNode>>
 struct Action_2_t784D77EDE0FF10E91A535C86D68D2B7838D9FE86;
+// System.Action`2<OnlineMapsTile,UnityEngine.Material>
+struct Action_2_t8A40B71B9366382FDB74A43ED304619211912DA5;
 // System.Comparison`1<System.Object>
 struct Comparison_1_t62E531E7B8260E2C6C2718C3BDB8CF8655139645;
 // System.Comparison`1<BarRunChart/RunChartEntry>
@@ -155,6 +161,8 @@ struct Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84;
 struct Dictionary_2_tFD30524DF2402084A24F60CD1F24103D5B832035;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+struct Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710;
 // System.Collections.Generic.Dictionary`2<System.String,OnlineMapsBuildingBase>
 struct Dictionary_2_t706156D1447126A7437CE462283239F659AC044B;
 // System.Collections.Generic.Dictionary`2<System.String,OnlineMapsJSONItem>
@@ -313,6 +321,8 @@ struct List_1_tF1E88D0D329B33A294E68B3EF3560818892E5F7B;
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
 // System.Collections.Generic.List`1<UnityEngine.Object>
 struct List_1_t9A2E2984B23260AECDFA90CEB1F2887075FA4DF3;
+// System.Collections.Generic.List`1<OnlineMapsMarker3D>
+struct List_1_tF1E0AA8AE562B14117F2E41E078DB41DB5E6CDF8;
 // System.Collections.Generic.List`1<OnlineMapsOSMNode>
 struct List_1_tF8170C6ED3D311302D19099DAF71F42D31A91632;
 // System.Collections.Generic.List`1<OnlineMapsOSMRelation>
@@ -533,6 +543,8 @@ struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
 struct BillboardText_tBE9957DC37D426748ABF15497245767746D7CC88;
 // NodeCanvas.Framework.Internal.BlackboardSource
 struct BlackboardSource_tDF1C560E163F6F63BE89278B7312A32BF329C89E;
+// UnityEngine.BoxCollider
+struct BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23;
 // UnityEngine.Camera
 struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
 // ChartAndGraph.CandleChart
@@ -647,6 +659,8 @@ struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
 struct IInternalUse_tF48DB46DF33AF7E87E3A9F1A2D7B96D7CB63CD69;
 // IOnlineMapsInteractiveElement
 struct IOnlineMapsInteractiveElement_tD41664259A19534DE4A9F28EFEF99FBAD8DE7A09;
+// IOnlineMapsInteractiveElementManager
+struct IOnlineMapsInteractiveElementManager_t5B676CA09FB7794246BC88E317E107E4259F6E25;
 // ChartAndGraph.IPieGenerator
 struct IPieGenerator_t1DE61C7B81460A1B577EEAF74CC27ACAFD30FD50;
 // UnityEngine.UI.Image
@@ -731,6 +745,8 @@ struct OnlineMapsJSONItem_tDC014568C419F77AFDC703D4C6C7F4471142E810;
 struct OnlineMapsJSONObject_t737240F669968FDC806DF090CF37A016B77456CB;
 // OnlineMapsMarker2DDrawer
 struct OnlineMapsMarker2DDrawer_tA14B8A553CA2352EE9946BB2595B09D30A2EC34E;
+// OnlineMapsMarker3D
+struct OnlineMapsMarker3D_t9E07EC34B7659E1F9939C559A77CE2B469640FE0;
 // OnlineMapsMarker3DDrawer
 struct OnlineMapsMarker3DDrawer_tFD85D4124314D1F92FC3FB0B396E9947AF1BEB03;
 // OnlineMapsMarker3DManager
@@ -765,6 +781,8 @@ struct OnlineMapsSavableItem_tF1E5E2E6D6DDD2A2F7BFEFC0E273DDDDC2FAEA10;
 struct OnlineMapsTextWebService_t8EEF8457C4613CFE9AF7E36788D888692BE3899E;
 // OnlineMapsTileManager
 struct OnlineMapsTileManager_tC0943D41669FED034BB222D93992DAFD116C3EDB;
+// OnlineMapsTileSetControl
+struct OnlineMapsTileSetControl_t33D388910283862E50117108D5432548CAB0FD6D;
 // OnlineMapsTooltipDrawerBase
 struct OnlineMapsTooltipDrawerBase_tF48E161E6184DEEC66CED09C9931F3438ADB82D1;
 // OnlineMapsTrafficProvider
@@ -945,6 +963,8 @@ struct U3CU3Ec_tD9A0B83A6728F6E1141E61182004BFF60FE87990;
 struct U3CU3Ec__DisplayClass53_0_tD5C0E22C057BDCE1E35182C00800884EC9853DD3;
 // OnlineMapsProvider/MapType
 struct MapType_tA2B6F8E4565D5CC0F3576FFA6D604CF90CDDCD68;
+// OnlineMapsTileSetControl/MeshProps
+struct MeshProps_t4896B2E9C87778032CA11481F87E5BB3B8BDA017;
 // ChartAndGraph.PieChart/PieEvent
 struct PieEvent_t5C5C35B95F6D2434E1A771DA142C33BE6C903253;
 // ChartAndGraph.PieChart/PieObject
@@ -1351,6 +1371,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_m95629806F31CF369D937590912
 IL2CPP_EXTERN_C const RuntimeMethod* Marker_Redraw_m2488F33E3D15AA410C9217ACD9943A5B61039710_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mCF59D20353417A246E684D762C3182BD5873F8D1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mDE3158DD99CA7E1775A8BA276E428AF808AB8FBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mC082C667C8EB3A6CA80E06BCAEA0BED00C6BC15A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mF537CF643AD9E8AAA9B6ACE39096977376D43BC8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_m260A5CB9269FD3E130F998A589EDAEC2E8F9EAE1_RuntimeMethod_var;
@@ -2230,6 +2251,63 @@ struct OnlineMapsJSONItem_tDC014568C419F77AFDC703D4C6C7F4471142E810  : public Ru
 {
 };
 
+// OnlineMapsMarkerBase
+struct OnlineMapsMarkerBase_t5FFCF4E40E90AE9326F4EE6E9CBD26E1EDC4BFCE  : public RuntimeObject
+{
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnClick
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnClick_1;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnDoubleClick
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnDoubleClick_2;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnDrag
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnDrag_3;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnDrawTooltip
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnDrawTooltip_4;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnEnabledChange
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnEnabledChange_5;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnInitComplete
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnInitComplete_6;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnLongPress
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnLongPress_7;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnPress
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnPress_8;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnPositionChanged
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnPositionChanged_9;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnRelease
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnRelease_10;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnRollOut
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnRollOut_11;
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnRollOver
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnRollOver_12;
+	// System.String OnlineMapsMarkerBase::label
+	String_t* ___label_13;
+	// OnlineMapsRange OnlineMapsMarkerBase::range
+	OnlineMapsRange_t081F2F769AD46945F98D08DC9369F41F45DC862A* ___range_14;
+	// System.Collections.Generic.List`1<System.String> OnlineMapsMarkerBase::tags
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___tags_15;
+	// System.Boolean OnlineMapsMarkerBase::_enabled
+	bool ____enabled_16;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Object> OnlineMapsMarkerBase::_customFields
+	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ____customFields_17;
+	// System.Double OnlineMapsMarkerBase::latitude
+	double ___latitude_18;
+	// System.Double OnlineMapsMarkerBase::longitude
+	double ___longitude_19;
+	// System.Single OnlineMapsMarkerBase::_scale
+	float ____scale_20;
+	// System.Boolean OnlineMapsMarkerBase::expand
+	bool ___expand_21;
+	// IOnlineMapsInteractiveElementManager OnlineMapsMarkerBase::_manager
+	RuntimeObject* ____manager_22;
+	// System.Boolean OnlineMapsMarkerBase::_isDraggable
+	bool ____isDraggable_23;
+};
+
+struct OnlineMapsMarkerBase_t5FFCF4E40E90AE9326F4EE6E9CBD26E1EDC4BFCE_StaticFields
+{
+	// System.Action`1<OnlineMapsMarkerBase> OnlineMapsMarkerBase::OnMarkerDrawTooltip
+	Action_1_t88537AF0E8C2B98A95E4066BCC3AE60279105225* ___OnMarkerDrawTooltip_0;
+};
+
 // OnlineMapsOSMBase
 struct OnlineMapsOSMBase_t71C905C013C223284DA4B8F3635EBD9D1EC3561F  : public RuntimeObject
 {
@@ -2822,6 +2900,15 @@ struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14
 	bool ___hasValue_0;
 	// T System.Nullable`1::value
 	int32_t ___value_1;
+};
+
+// System.Nullable`1<System.Single>
+struct Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	float ___value_1;
 };
 
 // UnityEngine.Events.UnityEvent`1<UnityEngine.GameObject>
@@ -3926,6 +4013,37 @@ struct OnlineMapsBuildingMaterial_t94185AD36AFC7014133422168352FDB4C97AEE1A  : p
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___scale_2;
 };
 
+// OnlineMapsMarker3D
+struct OnlineMapsMarker3D_t9E07EC34B7659E1F9939C559A77CE2B469640FE0  : public OnlineMapsMarkerBase_t5FFCF4E40E90AE9326F4EE6E9CBD26E1EDC4BFCE
+{
+	// System.Func`1<System.Boolean> OnlineMapsMarker3D::OnCheckMapBoundaries
+	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___OnCheckMapBoundaries_24;
+	// System.Nullable`1<System.Single> OnlineMapsMarker3D::altitude
+	Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 ___altitude_25;
+	// OnlineMapsAltitudeType OnlineMapsMarker3D::altitudeType
+	int32_t ___altitudeType_26;
+	// System.Boolean OnlineMapsMarker3D::checkMapBoundaries
+	bool ___checkMapBoundaries_27;
+	// OnlineMapsControlBase3D OnlineMapsMarker3D::control
+	OnlineMapsControlBase3D_tBB315C01DFC0BCE3840ABA3C93337E053ECBF3D5* ___control_28;
+	// System.Boolean OnlineMapsMarker3D::inited
+	bool ___inited_29;
+	// UnityEngine.GameObject OnlineMapsMarker3D::instance
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___instance_30;
+	// UnityEngine.GameObject OnlineMapsMarker3D::prefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefab_31;
+	// OnlineMapsMarker3D/SizeType OnlineMapsMarker3D::sizeType
+	int32_t ___sizeType_32;
+	// UnityEngine.GameObject OnlineMapsMarker3D::_prefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____prefab_33;
+	// UnityEngine.Vector3 OnlineMapsMarker3D::_relativePosition
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____relativePosition_34;
+	// System.Boolean OnlineMapsMarker3D::_visible
+	bool ____visible_35;
+	// System.Single OnlineMapsMarker3D::_rotationY
+	float ____rotationY_36;
+};
+
 // OnlineMapsOSMAPIQuery
 struct OnlineMapsOSMAPIQuery_t3BB7550893D9A6C8727311F37BC0B3E08DD3052F  : public OnlineMapsTextWebService_t8EEF8457C4613CFE9AF7E36788D888692BE3899E
 {
@@ -3935,6 +4053,15 @@ struct OnlineMapsOSMAPIQuery_t3BB7550893D9A6C8727311F37BC0B3E08DD3052F_StaticFie
 {
 	// System.String OnlineMapsOSMAPIQuery::osmURL
 	String_t* ___osmURL_12;
+};
+
+// UnityEngine.Plane
+struct Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C 
+{
+	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal_1;
+	// System.Single UnityEngine.Plane::m_Distance
+	float ___m_Distance_2;
 };
 
 // UnityEngine.Ray
@@ -4118,6 +4245,15 @@ struct Location_t9A3C49045D71AA00643D984C0406F36911826452  : public RuntimeObjec
 {
 	// OnlineMapsVector2d PluginInit/Location::latLong
 	OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540 ___latLong_0;
+};
+
+// System.Nullable`1<UnityEngine.Plane>
+struct Nullable_1_t450D8A4ABE39BE03FC49D7D0B5C19CE450F012F8 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C ___value_1;
 };
 
 // ChartAndGraph.ChartMainDivisionInfo
@@ -4478,6 +4614,25 @@ struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
 	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties_4;
 };
 
+// OnlineMapsInteractiveElementManager`2<OnlineMapsMarker3DManager,OnlineMapsMarker3D>
+struct OnlineMapsInteractiveElementManager_2_t2491FC2DFAD6D93DA2A35D062F606E55906758AD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Collections.Generic.List`1<U> OnlineMapsInteractiveElementManager`2::_items
+	List_1_tF1E0AA8AE562B14117F2E41E078DB41DB5E6CDF8* ____items_7;
+	// OnlineMaps OnlineMapsInteractiveElementManager`2::_map
+	OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* ____map_8;
+};
+
+struct OnlineMapsInteractiveElementManager_2_t2491FC2DFAD6D93DA2A35D062F606E55906758AD_StaticFields
+{
+	// System.Action`1<U> OnlineMapsInteractiveElementManager`2::OnAddItem
+	Action_1_t9684633F09B574017996A5D55E17C7DC9CEAF7F1* ___OnAddItem_4;
+	// System.Action`1<U> OnlineMapsInteractiveElementManager`2::OnRemoveItem
+	Action_1_t9684633F09B574017996A5D55E17C7DC9CEAF7F1* ___OnRemoveItem_5;
+	// T OnlineMapsInteractiveElementManager`2::_instance
+	OnlineMapsMarker3DManager_t4DDF795F8B8CC9C17C75231C2AC4DA40BE9D08BC* ____instance_6;
+};
+
 // AIDataCommunicator
 struct AIDataCommunicator_t82C477497149308E26FFEDF27B0FE4ED2FB64B65  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -4770,14 +4925,16 @@ struct FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A  : public
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CLappingSlotPrefabU3Ek__BackingField_6;
 	// OnlineMaps FocusedHistoryDisplay::_map
 	OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* ____map_7;
+	// UnityEngine.GameObject FocusedHistoryDisplay::_playerMarker
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____playerMarker_8;
 	// Doozy.Runtime.Reactor.Animators.Internal.ReactorAnimator FocusedHistoryDisplay::_animator
-	ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770* ____animator_8;
+	ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770* ____animator_9;
 	// CompiledRunDataUI FocusedHistoryDisplay::_compiledRunDataUI
-	CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E* ____compiledRunDataUI_9;
+	CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E* ____compiledRunDataUI_10;
 	// LeaderboardUIManager FocusedHistoryDisplay::_leaderboardUI
-	LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* ____leaderboardUI_10;
+	LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* ____leaderboardUI_11;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<UnityEngine.GameObject>> FocusedHistoryDisplay::_objectPool
-	Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* ____objectPool_11;
+	Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* ____objectPool_12;
 };
 
 // GraphChartFeed
@@ -5736,6 +5893,17 @@ struct testMarker_t185C207BB0346DA01255A9CEF77AC07EED1B924C  : public MonoBehavi
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Place_4;
 };
 
+// OnlineMapsMarkerManagerBase`2<OnlineMapsMarker3DManager,OnlineMapsMarker3D>
+struct OnlineMapsMarkerManagerBase_2_t0FEA3C671091E10BF453D7CCBE025D11D9F33512  : public OnlineMapsInteractiveElementManager_2_t2491FC2DFAD6D93DA2A35D062F606E55906758AD
+{
+	// System.Action`1<U> OnlineMapsMarkerManagerBase`2::OnCreateItem
+	Action_1_t9684633F09B574017996A5D55E17C7DC9CEAF7F1* ___OnCreateItem_9;
+	// OnlineMapsSavableItem[] OnlineMapsMarkerManagerBase`2::savableItems
+	OnlineMapsSavableItemU5BU5D_t3A89C9D540FA58B354CEA5C87772BA70EB509B87* ___savableItems_10;
+	// System.Single OnlineMapsMarkerManagerBase`2::defaultScale
+	float ___defaultScale_11;
+};
+
 // ChartAndGraph.AxisBase
 struct AxisBase_tD0301A8B0F0A5805E34AE6D8DFE25B2F84DD43F5  : public ChartSettingItemBase_tC6C0AB3362A491AFF4F6AB5DC7DDF74EC8F624DB
 {
@@ -6086,6 +6254,17 @@ struct OnlineMapsControlBaseDynamicMesh_tEE2268D32433DAC2140DF326E8090FB37F0F51F
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lastSizeInScene_82;
 };
 
+// OnlineMapsMarker3DManager
+struct OnlineMapsMarker3DManager_t4DDF795F8B8CC9C17C75231C2AC4DA40BE9D08BC  : public OnlineMapsMarkerManagerBase_2_t0FEA3C671091E10BF453D7CCBE025D11D9F33512
+{
+	// System.Boolean OnlineMapsMarker3DManager::allowAddMarker3DByN
+	bool ___allowAddMarker3DByN_12;
+	// UnityEngine.GameObject OnlineMapsMarker3DManager::defaultPrefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___defaultPrefab_13;
+	// UnityEngine.Transform OnlineMapsMarker3DManager::_container
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____container_14;
+};
+
 // ChartAndGraph.ScrollableAxisChart
 struct ScrollableAxisChart_tF1233B67372B55D1ADF2D6A240EC8092DB3E5C35  : public AxisChart_t2731772036A895008F462769425BB04E16623AE8
 {
@@ -6200,6 +6379,67 @@ struct ItemLabels_t2D72E17967DFF9FB6DFC16BF7967A63916AA3F3B  : public AlignedIte
 {
 	// System.Int32 ChartAndGraph.ItemLabels::fractionDigits
 	int32_t ___fractionDigits_14;
+};
+
+// OnlineMapsTileSetControl
+struct OnlineMapsTileSetControl_t33D388910283862E50117108D5432548CAB0FD6D  : public OnlineMapsControlBaseDynamicMesh_tEE2268D32433DAC2140DF326E8090FB37F0F51FD
+{
+	// System.Action`2<OnlineMapsTile,UnityEngine.Material> OnlineMapsTileSetControl::OnChangeMaterialTexture
+	Action_2_t8A40B71B9366382FDB74A43ED304619211912DA5* ___OnChangeMaterialTexture_83;
+	// System.Action`2<OnlineMapsTile,UnityEngine.Material> OnlineMapsTileSetControl::OnDrawTile
+	Action_2_t8A40B71B9366382FDB74A43ED304619211912DA5* ___OnDrawTile_84;
+	// System.Action`2<OnlineMapsTile,UnityEngine.Material> OnlineMapsTileSetControl::OnUpdateMapSubMeshLate
+	Action_2_t8A40B71B9366382FDB74A43ED304619211912DA5* ___OnUpdateMapSubMeshLate_85;
+	// OnlineMapsTileSetControl/OnlineMapsColliderType OnlineMapsTileSetControl::colliderType
+	int32_t ___colliderType_86;
+	// System.Boolean OnlineMapsTileSetControl::compressTextures
+	bool ___compressTextures_87;
+	// System.Nullable`1<UnityEngine.Plane> OnlineMapsTileSetControl::dragPlane
+	Nullable_1_t450D8A4ABE39BE03FC49D7D0B5C19CE450F012F8 ___dragPlane_88;
+	// UnityEngine.GameObject OnlineMapsTileSetControl::drawingsGameObject
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___drawingsGameObject_89;
+	// OnlineMapsTilesetDrawingMode OnlineMapsTileSetControl::drawingMode
+	int32_t ___drawingMode_90;
+	// UnityEngine.Shader OnlineMapsTileSetControl::drawingShader
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___drawingShader_91;
+	// System.Boolean OnlineMapsTileSetControl::overlayFromParentTiles
+	bool ___overlayFromParentTiles_92;
+	// UnityEngine.Material OnlineMapsTileSetControl::tileMaterial
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___tileMaterial_93;
+	// UnityEngine.Shader OnlineMapsTileSetControl::tilesetShader
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___tilesetShader_94;
+	// System.Boolean OnlineMapsTileSetControl::_mipmapForTiles
+	bool ____mipmapForTiles_95;
+	// UnityEngine.BoxCollider OnlineMapsTileSetControl::boxCollider
+	BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* ___boxCollider_96;
+	// System.Boolean OnlineMapsTileSetControl::firstUpdate
+	bool ___firstUpdate_97;
+	// UnityEngine.RaycastHit OnlineMapsTileSetControl::lastRaycastHit
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___lastRaycastHit_98;
+	// UnityEngine.MeshCollider OnlineMapsTileSetControl::meshCollider
+	MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455* ___meshCollider_99;
+	// UnityEngine.Color32[] OnlineMapsTileSetControl::overlayFrontBuffer
+	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___overlayFrontBuffer_100;
+	// UnityEngine.Mesh OnlineMapsTileSetControl::tilesetMesh
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___tilesetMesh_101;
+	// System.Int32[] OnlineMapsTileSetControl::triangles
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___triangles_102;
+	// UnityEngine.Vector2[] OnlineMapsTileSetControl::uv
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___uv_103;
+	// UnityEngine.Vector3[] OnlineMapsTileSetControl::vertices
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___vertices_104;
+	// System.Boolean OnlineMapsTileSetControl::hasTrafficProp
+	bool ___hasTrafficProp_105;
+	// System.Boolean OnlineMapsTileSetControl::hasOverlayBackProp
+	bool ___hasOverlayBackProp_106;
+	// System.Boolean OnlineMapsTileSetControl::hasOverlayBackAlphaProp
+	bool ___hasOverlayBackAlphaProp_107;
+	// System.Boolean OnlineMapsTileSetControl::hasOverlayFrontProp
+	bool ___hasOverlayFrontProp_108;
+	// System.Boolean OnlineMapsTileSetControl::hasOverlayFrontAlphaProp
+	bool ___hasOverlayFrontAlphaProp_109;
+	// OnlineMapsTileSetControl/MeshProps OnlineMapsTileSetControl::meshProps
+	MeshProps_t4896B2E9C87778032CA11481F87E5BB3B8BDA017* ___meshProps_110;
 };
 
 // UnityEngine.UI.Text
@@ -7060,6 +7300,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
 // T UnityEngine.Object::Instantiate<System.Object>(T,UnityEngine.Transform)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m872899879F710B2E55BC157F35464F03877C8DFA_gshared (RuntimeObject* ___original0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent1, const RuntimeMethod* method) ;
+// System.Void System.Nullable`1<System.Single>::.ctor(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420_gshared (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, float ___value0, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::Invoke(T)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Vector3>::.ctor(System.Int32)
@@ -8405,10 +8647,19 @@ inline Location_t9A3C49045D71AA00643D984C0406F36911826452* List_1_get_Item_m63E4
 {
 	return ((  Location_t9A3C49045D71AA00643D984C0406F36911826452* (*) (List_1_tA9277C2893AA10342CC7F1C11C06B589B54762F3*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
 }
-// System.Void OnlineMaps::set_floatZoom(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnlineMaps_set_floatZoom_m00A7DD5B8CC8D1C0A8337703C446511B2515DF8B (OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* __this, float ___value0, const RuntimeMethod* method) ;
+// System.Void System.Nullable`1<System.Single>::.ctor(T)
+inline void Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420 (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, float ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75*, float, const RuntimeMethod*))Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420_gshared)(__this, ___value0, method);
+}
+// System.Void OnlineMaps::SetPositionAndZoom(System.Double,System.Double,System.Nullable`1<System.Single>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnlineMaps_SetPositionAndZoom_mEBD4F550A46A13512B972953312C45641DF8577A (OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* __this, double ___lng0, double ___lat1, Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 ___ZOOM2, const RuntimeMethod* method) ;
 // System.Void OnlineMaps::RedrawImmediately()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnlineMaps_RedrawImmediately_mF41C1D1A5F35F7F12033770F33B068271ABFC5E5 (OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* __this, const RuntimeMethod* method) ;
+// OnlineMapsTileSetControl OnlineMapsTileSetControl::get_instance()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OnlineMapsTileSetControl_t33D388910283862E50117108D5432548CAB0FD6D* OnlineMapsTileSetControl_get_instance_mF57D27243050CEC1A263244293408737A7E6F01B (const RuntimeMethod* method) ;
+// OnlineMapsMarker3D OnlineMapsMarker3DManager::Create(System.Double,System.Double,UnityEngine.GameObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OnlineMapsMarker3D_t9E07EC34B7659E1F9939C559A77CE2B469640FE0* OnlineMapsMarker3DManager_Create_mA711D2404075A18375DFE6F32884746F29BD0792 (OnlineMapsMarker3DManager_t4DDF795F8B8CC9C17C75231C2AC4DA40BE9D08BC* __this, double ___longitude0, double ___latitude1, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefab2, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1<LeaderboardSlot> LeaderboardUIManager::get_Slots()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF1E88D0D329B33A294E68B3EF3560818892E5F7B* LeaderboardUIManager_get_Slots_mBC7FD9698AD3EA4FC2695A986B28D1C9147589C3_inline (LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<LeaderboardSlot>::get_Count()
@@ -23810,15 +24061,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusedHistoryDisplay_Awake_m0814D2486AE
 	}
 	{
 		// TryGetComponent(out _compiledRunDataUI);
-		CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E** L_0 = (&__this->____compiledRunDataUI_9);
+		CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E** L_0 = (&__this->____compiledRunDataUI_10);
 		bool L_1;
 		L_1 = Component_TryGetComponent_TisCompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E_m45F2D7709A79F0101F0C2E6890481546A3C5FA55(__this, L_0, Component_TryGetComponent_TisCompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E_m45F2D7709A79F0101F0C2E6890481546A3C5FA55_RuntimeMethod_var);
 		// TryGetComponent(out _animator);
-		ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770** L_2 = (&__this->____animator_8);
+		ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770** L_2 = (&__this->____animator_9);
 		bool L_3;
 		L_3 = Component_TryGetComponent_TisReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770_m0D419EED9208BF814DABE5CAD1B5AB7FDEB553D7(__this, L_2, Component_TryGetComponent_TisReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770_m0D419EED9208BF814DABE5CAD1B5AB7FDEB553D7_RuntimeMethod_var);
 		// TryGetComponent(out _leaderboardUI);
-		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0** L_4 = (&__this->____leaderboardUI_10);
+		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0** L_4 = (&__this->____leaderboardUI_11);
 		bool L_5;
 		L_5 = Component_TryGetComponent_TisLeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0_m868A2DD6CDDBF4A0EDC8141DFBF500CBD563B3AC(__this, L_4, Component_TryGetComponent_TisLeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0_m868A2DD6CDDBF4A0EDC8141DFBF500CBD563B3AC_RuntimeMethod_var);
 		// }
@@ -23880,7 +24131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusedHistoryDisplay_CreatePool_m48DF31
 IL_0004:
 	{
 		// if (!_objectPool.ContainsKey(objectToPool.name)) _objectPool.Add(objectToPool.name, new List<GameObject>());
-		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_0 = __this->____objectPool_11;
+		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_0 = __this->____objectPool_12;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___objectToPool0;
 		NullCheck(L_1);
 		String_t* L_2;
@@ -23895,7 +24146,7 @@ IL_0004:
 	}
 	{
 		// if (!_objectPool.ContainsKey(objectToPool.name)) _objectPool.Add(objectToPool.name, new List<GameObject>());
-		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_4 = __this->____objectPool_11;
+		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_4 = __this->____objectPool_12;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = ___objectToPool0;
 		NullCheck(L_5);
 		String_t* L_6;
@@ -23918,7 +24169,7 @@ IL_002d:
 		L_10 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934(L_8, L_9, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m002192C406088F7BA156339AAA9B1BB5D69BE934_RuntimeMethod_var);
 		V_1 = L_10;
 		// _objectPool[objectToPool.name].Add(spawnedObject);
-		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_11 = __this->____objectPool_11;
+		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_11 = __this->____objectPool_12;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = ___objectToPool0;
 		NullCheck(L_12);
 		String_t* L_13;
@@ -23976,7 +24227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 IL_0006:
 	{
 		// if (_objectPool[objectToGet.name][i].activeSelf == false)
-		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_0 = __this->____objectPool_11;
+		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_0 = __this->____objectPool_12;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___objectToGet0;
 		NullCheck(L_1);
 		String_t* L_2;
@@ -23998,7 +24249,7 @@ IL_0006:
 	}
 	{
 		// objectToReturn = _objectPool[objectToGet.name][i];
-		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_7 = __this->____objectPool_11;
+		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_7 = __this->____objectPool_12;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___objectToGet0;
 		NullCheck(L_8);
 		String_t* L_9;
@@ -24024,7 +24275,7 @@ IL_0040:
 	{
 		// for (int i = 0; i < _objectPool[objectToGet.name].Count; i++)
 		int32_t L_14 = V_1;
-		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_15 = __this->____objectPool_11;
+		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_15 = __this->____objectPool_12;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = ___objectToGet0;
 		NullCheck(L_16);
 		String_t* L_17;
@@ -24075,25 +24326,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusedHistoryDisplay_SetData_m980BD8A25
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m63E444009798031803B5BCEA2E818B3C3A35BFD4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
+	double V_0 = 0.0;
+	double V_1 = 0.0;
+	int32_t V_2 = 0;
 	{
 		// _leaderboardUI.CreateLeaderboard(data,this);
-		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_0 = __this->____leaderboardUI_10;
+		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_0 = __this->____leaderboardUI_11;
 		FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865* L_1 = ___data0;
 		NullCheck(L_0);
 		LeaderboardUIManager_CreateLeaderboard_mBC2C471CAF2B186643E5B380B52FF34EF71469BB(L_0, L_1, __this, NULL);
 		// _compiledRunDataUI.SetDatas(data.PlayerData);
-		CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E* L_2 = __this->____compiledRunDataUI_9;
+		CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E* L_2 = __this->____compiledRunDataUI_10;
 		FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865* L_3 = ___data0;
 		NullCheck(L_3);
 		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_4 = L_3->___PlayerData_0;
 		NullCheck(L_2);
 		CompiledRunDataUI_SetDatas_m6FA2FAD98BEC51FAF46FD2A1F076CF13BB83A47C(L_2, L_4, NULL);
 		// for (int i = 0; i < data.PlayerData.LapTimings.Count; i++)
-		V_0 = 0;
+		V_2 = 0;
 		goto IL_005f;
 	}
 
@@ -24106,7 +24360,7 @@ IL_0022:
 		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_7 = L_6->___PlayerData_0;
 		NullCheck(L_7);
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_8 = L_7->___LapDistance_16;
-		int32_t L_9 = V_0;
+		int32_t L_9 = V_2;
 		NullCheck(L_8);
 		float L_10;
 		L_10 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_8, L_9, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
@@ -24115,7 +24369,7 @@ IL_0022:
 		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_12 = L_11->___PlayerData_0;
 		NullCheck(L_12);
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_13 = L_12->___LapTimings_17;
-		int32_t L_14 = V_0;
+		int32_t L_14 = V_2;
 		NullCheck(L_13);
 		float L_15;
 		L_15 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_13, L_14, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
@@ -24126,14 +24380,14 @@ IL_0022:
 		NullCheck(L_5);
 		LappingDisplay_MakeLapSlot_mD07B68D0763BB0F0D8535796F14DE2D2F8E19FDD(L_5, L_10, L_15, L_17, NULL);
 		// for (int i = 0; i < data.PlayerData.LapTimings.Count; i++)
-		int32_t L_18 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+		int32_t L_18 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_18, 1));
 	}
 
 IL_005f:
 	{
 		// for (int i = 0; i < data.PlayerData.LapTimings.Count; i++)
-		int32_t L_19 = V_0;
+		int32_t L_19 = V_2;
 		FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865* L_20 = ___data0;
 		NullCheck(L_20);
 		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_21 = L_20->___PlayerData_0;
@@ -24149,7 +24403,7 @@ IL_005f:
 	}
 	{
 		// _animator.Play();
-		ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770* L_24 = __this->____animator_8;
+		ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770* L_24 = __this->____animator_9;
 		NullCheck(L_24);
 		VirtualActionInvoker1< bool >::Invoke(19 /* System.Void Doozy.Runtime.Reactor.Animators.Internal.ReactorAnimator::Play(System.Boolean) */, L_24, (bool)0);
 		// if (_map == null) return;
@@ -24169,23 +24423,27 @@ IL_005f:
 
 IL_008d:
 	{
-		// _map.latitude = data.PlayerData.locationData[0].latLong.x;
+		// _map.gameObject.SetActive(true);
 		OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* L_27 = __this->____map_7;
-		FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865* L_28 = ___data0;
-		NullCheck(L_28);
-		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_29 = L_28->___PlayerData_0;
-		NullCheck(L_29);
-		List_1_tA9277C2893AA10342CC7F1C11C06B589B54762F3* L_30 = L_29->___locationData_1;
-		NullCheck(L_30);
-		Location_t9A3C49045D71AA00643D984C0406F36911826452* L_31;
-		L_31 = List_1_get_Item_m63E444009798031803B5BCEA2E818B3C3A35BFD4(L_30, 0, List_1_get_Item_m63E444009798031803B5BCEA2E818B3C3A35BFD4_RuntimeMethod_var);
-		NullCheck(L_31);
-		OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540* L_32 = (&L_31->___latLong_0);
-		double L_33 = L_32->___x_0;
 		NullCheck(L_27);
-		L_27->___latitude_64 = L_33;
-		// _map.longitude = data.PlayerData.locationData[0].latLong.y;
-		OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* L_34 = __this->____map_7;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28;
+		L_28 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_27, NULL);
+		NullCheck(L_28);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)1, NULL);
+		// var lat = data.PlayerData.locationData[0].latLong.x;
+		FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865* L_29 = ___data0;
+		NullCheck(L_29);
+		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_30 = L_29->___PlayerData_0;
+		NullCheck(L_30);
+		List_1_tA9277C2893AA10342CC7F1C11C06B589B54762F3* L_31 = L_30->___locationData_1;
+		NullCheck(L_31);
+		Location_t9A3C49045D71AA00643D984C0406F36911826452* L_32;
+		L_32 = List_1_get_Item_m63E444009798031803B5BCEA2E818B3C3A35BFD4(L_31, 0, List_1_get_Item_m63E444009798031803B5BCEA2E818B3C3A35BFD4_RuntimeMethod_var);
+		NullCheck(L_32);
+		OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540* L_33 = (&L_32->___latLong_0);
+		double L_34 = L_33->___x_0;
+		V_0 = L_34;
+		// var longitude = data.PlayerData.locationData[0].latLong.y;
 		FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865* L_35 = ___data0;
 		NullCheck(L_35);
 		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_36 = L_35->___PlayerData_0;
@@ -24197,23 +24455,31 @@ IL_008d:
 		NullCheck(L_38);
 		OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540* L_39 = (&L_38->___latLong_0);
 		double L_40 = L_39->___y_1;
-		NullCheck(L_34);
-		L_34->___longitude_65 = L_40;
-		// _map.floatZoom = 18.56f;
+		V_1 = L_40;
+		// _map.SetPositionAndZoom(longitude,lat, 18.56f);
 		OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* L_41 = __this->____map_7;
+		double L_42 = V_1;
+		double L_43 = V_0;
+		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_44;
+		memset((&L_44), 0, sizeof(L_44));
+		Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420((&L_44), (18.5599995f), /*hidden argument*/Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420_RuntimeMethod_var);
 		NullCheck(L_41);
-		OnlineMaps_set_floatZoom_m00A7DD5B8CC8D1C0A8337703C446511B2515DF8B(L_41, (18.5599995f), NULL);
-		// _map.gameObject.SetActive(true);
-		OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* L_42 = __this->____map_7;
-		NullCheck(L_42);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43;
-		L_43 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_42, NULL);
-		NullCheck(L_43);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_43, (bool)1, NULL);
+		OnlineMaps_SetPositionAndZoom_mEBD4F550A46A13512B972953312C45641DF8577A(L_41, L_42, L_43, L_44, NULL);
 		// _map.RedrawImmediately();
-		OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* L_44 = __this->____map_7;
-		NullCheck(L_44);
-		OnlineMaps_RedrawImmediately_mF41C1D1A5F35F7F12033770F33B068271ABFC5E5(L_44, NULL);
+		OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* L_45 = __this->____map_7;
+		NullCheck(L_45);
+		OnlineMaps_RedrawImmediately_mF41C1D1A5F35F7F12033770F33B068271ABFC5E5(L_45, NULL);
+		// OnlineMapsTileSetControl.instance.marker3DManager.Create(longitude, lat, _playerMarker);
+		OnlineMapsTileSetControl_t33D388910283862E50117108D5432548CAB0FD6D* L_46;
+		L_46 = OnlineMapsTileSetControl_get_instance_mF57D27243050CEC1A263244293408737A7E6F01B(NULL);
+		NullCheck(L_46);
+		OnlineMapsMarker3DManager_t4DDF795F8B8CC9C17C75231C2AC4DA40BE9D08BC* L_47 = ((OnlineMapsControlBase3D_tBB315C01DFC0BCE3840ABA3C93337E053ECBF3D5*)L_46)->___marker3DManager_67;
+		double L_48 = V_1;
+		double L_49 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50 = __this->____playerMarker_8;
+		NullCheck(L_47);
+		OnlineMapsMarker3D_t9E07EC34B7659E1F9939C559A77CE2B469640FE0* L_51;
+		L_51 = OnlineMapsMarker3DManager_Create_mA711D2404075A18375DFE6F32884746F29BD0792(L_47, L_48, L_49, L_50, NULL);
 		// }
 		return;
 	}
@@ -24234,7 +24500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusedHistoryDisplay_ClearData_m852A724
 	int32_t V_1 = 0;
 	{
 		// if (_leaderboardUI.Slots.Count <= 0) return;
-		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_0 = __this->____leaderboardUI_10;
+		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_0 = __this->____leaderboardUI_11;
 		NullCheck(L_0);
 		List_1_tF1E88D0D329B33A294E68B3EF3560818892E5F7B* L_1;
 		L_1 = LeaderboardUIManager_get_Slots_mBC7FD9698AD3EA4FC2695A986B28D1C9147589C3_inline(L_0, NULL);
@@ -24261,7 +24527,7 @@ IL_0014:
 IL_0018:
 	{
 		// _leaderboardUI.Slots[i].gameObject.name = LeaderboardSlotPrefab.name;
-		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_3 = __this->____leaderboardUI_10;
+		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_3 = __this->____leaderboardUI_11;
 		NullCheck(L_3);
 		List_1_tF1E88D0D329B33A294E68B3EF3560818892E5F7B* L_4;
 		L_4 = LeaderboardUIManager_get_Slots_mBC7FD9698AD3EA4FC2695A986B28D1C9147589C3_inline(L_3, NULL);
@@ -24280,7 +24546,7 @@ IL_0018:
 		NullCheck(L_7);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_7, L_9, NULL);
 		// _leaderboardUI.Slots[i].transform.SetParent(transform);
-		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_10 = __this->____leaderboardUI_10;
+		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_10 = __this->____leaderboardUI_11;
 		NullCheck(L_10);
 		List_1_tF1E88D0D329B33A294E68B3EF3560818892E5F7B* L_11;
 		L_11 = LeaderboardUIManager_get_Slots_mBC7FD9698AD3EA4FC2695A986B28D1C9147589C3_inline(L_10, NULL);
@@ -24296,7 +24562,7 @@ IL_0018:
 		NullCheck(L_14);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_14, L_15, NULL);
 		// _leaderboardUI.Slots[i].gameObject.SetActive(false);
-		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_16 = __this->____leaderboardUI_10;
+		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_16 = __this->____leaderboardUI_11;
 		NullCheck(L_16);
 		List_1_tF1E88D0D329B33A294E68B3EF3560818892E5F7B* L_17;
 		L_17 = LeaderboardUIManager_get_Slots_mBC7FD9698AD3EA4FC2695A986B28D1C9147589C3_inline(L_16, NULL);
@@ -24318,7 +24584,7 @@ IL_007f:
 	{
 		// for (int i = 0; i < _leaderboardUI.Slots.Count; i++)
 		int32_t L_22 = V_0;
-		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_23 = __this->____leaderboardUI_10;
+		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_23 = __this->____leaderboardUI_11;
 		NullCheck(L_23);
 		List_1_tF1E88D0D329B33A294E68B3EF3560818892E5F7B* L_24;
 		L_24 = LeaderboardUIManager_get_Slots_mBC7FD9698AD3EA4FC2695A986B28D1C9147589C3_inline(L_23, NULL);
@@ -24332,7 +24598,7 @@ IL_007f:
 	}
 	{
 		// _leaderboardUI.Slots.Clear();
-		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_26 = __this->____leaderboardUI_10;
+		LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* L_26 = __this->____leaderboardUI_11;
 		NullCheck(L_26);
 		List_1_tF1E88D0D329B33A294E68B3EF3560818892E5F7B* L_27;
 		L_27 = LeaderboardUIManager_get_Slots_mBC7FD9698AD3EA4FC2695A986B28D1C9147589C3_inline(L_26, NULL);
@@ -24463,8 +24729,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FocusedHistoryDisplay__ctor_m3932D77EA73
 		Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* L_0 = (Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84*)il2cpp_codegen_object_new(Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		Dictionary_2__ctor_mC3BBDDAFE2FBCB7710787DE56899D4E6BCD9C0A2(L_0, Dictionary_2__ctor_mC3BBDDAFE2FBCB7710787DE56899D4E6BCD9C0A2_RuntimeMethod_var);
-		__this->____objectPool_11 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____objectPool_11), (void*)L_0);
+		__this->____objectPool_12 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____objectPool_12), (void*)L_0);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}

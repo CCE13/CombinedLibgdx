@@ -5966,14 +5966,16 @@ struct FocusedHistoryDisplay_tB82298D3AD07FCB640A7EB3417638096AADB6E1A  : public
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CLappingSlotPrefabU3Ek__BackingField_6;
 	// OnlineMaps FocusedHistoryDisplay::_map
 	OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* ____map_7;
+	// UnityEngine.GameObject FocusedHistoryDisplay::_playerMarker
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____playerMarker_8;
 	// Doozy.Runtime.Reactor.Animators.Internal.ReactorAnimator FocusedHistoryDisplay::_animator
-	ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770* ____animator_8;
+	ReactorAnimator_tD9A992D32B500EE3D121FC002D9C6466A99B3770* ____animator_9;
 	// CompiledRunDataUI FocusedHistoryDisplay::_compiledRunDataUI
-	CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E* ____compiledRunDataUI_9;
+	CompiledRunDataUI_tB21E76FB16215D9A6A2ED058C53E4F59DA6E467E* ____compiledRunDataUI_10;
 	// LeaderboardUIManager FocusedHistoryDisplay::_leaderboardUI
-	LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* ____leaderboardUI_10;
+	LeaderboardUIManager_tFEF7FD0932CFBD81241537EAB18A16677C421CB0* ____leaderboardUI_11;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<UnityEngine.GameObject>> FocusedHistoryDisplay::_objectPool
-	Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* ____objectPool_11;
+	Dictionary_2_t26D5965FC9C07EF9DA22ADFD28E0A82DDF6E5D84* ____objectPool_12;
 };
 
 // GameplayUI

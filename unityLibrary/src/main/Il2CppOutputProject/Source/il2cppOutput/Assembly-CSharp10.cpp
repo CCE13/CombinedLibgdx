@@ -8740,8 +8740,8 @@ inline void List_1__ctor_m6D6A31CE53F9A8B2DD563DCF31B98E98C7B563EA (List_1_t0231
 {
 	((  void (*) (List_1_t02310595B770E2DBCB20352D53C7B6474110B56E*, int32_t, const RuntimeMethod*))List_1__ctor_m6D6A31CE53F9A8B2DD563DCF31B98E98C7B563EA_gshared)(__this, ___capacity0, method);
 }
-// UnityEngine.Color UnityEngine.Color::get_gray()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_gray_mC62F535A52768B992F144E443D201F749C5DE932_inline (const RuntimeMethod* method) ;
+// UnityEngine.Color UnityEngine.Color::get_white()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_inline (const RuntimeMethod* method) ;
 // System.Void OnlineMapsDrawingLine::.ctor(System.Collections.IEnumerable,UnityEngine.Color,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnlineMapsDrawingLine__ctor_mBB79E4B1DFBCBE4E056EEDE15DF8AAC5411C3AFE (OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* __this, RuntimeObject* ___points0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color1, float ___width2, const RuntimeMethod* method) ;
 // OnlineMapsDrawingElementManager InfinityCode.OnlineMapsDemos.NavigationRouteDrawer::get_drawingElementManager()
@@ -12891,10 +12891,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationRouteDrawer_InitCoveredPoints_
 		List_1__ctor_m6D6A31CE53F9A8B2DD563DCF31B98E98C7B563EA(L_2, L_1, List_1__ctor_m6D6A31CE53F9A8B2DD563DCF31B98E98C7B563EA_RuntimeMethod_var);
 		__this->___coveredPoints_6 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___coveredPoints_6), (void*)L_2);
-		// coveredLine = new OnlineMapsDrawingLine(coveredPoints, Color.gray, 3);
+		// coveredLine = new OnlineMapsDrawingLine(coveredPoints, Color.white, 3);
 		List_1_t02310595B770E2DBCB20352D53C7B6474110B56E* L_3 = __this->___coveredPoints_6;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
-		L_4 = Color_get_gray_mC62F535A52768B992F144E443D201F749C5DE932_inline(NULL);
+		L_4 = Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_inline(NULL);
 		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_5 = (OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9*)il2cpp_codegen_object_new(OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9_il2cpp_TypeInfo_var);
 		NullCheck(L_5);
 		OnlineMapsDrawingLine__ctor_mBB79E4B1DFBCBE4E056EEDE15DF8AAC5411C3AFE(L_5, L_3, L_4, (3.0f), NULL);
@@ -12950,44 +12950,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationRouteDrawer_SetRemainPoints_mF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// remainPoints = points;
-		List_1_t02310595B770E2DBCB20352D53C7B6474110B56E* L_0 = ___points0;
-		__this->___remainPoints_5 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___remainPoints_5), (void*)L_0);
 		// if (routeLine == null)
-		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_1 = __this->___routeLine_7;
-		if (L_1)
+		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_0 = __this->___routeLine_7;
+		if (L_0)
 		{
-			goto IL_003d;
+			goto IL_0036;
 		}
 	}
 	{
 		// routeLine = new OnlineMapsDrawingLine(remainPoints, Color.green, 3);
-		List_1_t02310595B770E2DBCB20352D53C7B6474110B56E* L_2 = __this->___remainPoints_5;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
-		L_3 = Color_get_green_m336EB73DD4A5B11B7F405CF4BC7F37A466FB4FF7_inline(NULL);
-		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_4 = (OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9*)il2cpp_codegen_object_new(OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9_il2cpp_TypeInfo_var);
-		NullCheck(L_4);
-		OnlineMapsDrawingLine__ctor_mBB79E4B1DFBCBE4E056EEDE15DF8AAC5411C3AFE(L_4, L_2, L_3, (3.0f), NULL);
-		__this->___routeLine_7 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___routeLine_7), (void*)L_4);
+		List_1_t02310595B770E2DBCB20352D53C7B6474110B56E* L_1 = __this->___remainPoints_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
+		L_2 = Color_get_green_m336EB73DD4A5B11B7F405CF4BC7F37A466FB4FF7_inline(NULL);
+		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_3 = (OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9*)il2cpp_codegen_object_new(OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		OnlineMapsDrawingLine__ctor_mBB79E4B1DFBCBE4E056EEDE15DF8AAC5411C3AFE(L_3, L_1, L_2, (3.0f), NULL);
+		__this->___routeLine_7 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___routeLine_7), (void*)L_3);
 		// drawingElementManager.Add(routeLine);
-		OnlineMapsDrawingElementManager_tD050036EDF445115B66D6AADBE958D98FC925FDF* L_5;
-		L_5 = NavigationRouteDrawer_get_drawingElementManager_m585B3F17A3ED236C5AC613C7837B7D790ED4EAF9(__this, NULL);
-		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_6 = __this->___routeLine_7;
-		NullCheck(L_5);
-		OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735* L_7;
-		L_7 = OnlineMapsInteractiveElementManager_2_Add_mDE6A7567E8C5D00D9F84E258F72C043843DA289C(L_5, L_6, OnlineMapsInteractiveElementManager_2_Add_mDE6A7567E8C5D00D9F84E258F72C043843DA289C_RuntimeMethod_var);
+		OnlineMapsDrawingElementManager_tD050036EDF445115B66D6AADBE958D98FC925FDF* L_4;
+		L_4 = NavigationRouteDrawer_get_drawingElementManager_m585B3F17A3ED236C5AC613C7837B7D790ED4EAF9(__this, NULL);
+		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_5 = __this->___routeLine_7;
+		NullCheck(L_4);
+		OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735* L_6;
+		L_6 = OnlineMapsInteractiveElementManager_2_Add_mDE6A7567E8C5D00D9F84E258F72C043843DA289C(L_4, L_5, OnlineMapsInteractiveElementManager_2_Add_mDE6A7567E8C5D00D9F84E258F72C043843DA289C_RuntimeMethod_var);
 		return;
 	}
 
-IL_003d:
+IL_0036:
 	{
 		// else routeLine.points = remainPoints;
-		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_8 = __this->___routeLine_7;
-		List_1_t02310595B770E2DBCB20352D53C7B6474110B56E* L_9 = __this->___remainPoints_5;
-		NullCheck(L_8);
-		OnlineMapsDrawingLine_set_points_m5A48C54E5392B1122D006709F315C38E516EB027(L_8, L_9, NULL);
+		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_7 = __this->___routeLine_7;
+		List_1_t02310595B770E2DBCB20352D53C7B6474110B56E* L_8 = __this->___remainPoints_5;
+		NullCheck(L_7);
+		OnlineMapsDrawingLine_set_points_m5A48C54E5392B1122D006709F315C38E516EB027(L_7, L_8, NULL);
+		// }
+		return;
+	}
+}
+// System.Void InfinityCode.OnlineMapsDemos.NavigationRouteDrawer::Test()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationRouteDrawer_Test_m2E775A0C9EC1865C5C72D9F98511C43859566B5C (NavigationRouteDrawer_tE01B6A73D8DFC0BC160167C23B1137DF25C89422* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnlineMapsInteractiveElementManager_2_Add_mDE6A7567E8C5D00D9F84E258F72C043843DA289C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (routeLine == null)
+		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_0 = __this->___routeLine_7;
+		if (L_0)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		// routeLine = new OnlineMapsDrawingLine(remainPoints, Color.green, 3);
+		List_1_t02310595B770E2DBCB20352D53C7B6474110B56E* L_1 = __this->___remainPoints_5;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
+		L_2 = Color_get_green_m336EB73DD4A5B11B7F405CF4BC7F37A466FB4FF7_inline(NULL);
+		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_3 = (OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9*)il2cpp_codegen_object_new(OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		OnlineMapsDrawingLine__ctor_mBB79E4B1DFBCBE4E056EEDE15DF8AAC5411C3AFE(L_3, L_1, L_2, (3.0f), NULL);
+		__this->___routeLine_7 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___routeLine_7), (void*)L_3);
+		// drawingElementManager.Add(routeLine);
+		OnlineMapsDrawingElementManager_tD050036EDF445115B66D6AADBE958D98FC925FDF* L_4;
+		L_4 = NavigationRouteDrawer_get_drawingElementManager_m585B3F17A3ED236C5AC613C7837B7D790ED4EAF9(__this, NULL);
+		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_5 = __this->___routeLine_7;
+		NullCheck(L_4);
+		OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735* L_6;
+		L_6 = OnlineMapsInteractiveElementManager_2_Add_mDE6A7567E8C5D00D9F84E258F72C043843DA289C(L_4, L_5, OnlineMapsInteractiveElementManager_2_Add_mDE6A7567E8C5D00D9F84E258F72C043843DA289C_RuntimeMethod_var);
+		return;
+	}
+
+IL_0036:
+	{
+		// else routeLine.points = remainPoints;
+		OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* L_7 = __this->___routeLine_7;
+		List_1_t02310595B770E2DBCB20352D53C7B6474110B56E* L_8 = __this->___remainPoints_5;
+		NullCheck(L_7);
+		OnlineMapsDrawingLine_set_points_m5A48C54E5392B1122D006709F315C38E516EB027(L_7, L_8, NULL);
 		// }
 		return;
 	}
@@ -28881,14 +28926,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Navigation_set_coveredDurati
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_gray_mC62F535A52768B992F144E443D201F749C5DE932_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m28BB6E19F27D4EE6858D3021A44F62BC74E20C43_inline (const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		memset((&L_0), 0, sizeof(L_0));
-		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.5f), (0.5f), (0.5f), (1.0f), /*hidden argument*/NULL);
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
 		V_0 = L_0;
 		goto IL_001d;
 	}
