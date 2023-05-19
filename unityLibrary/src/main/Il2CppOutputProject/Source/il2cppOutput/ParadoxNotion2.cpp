@@ -10669,7 +10669,7 @@ IL_0035:
 		Type_t* L_18 = ___reflectedType1;
 		NullCheck(L_18);
 		Type_t* L_19;
-		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(113 /* System.Type System.Type::get_BaseType() */, L_18);
+		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(114 /* System.Type System.Type::get_BaseType() */, L_18);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_20;
 		L_20 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_19, (Type_t*)NULL, NULL);
@@ -10684,7 +10684,7 @@ IL_0035:
 		Type_t* L_22 = ___reflectedType1;
 		NullCheck(L_22);
 		Type_t* L_23;
-		L_23 = VirtualFuncInvoker0< Type_t* >::Invoke(113 /* System.Type System.Type::get_BaseType() */, L_22);
+		L_23 = VirtualFuncInvoker0< Type_t* >::Invoke(114 /* System.Type System.Type::get_BaseType() */, L_22);
 		il2cpp_codegen_runtime_class_init_inline(fsMetaType_tAD3AD51319D067740165C015FA9FD964DB7F8FBD_il2cpp_TypeInfo_var);
 		fsMetaType_CollectProperties_m3BE2E1458A31B54B476E94F846047B6DB8BC336E(L_21, L_23, NULL);
 	}
@@ -15022,7 +15022,7 @@ IL_0108:
 		L_58 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(52 /* System.Type[] System.Type::GetGenericArguments() */, L_57);
 		NullCheck(L_56);
 		Type_t* L_59;
-		L_59 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(124 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_56, L_58);
+		L_59 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(125 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_56, L_58);
 		V_8 = L_59;
 		goto IL_0142;
 	}
@@ -15787,7 +15787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_TryDeserializeMigration_mBF
 		L_14 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(52 /* System.Type[] System.Type::GetGenericArguments() */, L_13);
 		NullCheck(L_12);
 		Type_t* L_15;
-		L_15 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(124 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_12, L_14);
+		L_15 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(125 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_12, L_14);
 		___previousType2 = L_15;
 	}
 
@@ -15810,10 +15810,10 @@ IL_003e:
 		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_21);
 		NullCheck(L_18);
 		Type_t* L_22;
-		L_22 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(124 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_18, L_20);
+		L_22 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(125 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_18, L_20);
 		NullCheck(L_16);
 		InterfaceMapping_t4818CA9DD146752FBC643AD050582979B632D879 L_23;
-		L_23 = VirtualFuncInvoker1< InterfaceMapping_t4818CA9DD146752FBC643AD050582979B632D879, Type_t* >::Invoke(116 /* System.Reflection.InterfaceMapping System.Type::GetInterfaceMap(System.Type) */, L_16, L_22);
+		L_23 = VirtualFuncInvoker1< InterfaceMapping_t4818CA9DD146752FBC643AD050582979B632D879, Type_t* >::Invoke(117 /* System.Reflection.InterfaceMapping System.Type::GetInterfaceMap(System.Type) */, L_16, L_22);
 		V_1 = L_23;
 		// try { interfaceMap = instanceType.GetInterfaceMap(typeof(IMigratable<>).MakeGenericType(previousType)); }
 		goto IL_007a;
@@ -16815,7 +16815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_t85378B9CFBF6927E0F58617C03432EEF4B8
 		// IDictionaryEnumerator enumerator = instance.GetEnumerator();
 		NullCheck(L_15);
 		RuntimeObject* L_18;
-		L_18 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(6 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_15);
+		L_18 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(7 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_15);
 		V_6 = L_18;
 		goto IL_00ba;
 	}
@@ -17160,7 +17160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_t85378B9CFBF6927E0F58617C03432EEF4B8
 		// instance.Clear();
 		RuntimeObject* L_11 = V_0;
 		NullCheck(L_11);
-		InterfaceActionInvoker0::Invoke(5 /* System.Void System.Collections.IDictionary::Clear() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_11);
+		InterfaceActionInvoker0::Invoke(6 /* System.Void System.Collections.IDictionary::Clear() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_11);
 		// if ( data.IsDictionary ) {
 		fsData_t0D9C403CA222F8A5CB8A66578340497D65E47FF0* L_12 = ___data0;
 		NullCheck(L_12);
@@ -17295,7 +17295,7 @@ IL_00cd_1:
 				RuntimeObject* L_42 = V_8;
 				RuntimeObject* L_43 = V_9;
 				NullCheck(L_41);
-				InterfaceActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(4 /* System.Void System.Collections.IDictionary::Add(System.Object,System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_41, L_42, L_43);
+				InterfaceActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(5 /* System.Void System.Collections.IDictionary::Add(System.Object,System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_41, L_42, L_43);
 			}
 
 IL_00d7_1:
@@ -17503,7 +17503,7 @@ IL_01d1:
 		RuntimeObject* L_93 = V_17;
 		RuntimeObject* L_94 = V_18;
 		NullCheck(L_92);
-		InterfaceActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(4 /* System.Void System.Collections.IDictionary::Add(System.Object,System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_92, L_93, L_94);
+		InterfaceActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(5 /* System.Void System.Collections.IDictionary::Add(System.Object,System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_92, L_93, L_94);
 		// for ( int i = 0; i < list.Count; ++i ) {
 		int32_t L_95 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_95, 1));

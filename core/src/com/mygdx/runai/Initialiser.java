@@ -9,4 +9,8 @@ public class Initialiser extends ApplicationAdapter
     {
         System.out.print("I HAVE INITIALIESE LOLOL");
     }
+
+    public void TestRun(){
+        System.out.println("Hello from initialiser");
+    }
 }

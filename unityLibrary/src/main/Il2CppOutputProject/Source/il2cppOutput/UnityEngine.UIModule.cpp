@@ -651,9 +651,9 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 struct Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C 
 {
 	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal_0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal_1;
 	// System.Single UnityEngine.Plane::m_Distance
-	float ___m_Distance_1;
+	float ___m_Distance_2;
 };
 
 // UnityEngine.Ray
@@ -1356,6 +1356,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_Clear_m496D522F1DBD103741
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (CanvasRenderer_Clear_m496D522F1DBD1037417E470CF2D4D9FD22F68E81_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CanvasRenderer::Clear()");
 	_il2cpp_icall_func(__this);
+}
+// System.Single UnityEngine.CanvasRenderer::GetAlpha()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CanvasRenderer_GetAlpha_m19845F19FF0A2DA9EEE8F97474E3B85D295C4F05 (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		L_0 = CanvasRenderer_GetColor_m16A530AA6D0A6ACB5A6C1DDCC17D259DA856EC70(__this, NULL);
+		float L_1 = L_0.___a_3;
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
 }
 // System.Void UnityEngine.CanvasRenderer::SetAlpha(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetAlpha_m97E196A1CC718DE16300954D25B4125952D7632C (CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* __this, float ___alpha0, const RuntimeMethod* method) 

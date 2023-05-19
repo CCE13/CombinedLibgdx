@@ -15,6 +15,7 @@ public class BackgroundThread extends Thread implements Runnable{
         while (running) {
             // Add your code here
             System.out.println("Thread is running...");
+            game.TestRun();
 
             try {
                 // Add a delay to reduce CPU usage

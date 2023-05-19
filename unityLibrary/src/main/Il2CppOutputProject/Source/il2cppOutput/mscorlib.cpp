@@ -4356,6 +4356,9 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_LChflagsCanSetHiddenFlag();
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_MkDir(char*, int32_t);
 #endif
 #if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_RmDir(char*);
+#endif
+#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_System_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL SystemNative_Unlink(char*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_System_INTERNAL
@@ -5477,6 +5480,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sys_MkDir_m02E3569F2B74205D1C246755C6
 
 	// Native function invocation
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(SystemNative_MkDir)(____path0_marshaled, ___mode1);
+	il2cpp_codegen_marshal_store_last_error();
+
+	// Marshaling cleanup of parameter '___path0' native representation
+	il2cpp_codegen_marshal_free(____path0_marshaled);
+	____path0_marshaled = NULL;
+
+	return returnValue;
+}
+// System.Int32 Interop/Sys::RmDir(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sys_RmDir_m8842822E35742BC95BE189F461891D929F48040E (String_t* ___path0, const RuntimeMethod* method) 
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___path0' to native representation
+	char* ____path0_marshaled = NULL;
+	____path0_marshaled = il2cpp_codegen_marshal_string(___path0);
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(SystemNative_RmDir)(____path0_marshaled);
 	il2cpp_codegen_marshal_store_last_error();
 
 	// Marshaling cleanup of parameter '___path0' native representation

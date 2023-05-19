@@ -24,6 +24,8 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Cinemachine_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_DoozyRuntime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GraphAndChart_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_LeTai_TrueShadow_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_LeTai_TrueShadow_Demo_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_NodeCanvas_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_ParadoxNotion_CodeGenModule;
@@ -54,6 +56,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpriteMaskModule_CodeGen
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpriteShapeModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreFontEngineModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreTextEngineModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule;
@@ -68,13 +71,14 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_XRModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_2D_PixelPerfect_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_InputSystem_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Postprocessing_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_RenderPipelines_Core_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshPro_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Timeline_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[55] = 
+const Il2CppCodeGenModule* g_CodeGenModules[59] = 
 {
 	(&g_AdvancedPeopleSystem2_CodeGenModule),
 	(&g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule),
@@ -82,6 +86,8 @@ const Il2CppCodeGenModule* g_CodeGenModules[55] =
 	(&g_Cinemachine_CodeGenModule),
 	(&g_DoozyRuntime_CodeGenModule),
 	(&g_GraphAndChart_CodeGenModule),
+	(&g_LeTai_TrueShadow_CodeGenModule),
+	(&g_LeTai_TrueShadow_Demo_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
 	(&g_NodeCanvas_CodeGenModule),
 	(&g_ParadoxNotion_CodeGenModule),
@@ -112,6 +118,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[55] =
 	(&g_UnityEngine_SpriteShapeModule_CodeGenModule),
 	(&g_UnityEngine_SubsystemsModule_CodeGenModule),
 	(&g_UnityEngine_TerrainModule_CodeGenModule),
+	(&g_UnityEngine_TerrainPhysicsModule_CodeGenModule),
 	(&g_UnityEngine_TextCoreFontEngineModule_CodeGenModule),
 	(&g_UnityEngine_TextCoreTextEngineModule_CodeGenModule),
 	(&g_UnityEngine_TextRenderingModule_CodeGenModule),
@@ -126,6 +133,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[55] =
 	(&g_UnityEngine_XRModule_CodeGenModule),
 	(&g_Unity_2D_PixelPerfect_CodeGenModule),
 	(&g_Unity_InputSystem_CodeGenModule),
+	(&g_Unity_Postprocessing_Runtime_CodeGenModule),
 	(&g_Unity_RenderPipelines_Core_Runtime_CodeGenModule),
 	(&g_Unity_TextMeshPro_CodeGenModule),
 	(&g_Unity_Timeline_CodeGenModule),
@@ -137,18 +145,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	14,
 	g_ReversePInvokeWrapperPointers,
-	53408,
+	57605,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	11113,
+	11720,
 	g_Il2CppInvokerPointers,
-	1971,
+	2101,
 	g_UnresolvedVirtualMethodPointers,
-	660,
+	670,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	55,
+	59,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

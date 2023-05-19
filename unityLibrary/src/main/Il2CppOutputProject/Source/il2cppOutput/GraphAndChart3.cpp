@@ -14560,7 +14560,7 @@ IL_002f:
 			XmlDocument_t4DE82998E642C5C21A4A620A5278237C70D3E42B* L_5 = __this->___mXmlDoc_0;
 			StringReader_t1A336148FF22A9584E759A9D720CC96C23E35DD8* L_6 = V_0;
 			NullCheck(L_5);
-			VirtualActionInvoker1< TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7* >::Invoke(72 /* System.Void System.Xml.XmlDocument::Load(System.IO.TextReader) */, L_5, L_6);
+			VirtualActionInvoker1< TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7* >::Invoke(77 /* System.Void System.Xml.XmlDocument::Load(System.IO.TextReader) */, L_5, L_6);
 			// }
 			goto IL_0030;
 		}// end try (depth: 1)

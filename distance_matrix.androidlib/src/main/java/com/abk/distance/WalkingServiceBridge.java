@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.location.Location;
 import android.os.Build;
 import android.os.Process;
 import android.util.Log;
@@ -29,6 +30,7 @@ import org.json.JSONObject;
 
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class WalkingServiceBridge {
@@ -150,12 +152,16 @@ public class WalkingServiceBridge {
             double distance = intent.getDoubleExtra("distance", -1.0);
             int steps = intent.getIntExtra("steps", -1);
             int timeSeconds = intent.getIntExtra("totalSeconds",0);
+            ArrayList<Location> gpsData = intent.getParcelableArrayListExtra("gpsData");
+            List<Location> convertedData = new ArrayList<>();
+            convertedData.addAll(gpsData);
             Log.e(TAG, "onReceive: called ::: " + distance + " ::: " + steps + "::: total raw time"  + timeSeconds);
             try {
                 JSONObject obj = new JSONObject();
                 obj.put("distance", distance);
                 obj.put("steps", steps);
                 obj.put("totalSeconds",timeSeconds);
+                obj.put("convertedData",convertedData);
                 UnityCallbacks.onUpdateData(obj.toString());
             } catch (JSONException e) {
                 throw new RuntimeException(e);

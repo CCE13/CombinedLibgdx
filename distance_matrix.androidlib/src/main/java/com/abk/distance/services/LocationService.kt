@@ -14,12 +14,14 @@ import android.widget.RemoteViews
 import androidx.core.app.NotificationCompat
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.abk.distance.WalkingServiceBridge
+import com.abk.distance.utils.DataPoint
 import com.abk.gps_forground.R
 import com.mygdx.runai.RunAI
 import java.io.FileWriter
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.concurrent.fixedRateTimer
 
 
@@ -40,6 +42,7 @@ class LocationService : Service(), LocationListener {
     var noAccuracyLocationList: ArrayList<Location>? = null
     var inaccurateLocationList: ArrayList<Location>? = null
     var kalmanNGLocationList: ArrayList<Location>? = null
+    var latLongList : ArrayList<DataPoint>? = null
     var isLogging = true
     var currentSpeed = 0.0f // meters/second
     var kalmanFilter: KalmanLatLong? = null
@@ -61,6 +64,7 @@ class LocationService : Service(), LocationListener {
         inaccurateLocationList = ArrayList()
         kalmanNGLocationList = ArrayList()
         kalmanFilter = KalmanLatLong(1f)
+        latLongList = ArrayList()
         isLogging = true
 
         val filter = IntentFilter("com.abk.distance.PAUSE_STATE_CHANGE")
@@ -136,6 +140,7 @@ class LocationService : Service(), LocationListener {
             .setCustomContentView(collapsedView)
             .setCustomBigContentView(expandedView)
             .setStyle(NotificationCompat.DecoratedCustomViewStyle())
+            .setFullScreenIntent(pendingIntent, true)
             .build()
         return notification
     }
@@ -255,6 +260,8 @@ class LocationService : Service(), LocationListener {
             kalmanNGLocationList!!.clear()
             val locationManager = getSystemService(LOCATION_SERVICE) as LocationManager
 
+
+
             //System.out.println(paused)
 
 
@@ -347,6 +354,7 @@ class LocationService : Service(), LocationListener {
             putExtra("distance", distance)
             putExtra("steps", getStepsFromDistance(distance = distance))
             putExtra("totalSeconds",rawSeconds)
+            putExtra("gpsData",latLongList)
         })
 
     }
@@ -388,6 +396,10 @@ class LocationService : Service(), LocationListener {
 
     override fun onLocationChanged(newLocation: Location) {
         Log.e(TAG, "(" + newLocation.latitude + "," + newLocation.longitude + ")")
+        if(gpsCount == 0){
+            System.out.println("Ping from start Location")
+            latLongList!!.add(DataPoint(newLocation.latitude,newLocation.longitude))
+        }
         gpsCount++
         val filtered = filterLocation(newLocation)
         if (isLogging) {
@@ -481,6 +493,7 @@ class LocationService : Service(), LocationListener {
         Log.d(TAG, "Location quality is good enough.")
         currentSpeed = location.getSpeed()
         locationList!!.add(location)
+        latLongList!!.add(DataPoint(location.latitude,location.longitude))
         return true
     }
     private fun filterLocation(location: Location): Location? {
