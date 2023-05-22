@@ -1,6 +1,5 @@
 package com.mygdx.runai.states;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.ai.btree.LeafTask;
 import com.badlogic.gdx.ai.btree.Task;
 import com.badlogic.gdx.audio.Sound;
@@ -25,29 +24,28 @@ public class MovementNode extends LeafTask<AICharacter> {
     public Vector2 playerPosition;
     long soundID;
 
+    private long lastTimeMillis;
 
-    public MovementNode(Sprite sprite, Vector2 targetPos, float speed, AICharacter aiCharacter, Vector2 playerPosition ){
+    public MovementNode(Sprite sprite, Vector2 targetPos, float speed, AICharacter aiCharacter, Vector2 playerPosition) {
         this.sprite = sprite;
         this.targetPos = new Vector2(targetPos);
         this.speed = speed;
         this.aiCharacter = aiCharacter;
-
-        //Sets the player position
         this.playerPosition = playerPosition;
-
-        sound = Gdx.audio.newSound(Gdx.files.internal("leftfoot.wav"));
-        sound = Gdx.audio.newSound(Gdx.files.internal("rightfoot.wav"));
-
+        this.lastTimeMillis = System.currentTimeMillis();
     }
-
-
-
-
 
     @Override
     public Status execute() {
+
+        System.out.println("Hello from movement node");
+        System.out.println(sprite.getPosition());
         targetPos = aiCharacter.GetTargetPos();
         this.startPos = new Vector2(sprite.getPosition());
+
+        long currentTimeMillis = System.currentTimeMillis();
+        float deltaTime = (currentTimeMillis - lastTimeMillis) / 1000f;
+        lastTimeMillis = currentTimeMillis;
 
         // Calculate the direction to the target
         Vector2 direction = targetPos.cpy().sub(startPos).nor();
@@ -56,14 +54,12 @@ public class MovementNode extends LeafTask<AICharacter> {
         float distance = startPos.dst(targetPos);
 
         // Calculate the distance to be traveled in this frame
-        float distanceToTravel = speed * Gdx.graphics.getDeltaTime();
-
+        float distanceToTravel = speed * deltaTime;
 
         // Check if the remaining distance is less than the distance to be traveled in this frame
         if (distance < distanceToTravel) {
             sprite.setPosition(sprite.getPosition().x, targetPos.y);
             sprite.setVelocity(0, 0);
-
             return Status.SUCCEEDED;
         }
 
@@ -72,13 +68,9 @@ public class MovementNode extends LeafTask<AICharacter> {
 
         // Update the position only on the Y-axis
         sprite.setPosition(sprite.getPosition().x, sprite.getPosition().y + yMovement);
-        sprite.update(Gdx.graphics.getDeltaTime());
-
+        sprite.update(deltaTime);
         return Status.RUNNING;
-
     }
-
-
 
     @Override
     protected Task<AICharacter> copyTo(Task<AICharacter> task) {

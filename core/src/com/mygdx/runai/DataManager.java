@@ -5,6 +5,8 @@ import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.files.FileHandle;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 
 
@@ -16,8 +18,8 @@ public final class DataManager {
    public static float LoadPlayerRanDist() {
        try {
             //File file = new File("/data/user/0/com.mygdx.runai/files/variables.txt", "variables.txt");
-            FileHandle file = Gdx.files.local("variables.txt");
-            BufferedReader reader = new BufferedReader(file.reader());
+            File file = new File("/data/user/0/com.DefaultCompany.RunAI_P/files/","variables.txt");
+            BufferedReader reader = new BufferedReader(new FileReader(file));
             String line = reader.readLine();
             while (line != null) {
                 String[] parts = line.split(": ");

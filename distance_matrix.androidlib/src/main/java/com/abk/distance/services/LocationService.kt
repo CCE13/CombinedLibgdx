@@ -17,6 +17,8 @@ import com.abk.distance.WalkingServiceBridge
 import com.abk.distance.utils.DataPoint
 import com.abk.gps_forground.R
 import com.mygdx.runai.RunAI
+import java.io.BufferedWriter
+import java.io.File
 import java.io.FileWriter
 import java.io.IOException
 import java.text.SimpleDateFormat
@@ -317,6 +319,22 @@ class LocationService : Service(), LocationListener {
 
         }
     }
+    private fun SaveVariableInFile(meters: Float, time: Float){
+        try {
+            val file = File(filesDir, "variables.txt")
+
+            System.out.println(file);
+            val writer = BufferedWriter(FileWriter(file))
+            writer.write("Speed: $meters\n")
+            writer.write("Time: $time\n")
+            writer.close()
+            println("Variables saved to file.")
+        } catch (e: IOException) {
+            println("An error occurred.")
+            e.printStackTrace()
+        }
+
+    }
 
 
     private fun FormatText(distance: Double, rawSeconds: Int){
@@ -327,6 +345,7 @@ class LocationService : Service(), LocationListener {
         val minutes = (milliseconds / (1000 * 60) % 60).toInt()
         val hours = (milliseconds / (1000 * 60 * 60) % 24).toInt()
 
+        SaveVariableInFile(100f, rawSeconds.toFloat());
         System.out.println("$rawSeconds ::: Calculated raw from script")
 
         distanceIntent.putExtra("distance", distance)

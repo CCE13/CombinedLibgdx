@@ -55,7 +55,6 @@ public class AICharacter {
 
         //Sets the speed of the AI based on the players speed
         targetSpeed = playerSpeed;
-
         this.playerPosition = playerPostion;
 
 

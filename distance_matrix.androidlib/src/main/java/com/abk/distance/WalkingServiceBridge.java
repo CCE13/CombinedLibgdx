@@ -23,12 +23,12 @@ import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
 import com.mygdx.runai.AIData.AIDataClassHolder;
 import com.mygdx.runai.BackgroundThread;
-import com.mygdx.runai.Initialiser;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.google.gson.Gson;
+import com.mygdx.runai.RunAI;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -133,7 +133,8 @@ public class WalkingServiceBridge {
     }
 
     private void StartAIThread(){
-        Initialiser game =  new Initialiser();
+
+        RunAI game =  new RunAI();
         _backgroundThread = new BackgroundThread(game);
         _backgroundThread.start();
     }
@@ -163,6 +164,7 @@ public class WalkingServiceBridge {
                 obj.put("steps", steps);
                 obj.put("totalSeconds",timeSeconds);
                 obj.put("convertedData",convertedData);
+                obj.put("aiPosData",_backgroundThread.aiPos);
                 UnityCallbacks.onUpdateData(obj.toString());
             } catch (JSONException e) {
                 throw new RuntimeException(e);
