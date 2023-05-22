@@ -3,8 +3,8 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(path: ':distance_matrix.androidlib')
     implementation project(path: ':core')
+    implementation project(path: ':distance_matrix.androidlib')
 
 }
 

@@ -1,4 +1,4 @@
-package com.mygdx.runai.screens;
+package com.mygdx.runai.Screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
@@ -7,7 +7,6 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.runai.RunAI;
-
 import com.mygdx.runai.Scenes.HUD;
 
 public class PlayScreen implements Screen {

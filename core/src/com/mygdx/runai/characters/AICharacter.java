@@ -5,41 +5,28 @@ import com.badlogic.gdx.ai.btree.branch.Sequence;
 import com.badlogic.gdx.ai.btree.decorator.Invert;
 import com.badlogic.gdx.ai.btree.leaf.Success;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Batch;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
-import com.mygdx.runai.RunAI;
 import com.mygdx.runai.Sprite;
-import com.mygdx.runai.states.DebugNode;
 import com.mygdx.runai.states.MovementNode;
-
-import java.util.Random;
-
-import javax.management.relation.RelationNotFoundException;
-
-import jdk.nashorn.internal.runtime.Debug;
 
 public class AICharacter {
 
     private int speedIndex;
     private BehaviorTree<AICharacter> behaviorTree;
     public Sprite aiSprite;
+    public float targetSpeed;
 
-    private float finalSpeed;
+    public Vector2 playerPosition;
 
 
 
     public AICharacter(int speedIndex, Texture texture, float x, float y){
 
-        this.speedIndex = speedIndex;
+        //this.speedIndex = speedIndex;
         aiSprite = new Sprite(texture, x,y);
 
+
         //TODO connect with unity to get the speed curve
-        finalSpeed = speedIndex - 2;
-        finalSpeed = finalSpeed/10;
-        finalSpeed = 1 + finalSpeed;
-
-
 
 
         //Main behvaiour tree branch
@@ -49,7 +36,8 @@ public class AICharacter {
                                 new Sequence<AICharacter>(
 
                                         //new DebugNode(Integer.toString(speedIndex);
-                                        new MovementNode(aiSprite,aiSprite.getPosition(), new Vector2(GetTargetPos()),1)
+                                        new MovementNode(aiSprite, GetTargetPos(),100, this, playerPosition)
+
 
                                 )
 
@@ -62,14 +50,24 @@ public class AICharacter {
         );
     }
 
-    public void update(float delta){
+    public void update(float delta, float playerSpeed, Vector2 playerPostion){
         behaviorTree.step();
+
+        //Sets the speed of the AI based on the players speed
+        targetSpeed = playerSpeed;
+
+        this.playerPosition = playerPostion;
+
+
     }
 
     public Vector2 GetTargetPos(){
-       //Vector2 targetPos = new Vector2(aiSprite.getPosition().x, RunAI.getInstance().playerCurrentSpeed* finalSpeed);
-        Vector2 targetPos = new Vector2(0,0);
-       return targetPos;
+
+
+        float targetSpeedMultipler = targetSpeed * 3;
+        Vector2 target = new Vector2(aiSprite.getPosition().x,  500  +  targetSpeedMultipler);
+        Vector2 targetPos = new Vector2(target );
+        return targetPos;
     }
 
 }

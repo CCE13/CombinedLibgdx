@@ -2,23 +2,21 @@ package com.mygdx.runai;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Pixmap;
-import com.badlogic.gdx.graphics.PixmapIO;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.FrameBuffer;
-
+import com.badlogic.gdx.math.Vector2;
+import com.mygdx.runai.Screens.PlayScreen;
 import com.mygdx.runai.characters.AICharacter;
 import com.mygdx.runai.characters.PlayerCharacter;
-import com.mygdx.runai.screens.PlayScreen;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ConcurrentLinkedQueue;
-
-import jdk.nashorn.internal.runtime.Debug;
 
 public class RunAI extends Game
 {
@@ -27,7 +25,7 @@ public class RunAI extends Game
 	public FrameBuffer fbo;
 	public Texture fboText;
 
-	private AssetManager assetManager;
+	public static AssetManager assetManager;
 	private Texture enemyTexture;
 	private Texture playerTexture;
 	private List<Sprite> enemySprites = new ArrayList<>();
@@ -35,47 +33,42 @@ public class RunAI extends Game
 	private Sprite playerSprite;
 	private boolean isRunningInBackground;
 
-	private int playerCurrentMeters = 10;
-	private int playerCurrentTime;
-	public int  playerCurrentSpeed;
-	public int test;
+	private float playerCurrentMeters;
+	private float playerCurrentTime;
+	public static float  playerCurrentSpeed;
 
-	public static boolean forgroundServiceEnabled;
-	ConcurrentLinkedQueue<Boolean> queue = new ConcurrentLinkedQueue<Boolean>();
-	//InterThreadComm
+	//The current time of the system
+	public float time;
 
-	public static volatile RunAI instance;
+	public Vector2 playerPosition;
 
 
-	//Creates a instance of RunAI for the foreground service to use
-	public static RunAI getInstance(){
-		RunAI result = instance;
+	AICharacter[] aiCharacters;
+	PlayerCharacter playerCharacter;
 
+	public static int yo;
 
-		if(instance == null){
-			synchronized (RunAI.class){
-				if(instance == null){
-					System.out.println("OMG NEW CREATED OMGOHWOEHGOWHEGOWHEOGHWOEHGo");
-					instance = new RunAI();
-				}
-			}
-		}
-		return  instance;
+	Preferences prefs;
+
+	public RunAI(){
+		yo += 1;
+		System.out.println("Hello" + yo);
+
 
 	}
-
-
 
 	@Override
 	public void create () {
 
+		prefs = Gdx.app.getPreferences("com.runai.settings");
 		//The queue is for the two threads to communicate
-		queue.add(forgroundServiceEnabled);
 
 		Batch = new SpriteBatch();
 		setScreen(new PlayScreen(this));
 		buildFBO(Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		assetManager = new AssetManager();
+
+		assetManager.load("leftfoot.wav", Sound.class);
 
 
 
@@ -91,47 +84,9 @@ public class RunAI extends Game
 
 		//final AICharacter	aiCharacter = new AICharacter();
 
-		Thread backgroundThread = new Thread(new Runnable() {
-			@Override
-			public void run() {
-				AICharacter[] aiCharacters = new AICharacter[10];
-				PlayerCharacter playerCharacter = new PlayerCharacter(playerTexture);
-
-				playerSprite = playerCharacter.playerSprite;
-
-				for (int i = 0; i < aiCharacters.length; i++){
-					aiCharacters[i] = new AICharacter(i,enemyTexture, i * 100, 0);
-					enemySprites.add( aiCharacters[i].aiSprite);
-				}
-
-				//boolean serviceEnabled = (queue.poll() != null)? queue.poll() : false;
+		CreateAndRunAI();
 
 
-				//System.out.println(serviceEnabled);
-				while (true){
-
-					System.out.println("Debugging");
-
-					for(AICharacter aiCharacter: aiCharacters){
-						aiCharacter.update(Gdx.graphics.getDeltaTime());
-					}
-
-					playerCharacter.update(Gdx.graphics.getDeltaTime());
-
-					if(isRunningInBackground){
-						try{
-							Thread.sleep(1000);
-						}catch (InterruptedException e ){
-							e.printStackTrace();
-						}
-					}
-
-
-				}
-			}
-		});
-
-		backgroundThread.start();
 	}
 
 	private void buildFBO(int width, int height) {
@@ -148,14 +103,12 @@ public class RunAI extends Game
 		isRunningInBackground = false;
 		super.resume();
 	}
-	public static String Hello(){
-		return "Hello";
-	}
 
 	@Override
 	public void render () {
 
 		//aiCharacter.update(Gdx.graphics.getDeltaTime());
+
 
 		//Clears the frame buffer
 		Gdx.gl.glClearColor(0, 0, 0, 0);
@@ -183,6 +136,7 @@ public class RunAI extends Game
 		fbo.begin();
 		super.render();
 
+		RunTheAI();
 		//Gets the frame buffer and sets it as a texture
 		fboText = fbo.getColorBufferTexture();
 		fbo.end();
@@ -190,40 +144,57 @@ public class RunAI extends Game
 		//saveFBOTextureToPNG();
 	}
 
-	private void saveFBOTextureToPNG() {
-		// Get the local storage directory for the app
-		String localStoragePath = Gdx.files.getLocalStoragePath();
-
-		// Specify the desired save path, e.g. "fboText.png"
-		String savePath = localStoragePath + "fboText.png";
-
-		System.out.println(savePath);
-
-		// Save the Pixmap to the specified path
-		Pixmap pixmap = Pixmap.createFromFrameBuffer(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-		PixmapIO.writePNG(Gdx.files.absolute(savePath), pixmap);
-		pixmap.dispose();
-	}
 
 
-	public void setPlayerCurrentMetersandTime(int meters, int time){
 
-		forgroundServiceEnabled = true;
-		queue.add(forgroundServiceEnabled);
-		playerCurrentMeters = meters;
-		playerCurrentTime = time;
-		//playerCurrentSpeed =  (meters/playerCurrentTime) * 100;
-		playerCurrentSpeed =  10;
+	public void CreateAndRunAI(){
+		//Creates the AI and the player character
+		aiCharacters = new AICharacter[10];
+		playerCharacter = new PlayerCharacter(playerTexture);
 
-		//System.out.println(meters);
-		//System.out.println(RunAI.getInstance().playerCurrentSpeed);
-		//System.out.println(RunAI.forgroundServiceEnabled);
+		//Cache the playersprite value to render later
+		playerSprite = playerCharacter.playerSprite;
+		playerPosition = playerCharacter.playerSprite.getPosition();
 
+		//Sets all the contructor values of the AI character
+		for (int i = 0; i < aiCharacters.length; i++){
+			aiCharacters[i] = new AICharacter(i, enemyTexture, i * 100, 500);
+			enemySprites.add( aiCharacters[i].aiSprite);
+		}
 
 
 
 	}
 
+	public void RunTheAI(){
+
+
+		time = Gdx.graphics.getDeltaTime();
+
+		float speed = DataManager.LoadPlayerRanDist();
+
+
+
+
+		//speed = speed * Gdx.graphics.getDeltaTime();
+
+		System.out.println(speed);
+
+		for(AICharacter aiCharacter: aiCharacters){
+			aiCharacter.update(Gdx.graphics.getDeltaTime(), speed, playerPosition);
+		}
+
+		playerCharacter.update(Gdx.graphics.getDeltaTime());
+
+		//If Thread is running make it sleep every second so that it wont use that much power
+		if(isRunningInBackground){
+			try{
+				Thread.sleep(1000);
+			}catch (InterruptedException e ){
+				e.printStackTrace();
+			}
+		}
+	}
 
 
 	@Override

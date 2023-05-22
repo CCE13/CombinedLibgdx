@@ -255,6 +255,8 @@ struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918;
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
 // System.Collections.Generic.List`1<UnityEngine.Vector3>
 struct List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B;
+// System.Collections.Generic.List`1<Unity.Mathematics.double2>
+struct List_1_t50509C8AFA3904BA8439AB762C86EA7767AB3EA7;
 // System.Collections.Generic.List`1<OnlineMapsBingMapsElevationResult/Resource>
 struct List_1_tB718BD34877208D53FE5F7A91D428B749C3A1CBC;
 // System.Collections.Generic.List`1<OnlineMapsBingMapsElevationResult/ResourceSet>
@@ -281,8 +283,6 @@ struct List_1_t82CAC57C0047CA9FE79EE46A78D2B94AAD08E4E4;
 struct List_1_t4CB841E2BA167F92101F4E66D225D2542D9DCE93;
 // System.Collections.Generic.List`1<Outline/ListVector3>
 struct List_1_tE5EEE6BCC896453A3D3B2C3482962F63DADAF303;
-// System.Collections.Generic.List`1<PluginInit/Location>
-struct List_1_tA9277C2893AA10342CC7F1C11C06B589B54762F3;
 // System.Predicate`1<System.Object>
 struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
 // System.Predicate`1<SoundVariables>
@@ -2937,8 +2937,8 @@ struct RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916  : public RuntimeObject
 {
 	// System.String RunData::Name
 	String_t* ___Name_0;
-	// System.Collections.Generic.List`1<PluginInit/Location> RunData::locationData
-	List_1_tA9277C2893AA10342CC7F1C11C06B589B54762F3* ___locationData_1;
+	// System.Collections.Generic.List`1<Unity.Mathematics.double2> RunData::locationData
+	List_1_t50509C8AFA3904BA8439AB762C86EA7767AB3EA7* ___locationData_1;
 	// System.Int32 RunData::PaceMins
 	int32_t ___PaceMins_2;
 	// System.Int32 RunData::PaceSeconds

@@ -282,7 +282,7 @@ class LocationService : Service(), LocationListener {
                 //criteria.setBearingAccuracy(Criteria.ACCURACY_HIGH);
                 //criteria.setSpeedAccuracy(Criteria.ACCURACY_HIGH);
                 val gpsFreqInMillis = 200
-                val gpsFreqInDistance = 1 // in meters
+                val gpsFreqInDistance = 0.5 // in meters
                 locationManager.requestLocationUpdates(
                     gpsFreqInMillis.toLong(),
                     gpsFreqInDistance.toFloat(),
@@ -334,8 +334,6 @@ class LocationService : Service(), LocationListener {
 //        val d = distance * 1000
         val meters = (distance % 1000).toInt()
         val kilometers: Int = ((distance.toInt() - meters) / 1000)
-
-        RunAI.getInstance().setPlayerCurrentMetersandTime(meters, rawSeconds)
 
         val durationText = "Duration: ${String.format("%02d:%02d:%02d", hours, minutes, seconds)}"
         val distanceStr =
@@ -397,16 +395,11 @@ class LocationService : Service(), LocationListener {
     override fun onLocationChanged(newLocation: Location) {
         Log.e(TAG, "(" + newLocation.latitude + "," + newLocation.longitude + ")")
         if(gpsCount == 0){
-            System.out.println("Ping from start Location")
             latLongList!!.add(DataPoint(newLocation.latitude,newLocation.longitude))
         }
         gpsCount++
-        val filtered = filterLocation(newLocation)
         if (isLogging) {
-            if (filtered != null) {
-                currentSpeed = filtered.speed
-                filterAndAddLocation(newLocation);
-            }
+                currentSpeed = filterAndAddLocation(newLocation)!!.speed;
         } else {
             // if newLocation passed the filter, count up goodLocationCount.
 //            if (filtered != null) {
@@ -429,25 +422,25 @@ class LocationService : Service(), LocationListener {
             (SystemClock.elapsedRealtimeNanos() / 1000000) - (newLocation.elapsedRealtimeNanos / 1000000)
         return locationAge
     }
-    private fun filterAndAddLocation(location: Location): Boolean {
+    private fun filterAndAddLocation(location: Location): Location? {
         val age = getLocationAge(location)
-        if (age > 10 * 1000) { //more than 10 seconds
+        if (age > 5 * 1000) { //more than 10 seconds
             Log.d(TAG, "Location is old")
             oldLocationList!!.add(location)
-            return false
+            return null
         }
         if (location.getAccuracy() <= 0) {
             Log.d(TAG, "Latitidue and longitude values are invalid.")
             noAccuracyLocationList!!.add(location)
-            return false
+            return null
         }
 
         //setAccuracy(newLocation.getAccuracy());
         val horizontalAccuracy: Float = location.getAccuracy()
-        if (horizontalAccuracy > 100) {
+        if (horizontalAccuracy > 150) {
             Log.d(TAG, "Accuracy is too low.")
             inaccurateLocationList!!.add(location)
-            return false
+            return null
         }
 
 
@@ -481,7 +474,7 @@ class LocationService : Service(), LocationListener {
                     KalmanLatLong(3.0f) //reset Kalman Filter if it rejects more than 3 times in raw.
             }
             kalmanNGLocationList!!.add(location)
-            return false
+            return null
         } else {
             kalmanFilter!!.consecutiveRejectCount = 0
         }
@@ -494,31 +487,8 @@ class LocationService : Service(), LocationListener {
         currentSpeed = location.getSpeed()
         locationList!!.add(location)
         latLongList!!.add(DataPoint(location.latitude,location.longitude))
-        return true
-    }
-    private fun filterLocation(location: Location): Location? {
-        val age = getLocationAge(location)
-        if (age > 5 * 1000) { //more than 5 seconds
-            Log.d(TAG, "Location is old")
-            oldLocationList!!.add(location)
-            return null
-        }
-        if (location.accuracy <= 0) {
-            Log.d(TAG, "Latitidue and longitude values are invalid.")
-            noAccuracyLocationList!!.add(location)
-            return null
-        }
-
-        //setAccuracy(newLocation.getAccuracy());
-        val horizontalAccuracy = location.accuracy
-        if (horizontalAccuracy > 10) { //10meter filter
-            Log.d(TAG, "Accuracy is too low.")
-            inaccurateLocationList!!.add(location)
-            return null
-        }
-        Log.d(TAG, "Location quality is good enough.")
         return location
-    } /* Data Logging */ //
+    }
 
 
     @Synchronized

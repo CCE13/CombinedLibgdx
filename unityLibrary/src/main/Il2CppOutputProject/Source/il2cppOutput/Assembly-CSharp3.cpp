@@ -3599,10 +3599,6 @@ inline void List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F (List_1_t8F37
 }
 // OnlineMapsBuffer OnlineMaps::get_buffer()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OnlineMapsBuffer_tED64A4A4D7403E754A3F97359E17DDF5D0A1F53B* OnlineMaps_get_buffer_mB10DD50FB68649E14791763FC5DA003CD6003184 (OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* __this, const RuntimeMethod* method) ;
-// UnityEngine.Vector2 UnityEngine.Vector2::op_Subtraction(UnityEngine.Vector2,UnityEngine.Vector2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) ;
-// System.Single UnityEngine.Vector2::get_magnitude()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
 // System.Void OnlineMapsBuffer::GetCorners(System.Double&,System.Double&,System.Double&,System.Double&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnlineMapsBuffer_GetCorners_mD3250D7BB1AB89C608059A5557B5D5D0D68390A1 (OnlineMapsBuffer_tED64A4A4D7403E754A3F97359E17DDF5D0A1F53B* __this, double* ___tlx0, double* ___tly1, double* ___brx2, double* ___bry3, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1<UnityEngine.Vector2> OnlineMapsDrawingElement::GetLocalPoints(System.Collections.IEnumerable,System.Boolean,System.Boolean)
@@ -3645,6 +3641,8 @@ inline void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline (List_
 }
 // System.Boolean OnlineMapsUtils::LineIntersection(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single&,System.Single&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OnlineMapsUtils_LineIntersection_m002491136182F6FC2993C6E4BEA925DE29D509A9 (float ___s1x0, float ___s1y1, float ___e1x2, float ___e1y3, float ___s2x4, float ___s2y5, float ___e2x6, float ___e2y7, float* ___intX8, float* ___intY9, const RuntimeMethod* method) ;
+// UnityEngine.Vector2 UnityEngine.Vector2::op_Subtraction(UnityEngine.Vector2,UnityEngine.Vector2)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Vector2::get_sqrMagnitude()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
 // System.Void OnlineMapsDrawingElement::DrawActivePoints(OnlineMapsTileSetControl,System.Collections.Generic.List`1<UnityEngine.Vector2>&,System.Collections.Generic.List`1<UnityEngine.Vector3>&,System.Collections.Generic.List`1<UnityEngine.Vector3>&,System.Collections.Generic.List`1<System.Int32>&,System.Collections.Generic.List`1<UnityEngine.Vector2>&,System.Single)
@@ -13862,8 +13860,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m4F04D407852735E68667980C26DA866BAE103B37_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mF1C0C56457C655BDFFC6EE5B46FAD8BAEC1F588B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m1F8E226CAD72B83C5E75BB66B43025247806B543_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnlineMapsControlBaseDynamicMesh_tEE2268D32433DAC2140DF326E8090FB37F0F51FD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var);
@@ -13890,34 +13886,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D
 	RuntimeObject* V_14 = NULL;
 	int32_t V_15 = 0;
 	int32_t V_16 = 0;
-	bool V_17 = false;
+	double V_17 = 0.0;
 	double V_18 = 0.0;
-	double V_19 = 0.0;
-	RuntimeObject* V_20 = NULL;
-	int32_t V_21 = 0;
+	RuntimeObject* V_19 = NULL;
+	int32_t V_20 = 0;
+	RuntimeObject* V_21 = NULL;
 	RuntimeObject* V_22 = NULL;
-	RuntimeObject* V_23 = NULL;
-	bool V_24 = false;
+	bool V_23 = false;
+	double V_24 = 0.0;
 	double V_25 = 0.0;
-	double V_26 = 0.0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_26;
+	memset((&V_26), 0, sizeof(V_26));
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_27;
 	memset((&V_27), 0, sizeof(V_27));
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_28;
+	OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540 V_28;
 	memset((&V_28), 0, sizeof(V_28));
-	OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540 V_29;
-	memset((&V_29), 0, sizeof(V_29));
+	double V_29 = 0.0;
 	double V_30 = 0.0;
-	double V_31 = 0.0;
-	int32_t V_32 = 0;
+	int32_t V_31 = 0;
+	double V_32 = 0.0;
 	double V_33 = 0.0;
-	double V_34 = 0.0;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_35;
-	memset((&V_35), 0, sizeof(V_35));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_34;
+	memset((&V_34), 0, sizeof(V_34));
+	double V_35 = 0.0;
 	double V_36 = 0.0;
-	double V_37 = 0.0;
-	int32_t V_38 = 0;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_39;
-	memset((&V_39), 0, sizeof(V_39));
+	int32_t V_37 = 0;
 	{
 		// OnlineMaps map = manager.map;
 		RuntimeObject* L_0;
@@ -14028,95 +14021,93 @@ IL_0066:
 		V_15 = (-1);
 		// int valueType = -1; // 0 - Vector2, 1 - float, 2 - double, 3 - OnlineMapsVector2d
 		V_16 = (-1);
-		// bool isOptimized = false;
-		V_17 = (bool)0;
+		// double px = 0, py = 0;
+		V_17 = (0.0);
 		// double px = 0, py = 0;
 		V_18 = (0.0);
-		// double px = 0, py = 0;
-		V_19 = (0.0);
 		// IEnumerator enumerator = points.GetEnumerator();
 		RuntimeObject* L_34 = ___points0;
 		NullCheck(L_34);
 		RuntimeObject* L_35;
 		L_35 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131_il2cpp_TypeInfo_var, L_34);
-		V_20 = L_35;
+		V_19 = L_35;
 		// int mapTileWidth = map.width / OnlineMapsUtils.tileSize / 2;
 		OnlineMaps_t9881A57D6C7396AEC6972902E686A68E20A1BB07* L_36 = V_2;
 		NullCheck(L_36);
 		int32_t L_37 = L_36->___width_59;
-		V_21 = ((int32_t)(((int32_t)(L_37/((int32_t)256)))/2));
-		goto IL_030f;
+		V_20 = ((int32_t)(((int32_t)(L_37/((int32_t)256)))/2));
+		goto IL_0304;
 	}
 
-IL_0122:
+IL_011f:
 	{
 		// i++;
 		int32_t L_38 = V_15;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_38, 1));
 		// object p = enumerator.Current;
-		RuntimeObject* L_39 = V_20;
+		RuntimeObject* L_39 = V_19;
 		NullCheck(L_39);
 		RuntimeObject* L_40;
 		L_40 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_39);
-		V_22 = L_40;
+		V_21 = L_40;
 		// if (valueType == -1)
 		int32_t L_41 = V_16;
 		if ((!(((uint32_t)L_41) == ((uint32_t)(-1)))))
 		{
-			goto IL_016c;
+			goto IL_0169;
 		}
 	}
 	{
 		// if (p is Vector2) valueType = 0;
-		RuntimeObject* L_42 = V_22;
+		RuntimeObject* L_42 = V_21;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_42, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0144;
+			goto IL_0141;
 		}
 	}
 	{
 		// if (p is Vector2) valueType = 0;
 		V_16 = 0;
-		goto IL_016c;
+		goto IL_0169;
 	}
 
-IL_0144:
+IL_0141:
 	{
 		// else if (p is float) valueType = 1;
-		RuntimeObject* L_43 = V_22;
+		RuntimeObject* L_43 = V_21;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_43, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0152;
+			goto IL_014f;
 		}
 	}
 	{
 		// else if (p is float) valueType = 1;
 		V_16 = 1;
-		goto IL_016c;
+		goto IL_0169;
 	}
 
-IL_0152:
+IL_014f:
 	{
 		// else if (p is double) valueType = 2;
-		RuntimeObject* L_44 = V_22;
+		RuntimeObject* L_44 = V_21;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_44, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))
 		{
-			goto IL_0160;
+			goto IL_015d;
 		}
 	}
 	{
 		// else if (p is double) valueType = 2;
 		V_16 = 2;
-		goto IL_016c;
+		goto IL_0169;
 	}
 
-IL_0160:
+IL_015d:
 	{
 		// else if (p is OnlineMapsVector2d) valueType = 3;
-		RuntimeObject* L_45 = V_22;
+		RuntimeObject* L_45 = V_21;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_45, OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540_il2cpp_TypeInfo_var)))
 		{
-			goto IL_016c;
+			goto IL_0169;
 		}
 	}
 	{
@@ -14124,75 +14115,75 @@ IL_0160:
 		V_16 = 3;
 	}
 
-IL_016c:
+IL_0169:
 	{
 		// object v2 = v1;
 		RuntimeObject* L_46 = V_14;
-		V_23 = L_46;
+		V_22 = L_46;
 		// v1 = p;
-		RuntimeObject* L_47 = V_22;
+		RuntimeObject* L_47 = V_21;
 		V_14 = L_47;
 		// bool useValue = false;
-		V_24 = (bool)0;
+		V_23 = (bool)0;
 		// if (valueType == 0)
 		int32_t L_48 = V_16;
 		if (L_48)
 		{
-			goto IL_01a5;
+			goto IL_01a2;
 		}
 	}
 	{
 		// Vector2 point = (Vector2)p;
-		RuntimeObject* L_49 = V_22;
-		V_28 = ((*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)UnBox(L_49, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))));
+		RuntimeObject* L_49 = V_21;
+		V_27 = ((*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)UnBox(L_49, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))));
 		// projection.CoordinatesToTile(point.x, point.y, zoom, out px, out py);
 		OnlineMapsProjection_tDC840D339F4AF87D5CD14295CD5A8D5DEDE72A30* L_50 = V_5;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_51 = V_28;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_51 = V_27;
 		float L_52 = L_51.___x_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_53 = V_28;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_53 = V_27;
 		float L_54 = L_53.___y_1;
 		int32_t L_55 = V_3;
 		NullCheck(L_50);
-		VirtualActionInvoker5< double, double, int32_t, double*, double* >::Invoke(4 /* System.Void OnlineMapsProjection::CoordinatesToTile(System.Double,System.Double,System.Int32,System.Double&,System.Double&) */, L_50, ((double)L_52), ((double)L_54), L_55, (&V_18), (&V_19));
+		VirtualActionInvoker5< double, double, int32_t, double*, double* >::Invoke(4 /* System.Void OnlineMapsProjection::CoordinatesToTile(System.Double,System.Double,System.Int32,System.Double&,System.Double&) */, L_50, ((double)L_52), ((double)L_54), L_55, (&V_17), (&V_18));
 		// useValue = true;
-		V_24 = (bool)1;
-		goto IL_021e;
+		V_23 = (bool)1;
+		goto IL_021b;
 	}
 
-IL_01a5:
+IL_01a2:
 	{
 		// else if (valueType == 3)
 		int32_t L_56 = V_16;
 		if ((!(((uint32_t)L_56) == ((uint32_t)3))))
 		{
-			goto IL_01d2;
+			goto IL_01cf;
 		}
 	}
 	{
 		// OnlineMapsVector2d point = (OnlineMapsVector2d)p;
-		RuntimeObject* L_57 = V_22;
-		V_29 = ((*(OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540*)((OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540*)(OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540*)UnBox(L_57, OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540_il2cpp_TypeInfo_var))));
+		RuntimeObject* L_57 = V_21;
+		V_28 = ((*(OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540*)((OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540*)(OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540*)UnBox(L_57, OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540_il2cpp_TypeInfo_var))));
 		// projection.CoordinatesToTile(point.x, point.y, zoom, out px, out py);
 		OnlineMapsProjection_tDC840D339F4AF87D5CD14295CD5A8D5DEDE72A30* L_58 = V_5;
-		OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540 L_59 = V_29;
+		OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540 L_59 = V_28;
 		double L_60 = L_59.___x_0;
-		OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540 L_61 = V_29;
+		OnlineMapsVector2d_tBDC3B54B5937AD9B45B3C5530277F6EEEC6C6540 L_61 = V_28;
 		double L_62 = L_61.___y_1;
 		int32_t L_63 = V_3;
 		NullCheck(L_58);
-		VirtualActionInvoker5< double, double, int32_t, double*, double* >::Invoke(4 /* System.Void OnlineMapsProjection::CoordinatesToTile(System.Double,System.Double,System.Int32,System.Double&,System.Double&) */, L_58, L_60, L_62, L_63, (&V_18), (&V_19));
+		VirtualActionInvoker5< double, double, int32_t, double*, double* >::Invoke(4 /* System.Void OnlineMapsProjection::CoordinatesToTile(System.Double,System.Double,System.Int32,System.Double&,System.Double&) */, L_58, L_60, L_62, L_63, (&V_17), (&V_18));
 		// useValue = true;
-		V_24 = (bool)1;
-		goto IL_021e;
+		V_23 = (bool)1;
+		goto IL_021b;
 	}
 
-IL_01d2:
+IL_01cf:
 	{
 		// else if (i % 2 == 1)
 		int32_t L_64 = V_15;
 		if ((!(((uint32_t)((int32_t)(L_64%2))) == ((uint32_t)1))))
 		{
-			goto IL_021e;
+			goto IL_021b;
 		}
 	}
 	{
@@ -14200,457 +14191,392 @@ IL_01d2:
 		int32_t L_65 = V_16;
 		if ((!(((uint32_t)L_65) == ((uint32_t)1))))
 		{
-			goto IL_01fc;
+			goto IL_01f9;
 		}
 	}
 	{
 		// if (valueType == 1) projection.CoordinatesToTile((float)v2, (float)v1, zoom, out px, out py);
 		OnlineMapsProjection_tDC840D339F4AF87D5CD14295CD5A8D5DEDE72A30* L_66 = V_5;
-		RuntimeObject* L_67 = V_23;
+		RuntimeObject* L_67 = V_22;
 		RuntimeObject* L_68 = V_14;
 		int32_t L_69 = V_3;
 		NullCheck(L_66);
-		VirtualActionInvoker5< double, double, int32_t, double*, double* >::Invoke(4 /* System.Void OnlineMapsProjection::CoordinatesToTile(System.Double,System.Double,System.Int32,System.Double&,System.Double&) */, L_66, ((double)((*(float*)((float*)(float*)UnBox(L_67, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))))), ((double)((*(float*)((float*)(float*)UnBox(L_68, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))))), L_69, (&V_18), (&V_19));
-		goto IL_021b;
+		VirtualActionInvoker5< double, double, int32_t, double*, double* >::Invoke(4 /* System.Void OnlineMapsProjection::CoordinatesToTile(System.Double,System.Double,System.Int32,System.Double&,System.Double&) */, L_66, ((double)((*(float*)((float*)(float*)UnBox(L_67, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))))), ((double)((*(float*)((float*)(float*)UnBox(L_68, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))))), L_69, (&V_17), (&V_18));
+		goto IL_0218;
 	}
 
-IL_01fc:
+IL_01f9:
 	{
 		// else if (valueType == 2) projection.CoordinatesToTile((double)v2, (double)v1, zoom, out px, out py);
 		int32_t L_70 = V_16;
 		if ((!(((uint32_t)L_70) == ((uint32_t)2))))
 		{
-			goto IL_021b;
+			goto IL_0218;
 		}
 	}
 	{
 		// else if (valueType == 2) projection.CoordinatesToTile((double)v2, (double)v1, zoom, out px, out py);
 		OnlineMapsProjection_tDC840D339F4AF87D5CD14295CD5A8D5DEDE72A30* L_71 = V_5;
-		RuntimeObject* L_72 = V_23;
+		RuntimeObject* L_72 = V_22;
 		RuntimeObject* L_73 = V_14;
 		int32_t L_74 = V_3;
 		NullCheck(L_71);
-		VirtualActionInvoker5< double, double, int32_t, double*, double* >::Invoke(4 /* System.Void OnlineMapsProjection::CoordinatesToTile(System.Double,System.Double,System.Int32,System.Double&,System.Double&) */, L_71, ((*(double*)((double*)(double*)UnBox(L_72, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))), ((*(double*)((double*)(double*)UnBox(L_73, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))), L_74, (&V_18), (&V_19));
+		VirtualActionInvoker5< double, double, int32_t, double*, double* >::Invoke(4 /* System.Void OnlineMapsProjection::CoordinatesToTile(System.Double,System.Double,System.Int32,System.Double&,System.Double&) */, L_71, ((*(double*)((double*)(double*)UnBox(L_72, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))), ((*(double*)((double*)(double*)UnBox(L_73, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))), L_74, (&V_17), (&V_18));
+	}
+
+IL_0218:
+	{
+		// useValue = true;
+		V_23 = (bool)1;
 	}
 
 IL_021b:
 	{
-		// useValue = true;
-		V_24 = (bool)1;
-	}
-
-IL_021e:
-	{
 		// if (!useValue) continue;
-		bool L_75 = V_24;
+		bool L_75 = V_23;
 		if (!L_75)
 		{
-			goto IL_030f;
+			goto IL_0304;
 		}
 	}
 	{
-		// isOptimized = false;
-		V_17 = (bool)0;
 		// if (optimize && i > 0)
 		bool L_76 = ___optimize2;
 		if (!L_76)
 		{
-			goto IL_025a;
+			goto IL_024f;
 		}
 	}
 	{
 		int32_t L_77 = V_15;
 		if ((((int32_t)L_77) <= ((int32_t)0)))
 		{
-			goto IL_025a;
+			goto IL_024f;
 		}
 	}
 	{
 		// if ((prx - px) * (prx - px) + (pry - py) * (pry - py) < 0.001)
 		double L_78 = V_12;
-		double L_79 = V_18;
+		double L_79 = V_17;
 		double L_80 = V_12;
-		double L_81 = V_18;
+		double L_81 = V_17;
 		double L_82 = V_13;
-		double L_83 = V_19;
+		double L_83 = V_18;
 		double L_84 = V_13;
-		double L_85 = V_19;
-		if ((!(((double)((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_78, L_79)), ((double)il2cpp_codegen_subtract(L_80, L_81)))), ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_82, L_83)), ((double)il2cpp_codegen_subtract(L_84, L_85))))))) < ((double)(0.001)))))
+		double L_85 = V_18;
+		if ((((double)((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_78, L_79)), ((double)il2cpp_codegen_subtract(L_80, L_81)))), ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_82, L_83)), ((double)il2cpp_codegen_subtract(L_84, L_85))))))) < ((double)(0.001))))
 		{
-			goto IL_025a;
+			goto IL_0304;
 		}
 	}
-	{
-		// isOptimized = true;
-		V_17 = (bool)1;
-		// continue;
-		goto IL_030f;
-	}
 
-IL_025a:
+IL_024f:
 	{
 		// prx = px;
-		double L_86 = V_18;
+		double L_86 = V_17;
 		V_12 = L_86;
 		// pry = py;
-		double L_87 = V_19;
+		double L_87 = V_18;
 		V_13 = L_87;
 		// px -= sx;
-		double L_88 = V_18;
+		double L_88 = V_17;
 		double L_89 = V_0;
-		V_18 = ((double)il2cpp_codegen_subtract(L_88, L_89));
+		V_17 = ((double)il2cpp_codegen_subtract(L_88, L_89));
 		// py -= sy;
-		double L_90 = V_19;
+		double L_90 = V_18;
 		double L_91 = V_1;
-		V_19 = ((double)il2cpp_codegen_subtract(L_90, L_91));
+		V_18 = ((double)il2cpp_codegen_subtract(L_90, L_91));
 		// if (i == 0)
 		int32_t L_92 = V_15;
 		if (L_92)
 		{
-			goto IL_029d;
+			goto IL_0292;
 		}
 	}
 	{
 		// double ox = px - mapTileWidth;
-		double L_93 = V_18;
-		int32_t L_94 = V_21;
-		V_30 = ((double)il2cpp_codegen_subtract(L_93, ((double)L_94)));
+		double L_93 = V_17;
+		int32_t L_94 = V_20;
+		V_29 = ((double)il2cpp_codegen_subtract(L_93, ((double)L_94)));
 		// if (ox < -halfMax) px += max;
-		double L_95 = V_30;
+		double L_95 = V_29;
 		int32_t L_96 = V_7;
 		if ((!(((double)L_95) < ((double)((double)((-L_96)))))))
 		{
-			goto IL_028c;
+			goto IL_0281;
 		}
 	}
 	{
 		// if (ox < -halfMax) px += max;
-		double L_97 = V_18;
+		double L_97 = V_17;
 		int32_t L_98 = V_6;
-		V_18 = ((double)il2cpp_codegen_add(L_97, ((double)L_98)));
-		goto IL_02e4;
+		V_17 = ((double)il2cpp_codegen_add(L_97, ((double)L_98)));
+		goto IL_02d9;
 	}
 
-IL_028c:
+IL_0281:
 	{
 		// else if (ox > halfMax) px -= max;
-		double L_99 = V_30;
+		double L_99 = V_29;
 		int32_t L_100 = V_7;
 		if ((!(((double)L_99) > ((double)((double)L_100)))))
 		{
-			goto IL_02e4;
+			goto IL_02d9;
 		}
 	}
 	{
 		// else if (ox > halfMax) px -= max;
-		double L_101 = V_18;
+		double L_101 = V_17;
 		int32_t L_102 = V_6;
-		V_18 = ((double)il2cpp_codegen_subtract(L_101, ((double)L_102)));
-		goto IL_02e4;
+		V_17 = ((double)il2cpp_codegen_subtract(L_101, ((double)L_102)));
+		goto IL_02d9;
 	}
 
-IL_029d:
+IL_0292:
 	{
 		// double ox = px - ppx;
-		double L_103 = V_18;
+		double L_103 = V_17;
 		double L_104 = V_8;
-		V_31 = ((double)il2cpp_codegen_subtract(L_103, L_104));
+		V_30 = ((double)il2cpp_codegen_subtract(L_103, L_104));
 		// int maxIt = 3;
-		V_32 = 3;
-		goto IL_02da;
+		V_31 = 3;
+		goto IL_02cf;
 	}
 
-IL_02a9:
+IL_029e:
 	{
 		// if (ox < -halfMax)
-		double L_105 = V_31;
+		double L_105 = V_30;
 		int32_t L_106 = V_7;
 		if ((!(((double)L_105) < ((double)((double)((-L_106)))))))
 		{
-			goto IL_02c3;
+			goto IL_02b8;
 		}
 	}
 	{
 		// px += max;
-		double L_107 = V_18;
+		double L_107 = V_17;
 		int32_t L_108 = V_6;
-		V_18 = ((double)il2cpp_codegen_add(L_107, ((double)L_108)));
+		V_17 = ((double)il2cpp_codegen_add(L_107, ((double)L_108)));
 		// ox += max;
-		double L_109 = V_31;
+		double L_109 = V_30;
 		int32_t L_110 = V_6;
-		V_31 = ((double)il2cpp_codegen_add(L_109, ((double)L_110)));
-		goto IL_02da;
+		V_30 = ((double)il2cpp_codegen_add(L_109, ((double)L_110)));
+		goto IL_02cf;
 	}
 
-IL_02c3:
+IL_02b8:
 	{
 		// else if (ox > halfMax)
-		double L_111 = V_31;
+		double L_111 = V_30;
 		int32_t L_112 = V_7;
 		if ((!(((double)L_111) > ((double)((double)L_112)))))
 		{
-			goto IL_02e4;
+			goto IL_02d9;
 		}
 	}
 	{
 		// px -= max;
-		double L_113 = V_18;
+		double L_113 = V_17;
 		int32_t L_114 = V_6;
-		V_18 = ((double)il2cpp_codegen_subtract(L_113, ((double)L_114)));
+		V_17 = ((double)il2cpp_codegen_subtract(L_113, ((double)L_114)));
 		// ox -= max;
-		double L_115 = V_31;
+		double L_115 = V_30;
 		int32_t L_116 = V_6;
-		V_31 = ((double)il2cpp_codegen_subtract(L_115, ((double)L_116)));
+		V_30 = ((double)il2cpp_codegen_subtract(L_115, ((double)L_116)));
 	}
 
-IL_02da:
+IL_02cf:
 	{
 		// while (maxIt-- > 0)
-		int32_t L_117 = V_32;
+		int32_t L_117 = V_31;
 		int32_t L_118 = L_117;
-		V_32 = ((int32_t)il2cpp_codegen_subtract(L_118, 1));
+		V_31 = ((int32_t)il2cpp_codegen_subtract(L_118, 1));
 		if ((((int32_t)L_118) > ((int32_t)0)))
 		{
-			goto IL_02a9;
+			goto IL_029e;
 		}
 	}
 
-IL_02e4:
+IL_02d9:
 	{
 		// ppx = px;
-		double L_119 = V_18;
+		double L_119 = V_17;
 		V_8 = L_119;
 		// double rx1 = px * scaleX;
-		double L_120 = V_18;
+		double L_120 = V_17;
 		double L_121 = V_10;
-		V_25 = ((double)il2cpp_codegen_multiply(L_120, L_121));
+		V_24 = ((double)il2cpp_codegen_multiply(L_120, L_121));
 		// double ry1 = py * scaleY;
-		double L_122 = V_19;
+		double L_122 = V_18;
 		double L_123 = V_11;
-		V_26 = ((double)il2cpp_codegen_multiply(L_122, L_123));
+		V_25 = ((double)il2cpp_codegen_multiply(L_122, L_123));
 		// Vector2 np = new Vector2((float)rx1, (float)ry1);
-		double L_124 = V_25;
-		double L_125 = V_26;
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_27), ((float)L_124), ((float)L_125), NULL);
+		double L_124 = V_24;
+		double L_125 = V_25;
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_26), ((float)L_124), ((float)L_125), NULL);
 		// localPoints.Add(np);
 		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_126 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_127 = V_27;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_127 = V_26;
 		NullCheck(L_126);
 		List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_inline(L_126, L_127, List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var);
 	}
 
-IL_030f:
+IL_0304:
 	{
 		// while (enumerator.MoveNext())
-		RuntimeObject* L_128 = V_20;
+		RuntimeObject* L_128 = V_19;
 		NullCheck(L_128);
 		bool L_129;
 		L_129 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_128);
 		if (L_129)
 		{
-			goto IL_0122;
-		}
-	}
-	{
-		// if (isOptimized)
-		bool L_130 = V_17;
-		if (!L_130)
-		{
-			goto IL_03cb;
+			goto IL_011f;
 		}
 	}
 	{
 		// px -= sx;
-		double L_131 = V_18;
-		double L_132 = V_0;
-		V_18 = ((double)il2cpp_codegen_subtract(L_131, L_132));
+		double L_130 = V_17;
+		double L_131 = V_0;
+		V_17 = ((double)il2cpp_codegen_subtract(L_130, L_131));
 		// py -= sy;
-		double L_133 = V_19;
-		double L_134 = V_1;
-		V_19 = ((double)il2cpp_codegen_subtract(L_133, L_134));
+		double L_132 = V_18;
+		double L_133 = V_1;
+		V_18 = ((double)il2cpp_codegen_subtract(L_132, L_133));
 		// if (i == 0)
-		int32_t L_135 = V_15;
-		if (L_135)
+		int32_t L_134 = V_15;
+		if (L_134)
 		{
-			goto IL_035d;
+			goto IL_034b;
 		}
 	}
 	{
 		// double ox = px - mapTileWidth;
-		double L_136 = V_18;
-		int32_t L_137 = V_21;
-		V_36 = ((double)il2cpp_codegen_subtract(L_136, ((double)L_137)));
+		double L_135 = V_17;
+		int32_t L_136 = V_20;
+		V_35 = ((double)il2cpp_codegen_subtract(L_135, ((double)L_136)));
 		// if (ox < -halfMax) px += max;
-		double L_138 = V_36;
-		int32_t L_139 = V_7;
-		if ((!(((double)L_138) < ((double)((double)((-L_139)))))))
+		double L_137 = V_35;
+		int32_t L_138 = V_7;
+		if ((!(((double)L_137) < ((double)((double)((-L_138)))))))
 		{
-			goto IL_034c;
+			goto IL_033a;
 		}
 	}
 	{
 		// if (ox < -halfMax) px += max;
-		double L_140 = V_18;
-		int32_t L_141 = V_6;
-		V_18 = ((double)il2cpp_codegen_add(L_140, ((double)L_141)));
-		goto IL_03a4;
+		double L_139 = V_17;
+		int32_t L_140 = V_6;
+		V_17 = ((double)il2cpp_codegen_add(L_139, ((double)L_140)));
+		goto IL_0392;
 	}
 
-IL_034c:
+IL_033a:
 	{
 		// else if (ox > halfMax) px -= max;
-		double L_142 = V_36;
-		int32_t L_143 = V_7;
-		if ((!(((double)L_142) > ((double)((double)L_143)))))
+		double L_141 = V_35;
+		int32_t L_142 = V_7;
+		if ((!(((double)L_141) > ((double)((double)L_142)))))
 		{
-			goto IL_03a4;
+			goto IL_0392;
 		}
 	}
 	{
 		// else if (ox > halfMax) px -= max;
-		double L_144 = V_18;
-		int32_t L_145 = V_6;
-		V_18 = ((double)il2cpp_codegen_subtract(L_144, ((double)L_145)));
-		goto IL_03a4;
+		double L_143 = V_17;
+		int32_t L_144 = V_6;
+		V_17 = ((double)il2cpp_codegen_subtract(L_143, ((double)L_144)));
+		goto IL_0392;
 	}
 
-IL_035d:
+IL_034b:
 	{
 		// double ox = px - ppx;
-		double L_146 = V_18;
-		double L_147 = V_8;
-		V_37 = ((double)il2cpp_codegen_subtract(L_146, L_147));
+		double L_145 = V_17;
+		double L_146 = V_8;
+		V_36 = ((double)il2cpp_codegen_subtract(L_145, L_146));
 		// int maxIt = 3;
-		V_38 = 3;
-		goto IL_039a;
+		V_37 = 3;
+		goto IL_0388;
 	}
 
-IL_0369:
+IL_0357:
 	{
 		// if (ox < -halfMax)
-		double L_148 = V_37;
-		int32_t L_149 = V_7;
-		if ((!(((double)L_148) < ((double)((double)((-L_149)))))))
+		double L_147 = V_36;
+		int32_t L_148 = V_7;
+		if ((!(((double)L_147) < ((double)((double)((-L_148)))))))
 		{
-			goto IL_0383;
+			goto IL_0371;
 		}
 	}
 	{
 		// px += max;
-		double L_150 = V_18;
-		int32_t L_151 = V_6;
-		V_18 = ((double)il2cpp_codegen_add(L_150, ((double)L_151)));
+		double L_149 = V_17;
+		int32_t L_150 = V_6;
+		V_17 = ((double)il2cpp_codegen_add(L_149, ((double)L_150)));
 		// ox += max;
-		double L_152 = V_37;
-		int32_t L_153 = V_6;
-		V_37 = ((double)il2cpp_codegen_add(L_152, ((double)L_153)));
-		goto IL_039a;
+		double L_151 = V_36;
+		int32_t L_152 = V_6;
+		V_36 = ((double)il2cpp_codegen_add(L_151, ((double)L_152)));
+		goto IL_0388;
 	}
 
-IL_0383:
+IL_0371:
 	{
 		// else if (ox > halfMax)
-		double L_154 = V_37;
-		int32_t L_155 = V_7;
-		if ((!(((double)L_154) > ((double)((double)L_155)))))
+		double L_153 = V_36;
+		int32_t L_154 = V_7;
+		if ((!(((double)L_153) > ((double)((double)L_154)))))
 		{
-			goto IL_03a4;
+			goto IL_0392;
 		}
 	}
 	{
 		// px -= max;
-		double L_156 = V_18;
-		int32_t L_157 = V_6;
-		V_18 = ((double)il2cpp_codegen_subtract(L_156, ((double)L_157)));
+		double L_155 = V_17;
+		int32_t L_156 = V_6;
+		V_17 = ((double)il2cpp_codegen_subtract(L_155, ((double)L_156)));
 		// ox -= max;
-		double L_158 = V_37;
-		int32_t L_159 = V_6;
-		V_37 = ((double)il2cpp_codegen_subtract(L_158, ((double)L_159)));
+		double L_157 = V_36;
+		int32_t L_158 = V_6;
+		V_36 = ((double)il2cpp_codegen_subtract(L_157, ((double)L_158)));
 	}
 
-IL_039a:
+IL_0388:
 	{
 		// while (maxIt-- > 0)
-		int32_t L_160 = V_38;
-		int32_t L_161 = L_160;
-		V_38 = ((int32_t)il2cpp_codegen_subtract(L_161, 1));
-		if ((((int32_t)L_161) > ((int32_t)0)))
+		int32_t L_159 = V_37;
+		int32_t L_160 = L_159;
+		V_37 = ((int32_t)il2cpp_codegen_subtract(L_160, 1));
+		if ((((int32_t)L_160) > ((int32_t)0)))
 		{
-			goto IL_0369;
+			goto IL_0357;
 		}
 	}
 
-IL_03a4:
+IL_0392:
 	{
 		// double rx1 = px * scaleX;
-		double L_162 = V_18;
-		double L_163 = V_10;
-		V_33 = ((double)il2cpp_codegen_multiply(L_162, L_163));
+		double L_161 = V_17;
+		double L_162 = V_10;
+		V_32 = ((double)il2cpp_codegen_multiply(L_161, L_162));
 		// double ry1 = py * scaleY;
-		double L_164 = V_19;
-		double L_165 = V_11;
-		V_34 = ((double)il2cpp_codegen_multiply(L_164, L_165));
+		double L_163 = V_18;
+		double L_164 = V_11;
+		V_33 = ((double)il2cpp_codegen_multiply(L_163, L_164));
 		// Vector2 np = new Vector2((float)rx1, (float)ry1);
+		double L_165 = V_32;
 		double L_166 = V_33;
-		double L_167 = V_34;
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_35), ((float)L_166), ((float)L_167), NULL);
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_34), ((float)L_165), ((float)L_166), NULL);
 		// localPoints.Add(np);
-		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_168 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_169 = V_35;
-		NullCheck(L_168);
-		List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_inline(L_168, L_169, List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var);
-	}
-
-IL_03cb:
-	{
-		// if (closed && (localPoints[0] - localPoints[localPoints.Count - 1]).magnitude > sizeInScene.x / 256) localPoints.Add(localPoints[0]);
-		bool L_170 = ___closed1;
-		if (!L_170)
-		{
-			goto IL_0421;
-		}
-	}
-	{
-		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_171 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
-		NullCheck(L_171);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_172;
-		L_172 = List_1_get_Item_m1F8E226CAD72B83C5E75BB66B43025247806B543(L_171, 0, List_1_get_Item_m1F8E226CAD72B83C5E75BB66B43025247806B543_RuntimeMethod_var);
-		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_173 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
-		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_174 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
-		NullCheck(L_174);
-		int32_t L_175;
-		L_175 = List_1_get_Count_mF1C0C56457C655BDFFC6EE5B46FAD8BAEC1F588B_inline(L_174, List_1_get_Count_mF1C0C56457C655BDFFC6EE5B46FAD8BAEC1F588B_RuntimeMethod_var);
-		NullCheck(L_173);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_176;
-		L_176 = List_1_get_Item_m1F8E226CAD72B83C5E75BB66B43025247806B543(L_173, ((int32_t)il2cpp_codegen_subtract(L_175, 1)), List_1_get_Item_m1F8E226CAD72B83C5E75BB66B43025247806B543_RuntimeMethod_var);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_177;
-		L_177 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_172, L_176, NULL);
-		V_39 = L_177;
-		float L_178;
-		L_178 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline((&V_39), NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_179 = V_9;
-		float L_180 = L_179.___x_0;
-		if ((!(((float)L_178) > ((float)((float)(L_180/(256.0f)))))))
-		{
-			goto IL_0421;
-		}
-	}
-	{
-		// if (closed && (localPoints[0] - localPoints[localPoints.Count - 1]).magnitude > sizeInScene.x / 256) localPoints.Add(localPoints[0]);
-		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_181 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
-		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_182 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
-		NullCheck(L_182);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_183;
-		L_183 = List_1_get_Item_m1F8E226CAD72B83C5E75BB66B43025247806B543(L_182, 0, List_1_get_Item_m1F8E226CAD72B83C5E75BB66B43025247806B543_RuntimeMethod_var);
-		NullCheck(L_181);
-		List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_inline(L_181, L_183, List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var);
-	}
-
-IL_0421:
-	{
+		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_167 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_168 = V_34;
+		NullCheck(L_167);
+		List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_inline(L_167, L_168, List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var);
 		// return localPoints;
-		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_184 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
-		return L_184;
+		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_169 = ((OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_StaticFields*)il2cpp_codegen_static_fields_for(OnlineMapsDrawingElement_t6532F0CF036D123DC0E2F8E4EA00CF359774D735_il2cpp_TypeInfo_var))->___localPoints_25;
+		return L_169;
 	}
 }
 // System.Boolean OnlineMapsDrawingElement::HitTest(UnityEngine.Vector2,System.Int32)
@@ -16798,7 +16724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnlineMapsDrawingLine__ctor_m0E94FD92EC2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnlineMapsDrawingLine__ctor_mBB79E4B1DFBCBE4E056EEDE15DF8AAC5411C3AFE (OnlineMapsDrawingLine_t18F24761D2D96797A723CE8AF67889461535CFB9* __this, RuntimeObject* ___points0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color1, float ___width2, const RuntimeMethod* method) 
 {
 	{
-		// public OnlineMapsDrawingLine(IEnumerable points, Color color, float width) : this(points, color)
+		// public OnlineMapsDrawingLine(IEnumerable points, Color color, float width) : this(points,color)
 		RuntimeObject* L_0 = ___points0;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___color1;
 		OnlineMapsDrawingLine__ctor_m0E94FD92EC241D6850586382B963049F87906609(__this, L_0, L_1, NULL);
@@ -23372,59 +23298,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color32__ctor_mC9C6B443F0C7C
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) 
-{
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
-		float L_1 = L_0.___x_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___b1;
-		float L_3 = L_2.___x_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___a0;
-		float L_5 = L_4.___y_1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___b1;
-		float L_7 = L_6.___y_1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
-		memset((&L_8), 0, sizeof(L_8));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), /*hidden argument*/NULL);
-		V_0 = L_8;
-		goto IL_0023;
-	}
-
-IL_0023:
-	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
-		return L_9;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	{
-		float L_0 = __this->___x_0;
-		float L_1 = __this->___x_0;
-		float L_2 = __this->___y_1;
-		float L_3 = __this->___y_1;
-		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		double L_4;
-		L_4 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))))));
-		V_0 = ((float)L_4);
-		goto IL_0026;
-	}
-
-IL_0026:
-	{
-		float L_5 = V_0;
-		return L_5;
-	}
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m8A4C189A6749DFE3ED8B66D9D3CACD8DB333974F_inline (int32_t ___a0, int32_t ___b1, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -23459,6 +23332,32 @@ IL_000c:
 	{
 		int32_t L_4 = V_0;
 		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
+		float L_1 = L_0.___x_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___b1;
+		float L_3 = L_2.___x_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___a0;
+		float L_5 = L_4.___y_1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___b1;
+		float L_7 = L_6.___y_1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), /*hidden argument*/NULL);
+		V_0 = L_8;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
+		return L_9;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 

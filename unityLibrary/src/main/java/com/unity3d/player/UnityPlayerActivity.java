@@ -82,7 +82,6 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     @Override protected void onStart()
     {
         super.onStart();
-        System.out.print(RunAI.Hello());
         if (!MultiWindowSupport.getAllowResizableWindow(this))
             return;
 

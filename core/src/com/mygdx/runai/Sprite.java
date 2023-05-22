@@ -18,7 +18,7 @@ public class Sprite {
     }
 
     public void update(float delta){
-       position.add(velocity.x * delta, velocity.y * delta);
+       position.add(0, velocity.y * delta );
     }
 
     public void draw(SpriteBatch batch){
@@ -34,6 +34,8 @@ public class Sprite {
     }
 
 
+    public void setPosition(float x, float y) {
 
-
+        position = new Vector2(x,y);
+    }
 }
