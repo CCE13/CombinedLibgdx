@@ -77,6 +77,7 @@ public class WalkingServiceBridge {
         Gson gson = new Gson();
         AIDataClassHolder holder = gson.fromJson(JsonString,AIDataClassHolder.class);
         _backgroundThread.SetAIData(holder);
+        System.out.println("Received Data");
     }
 
     private void takePermission() {

@@ -8,11 +8,11 @@ public class Initialiser extends ApplicationAdapter
     @Override
     public void create()
     {
-       _runAI = new RunAI();
-       _runAI.create();
+       //_runAI = new RunAI();
+       //_runAI.create();
     }
 
     public void TestRun(){
-        _runAI.RunTheAI();
+        //_runAI.RunTheAI();
     }
 }
