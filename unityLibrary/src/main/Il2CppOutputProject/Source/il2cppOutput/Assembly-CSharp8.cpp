@@ -6765,10 +6765,10 @@ struct CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63  : public Mon
 {
 	// System.Boolean CompetitorManager::CompetitionStarted
 	bool ___CompetitionStarted_4;
-	// RunData CompetitorManager::<RunData>k__BackingField
-	RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* ___U3CRunDataU3Ek__BackingField_5;
 	// System.Boolean CompetitorManager::StopRunning
-	bool ___StopRunning_6;
+	bool ___StopRunning_5;
+	// RunData CompetitorManager::<RunData>k__BackingField
+	RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* ___U3CRunDataU3Ek__BackingField_6;
 	// System.Boolean CompetitorManager::_competitionPaused
 	bool ____competitionPaused_7;
 };
@@ -7051,46 +7051,44 @@ struct PaceAchievement_tA040DBCC2ED7F7BC744E11BAF05614517CD13A26  : public BaseA
 // PlayerMovement
 struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63
 {
-	// System.Boolean PlayerMovement::_useDistanceChecking
-	bool ____useDistanceChecking_10;
 	// System.Single PlayerMovement::TargetSpeed
-	float ___TargetSpeed_11;
+	float ___TargetSpeed_10;
 	// System.Single PlayerMovement::acclerationSpeed
-	float ___acclerationSpeed_12;
+	float ___acclerationSpeed_11;
 	// System.Single PlayerMovement::_speed
-	float ____speed_13;
+	float ____speed_12;
 	// System.Single PlayerMovement::_randomSpeed
-	float ____randomSpeed_14;
+	float ____randomSpeed_13;
 	// RunDataSO PlayerMovement::runDataSO
-	RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2* ___runDataSO_15;
+	RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2* ___runDataSO_14;
 	// System.Single PlayerMovement::_previousTimingPerKM
-	float ____previousTimingPerKM_16;
+	float ____previousTimingPerKM_15;
 	// System.Single PlayerMovement::_startZ
-	float ____startZ_17;
+	float ____startZ_16;
 	// System.Single PlayerMovement::_endZ
-	float ____endZ_18;
+	float ____endZ_17;
 	// System.Boolean PlayerMovement::stopMoving
-	bool ___stopMoving_19;
+	bool ___stopMoving_18;
 	// System.Single PlayerMovement::_distanceMovingRealTime
-	float ____distanceMovingRealTime_20;
+	float ____distanceMovingRealTime_19;
 	// UnityEngine.Animator PlayerMovement::_characterModelAnimator
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_27;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_26;
 };
 
 struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
 {
 	// System.Action PlayerMovement::CompetitionStopped
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___CompetitionStopped_21;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___CompetitionStopped_20;
 	// System.Action`1<RunData> PlayerMovement::UpdateAchievements
-	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___UpdateAchievements_22;
+	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___UpdateAchievements_21;
 	// System.Action`1<RunData> PlayerMovement::SetPaceUI
-	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___SetPaceUI_23;
+	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___SetPaceUI_22;
 	// System.Action`2<System.Single,System.Single> PlayerMovement::Lapping
-	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___Lapping_24;
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___Lapping_23;
 	// System.Action`1<System.Boolean> PlayerMovement::CompetitionPaused
-	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___CompetitionPaused_25;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___CompetitionPaused_24;
 	// AchievementGroupEnumTypes PlayerMovement::test
-	int32_t ___test_26;
+	int32_t ___test_25;
 };
 
 // UnityEngine.UI.Selectable
@@ -33145,7 +33143,7 @@ IL_000e:
 		L_6 = AudioManager_get_Instance_mF0A3EFF8AE3DD3693336E68C84273510073B014F_inline(NULL);
 		PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* L_7 = __this->____playerData_6;
 		NullCheck(L_7);
-		RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2* L_8 = L_7->___runDataSO_15;
+		RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2* L_8 = L_7->___runDataSO_14;
 		NullCheck(L_8);
 		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_9;
 		L_9 = RunDataSO_GetRunData_m63006E3630272C82E725CA954AC619BA68A9347B_inline(L_8, NULL);
@@ -36333,7 +36331,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RunData_t43C9254B2C07F866CEB1DC93
 {
 	{
 		// [field :SerializeField]public RunData RunData { get; private set; }
-		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_0 = __this->___U3CRunDataU3Ek__BackingField_5;
+		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_0 = __this->___U3CRunDataU3Ek__BackingField_6;
 		return L_0;
 	}
 }
