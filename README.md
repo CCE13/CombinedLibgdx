@@ -1,6 +1,6 @@
 # RunAI
 
-Welcome to RunAI - an immersive application that enhances your running sessions with interactive visual and audio cues. Currently, our application is only compatible with Android devices. An APK file for the latest build is available for download through this link: (INSERT DOWNLOAD LINK HERE).
+Welcome to RunAI - an immersive application that enhances your running sessions with interactive visual and audio cues. Currently, our application is only compatible with Android devices. An APK file for the latest build is available for download through this link: ([DOWNLOAD HERE](https://drive.google.com/drive/folders/1gztleJth5F89z_HBBdQeTwS1LbGE3qyp?usp=share_link)).
 
 RunAI incorporates the best of various platforms and languages:
 
