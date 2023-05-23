@@ -735,10 +735,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteral0474A052F8B266E0F27677E0C8A258768D2D75CF
 IL2CPP_EXTERN_C String_t* _stringLiteral0B429682FB053FF075D6542DBD8EA45508FAD8D2;
 IL2CPP_EXTERN_C String_t* _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A;
 IL2CPP_EXTERN_C String_t* _stringLiteral0E9149103CDFF3174CD65E283E50FAE82866AF6D;
-IL2CPP_EXTERN_C String_t* _stringLiteral107694947DB47644F8036602F63473486E1ED925;
 IL2CPP_EXTERN_C String_t* _stringLiteral153DBD4A1EF3F9EB7B6CEFB0436C0FCC1B430AC8;
 IL2CPP_EXTERN_C String_t* _stringLiteral188B7399C33884B28F429C7B86E8E89695484103;
 IL2CPP_EXTERN_C String_t* _stringLiteral1A3368DAE484FE379E69F430C2A7AAC7B6DBF7C3;
+IL2CPP_EXTERN_C String_t* _stringLiteral1B2FD5DE0C0D1D6A3F3DAE1C55F6AB5B2C4803C1;
 IL2CPP_EXTERN_C String_t* _stringLiteral1BD5171F788CB8DED8C21C926D9638B51C9BAE44;
 IL2CPP_EXTERN_C String_t* _stringLiteral24E647DA9F68ED3D2095B311DC0E1623516C4912;
 IL2CPP_EXTERN_C String_t* _stringLiteral2A4AF2371E5D32D286057BF0185547BF96F20333;
@@ -10273,7 +10273,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnlineMapsJSON_DeserializeArra
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral107694947DB47644F8036602F63473486E1ED925);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B2FD5DE0C0D1D6A3F3DAE1C55F6AB5B2C4803C1);
 		s_Il2CppMethodInitialized = true;
 	}
 	Type_t* V_0 = NULL;
@@ -10524,10 +10524,10 @@ IL_00f6:
 	try
 	{// begin try (depth: 1)
 		{
-			// MethodInfo methodInfo = OnlineMapsReflectionHelper.GetMethod(type, "Add");
+			// MethodInfo methodInfo = OnlineMapsReflectionHelper.GetMethod(type, "AddToSavedRunlist");
 			Type_t* L_55 = ___type0;
 			MethodInfo_t* L_56;
-			L_56 = OnlineMapsReflectionHelper_GetMethod_m8EBDFECEE9F58027371B6E1450A902246CAC0048(L_55, _stringLiteral107694947DB47644F8036602F63473486E1ED925, NULL);
+			L_56 = OnlineMapsReflectionHelper_GetMethod_m8EBDFECEE9F58027371B6E1450A902246CAC0048(L_55, _stringLiteral1B2FD5DE0C0D1D6A3F3DAE1C55F6AB5B2C4803C1, NULL);
 			V_10 = L_56;
 			// if (methodInfo != null) methodInfo.Invoke(v, new[] { item });
 			MethodInfo_t* L_57 = V_10;
@@ -14129,7 +14129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnlineMapsJSONArray_Deserializ
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m4E257449BA718466C9E0AAEB0F98D46F5F24E15F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OnlineMapsJSONObject_t737240F669968FDC806DF090CF37A016B77456CB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral107694947DB47644F8036602F63473486E1ED925);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B2FD5DE0C0D1D6A3F3DAE1C55F6AB5B2C4803C1);
 		s_Il2CppMethodInitialized = true;
 	}
 	Type_t* V_0 = NULL;
@@ -14363,10 +14363,10 @@ IL_00f1:
 	try
 	{// begin try (depth: 1)
 		{
-			// MethodInfo methodInfo = OnlineMapsReflectionHelper.GetMethod(type, "Add");
+			// MethodInfo methodInfo = OnlineMapsReflectionHelper.GetMethod(type, "AddToSavedRunlist");
 			Type_t* L_54 = ___type0;
 			MethodInfo_t* L_55;
-			L_55 = OnlineMapsReflectionHelper_GetMethod_m8EBDFECEE9F58027371B6E1450A902246CAC0048(L_54, _stringLiteral107694947DB47644F8036602F63473486E1ED925, NULL);
+			L_55 = OnlineMapsReflectionHelper_GetMethod_m8EBDFECEE9F58027371B6E1450A902246CAC0048(L_54, _stringLiteral1B2FD5DE0C0D1D6A3F3DAE1C55F6AB5B2C4803C1, NULL);
 			V_12 = L_55;
 			// if (methodInfo != null) methodInfo.Invoke(v, new[] { item });
 			MethodInfo_t* L_56 = V_12;
@@ -14462,10 +14462,10 @@ IL_0156:
 	try
 	{// begin try (depth: 1)
 		{
-			// MethodInfo methodInfo = OnlineMapsReflectionHelper.GetMethod(type, "Add");
+			// MethodInfo methodInfo = OnlineMapsReflectionHelper.GetMethod(type, "AddToSavedRunlist");
 			Type_t* L_72 = ___type0;
 			MethodInfo_t* L_73;
-			L_73 = OnlineMapsReflectionHelper_GetMethod_m8EBDFECEE9F58027371B6E1450A902246CAC0048(L_72, _stringLiteral107694947DB47644F8036602F63473486E1ED925, NULL);
+			L_73 = OnlineMapsReflectionHelper_GetMethod_m8EBDFECEE9F58027371B6E1450A902246CAC0048(L_72, _stringLiteral1B2FD5DE0C0D1D6A3F3DAE1C55F6AB5B2C4803C1, NULL);
 			V_15 = L_73;
 			// if (methodInfo != null) methodInfo.Invoke(v, new[] { item });
 			MethodInfo_t* L_74 = V_15;

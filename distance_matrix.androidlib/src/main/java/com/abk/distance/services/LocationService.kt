@@ -93,7 +93,7 @@ class LocationService : Service(), LocationListener {
             val chan = NotificationChannel(
                 NOTIFICATION_CHANNEL_ID,
                 channelName,
-                NotificationManager.IMPORTANCE_DEFAULT,
+                NotificationManager.IMPORTANCE_HIGH,
 
             )
 
@@ -417,8 +417,11 @@ class LocationService : Service(), LocationListener {
             latLongList!!.add(DataPoint(newLocation.latitude,newLocation.longitude))
         }
         gpsCount++
+        var filter = filterAndAddLocation(newLocation)!!;
         if (isLogging) {
-                currentSpeed = filterAndAddLocation(newLocation)!!.speed;
+            if(filter != null){
+                currentSpeed = filter.speed;
+            }
         } else {
             // if newLocation passed the filter, count up goodLocationCount.
 //            if (filtered != null) {

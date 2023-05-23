@@ -1317,20 +1317,20 @@ struct U3CGetAllSceneObjectsU3Ed__83_1_t0B588E4120D4CF7C4DE850A238755E7DB3D9E46F
 	RuntimeObject* ___U3CU3E7__wrap4_6;
 };
 
-// SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>
-struct U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F  : public RuntimeObject
+// SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>
+struct U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96  : public RuntimeObject
 {
-	// System.Int32 SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::<>1__state
+	// System.Int32 SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::<>2__current
+	// System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// System.String SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::subdirectoryPath
+	// System.String SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::subdirectoryPath
 	String_t* ___subdirectoryPath_2;
-	// System.String SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::fileName
+	// System.String SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::fileName
 	String_t* ___fileName_3;
-	// System.Action`1<T> SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::callback
+	// System.Action`1<T> SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::callback
 	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___callback_4;
-	// UnityEngine.Networking.UnityWebRequest SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::<www>5__2
+	// UnityEngine.Networking.UnityWebRequest SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::<www>5__2
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CwwwU3E5__2_5;
 };
 
@@ -10547,7 +10547,7 @@ struct SavingManager_tF7AD8D800B0FF492720BFFA6A0C1104548461DB9  : public MonoBeh
 struct SavingManager_tF7AD8D800B0FF492720BFFA6A0C1104548461DB9_StaticFields
 {
 	// System.Collections.Generic.List`1<System.String> SavingManager::S_SAVEDFILENAMES
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___S_SAVEDFILENAMES_9;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___S_SAVEDFILENAMES_12;
 };
 
 // Doozy.Runtime.Signals.SignalProvider
@@ -20029,20 +20029,20 @@ IL_004e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SavingManager_LoadBinaryFileFromStreamingAssets_TisRuntimeObject_mA5999CEBD298EC583BA9CDB58533B97478702CF8_gshared (String_t* ___subdirectoryPath0, String_t* ___fileName1, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___callback2, const RuntimeMethod* method) 
 {
 	{
-		U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* L_0 = (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
+		U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* L_0 = (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 0));
 		NullCheck(L_0);
-		((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, 0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* L_1 = L_0;
+		((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, 0, il2cpp_rgctx_method(method->rgctx_data, 1));
+		U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* L_1 = L_0;
 		String_t* L_2 = ___subdirectoryPath0;
 		NullCheck(L_1);
 		L_1->___subdirectoryPath_2 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___subdirectoryPath_2), (void*)L_2);
-		U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* L_3 = L_1;
+		U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* L_3 = L_1;
 		String_t* L_4 = ___fileName1;
 		NullCheck(L_3);
 		L_3->___fileName_3 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___fileName_3), (void*)L_4);
-		U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* L_5 = L_3;
+		U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* L_5 = L_3;
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_6 = ___callback2;
 		NullCheck(L_5);
 		L_5->___callback_4 = L_6;

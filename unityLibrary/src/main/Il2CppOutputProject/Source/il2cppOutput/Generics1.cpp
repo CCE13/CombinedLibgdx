@@ -579,8 +579,8 @@ struct U3CGetEnumeratorU3Ed__35_tFBB72033DD97EBEE1D1AB495DD3A0C1827242215;
 struct U3CGetEnumeratorU3Ed__7_tC28BDA0A013CA25D07442678F68453936238718A;
 // System.Linq.Lookup`2/Grouping/<GetEnumerator>d__7<UnityEngine.Vector3,System.Collections.Generic.KeyValuePair`2<UnityEngine.Vector3,System.Int32>>
 struct U3CGetEnumeratorU3Ed__7_tBFE2BD0E00DB799A0E770444D92D5EC8E98F2C09;
-// SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>
-struct U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F;
+// SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>
+struct U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96;
 // System.Linq.Enumerable/<OfTypeIterator>d__97`1<System.Object>
 struct U3COfTypeIteratorU3Ed__97_1_tF761C30C6E4843D1A86B1CF9B2400664456D923B;
 // ParadoxNotion.ReflectionTools/<RTGetAttributesRecursive>d__97`1<System.Object>
@@ -1412,7 +1412,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CGetEnumeratorU3Ed__1_System_Collections_
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetEnumeratorU3Ed__35_System_Collections_IEnumerator_Reset_mC076EBC85BEA8C6BBD6000C7CDB836898EA57C86_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetEnumeratorU3Ed__7_System_Collections_IEnumerator_Reset_m1376492E87073E821389DFF9948C6FECDFB08EB2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetEnumeratorU3Ed__7_System_Collections_IEnumerator_Reset_mDBC8A2F121E92A095A3782C56D3677AE7DCBAD17_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_System_Collections_IEnumerator_Reset_m8B655F5DCBE4C674B9EFE406E36A69D61645E475_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_System_Collections_IEnumerator_Reset_m053E4A5BBF2699C6FC93AC7D3F3B267AC28C3BB9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3COfTypeIteratorU3Ed__97_1_System_Collections_IEnumerator_Reset_m95C4E460E31FC87B98FE651FE9194148BD6ACD08_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRTGetAttributesRecursiveU3Ed__97_1_System_Collections_IEnumerator_Reset_mD51CF0F1EE9BEB7C55C974D9645F77E782168B2E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CRepeatIteratorU3Ed__117_1_System_Collections_IEnumerator_Reset_m93EB037615AFB44129F4139394E3C746A1365B4D_RuntimeMethod_var;
@@ -1737,20 +1737,20 @@ struct U3CGetEnumeratorU3Ed__7_tC28BDA0A013CA25D07442678F68453936238718A  : publ
 	int32_t ___U3CiU3E5__2_3;
 };
 
-// SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>
-struct U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F  : public RuntimeObject
+// SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>
+struct U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96  : public RuntimeObject
 {
-	// System.Int32 SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::<>1__state
+	// System.Int32 SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::<>2__current
+	// System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// System.String SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::subdirectoryPath
+	// System.String SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::subdirectoryPath
 	String_t* ___subdirectoryPath_2;
-	// System.String SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::fileName
+	// System.String SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::fileName
 	String_t* ___fileName_3;
-	// System.Action`1<T> SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::callback
+	// System.Action`1<T> SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::callback
 	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___callback_4;
-	// UnityEngine.Networking.UnityWebRequest SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1::<www>5__2
+	// UnityEngine.Networking.UnityWebRequest SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1::<www>5__2
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___U3CwwwU3E5__2_5;
 };
 
@@ -15342,8 +15342,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetEnumeratorU3Ed__7_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1__ctor_m73E98D2BDC79E99C6ECA03AF38670CA7E57A62EC_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+// System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1__ctor_mCF9445DA96215BED676773C2AF44A4BE84465A9F_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
@@ -15352,8 +15352,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadBinaryFileFromStreamingAssetsU3Ed
 		return;
 	}
 }
-// System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_System_IDisposable_Dispose_m17D747580EE256D39077A1D7D4B35B81DA369C53_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* __this, const RuntimeMethod* method) 
+// System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_System_IDisposable_Dispose_m959C60C5A9C56D1A9EC01CAD89149FDCE440E5AB_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
@@ -15382,7 +15382,7 @@ IL_0010:
 
 FINALLY_0013:
 			{// begin finally (depth: 1)
-				((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+				((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 				return;
 			}// end finally (depth: 1)
 		});
@@ -15401,8 +15401,8 @@ IL_001a:
 		return;
 	}
 }
-// System.Boolean SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_MoveNext_m81076FE7942B141F41DFA71266D8FB598B7D188C_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* __this, const RuntimeMethod* method) 
+// System.Boolean SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_MoveNext_m49E7531D7A27BC487793CCDB131AB31C67BC6C63_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15431,7 +15431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoadBinaryFileFromStreamingAssetsU3Ed
 
 FAULT_01cd:
 			{// begin fault (depth: 1)
-				((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+				((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 				return;
 			}// end fault
 		});
@@ -15642,13 +15642,13 @@ IL_014a_1:
 IL_014b_1:
 			{
 				// }
-				((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+				((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 				goto IL_015b_1;
 			}
 
 IL_0153_1:
 			{
-				((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+				((  void (*) (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 				goto IL_01d4;
 			}
 
@@ -15767,8 +15767,8 @@ IL_01d4:
 		return L_50;
 	}
 }
-// System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>::<>m__Finally1()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_U3CU3Em__Finally1_m63896BB256DCDC3F3944C71863F8628B22E9C09B_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* __this, const RuntimeMethod* method) 
+// System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>::<>m__Finally1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_U3CU3Em__Finally1_mEA76D75B80655B82581DA1F82284A5166F28626F_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15795,26 +15795,26 @@ IL_001a:
 		return;
 	}
 }
-// System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6FF8AB2397A4CAF88951135211CD3223CF986984_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* __this, const RuntimeMethod* method) 
+// System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3880BC4733AD64D47FDE04DB1B164540DB81901D_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = (RuntimeObject*)__this->___U3CU3E2__current_1;
 		return L_0;
 	}
 }
-// System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_System_Collections_IEnumerator_Reset_m8B655F5DCBE4C674B9EFE406E36A69D61645E475_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* __this, const RuntimeMethod* method) 
+// System.Void SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_System_Collections_IEnumerator_Reset_m053E4A5BBF2699C6FC93AC7D3F3B267AC28C3BB9_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_System_Collections_IEnumerator_Reset_m8B655F5DCBE4C674B9EFE406E36A69D61645E475_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_System_Collections_IEnumerator_Reset_m053E4A5BBF2699C6FC93AC7D3F3B267AC28C3BB9_RuntimeMethod_var)));
 	}
 }
-// System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__15`1<System.Object>::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_System_Collections_IEnumerator_get_Current_mC66596D94E7BC7708CD10883C1A504518451BB32_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__15_1_tEE00DD36B923528C633AB564E15AF1500679567F* __this, const RuntimeMethod* method) 
+// System.Object SavingManager/<LoadBinaryFileFromStreamingAssets>d__18`1<System.Object>::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_System_Collections_IEnumerator_get_Current_mC0F8091F45D78764C5FAF0A80BFE29CC70817018_gshared (U3CLoadBinaryFileFromStreamingAssetsU3Ed__18_1_tE7E0ED94DCE1A7F5C5BD0DF80F13C83A37EA0D96* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = (RuntimeObject*)__this->___U3CU3E2__current_1;
