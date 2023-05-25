@@ -3,16 +3,19 @@ package com.unity3d.player;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
+import android.view.View;
 import android.view.Window;
-
-import com.mygdx.runai.RunAI;
+import android.view.WindowManager;
+import android.os.Process;
 
 public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecycleEvents
 {
     protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
+
     // Override this in your custom UnityPlayerActivity to tweak the command line arguments passed to the Unity Android Player
     // The command line arguments are passed as a string, separated by spaces
     // UnityPlayerActivity calls this from 'onCreate'
@@ -82,6 +85,7 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     @Override protected void onStart()
     {
         super.onStart();
+
         if (!MultiWindowSupport.getAllowResizableWindow(this))
             return;
 
@@ -93,8 +97,10 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     {
         super.onPause();
 
-        MultiWindowSupport.saveMultiWindowMode(this);if (MultiWindowSupport.getAllowResizableWindow(this))
-        return;
+        MultiWindowSupport.saveMultiWindowMode(this);
+
+        if (MultiWindowSupport.getAllowResizableWindow(this))
+            return;
 
         mUnityPlayer.pause();
     }

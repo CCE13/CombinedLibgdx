@@ -9471,7 +9471,7 @@ IL_0097:
 		// stream.WriteLine();
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_22 = ___stream1;
 		NullCheck(L_22);
-		VirtualActionInvoker0::Invoke(20 /* System.Void System.IO.TextWriter::WriteLine() */, L_22);
+		VirtualActionInvoker0::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine() */, L_22);
 		// bool comma = false;
 		V_1 = (bool)0;
 		// foreach ( var entry in data.AsDictionary ) {
@@ -9521,7 +9521,7 @@ IL_00b5_1:
 				// stream.WriteLine();
 				TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_29 = ___stream1;
 				NullCheck(L_29);
-				VirtualActionInvoker0::Invoke(20 /* System.Void System.IO.TextWriter::WriteLine() */, L_29);
+				VirtualActionInvoker0::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine() */, L_29);
 			}
 
 IL_00ce_1:
@@ -9583,7 +9583,7 @@ IL_012a:
 		// stream.WriteLine();
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_41 = ___stream1;
 		NullCheck(L_41);
-		VirtualActionInvoker0::Invoke(20 /* System.Void System.IO.TextWriter::WriteLine() */, L_41);
+		VirtualActionInvoker0::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine() */, L_41);
 		// InsertSpacing(stream, depth);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_42 = ___stream1;
 		int32_t L_43 = ___depth2;
@@ -9630,7 +9630,7 @@ IL_0159:
 		// stream.WriteLine();
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_50 = ___stream1;
 		NullCheck(L_50);
-		VirtualActionInvoker0::Invoke(20 /* System.Void System.IO.TextWriter::WriteLine() */, L_50);
+		VirtualActionInvoker0::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine() */, L_50);
 		// foreach ( var entry in data.AsList ) {
 		fsData_t0D9C403CA222F8A5CB8A66578340497D65E47FF0* L_51 = ___data0;
 		NullCheck(L_51);
@@ -9679,7 +9679,7 @@ IL_0179_1:
 				// stream.WriteLine();
 				TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_57 = ___stream1;
 				NullCheck(L_57);
-				VirtualActionInvoker0::Invoke(20 /* System.Void System.IO.TextWriter::WriteLine() */, L_57);
+				VirtualActionInvoker0::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine() */, L_57);
 				G_B24_0 = G_B23_0;
 			}
 
@@ -9722,7 +9722,7 @@ IL_01c0:
 		// stream.WriteLine();
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_63 = ___stream1;
 		NullCheck(L_63);
-		VirtualActionInvoker0::Invoke(20 /* System.Void System.IO.TextWriter::WriteLine() */, L_63);
+		VirtualActionInvoker0::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine() */, L_63);
 		// InsertSpacing(stream, depth);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_64 = ___stream1;
 		int32_t L_65 = ___depth2;
@@ -10669,7 +10669,7 @@ IL_0035:
 		Type_t* L_18 = ___reflectedType1;
 		NullCheck(L_18);
 		Type_t* L_19;
-		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(114 /* System.Type System.Type::get_BaseType() */, L_18);
+		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(115 /* System.Type System.Type::get_BaseType() */, L_18);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_20;
 		L_20 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_19, (Type_t*)NULL, NULL);
@@ -10684,7 +10684,7 @@ IL_0035:
 		Type_t* L_22 = ___reflectedType1;
 		NullCheck(L_22);
 		Type_t* L_23;
-		L_23 = VirtualFuncInvoker0< Type_t* >::Invoke(114 /* System.Type System.Type::get_BaseType() */, L_22);
+		L_23 = VirtualFuncInvoker0< Type_t* >::Invoke(115 /* System.Type System.Type::get_BaseType() */, L_22);
 		il2cpp_codegen_runtime_class_init_inline(fsMetaType_tAD3AD51319D067740165C015FA9FD964DB7F8FBD_il2cpp_TypeInfo_var);
 		fsMetaType_CollectProperties_m3BE2E1458A31B54B476E94F846047B6DB8BC336E(L_21, L_23, NULL);
 	}
@@ -15022,7 +15022,7 @@ IL_0108:
 		L_58 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(52 /* System.Type[] System.Type::GetGenericArguments() */, L_57);
 		NullCheck(L_56);
 		Type_t* L_59;
-		L_59 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(125 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_56, L_58);
+		L_59 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_56, L_58);
 		V_8 = L_59;
 		goto IL_0142;
 	}
@@ -15787,7 +15787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsSerializer_TryDeserializeMigration_mBF
 		L_14 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(52 /* System.Type[] System.Type::GetGenericArguments() */, L_13);
 		NullCheck(L_12);
 		Type_t* L_15;
-		L_15 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(125 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_12, L_14);
+		L_15 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_12, L_14);
 		___previousType2 = L_15;
 	}
 
@@ -15810,10 +15810,10 @@ IL_003e:
 		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t*)L_21);
 		NullCheck(L_18);
 		Type_t* L_22;
-		L_22 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(125 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_18, L_20);
+		L_22 = VirtualFuncInvoker1< Type_t*, TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(126 /* System.Type System.Type::MakeGenericType(System.Type[]) */, L_18, L_20);
 		NullCheck(L_16);
 		InterfaceMapping_t4818CA9DD146752FBC643AD050582979B632D879 L_23;
-		L_23 = VirtualFuncInvoker1< InterfaceMapping_t4818CA9DD146752FBC643AD050582979B632D879, Type_t* >::Invoke(117 /* System.Reflection.InterfaceMapping System.Type::GetInterfaceMap(System.Type) */, L_16, L_22);
+		L_23 = VirtualFuncInvoker1< InterfaceMapping_t4818CA9DD146752FBC643AD050582979B632D879, Type_t* >::Invoke(118 /* System.Reflection.InterfaceMapping System.Type::GetInterfaceMap(System.Type) */, L_16, L_22);
 		V_1 = L_23;
 		// try { interfaceMap = instanceType.GetInterfaceMap(typeof(IMigratable<>).MakeGenericType(previousType)); }
 		goto IL_007a;
@@ -16495,7 +16495,7 @@ IL_0023:
 		ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782FEEF8A* L_15 = V_3;
 		NullCheck(L_15);
 		int32_t L_16;
-		L_16 = VirtualFuncInvoker0< int32_t >::Invoke(21 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_15);
+		L_16 = VirtualFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_15);
 		V_4 = L_16;
 		// for ( int i = 0; i < serializedList.Count; ++i ) {
 		V_6 = 0;
@@ -16527,7 +16527,7 @@ IL_004a:
 		int32_t L_23 = V_6;
 		NullCheck(L_22);
 		RuntimeObject* L_24;
-		L_24 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(25 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_22, L_23);
+		L_24 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_22, L_23);
 		V_8 = L_24;
 	}
 
@@ -16567,7 +16567,7 @@ IL_0067:
 		int32_t L_34 = V_6;
 		RuntimeObject* L_35 = V_8;
 		NullCheck(L_33);
-		VirtualActionInvoker2< int32_t, RuntimeObject* >::Invoke(26 /* System.Void System.Collections.ArrayList::set_Item(System.Int32,System.Object) */, L_33, L_34, L_35);
+		VirtualActionInvoker2< int32_t, RuntimeObject* >::Invoke(28 /* System.Void System.Collections.ArrayList::set_Item(System.Int32,System.Object) */, L_33, L_34, L_35);
 		goto IL_00a6;
 	}
 
@@ -16578,7 +16578,7 @@ IL_009d:
 		RuntimeObject* L_37 = V_8;
 		NullCheck(L_36);
 		int32_t L_38;
-		L_38 = VirtualFuncInvoker1< int32_t, RuntimeObject* >::Invoke(27 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_36, L_37);
+		L_38 = VirtualFuncInvoker1< int32_t, RuntimeObject* >::Invoke(29 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_36, L_37);
 	}
 
 IL_00a6:
@@ -16608,7 +16608,7 @@ IL_00ac:
 		Type_t* L_45 = V_1;
 		NullCheck(L_44);
 		RuntimeArray* L_46;
-		L_46 = VirtualFuncInvoker1< RuntimeArray*, Type_t* >::Invoke(43 /* System.Array System.Collections.ArrayList::ToArray(System.Type) */, L_44, L_45);
+		L_46 = VirtualFuncInvoker1< RuntimeArray*, Type_t* >::Invoke(47 /* System.Array System.Collections.ArrayList::ToArray(System.Type) */, L_44, L_45);
 		*((RuntimeObject**)L_43) = (RuntimeObject*)L_46;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_43, (void*)(RuntimeObject*)L_46);
 		// return result;
@@ -16815,7 +16815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsResult_t85378B9CFBF6927E0F58617C03432EEF4B8
 		// IDictionaryEnumerator enumerator = instance.GetEnumerator();
 		NullCheck(L_15);
 		RuntimeObject* L_18;
-		L_18 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(7 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_15);
+		L_18 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(9 /* System.Collections.IDictionaryEnumerator System.Collections.IDictionary::GetEnumerator() */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_15);
 		V_6 = L_18;
 		goto IL_00ba;
 	}

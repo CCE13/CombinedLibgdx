@@ -6867,14 +6867,14 @@ struct ComparativeRunDataUI_tFF36612BEA6F3B069A23A8DF209063172E057EDB  : public 
 // CompetitorManager
 struct CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// System.Boolean CompetitorManager::CompetitionStarted
-	bool ___CompetitionStarted_4;
-	// System.Boolean CompetitorManager::StopRunning
-	bool ___StopRunning_5;
+	// System.Boolean CompetitorManager::StartRunning
+	bool ___StartRunning_4;
 	// RunData CompetitorManager::<RunData>k__BackingField
-	RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* ___U3CRunDataU3Ek__BackingField_6;
+	RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* ___U3CRunDataU3Ek__BackingField_5;
 	// System.Boolean CompetitorManager::_competitionPaused
-	bool ____competitionPaused_7;
+	bool ____competitionPaused_6;
+	// System.Single CompetitorManager::_startZ
+	float ____startZ_7;
 };
 
 struct CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63_StaticFields
@@ -7094,32 +7094,28 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public Compet
 	RunDataSO_t42A721D8CDD6A8C12A74E8BAB530D0F1A56977C2* ___runDataSO_14;
 	// System.Single PlayerMovement::_previousTimingPerKM
 	float ____previousTimingPerKM_15;
-	// System.Single PlayerMovement::_startZ
-	float ____startZ_16;
 	// System.Single PlayerMovement::_endZ
-	float ____endZ_17;
-	// System.Boolean PlayerMovement::stopMoving
-	bool ___stopMoving_18;
+	float ____endZ_16;
 	// System.Single PlayerMovement::_distanceMovingRealTime
-	float ____distanceMovingRealTime_19;
+	float ____distanceMovingRealTime_17;
 	// UnityEngine.Animator PlayerMovement::_characterModelAnimator
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_26;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_24;
 };
 
 struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
 {
 	// System.Action PlayerMovement::CompetitionStopped
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___CompetitionStopped_20;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___CompetitionStopped_18;
 	// System.Action`1<RunData> PlayerMovement::UpdateAchievements
-	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___UpdateAchievements_21;
+	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___UpdateAchievements_19;
 	// System.Action`1<RunData> PlayerMovement::SetPaceUI
-	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___SetPaceUI_22;
+	Action_1_t917A4B3CFCE4D5B9DD9F8F1AAB453AD356671DA1* ___SetPaceUI_20;
 	// System.Action`2<System.Single,System.Single> PlayerMovement::Lapping
-	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___Lapping_23;
+	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___Lapping_21;
 	// System.Action`1<System.Boolean> PlayerMovement::CompetitionPaused
-	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___CompetitionPaused_24;
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___CompetitionPaused_22;
 	// AchievementGroupEnumTypes PlayerMovement::test
-	int32_t ___test_25;
+	int32_t ___test_23;
 };
 
 // UnityEngine.UI.Selectable
@@ -33219,17 +33215,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioPlayer_Update_m71C498949724E9689C4F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// if (!_playerData.CompetitionStarted) return;
+		// if (!_playerData.StartRunning) return;
 		PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* L_0 = __this->____playerData_6;
 		NullCheck(L_0);
-		bool L_1 = ((CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63*)L_0)->___CompetitionStarted_4;
+		bool L_1 = ((CompetitorManager_tD79156AB9F387107BE6B63C9FEA8F79244051C63*)L_0)->___StartRunning_4;
 		if (L_1)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		// if (!_playerData.CompetitionStarted) return;
+		// if (!_playerData.StartRunning) return;
 		return;
 	}
 
@@ -36618,7 +36614,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RunData_t43C9254B2C07F866CEB1DC93
 {
 	{
 		// [field :SerializeField]public RunData RunData { get; private set; }
-		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_0 = __this->___U3CRunDataU3Ek__BackingField_6;
+		RunData_t43C9254B2C07F866CEB1DC93A1840FC27B010916* L_0 = __this->___U3CRunDataU3Ek__BackingField_5;
 		return L_0;
 	}
 }

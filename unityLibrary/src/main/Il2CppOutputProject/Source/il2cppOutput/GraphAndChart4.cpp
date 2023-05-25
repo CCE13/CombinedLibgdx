@@ -12451,7 +12451,7 @@ IL_001c_2:
 						NullCheck(L_14);
 						String_t* L_15 = ((BaseScrollableCategoryData_t4EBD9E7E505A4A60FC7D3F995734229C0CEBD0B5*)L_14)->___Name_0;
 						NullCheck(L_13);
-						VirtualActionInvoker1< String_t* >::Invoke(23 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_13, L_15);
+						VirtualActionInvoker1< String_t* >::Invoke(26 /* System.Void System.IO.TextWriter::WriteLine(System.String) */, L_13, L_15);
 						// file.WriteLine(cat.Data.Count);
 						StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* L_16 = V_1;
 						CategoryData_t1059114349CC2BDE13E7BFDEE329A84F195B3FD0* L_17 = V_3;
@@ -12461,7 +12461,7 @@ IL_001c_2:
 						int32_t L_19;
 						L_19 = List_1_get_Count_m91EC9A430E2328CC726E6051C8B0728A004C3789_inline(L_18, List_1_get_Count_m91EC9A430E2328CC726E6051C8B0728A004C3789_RuntimeMethod_var);
 						NullCheck(L_16);
-						VirtualActionInvoker1< int32_t >::Invoke(21 /* System.Void System.IO.TextWriter::WriteLine(System.Int32) */, L_16, L_19);
+						VirtualActionInvoker1< int32_t >::Invoke(24 /* System.Void System.IO.TextWriter::WriteLine(System.Int32) */, L_16, L_19);
 						// for (int i = 0; i < cat.Data.Count; i++)
 						V_4 = 0;
 						goto IL_0074_2;
@@ -12483,13 +12483,13 @@ IL_0045_2:
 						DoubleVector3_tC21AB29E70CF855D7B772F02CF0CF15BEEB88AF0 L_25 = V_5;
 						double L_26 = L_25.___x_0;
 						NullCheck(L_24);
-						VirtualActionInvoker1< double >::Invoke(22 /* System.Void System.IO.TextWriter::WriteLine(System.Double) */, L_24, L_26);
+						VirtualActionInvoker1< double >::Invoke(25 /* System.Void System.IO.TextWriter::WriteLine(System.Double) */, L_24, L_26);
 						// file.WriteLine(item.y);
 						StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* L_27 = V_1;
 						DoubleVector3_tC21AB29E70CF855D7B772F02CF0CF15BEEB88AF0 L_28 = V_5;
 						double L_29 = L_28.___y_1;
 						NullCheck(L_27);
-						VirtualActionInvoker1< double >::Invoke(22 /* System.Void System.IO.TextWriter::WriteLine(System.Double) */, L_27, L_29);
+						VirtualActionInvoker1< double >::Invoke(25 /* System.Void System.IO.TextWriter::WriteLine(System.Double) */, L_27, L_29);
 						// for (int i = 0; i < cat.Data.Count; i++)
 						int32_t L_30 = V_4;
 						V_4 = ((int32_t)il2cpp_codegen_add(L_30, 1));
@@ -12609,7 +12609,7 @@ IL_0009_2:
 					StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_4 = V_0;
 					NullCheck(L_4);
 					String_t* L_5;
-					L_5 = VirtualFuncInvoker0< String_t* >::Invoke(13 /* System.String System.IO.TextReader::ReadLine() */, L_4);
+					L_5 = VirtualFuncInvoker0< String_t* >::Invoke(14 /* System.String System.IO.TextReader::ReadLine() */, L_4);
 					V_1 = L_5;
 					// if (graph.DataSource.HasCategory(catName) == false)
 					GraphChartBase_tCEAD518C540FC01B0643FB73EA070A11A56414A5* L_6 = ___graph1;
@@ -12639,7 +12639,7 @@ IL_0029_2:
 					StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_11 = V_0;
 					NullCheck(L_11);
 					String_t* L_12;
-					L_12 = VirtualFuncInvoker0< String_t* >::Invoke(13 /* System.String System.IO.TextReader::ReadLine() */, L_11);
+					L_12 = VirtualFuncInvoker0< String_t* >::Invoke(14 /* System.String System.IO.TextReader::ReadLine() */, L_11);
 					int32_t L_13;
 					L_13 = Int32_Parse_m59B9CC9D5E5B6C99C14251E57FB43BE6AB658767(L_12, NULL);
 					V_2 = L_13;
@@ -12654,7 +12654,7 @@ IL_0039_2:
 					StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_14 = V_0;
 					NullCheck(L_14);
 					String_t* L_15;
-					L_15 = VirtualFuncInvoker0< String_t* >::Invoke(13 /* System.String System.IO.TextReader::ReadLine() */, L_14);
+					L_15 = VirtualFuncInvoker0< String_t* >::Invoke(14 /* System.String System.IO.TextReader::ReadLine() */, L_14);
 					double L_16;
 					L_16 = Double_Parse_mBED785C952A63E8D714E429A4A704BCC4D92931B(L_15, NULL);
 					V_4 = L_16;
@@ -12662,7 +12662,7 @@ IL_0039_2:
 					StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_17 = V_0;
 					NullCheck(L_17);
 					String_t* L_18;
-					L_18 = VirtualFuncInvoker0< String_t* >::Invoke(13 /* System.String System.IO.TextReader::ReadLine() */, L_17);
+					L_18 = VirtualFuncInvoker0< String_t* >::Invoke(14 /* System.String System.IO.TextReader::ReadLine() */, L_17);
 					double L_19;
 					L_19 = Double_Parse_mBED785C952A63E8D714E429A4A704BCC4D92931B(L_18, NULL);
 					V_5 = L_19;

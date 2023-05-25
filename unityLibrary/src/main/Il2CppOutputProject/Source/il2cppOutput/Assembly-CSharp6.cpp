@@ -27589,7 +27589,7 @@ IL_0079:
 		NullCheck(L_22);
 		NullCheck(L_20);
 		String_t* L_23;
-		L_23 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_20, L_21, 0, ((int32_t)(((RuntimeArray*)L_22)->max_length)));
+		L_23 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(37 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_20, L_21, 0, ((int32_t)(((RuntimeArray*)L_22)->max_length)));
 		V_3 = L_23;
 		// layer.keys.Add(key);
 		Layer_tCAE52FA0253A1A68F691E465D496193F29383D68* L_24 = V_0;
@@ -27677,7 +27677,7 @@ IL_00e6:
 		NullCheck(L_37);
 		NullCheck(L_35);
 		String_t* L_38;
-		L_38 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(36 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_35, L_36, 0, ((int32_t)(((RuntimeArray*)L_37)->max_length)));
+		L_38 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(37 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_35, L_36, 0, ((int32_t)(((RuntimeArray*)L_37)->max_length)));
 		V_7 = L_38;
 		// layer.values.Add(value);
 		Layer_tCAE52FA0253A1A68F691E465D496193F29383D68* L_39 = V_0;
