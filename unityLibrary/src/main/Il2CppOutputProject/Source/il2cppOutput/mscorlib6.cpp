@@ -4640,8 +4640,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidCastException__ctor_mED3F9781E6CA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Convert_DefaultToType_mA9DEFD8F897A7E13EA62DA8052A509C46D60B04F (RuntimeObject* ___value0, Type_t* ___targetType1, RuntimeObject* ___provider2, const RuntimeMethod* method) ;
 // System.Object System.Enum::InternalBoxEnum(System.RuntimeType,System.Int64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enum_InternalBoxEnum_m647B02A0BDACDB9713A75EE1CDC9DEDE29DB7737 (RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1* ___enumType0, int64_t ___value1, const RuntimeMethod* method) ;
-// System.Boolean System.Enum::TryParse(System.Type,System.String,System.Boolean,System.Object&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enum_TryParse_m5D0161766CD1D45C3CA765E8A3CD004FE17332CE (Type_t* ___enumType0, String_t* ___value1, bool ___ignoreCase2, RuntimeObject** ___result3, const RuntimeMethod* method) ;
 // System.Void System.ValueType::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueType__ctor_mDA580FD8FCE0C88CD65F178E6EE144E1531C26F8 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void System.Exception::set_HResult(System.Int32)
@@ -21338,71 +21336,6 @@ IL_005c:
 		RuntimeObject* L_13;
 		L_13 = Enum_InternalBoxEnum_m647B02A0BDACDB9713A75EE1CDC9DEDE29DB7737(G_B9_1, ((int64_t)G_B9_0), NULL);
 		return L_13;
-	}
-}
-// System.Boolean System.Enum::TryParse(System.Type,System.String,System.Boolean,System.Object&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enum_TryParse_m5D0161766CD1D45C3CA765E8A3CD004FE17332CE (Type_t* ___enumType0, String_t* ___value1, bool ___ignoreCase2, RuntimeObject** ___result3, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	EnumResult_t136A685F59AB498579BD350717FADD4D6603DAB4 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	bool G_B2_0 = false;
-	bool G_B1_0 = false;
-	{
-		RuntimeObject** L_0 = ___result3;
-		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
-		il2cpp_codegen_initobj((&V_0), sizeof(EnumResult_t136A685F59AB498579BD350717FADD4D6603DAB4));
-		Type_t* L_1 = ___enumType0;
-		String_t* L_2 = ___value1;
-		bool L_3 = ___ignoreCase2;
-		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = Enum_TryParseEnum_m5F7A5A0BE9DB9DD2F7797E224B018BA9AA2A6D43(L_1, L_2, L_3, (&V_0), NULL);
-		bool L_5 = L_4;
-		G_B1_0 = L_5;
-		if (!L_5)
-		{
-			G_B2_0 = L_5;
-			goto IL_0020;
-		}
-	}
-	{
-		RuntimeObject** L_6 = ___result3;
-		EnumResult_t136A685F59AB498579BD350717FADD4D6603DAB4 L_7 = V_0;
-		RuntimeObject* L_8 = L_7.___parsedEnum_0;
-		*((RuntimeObject**)L_6) = (RuntimeObject*)L_8;
-		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_6, (void*)(RuntimeObject*)L_8);
-		G_B2_0 = G_B1_0;
-	}
-
-IL_0020:
-	{
-		return G_B2_0;
-	}
-}
-// System.Boolean System.Enum::TryParse(System.Type,System.String,System.Object&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enum_TryParse_mEBE7ECFE1C6F2D37E74058BC419571C1522906B5 (Type_t* ___enumType0, String_t* ___value1, RuntimeObject** ___result2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Type_t* L_0 = ___enumType0;
-		String_t* L_1 = ___value1;
-		RuntimeObject** L_2 = ___result2;
-		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
-		bool L_3;
-		L_3 = Enum_TryParse_m5D0161766CD1D45C3CA765E8A3CD004FE17332CE(L_0, L_1, (bool)0, L_2, NULL);
-		return L_3;
 	}
 }
 // System.Void System.Enum::.ctor()

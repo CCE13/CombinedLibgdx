@@ -1206,8 +1206,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D
 IL2CPP_EXTERN_C String_t* _stringLiteralF5CA794D452D74A1202F81B1C99D22651CC0CC75;
 IL2CPP_EXTERN_C String_t* _stringLiteralF886A5DA0F7A5914599AE59CC08FBAE747081526;
 IL2CPP_EXTERN_C String_t* _stringLiteralF901EF71931337E10C16F16D42C9FD471B1E0C05;
-IL2CPP_EXTERN_C const RuntimeMethod* AIMovement_U3COnDestroyU3Eb__8_0_m17133EAD189C381418AAD84604F216056AF3D4D2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AIMovement_U3CStartU3Eb__7_0_mB6FBB42C43A567A99384025D20B1521D58631A2D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AIMovement_SelfTimer_mBF29F1F159B331471E54FF2248C62911E2E6C6A6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_m6FDA82C3DA1AB43D1DABFC8B9C8E827950925220_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Resize_TisColor_tD001788D726C3A7F1379BEED0260B9591F440C1F_m8F63E36CA04A4D9695B1C766FE9D14115C9157C2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Reverse_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m49BFDE9B44D507726831588FFCF791506A0F5860_RuntimeMethod_var;
@@ -5622,14 +5621,14 @@ struct AircraftWarning_t1EB7402DCFD6EED1846D9ED6B4A0A47D04371786  : public MonoB
 // AmazonDynamoComunicator
 struct AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// Amazon.DynamoDBv2.AmazonDynamoDBClient AmazonDynamoComunicator::client
-	AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* ___client_5;
 };
 
 struct AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_StaticFields
 {
 	// AmazonDynamoComunicator AmazonDynamoComunicator::instance
 	AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* ___instance_4;
+	// Amazon.DynamoDBv2.AmazonDynamoDBClient AmazonDynamoComunicator::client
+	AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* ___client_5;
 };
 
 // DebugStuff.BuildDebugger
@@ -6806,7 +6805,7 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public Compet
 	// System.Single PlayerMovement::_distanceMovingRealTime
 	float ____distanceMovingRealTime_17;
 	// UnityEngine.Animator PlayerMovement::_characterModelAnimator
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_24;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_23;
 };
 
 struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
@@ -6821,8 +6820,6 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
 	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___Lapping_21;
 	// System.Action`1<System.Boolean> PlayerMovement::CompetitionPaused
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___CompetitionPaused_22;
-	// AchievementGroupEnumTypes PlayerMovement::test
-	int32_t ___test_23;
 };
 
 // UnityEngine.UI.Selectable
@@ -9669,8 +9666,6 @@ inline void SavingManager_Save_TisFullRunData_t37FAB9BAFB01CB68D67D70325DAAAE040
 }
 // System.Void PlayerMovement::UpdateBestStats()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_UpdateBestStats_m5742103364E78C18E1475F3AB6EFCFC36319F37F (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, const RuntimeMethod* method) ;
-// System.Void PlayerMovement::SaveToDynamoDB(System.String,FullRunData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_SaveToDynamoDB_m134E6C359FB7411DD8C88170D35D23BB8A35E6FB (PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351* __this, String_t* ___saveName0, FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865* ___rundata1, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,Amazon.DynamoDBv2.Model.AttributeValue>::.ctor()
 inline void Dictionary_2__ctor_mE50F1DEB7BB9D67012F25F41ACD8B7E45A62F11A (Dictionary_2_tC5542E027DF096EDF9B02E78BFD62451FBB69B80* __this, const RuntimeMethod* method)
 {
@@ -15753,15 +15748,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIMovement_Start_mB9023D42A0095362ACF385
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AIMovement_U3CStartU3Eb__7_0_mB6FBB42C43A567A99384025D20B1521D58631A2D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AIMovement_SelfTimer_mBF29F1F159B331471E54FF2248C62911E2E6C6A6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// PlayerMovement.CompetitionStopped += ()=> _selfTimer = true;
+		// PlayerMovement.CompetitionStopped += SelfTimer;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, __this, (intptr_t)((void*)AIMovement_U3CStartU3Eb__7_0_mB6FBB42C43A567A99384025D20B1521D58631A2D_RuntimeMethod_var), NULL);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, __this, (intptr_t)((void*)AIMovement_SelfTimer_mBF29F1F159B331471E54FF2248C62911E2E6C6A6_RuntimeMethod_var), NULL);
 		PlayerMovement_add_CompetitionStopped_mACA6E72ED89A96D04315E6BD3F3F97C7B5E61C9A(L_0, NULL);
 		// }
 		return;
@@ -15773,16 +15768,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIMovement_OnDestroy_m5C430B7D9A83AD53F7
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AIMovement_U3COnDestroyU3Eb__8_0_m17133EAD189C381418AAD84604F216056AF3D4D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AIMovement_SelfTimer_mBF29F1F159B331471E54FF2248C62911E2E6C6A6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// PlayerMovement.CompetitionStopped -= () => _selfTimer = true;
+		// PlayerMovement.CompetitionStopped -= SelfTimer;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, __this, (intptr_t)((void*)AIMovement_U3COnDestroyU3Eb__8_0_m17133EAD189C381418AAD84604F216056AF3D4D2_RuntimeMethod_var), NULL);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, __this, (intptr_t)((void*)AIMovement_SelfTimer_mBF29F1F159B331471E54FF2248C62911E2E6C6A6_RuntimeMethod_var), NULL);
 		PlayerMovement_remove_CompetitionStopped_m670A878B22AC0522C1DCB7561BDC6CD2A4B92EBD(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void AIMovement::SelfTimer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIMovement_SelfTimer_mBF29F1F159B331471E54FF2248C62911E2E6C6A6 (AIMovement_tB6DCE58D5A245020621F75A2D2DBBB3A482B6959* __this, const RuntimeMethod* method) 
+{
+	{
+		// _selfTimer = true;
+		__this->____selfTimer_16 = (bool)1;
 		// }
 		return;
 	}
@@ -15928,24 +15933,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIMovement__ctor_m2BE0E3B810FF7E70AFA064
 {
 	{
 		CompetitorManager__ctor_m954EA13590EDB6638EC75F4F4698EB034B177CD7(__this, NULL);
-		return;
-	}
-}
-// System.Void AIMovement::<Start>b__7_0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIMovement_U3CStartU3Eb__7_0_mB6FBB42C43A567A99384025D20B1521D58631A2D (AIMovement_tB6DCE58D5A245020621F75A2D2DBBB3A482B6959* __this, const RuntimeMethod* method) 
-{
-	{
-		// PlayerMovement.CompetitionStopped += ()=> _selfTimer = true;
-		__this->____selfTimer_16 = (bool)1;
-		return;
-	}
-}
-// System.Void AIMovement::<OnDestroy>b__8_0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AIMovement_U3COnDestroyU3Eb__8_0_m17133EAD189C381418AAD84604F216056AF3D4D2 (AIMovement_tB6DCE58D5A245020621F75A2D2DBBB3A482B6959* __this, const RuntimeMethod* method) 
-{
-	{
-		// PlayerMovement.CompetitionStopped -= () => _selfTimer = true;
-		__this->____selfTimer_16 = (bool)1;
 		return;
 	}
 }
@@ -17116,10 +17103,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMovement_StartCompetiton_mF777330B
 		// _characterModelAnimator = GetComponentInChildren<Animator>();
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5;
 		L_5 = Component_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mDB9FC26B94B8EE9CF1F88BFEC75DF06CC2E3A000(__this, Component_GetComponentInChildren_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_mDB9FC26B94B8EE9CF1F88BFEC75DF06CC2E3A000_RuntimeMethod_var);
-		__this->____characterModelAnimator_24 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____characterModelAnimator_24), (void*)L_5);
+		__this->____characterModelAnimator_23 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____characterModelAnimator_23), (void*)L_5);
 		// _characterModelAnimator.enabled = true;
-		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_6 = __this->____characterModelAnimator_24;
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_6 = __this->____characterModelAnimator_23;
 		NullCheck(L_6);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_6, (bool)1, NULL);
 		// RunData.Name = SavingManager.Load<string>("InputName", SavingManager.PERSONALDATASAVEPATH);
@@ -17262,7 +17249,7 @@ IL_00ab:
 IL_00ed:
 	{
 		// _characterModelAnimator.speed = _speed * 0.2f;
-		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_34 = __this->____characterModelAnimator_24;
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_34 = __this->____characterModelAnimator_23;
 		float L_35 = __this->____speed_12;
 		NullCheck(L_34);
 		Animator_set_speed_m933F4D6770122BC9D8A7FF82DE1CD33D514379FC(L_34, ((float)il2cpp_codegen_multiply(L_35, (0.200000003f))), NULL);
@@ -18106,10 +18093,6 @@ IL_018e:
 		SavingManager_Save_TisFullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865_m2EC078E0F40D1C06D1A2BECB5FBCD4964CE15D24(L_74, L_75, _stringLiteralE42AD4DF07BC612535ED448F153B0A25992DA969, (bool)0, SavingManager_Save_TisFullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865_m2EC078E0F40D1C06D1A2BECB5FBCD4964CE15D24_RuntimeMethod_var);
 		// UpdateBestStats();
 		PlayerMovement_UpdateBestStats_m5742103364E78C18E1475F3AB6EFCFC36319F37F(__this, NULL);
-		// SaveToDynamoDB(saveName,fullDataSet);
-		String_t* L_76 = V_6;
-		FullRunData_t37FAB9BAFB01CB68D67D70325DAAAE04003F6865* L_77 = V_7;
-		PlayerMovement_SaveToDynamoDB_m134E6C359FB7411DD8C88170D35D23BB8A35E6FB(__this, L_76, L_77, NULL);
 		// }
 		return;
 	}

@@ -7099,7 +7099,7 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public Compet
 	// System.Single PlayerMovement::_distanceMovingRealTime
 	float ____distanceMovingRealTime_17;
 	// UnityEngine.Animator PlayerMovement::_characterModelAnimator
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_24;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____characterModelAnimator_23;
 };
 
 struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
@@ -7114,8 +7114,6 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351_StaticFields
 	Action_2_t4195ED8D681728C29103F36BCD591C0F089C9132* ___Lapping_21;
 	// System.Action`1<System.Boolean> PlayerMovement::CompetitionPaused
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___CompetitionPaused_22;
-	// AchievementGroupEnumTypes PlayerMovement::test
-	int32_t ___test_23;
 };
 
 // UnityEngine.UI.Selectable

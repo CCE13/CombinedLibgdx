@@ -417,10 +417,11 @@ class LocationService : Service(), LocationListener {
             latLongList!!.add(DataPoint(newLocation.latitude,newLocation.longitude))
         }
         gpsCount++
-        var filter = filterAndAddLocation(newLocation)!!;
+        var filter = filterLocation(newLocation)
         if (isLogging) {
             if(filter != null){
                 currentSpeed = filter.speed;
+                filterAndAddLocation(newLocation)
             }
         } else {
             // if newLocation passed the filter, count up goodLocationCount.
@@ -444,28 +445,26 @@ class LocationService : Service(), LocationListener {
             (SystemClock.elapsedRealtimeNanos() / 1000000) - (newLocation.elapsedRealtimeNanos / 1000000)
         return locationAge
     }
-    private fun filterAndAddLocation(location: Location): Location? {
+
+    private fun filterAndAddLocation(location: Location): Boolean {
         val age = getLocationAge(location)
-        if (age > 5 * 1000) { //more than 10 seconds
+        if (age > 10 * 1000) { //more than 10 seconds
             Log.d(TAG, "Location is old")
             oldLocationList!!.add(location)
-            return null
+            return false
         }
         if (location.getAccuracy() <= 0) {
             Log.d(TAG, "Latitidue and longitude values are invalid.")
             noAccuracyLocationList!!.add(location)
-            return null
+            return false
         }
-
         //setAccuracy(newLocation.getAccuracy());
         val horizontalAccuracy: Float = location.getAccuracy()
-        if (horizontalAccuracy > 150) {
+        if (horizontalAccuracy > 100) {
             Log.d(TAG, "Accuracy is too low.")
             inaccurateLocationList!!.add(location)
-            return null
+            return false
         }
-
-
         /* Kalman Filter */
         val Qvalue: Float
         val locationTimeInMillis = (location.getElapsedRealtimeNanos() / 1000000) as Long
@@ -496,11 +495,10 @@ class LocationService : Service(), LocationListener {
                     KalmanLatLong(3.0f) //reset Kalman Filter if it rejects more than 3 times in raw.
             }
             kalmanNGLocationList!!.add(location)
-            return null
+            return false
         } else {
             kalmanFilter!!.consecutiveRejectCount = 0
         }
-
         /* Notifiy predicted location to UI */
         val intent = Intent("PredictLocation")
         intent.putExtra("location", predictedLocation)
@@ -508,9 +506,31 @@ class LocationService : Service(), LocationListener {
         Log.d(TAG, "Location quality is good enough.")
         currentSpeed = location.getSpeed()
         locationList!!.add(location)
-        latLongList!!.add(DataPoint(location.latitude,location.longitude))
-        return location
+        return true
     }
+    private fun filterLocation(location: Location): Location? {
+        val age = getLocationAge(location)
+        if (age > 5 * 1000) { //more than 5 seconds
+            Log.d(TAG, "Location is old")
+            oldLocationList!!.add(location)
+            return null
+        }
+        if (location.accuracy <= 0) {
+            Log.d(TAG, "Latitidue and longitude values are invalid.")
+            noAccuracyLocationList!!.add(location)
+            return null
+        }
+        //setAccuracy(newLocation.getAccuracy());
+        val horizontalAccuracy = location.accuracy
+        if (horizontalAccuracy > 10) { //10meter filter
+            Log.d(TAG, "Accuracy is too low.")
+            inaccurateLocationList!!.add(location)
+            return null
+        }
+        Log.d(TAG, "Location quality is good enough.")
+        return location
+    } /* Data Logging */ //
+
 
 
     @Synchronized

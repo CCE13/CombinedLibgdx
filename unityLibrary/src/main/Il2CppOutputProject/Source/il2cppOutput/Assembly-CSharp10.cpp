@@ -26263,7 +26263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkerGroup_Apply_mF91258250B6CBE7CDA85D
 		L_1 = OnlineMapsMarker_get_texture_m341BA31C86CC94F6B22C991CA0AAA65AFDD76143_inline(L_0, NULL);
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_1);
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_1);
 		V_0 = L_2;
 		// int height = instance.texture.height;
 		OnlineMapsMarker_t085CAA7D19BC80C32BF45C90F16D3166F002A9E9* L_3 = __this->___instance_1;
@@ -26272,7 +26272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkerGroup_Apply_mF91258250B6CBE7CDA85D
 		L_4 = OnlineMapsMarker_get_texture_m341BA31C86CC94F6B22C991CA0AAA65AFDD76143_inline(L_3, NULL);
 		NullCheck(L_4);
 		int32_t L_5;
-		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_4);
+		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_4);
 		V_1 = L_5;
 		// Texture2D texture = new Texture2D(width, height, TextureFormat.ARGB32, false);
 		int32_t L_6 = V_0;
@@ -26312,13 +26312,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MarkerGroup_Apply_mF91258250B6CBE7CDA85D
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_18 = ___font0;
 		NullCheck(L_18);
 		int32_t L_19;
-		L_19 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_18);
+		L_19 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_18);
 		V_6 = ((int32_t)(L_19/5));
 		// int ch = font.height / 2;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_20 = ___font0;
 		NullCheck(L_20);
 		int32_t L_21;
-		L_21 = VirtualFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_20);
+		L_21 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_20);
 		V_7 = ((int32_t)(L_21/2));
 		// int sx = (int) (width / 2f - cText.Length / 2f * cw);
 		int32_t L_22 = V_0;
@@ -26387,7 +26387,7 @@ IL_00e5:
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_39 = ___font0;
 		NullCheck(L_39);
 		int32_t L_40;
-		L_40 = VirtualFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_39);
+		L_40 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_39);
 		int32_t L_41 = V_13;
 		int32_t L_42 = V_15;
 		V_17 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_add(L_37, L_38)), L_40)), L_41)), L_42));

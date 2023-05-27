@@ -50,17 +50,15 @@ android {
             jniDebuggable true
         }
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
             signingConfig signingConfigs.release
         }
     }
-    packagingOptions {
-        jniLibs {
-            keepDebugSymbols += ['*/arm64-v8a/*.so']
-        }
-    }
 
+    packagingOptions {
+        doNotStrip '*/arm64-v8a/*.so'
+    }
 
     bundle {
         language {
@@ -73,5 +71,4 @@ android {
             enableSplit = true
         }
     }
-    namespace 'com.DefaultCompany.RunAI_P'
 }

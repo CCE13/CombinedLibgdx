@@ -69,6 +69,7 @@ public class WalkingServiceBridge {
         Intent mServiceIntent = new Intent(activity, LocationService.class);
         activity.stopService(mServiceIntent);
         _backgroundThread.StopRunning();
+        _backgroundThread.interrupt();
         destroyListener();
     }
 

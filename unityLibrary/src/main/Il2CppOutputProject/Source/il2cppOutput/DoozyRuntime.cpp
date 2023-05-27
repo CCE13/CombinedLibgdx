@@ -6165,6 +6165,18 @@ struct MultiplayerEventSystem_tEE8C1D4F68ACB94068BDC5E90AEBE15EE89CDDDC  : publi
 {
 	// UnityEngine.GameObject UnityEngine.InputSystem.UI.MultiplayerEventSystem::m_PlayerRoot
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PlayerRoot_16;
+	// UnityEngine.CanvasGroup UnityEngine.InputSystem.UI.MultiplayerEventSystem::m_CanvasGroup
+	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___m_CanvasGroup_17;
+	// System.Boolean UnityEngine.InputSystem.UI.MultiplayerEventSystem::m_CanvasGroupWasAddedByUs
+	bool ___m_CanvasGroupWasAddedByUs_18;
+};
+
+struct MultiplayerEventSystem_tEE8C1D4F68ACB94068BDC5E90AEBE15EE89CDDDC_StaticFields
+{
+	// System.Int32 UnityEngine.InputSystem.UI.MultiplayerEventSystem::s_MultiplayerEventSystemCount
+	int32_t ___s_MultiplayerEventSystemCount_19;
+	// UnityEngine.InputSystem.UI.MultiplayerEventSystem[] UnityEngine.InputSystem.UI.MultiplayerEventSystem::s_MultiplayerEventSystems
+	MultiplayerEventSystemU5BU5D_t956C2BBECE174B7C0372A72733DC18FD0D787398* ___s_MultiplayerEventSystems_20;
 };
 
 // Doozy.Runtime.UIManager.Listeners.SignalListener

@@ -161,8 +161,6 @@ struct Dictionary_2_t2C9A223FDE564EA7D0BE9103FEE3D7B37C59CF74;
 struct Dictionary_2_tB891E483D6E46578BDF8DC4070F7919FC4E3322A;
 // System.Collections.Generic.Dictionary`2<System.String,OnlineMapsOSMWay>
 struct Dictionary_2_t94BD188E33E36502F7C0ECD4A399745C0585F086;
-// System.Collections.Generic.Dictionary`2<System.String,Amazon.RegionEndpoint>
-struct Dictionary_2_t45C8B0CC8C8BD1C10D23FBBB56BDF6DF0FE27376;
 // System.Collections.Generic.Dictionary`2<System.String,System.Single>
 struct Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9;
 // System.Collections.Generic.Dictionary`2<System.String,System.String>
@@ -507,8 +505,6 @@ struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 struct AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654;
 // Amazon.DynamoDBv2.AmazonDynamoDBClient
 struct AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D;
-// Amazon.DynamoDBv2.AmazonDynamoDBConfig
-struct AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8;
 // Amazon.Runtime.AmazonWebServiceResponse
 struct AmazonWebServiceResponse_t3F4B1B1621D883697F81F5FA301FE80F61FF968D;
 // ChartAndGraph.AnyChart
@@ -527,8 +523,6 @@ struct BarChartFeed_tBDC6F61A922F227A254C6E74F021EAA0F4E5B4C9;
 struct BarData_t8911D0AB0B8219D50FC91166C09CF9851C619A69;
 // BarRunChart
 struct BarRunChart_t2786DBAF4BB7F4975937F7B47891BF9A826C49DC;
-// Amazon.Runtime.BasicAWSCredentials
-struct BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2;
 // UnityEngine.Behaviour
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
 // BillboardText
@@ -643,24 +637,12 @@ struct GraphicRaycaster_t16FC39434AE5B47D3C2993134CDCF7F4AE6A6D7B;
 struct GroupLabels_t1528A164605D2CB2BC968D7C84FDE077676687E3;
 // ChartAndGraph.HorizontalAxis
 struct HorizontalAxis_t1E4537AFDBC88C69966F234C42C06C59A29477DC;
-// Amazon.Runtime.HttpClientFactory
-struct HttpClientFactory_t428AB4628765026200C93CD1449FBA5A93460984;
-// Amazon.Runtime.IAWSTokenProvider
-struct IAWSTokenProvider_t5B71E33E274F0690941BF18E7646FA2CB7C459F5;
 // System.Runtime.CompilerServices.IAsyncStateMachine
 struct IAsyncStateMachine_t0680C7F905C553076B552D5A1A6E39E2F0F36AA2;
-// System.Net.ICredentials
-struct ICredentials_t8FDA6AF64B852DA0631D4BE66962B20E51E230F0;
-// Amazon.Runtime.IDefaultConfiguration
-struct IDefaultConfiguration_tC0DDC32B50F22392DEC8980569A23E048FA0B549;
-// Amazon.Runtime.Internal.IDefaultConfigurationProvider
-struct IDefaultConfigurationProvider_t024E9D71A4FA3373E3A543DCB0719B2DF894241F;
 // System.Collections.IDictionary
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 // Amazon.DynamoDBv2.Model.IDynamoDBv2PaginatorFactory
 struct IDynamoDBv2PaginatorFactory_t04EA090ABEE1277F70E3C39F2F4483D411A7D447;
-// Amazon.Runtime.Endpoints.IEndpointProvider
-struct IEndpointProvider_t8A60E80D51CFA5EDA5AD4D475A64783766ABA645;
 // System.Collections.IEnumerator
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 // System.IFormatProvider
@@ -671,14 +653,8 @@ struct IInternalUse_tF48DB46DF33AF7E87E3A9F1A2D7B96D7CB63CD69;
 struct IOnlineMapsInteractiveElement_tD41664259A19534DE4A9F28EFEF99FBAD8DE7A09;
 // ChartAndGraph.IPieGenerator
 struct IPieGenerator_t1DE61C7B81460A1B577EEAF74CC27ACAFD30FD50;
-// Amazon.Internal.IRegionEndpointProvider
-struct IRegionEndpointProvider_t05F3F16F716D065A2E6E96A0C3EE92E504C333D1;
 // Amazon.Runtime.Internal.IServiceMetadata
 struct IServiceMetadata_t24406C0DF4AF0824423525AC21189F1976DE75C7;
-// System.Net.IWebProxy
-struct IWebProxy_t3ECD2C773539B48B18734D61E87B685A9C93076D;
-// Amazon.Runtime.ImmutableCredentials
-struct ImmutableCredentials_t20F26830AEF4C9021AA24C0970E1D9FBFF34279D;
 // UnityEngine.Events.InvokableCallList
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 // Amazon.DynamoDBv2.Model.ItemCollectionMetrics
@@ -837,16 +813,12 @@ struct RadarChartData_tAA08FDE841364AA9C165161B385D482F9A57B72F;
 struct RadarChartFeed_t99C1281AC1B0950F48F6515F852A95D268BD09AB;
 // RadarMaxValueCategory
 struct RadarMaxValueCategory_t8154DCE4832FA2A2C9052523862D453287C0D043;
-// System.Threading.ReaderWriterLockSlim
-struct ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906;
 // RealtimeAppend
 struct RealtimeAppend_t41D889D2876E6F6D910FC74777812374389CE0A2;
 // UnityEngine.UI.RectMask2D
 struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
 // UnityEngine.RectTransform
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
-// Amazon.RegionEndpoint
-struct RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1;
 // UnityEngine.Renderer
 struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
 // Amazon.Runtime.RequestEventHandler
@@ -1030,11 +1002,8 @@ IL2CPP_EXTERN_C RuntimeClass* Action_1_t5E22FA5BC911DA4C861080EE00282EF7EDE5EE1A
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t940227B220DE5A9D384120FF46DB7A857C8F2921_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CategoryEntry_t7FEFF04B691A2B96B084092B940478CCD47CD092_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ChartCommon_t162C9DFE982E8A904C192BCACB9D0DD7B2162A01_il2cpp_TypeInfo_var;
@@ -1108,7 +1077,6 @@ IL2CPP_EXTERN_C RuntimeClass* ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F
 IL2CPP_EXTERN_C RuntimeClass* PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Queue_1_t7DF1A845041740E9CE48DE988B58342A04B5D487_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RunChartEntry_t495AA93C8E10D939BBD50B4A5E9BBB73DE572FCB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SavingManager_tF7AD8D800B0FF492720BFFA6A0C1104548461DB9_il2cpp_TypeInfo_var;
@@ -1216,10 +1184,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteralF78D03833A762F376F92F65934EDDB2D50C2BCD0
 IL2CPP_EXTERN_C String_t* _stringLiteralFC90B69629AE9FB26976368AF17BA1B4813D022A;
 IL2CPP_EXTERN_C String_t* _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2;
 IL2CPP_EXTERN_C String_t* _stringLiteralFD4B826C3F4FDA02D7CF7952E56196CD40D95C4B;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m80CFCF330FDE13E2C1CEC355CA1502BFE3E0658D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m6CC425C657223CEDB36143FFADBA68C3F4E3B080_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m52E56F54EF009FD99399D0AA43012B7CB2866061_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m98162EFA262C669C37DF2D5B4449671CEEABA477_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_mB474659546F76B2A2FCC0753821709D82B6A8F97_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m961D59CDB592500DBBBF7C4D54C19AA8DD327D21_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_m5F1E8BCA3C7F732872E98175D650C41499B7CEB3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m986153D9C65EFEE6B71217764BC94BCA05D60068_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m5FB554DD7C0F662DAB84C0F292B221CAE3F0A5B3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisBarChart_t9908C60A209A81E0F9CDA1D8FE2261D58234EC71_m120C2C631A832CA5A28D3337E3AEF456931CCCF4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCandleChart_tB93F5DC19839E956D0F4D70953F3E14C52F7C4AF_m2457E51A5F7EEAFE8F66E97B6ED9E3E658A45CBE_RuntimeMethod_var;
@@ -2026,11 +1994,6 @@ struct Queue_1_t7DF1A845041740E9CE48DE988B58342A04B5D487  : public RuntimeObject
 	RuntimeObject* ____syncRoot_5;
 };
 
-// Amazon.Runtime.AWSCredentials
-struct AWSCredentials_tB73470E3AD832FCF7B26DCFEFEECF53760F59579  : public RuntimeObject
-{
-};
-
 // ChartAndGraph.AbstractChartData
 struct AbstractChartData_t75CFFB2F5B1DCAEEE94399E31DA2F3EC0556B053  : public RuntimeObject
 {
@@ -2329,99 +2292,6 @@ struct OnlineMapsWebServiceAPI_t8C8E73B47744E0A8D53FD4DAAC3528ABB20D8ABC  : publ
 	int32_t ____status_5;
 	// OnlineMapsWWW OnlineMapsWebServiceAPI::www
 	OnlineMapsWWW_t30715D34E89C8280C4F1B346031DFB46B6796B6E* ___www_6;
-};
-
-// Amazon.RegionEndpoint
-struct RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1  : public RuntimeObject
-{
-	// System.String Amazon.RegionEndpoint::<SystemName>k__BackingField
-	String_t* ___U3CSystemNameU3Ek__BackingField_4;
-	// System.String Amazon.RegionEndpoint::<OriginalSystemName>k__BackingField
-	String_t* ___U3COriginalSystemNameU3Ek__BackingField_5;
-	// System.String Amazon.RegionEndpoint::<DisplayName>k__BackingField
-	String_t* ___U3CDisplayNameU3Ek__BackingField_6;
-};
-
-struct RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1_StaticFields
-{
-	// System.Collections.Generic.Dictionary`2<System.String,Amazon.RegionEndpoint> Amazon.RegionEndpoint::_hashBySystemName
-	Dictionary_2_t45C8B0CC8C8BD1C10D23FBBB56BDF6DF0FE27376* ____hashBySystemName_0;
-	// System.Threading.ReaderWriterLockSlim Amazon.RegionEndpoint::_regionEndpointOverrideLock
-	ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* ____regionEndpointOverrideLock_1;
-	// System.Collections.Generic.Dictionary`2<System.String,Amazon.RegionEndpoint> Amazon.RegionEndpoint::_hashRegionEndpointOverride
-	Dictionary_2_t45C8B0CC8C8BD1C10D23FBBB56BDF6DF0FE27376* ____hashRegionEndpointOverride_2;
-	// Amazon.Internal.IRegionEndpointProvider Amazon.RegionEndpoint::_regionEndpointProvider
-	RuntimeObject* ____regionEndpointProvider_3;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USEast1Regional
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USEast1Regional_7;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::AFSouth1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___AFSouth1_8;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APEast1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APEast1_9;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APNortheast1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APNortheast1_10;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APNortheast2
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APNortheast2_11;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APNortheast3
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APNortheast3_12;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APSouth1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APSouth1_13;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APSouth2
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APSouth2_14;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APSoutheast1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APSoutheast1_15;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APSoutheast2
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APSoutheast2_16;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APSoutheast3
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APSoutheast3_17;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::APSoutheast4
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___APSoutheast4_18;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::CACentral1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___CACentral1_19;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::EUCentral1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___EUCentral1_20;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::EUCentral2
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___EUCentral2_21;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::EUNorth1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___EUNorth1_22;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::EUSouth1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___EUSouth1_23;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::EUSouth2
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___EUSouth2_24;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::EUWest1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___EUWest1_25;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::EUWest2
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___EUWest2_26;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::EUWest3
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___EUWest3_27;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::MECentral1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___MECentral1_28;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::MESouth1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___MESouth1_29;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::SAEast1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___SAEast1_30;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USEast1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USEast1_31;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USEast2
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USEast2_32;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USWest1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USWest1_33;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USWest2
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USWest2_34;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::CNNorth1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___CNNorth1_35;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::CNNorthWest1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___CNNorthWest1_36;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USGovCloudEast1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USGovCloudEast1_37;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USGovCloudWest1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USGovCloudWest1_38;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USIsoEast1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USIsoEast1_39;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USIsoWest1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USIsoWest1_40;
-	// Amazon.RegionEndpoint Amazon.RegionEndpoint::USIsobEast1
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___USIsobEast1_41;
 };
 
 // ChartAndGraph.ScrollableChartData
@@ -2880,15 +2750,6 @@ struct Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01
 	bool ___value_1;
 };
 
-// System.Nullable`1<Amazon.Runtime.DefaultConfigurationMode>
-struct Nullable_1_t31ABD56F497E8B5B1FE4AAD3FD795A15D0463035 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	int32_t ___value_1;
-};
-
 // System.Nullable`1<System.Double>
 struct Nullable_1_t6E154519A812D040E3016229CD7638843A2CC165 
 {
@@ -2900,15 +2761,6 @@ struct Nullable_1_t6E154519A812D040E3016229CD7638843A2CC165
 
 // System.Nullable`1<ChartAndGraph.GapEnum>
 struct Nullable_1_t32A3DEB4DDBF45644D104F5632CFE53A2098E1A7 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	int32_t ___value_1;
-};
-
-// System.Nullable`1<System.Int32>
-struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 
 {
 	// System.Boolean System.Nullable`1::hasValue
 	bool ___hasValue_0;
@@ -2932,15 +2784,6 @@ struct Nullable_1_t365991B3904FDA7642A788423B28692FDC7CDB17
 	bool ___hasValue_0;
 	// T System.Nullable`1::value
 	int64_t ___value_1;
-};
-
-// System.Nullable`1<Amazon.Runtime.RequestRetryMode>
-struct Nullable_1_t75294D36AF5D919746BCB0A6BE15CE204F67228C 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	int32_t ___value_1;
 };
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.CreateTableResponse>
@@ -3092,13 +2935,6 @@ struct BarData_t8911D0AB0B8219D50FC91166C09CF9851C619A69  : public AbstractChart
 	bool ___automaticMinValue_8;
 	// System.Double ChartAndGraph.BarData::minValue
 	double ___minValue_9;
-};
-
-// Amazon.Runtime.BasicAWSCredentials
-struct BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2  : public AWSCredentials_tB73470E3AD832FCF7B26DCFEFEECF53760F59579
-{
-	// Amazon.Runtime.ImmutableCredentials Amazon.Runtime.BasicAWSCredentials::_credentials
-	ImmutableCredentials_t20F26830AEF4C9021AA24C0970E1D9FBFF34279D* ____credentials_0;
 };
 
 // System.Boolean
@@ -3878,15 +3714,6 @@ struct Enumerator_t0D4D10462773327701C4A1CB7C955D9DEB29A941
 	int32_t ____getEnumeratorRetType_4;
 };
 
-// System.Nullable`1<System.TimeSpan>
-struct Nullable_1_tE151CE1F6892804B41C4004C95CB57020ABB3272 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___value_1;
-};
-
 // System.Nullable`1<UnityEngine.Vector2>
 struct Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD 
 {
@@ -4478,101 +4305,6 @@ struct ChartSubDivisionInfo_t371A4F52EADFD326A5FFB84F0184B0DA99A89B8E  : public 
 {
 };
 
-// Amazon.Runtime.ClientConfig
-struct ClientConfig_tAE0C88262BEB4136462F7ED01715577AD4ED7A2D  : public RuntimeObject
-{
-	// Amazon.Runtime.Internal.IDefaultConfigurationProvider Amazon.Runtime.ClientConfig::_defaultConfigurationProvider
-	RuntimeObject* ____defaultConfigurationProvider_2;
-	// System.Nullable`1<Amazon.Runtime.DefaultConfigurationMode> Amazon.Runtime.ClientConfig::defaultConfigurationMode
-	Nullable_1_t31ABD56F497E8B5B1FE4AAD3FD795A15D0463035 ___defaultConfigurationMode_3;
-	// Amazon.RegionEndpoint Amazon.Runtime.ClientConfig::regionEndpoint
-	RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___regionEndpoint_4;
-	// System.Boolean Amazon.Runtime.ClientConfig::probeForRegionEndpoint
-	bool ___probeForRegionEndpoint_5;
-	// System.Boolean Amazon.Runtime.ClientConfig::throttleRetries
-	bool ___throttleRetries_6;
-	// System.Boolean Amazon.Runtime.ClientConfig::useHttp
-	bool ___useHttp_7;
-	// System.Boolean Amazon.Runtime.ClientConfig::useAlternateUserAgentHeader
-	bool ___useAlternateUserAgentHeader_8;
-	// System.String Amazon.Runtime.ClientConfig::serviceURL
-	String_t* ___serviceURL_9;
-	// System.String Amazon.Runtime.ClientConfig::authRegion
-	String_t* ___authRegion_10;
-	// System.String Amazon.Runtime.ClientConfig::authServiceName
-	String_t* ___authServiceName_11;
-	// System.String Amazon.Runtime.ClientConfig::signatureVersion
-	String_t* ___signatureVersion_12;
-	// Amazon.Runtime.SigningAlgorithm Amazon.Runtime.ClientConfig::signatureMethod
-	int32_t ___signatureMethod_13;
-	// System.Boolean Amazon.Runtime.ClientConfig::readEntireResponse
-	bool ___readEntireResponse_14;
-	// System.Boolean Amazon.Runtime.ClientConfig::logResponse
-	bool ___logResponse_15;
-	// System.Int32 Amazon.Runtime.ClientConfig::bufferSize
-	int32_t ___bufferSize_16;
-	// System.Int64 Amazon.Runtime.ClientConfig::progressUpdateInterval
-	int64_t ___progressUpdateInterval_17;
-	// System.Boolean Amazon.Runtime.ClientConfig::resignRetries
-	bool ___resignRetries_18;
-	// System.Net.ICredentials Amazon.Runtime.ClientConfig::proxyCredentials
-	RuntimeObject* ___proxyCredentials_19;
-	// System.Boolean Amazon.Runtime.ClientConfig::logMetrics
-	bool ___logMetrics_20;
-	// System.Boolean Amazon.Runtime.ClientConfig::disableLogging
-	bool ___disableLogging_21;
-	// System.Nullable`1<System.TimeSpan> Amazon.Runtime.ClientConfig::timeout
-	Nullable_1_tE151CE1F6892804B41C4004C95CB57020ABB3272 ___timeout_22;
-	// System.Boolean Amazon.Runtime.ClientConfig::allowAutoRedirect
-	bool ___allowAutoRedirect_23;
-	// System.Nullable`1<System.Boolean> Amazon.Runtime.ClientConfig::useDualstackEndpoint
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___useDualstackEndpoint_24;
-	// System.Nullable`1<System.Boolean> Amazon.Runtime.ClientConfig::useFIPSEndpoint
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___useFIPSEndpoint_25;
-	// System.Nullable`1<System.TimeSpan> Amazon.Runtime.ClientConfig::readWriteTimeout
-	Nullable_1_tE151CE1F6892804B41C4004C95CB57020ABB3272 ___readWriteTimeout_26;
-	// System.Boolean Amazon.Runtime.ClientConfig::disableHostPrefixInjection
-	bool ___disableHostPrefixInjection_27;
-	// System.Nullable`1<System.Boolean> Amazon.Runtime.ClientConfig::endpointDiscoveryEnabled
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___endpointDiscoveryEnabled_28;
-	// System.Int32 Amazon.Runtime.ClientConfig::endpointDiscoveryCacheLimit
-	int32_t ___endpointDiscoveryCacheLimit_29;
-	// System.Nullable`1<Amazon.Runtime.RequestRetryMode> Amazon.Runtime.ClientConfig::retryMode
-	Nullable_1_t75294D36AF5D919746BCB0A6BE15CE204F67228C ___retryMode_30;
-	// System.Nullable`1<System.Int32> Amazon.Runtime.ClientConfig::maxRetries
-	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___maxRetries_31;
-	// Amazon.Runtime.IAWSTokenProvider Amazon.Runtime.ClientConfig::_awsTokenProvider
-	RuntimeObject* ____awsTokenProvider_34;
-	// Amazon.Runtime.IDefaultConfiguration Amazon.Runtime.ClientConfig::defaultConfigurationBackingField
-	RuntimeObject* ___defaultConfigurationBackingField_35;
-	// System.Boolean Amazon.Runtime.ClientConfig::<FastFailRequests>k__BackingField
-	bool ___U3CFastFailRequestsU3Ek__BackingField_36;
-	// System.Boolean Amazon.Runtime.ClientConfig::<CacheHttpClient>k__BackingField
-	bool ___U3CCacheHttpClientU3Ek__BackingField_37;
-	// System.Nullable`1<System.Int32> Amazon.Runtime.ClientConfig::_httpClientCacheSize
-	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ____httpClientCacheSize_38;
-	// Amazon.Runtime.Endpoints.IEndpointProvider Amazon.Runtime.ClientConfig::<EndpointProvider>k__BackingField
-	RuntimeObject* ___U3CEndpointProviderU3Ek__BackingField_39;
-	// System.Net.IWebProxy Amazon.Runtime.ClientConfig::proxy
-	RuntimeObject* ___proxy_40;
-	// System.String Amazon.Runtime.ClientConfig::proxyHost
-	String_t* ___proxyHost_41;
-	// System.Int32 Amazon.Runtime.ClientConfig::proxyPort
-	int32_t ___proxyPort_42;
-	// System.Nullable`1<System.Int32> Amazon.Runtime.ClientConfig::<MaxConnectionsPerServer>k__BackingField
-	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___U3CMaxConnectionsPerServerU3Ek__BackingField_43;
-	// Amazon.Runtime.HttpClientFactory Amazon.Runtime.ClientConfig::<HttpClientFactory>k__BackingField
-	HttpClientFactory_t428AB4628765026200C93CD1449FBA5A93460984* ___U3CHttpClientFactoryU3Ek__BackingField_44;
-};
-
-struct ClientConfig_tAE0C88262BEB4136462F7ED01715577AD4ED7A2D_StaticFields
-{
-	// System.TimeSpan Amazon.Runtime.ClientConfig::InfiniteTimeout
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___InfiniteTimeout_0;
-	// System.TimeSpan Amazon.Runtime.ClientConfig::MaxTimeout
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxTimeout_1;
-};
-
 // UnityEngine.Component
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -4625,32 +4357,28 @@ struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Excep
 {
 };
 
-// AmazonDynamoComunicator/<CreateTable>d__4
-struct U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1 
+// AmazonDynamoComunicator/<CreateTable>d__3
+struct U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD 
 {
-	// System.Int32 AmazonDynamoComunicator/<CreateTable>d__4::<>1__state
+	// System.Int32 AmazonDynamoComunicator/<CreateTable>d__3::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder AmazonDynamoComunicator/<CreateTable>d__4::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder AmazonDynamoComunicator/<CreateTable>d__3::<>t__builder
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// AmazonDynamoComunicator AmazonDynamoComunicator/<CreateTable>d__4::<>4__this
-	AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.CreateTableResponse> AmazonDynamoComunicator/<CreateTable>d__4::<>u__1
-	TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B ___U3CU3Eu__1_3;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.CreateTableResponse> AmazonDynamoComunicator/<CreateTable>d__3::<>u__1
+	TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B ___U3CU3Eu__1_2;
 };
 
-// AmazonDynamoComunicator/<PutData>d__5
-struct U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E 
+// AmazonDynamoComunicator/<PutData>d__4
+struct U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9 
 {
-	// System.Int32 AmazonDynamoComunicator/<PutData>d__5::<>1__state
+	// System.Int32 AmazonDynamoComunicator/<PutData>d__4::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder AmazonDynamoComunicator/<PutData>d__5::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder AmazonDynamoComunicator/<PutData>d__4::<>t__builder
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// System.Collections.Generic.Dictionary`2<System.String,Amazon.DynamoDBv2.Model.AttributeValue> AmazonDynamoComunicator/<PutData>d__5::keyValuePairs
+	// System.Collections.Generic.Dictionary`2<System.String,Amazon.DynamoDBv2.Model.AttributeValue> AmazonDynamoComunicator/<PutData>d__4::keyValuePairs
 	Dictionary_2_tC5542E027DF096EDF9B02E78BFD62451FBB69B80* ___keyValuePairs_2;
-	// AmazonDynamoComunicator AmazonDynamoComunicator/<PutData>d__5::<>4__this
-	AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* ___U3CU3E4__this_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.PutItemResponse> AmazonDynamoComunicator/<PutData>d__5::<>u__1
-	TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 ___U3CU3Eu__1_4;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.PutItemResponse> AmazonDynamoComunicator/<PutData>d__4::<>u__1
+	TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 ___U3CU3Eu__1_3;
 };
 
 // System.Action`1<System.Object>
@@ -4798,19 +4526,6 @@ struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDeleg
 {
 };
 
-// Amazon.DynamoDBv2.AmazonDynamoDBConfig
-struct AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8  : public ClientConfig_tAE0C88262BEB4136462F7ED01715577AD4ED7A2D
-{
-	// System.String Amazon.DynamoDBv2.AmazonDynamoDBConfig::_userAgent
-	String_t* ____userAgent_46;
-};
-
-struct AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8_StaticFields
-{
-	// System.String Amazon.DynamoDBv2.AmazonDynamoDBConfig::UserAgentString
-	String_t* ___UserAgentString_45;
-};
-
 // System.ArgumentException
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -4916,14 +4631,14 @@ struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
 // AmazonDynamoComunicator
 struct AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// Amazon.DynamoDBv2.AmazonDynamoDBClient AmazonDynamoComunicator::client
-	AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* ___client_5;
 };
 
 struct AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_StaticFields
 {
 	// AmazonDynamoComunicator AmazonDynamoComunicator::instance
 	AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* ___instance_4;
+	// Amazon.DynamoDBv2.AmazonDynamoDBClient AmazonDynamoComunicator::client
+	AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* ___client_5;
 };
 
 // ChartAndGraph.AnyChart
@@ -7156,10 +6871,10 @@ struct DoubleVector2U5BU5D_t9EC8CA4A517C54BE6ED866EC67CD787660E5CEF8  : public R
 };
 
 
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AmazonDynamoComunicator/<CreateTable>d__4>(TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m52E56F54EF009FD99399D0AA43012B7CB2866061_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* ___stateMachine0, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AmazonDynamoComunicator/<PutData>d__5>(TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m98162EFA262C669C37DF2D5B4449671CEEABA477_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AmazonDynamoComunicator/<CreateTable>d__3>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_m5F1E8BCA3C7F732872E98175D650C41499B7CEB3_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AmazonDynamoComunicator/<PutData>d__4>(TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m986153D9C65EFEE6B71217764BC94BCA05D60068_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* ___stateMachine0, const RuntimeMethod* method) ;
 // T SavingManager::Load<System.Object>(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SavingManager_Load_TisRuntimeObject_mC12302713B8B4C0C3FA5FB1BEE31CD6BDC325783_gshared (String_t* ___key0, String_t* ___savePath1, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
@@ -7170,12 +6885,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA Task_1_GetAwaiter_mD80ED263BF3F1F8DBDBD177BA3401A0AAAFA38E3_gshared (Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>::get_IsCompleted()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TaskAwaiter_1_get_IsCompleted_mEEBB09E26F4165A0F864D92E1890CFCD2C8CFD54_gshared (TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* __this, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,AmazonDynamoComunicator/<CreateTable>d__4>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m191B2E963BBD1B17FCA2EAFC7D348A566EEAFB63_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___awaiter0, U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* ___stateMachine1, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,AmazonDynamoComunicator/<CreateTable>d__3>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_mC4F0082C11A81AE55F299F57264183A2F9A63DA6_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___awaiter0, U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* ___stateMachine1, const RuntimeMethod* method) ;
 // TResult System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>::GetResult()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TaskAwaiter_1_GetResult_mA4A8A1F43A456B40DDA251D00026C60919AED85B_gshared (TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* __this, const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,AmazonDynamoComunicator/<PutData>d__5>(TAwaiter&,TStateMachine&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m6F1F8BF6DE3DA91C1D4A92D7BAEAD270EE2F22A8_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___awaiter0, U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* ___stateMachine1, const RuntimeMethod* method) ;
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Object>,AmazonDynamoComunicator/<PutData>d__4>(TAwaiter&,TStateMachine&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m5F43FAA2233B76913A44E63D02C143EA095CDD16_gshared (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA* ___awaiter0, U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* ___stateMachine1, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.Object>::.ctor(System.Object,System.IntPtr)
@@ -7445,25 +7160,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ef__AnonymousType1_10__ctor_m50ED35
 // TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) ;
 
-// System.Void Amazon.Runtime.BasicAWSCredentials::.ctor(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasicAWSCredentials__ctor_mBFEC114131A859B256619276D1EB090D61AC938A (BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2* __this, String_t* ___accessKey0, String_t* ___secretKey1, const RuntimeMethod* method) ;
-// System.Void Amazon.DynamoDBv2.AmazonDynamoDBConfig::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoDBConfig__ctor_m59C6EAF56819F76C1CA36B32BDD8FA37A5B8AC0A (AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8* __this, const RuntimeMethod* method) ;
-// System.Void Amazon.Runtime.ClientConfig::set_RegionEndpoint(Amazon.RegionEndpoint)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClientConfig_set_RegionEndpoint_m6EB951071A579ECD3E0A3917A6D646081BE8756B (ClientConfig_tAE0C88262BEB4136462F7ED01715577AD4ED7A2D* __this, RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* ___value0, const RuntimeMethod* method) ;
-// System.Void Amazon.DynamoDBv2.AmazonDynamoDBClient::.ctor(Amazon.Runtime.AWSCredentials,Amazon.DynamoDBv2.AmazonDynamoDBConfig)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoDBClient__ctor_m1B7A50B24FFD91E4A6179322A510196C07C1A21D (AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* __this, AWSCredentials_tB73470E3AD832FCF7B26DCFEFEECF53760F59579* ___credentials0, AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8* ___clientConfig1, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___target0, const RuntimeMethod* method) ;
 // System.Runtime.CompilerServices.AsyncVoidMethodBuilder System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Create()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D AsyncVoidMethodBuilder_Create_mE6D291637BF7B4B6D3F8BFCA14920B9200D7A502 (const RuntimeMethod* method) ;
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AmazonDynamoComunicator/<CreateTable>d__4>(TStateMachine&)
-inline void AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m52E56F54EF009FD99399D0AA43012B7CB2866061 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* ___stateMachine0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AmazonDynamoComunicator/<CreateTable>d__3>(TStateMachine&)
+inline void AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_m5F1E8BCA3C7F732872E98175D650C41499B7CEB3 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* ___stateMachine0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1*, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m52E56F54EF009FD99399D0AA43012B7CB2866061_gshared)(__this, ___stateMachine0, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD*, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_m5F1E8BCA3C7F732872E98175D650C41499B7CEB3_gshared)(__this, ___stateMachine0, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AmazonDynamoComunicator/<PutData>d__5>(TStateMachine&)
-inline void AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m98162EFA262C669C37DF2D5B4449671CEEABA477 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* ___stateMachine0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<AmazonDynamoComunicator/<PutData>d__4>(TStateMachine&)
+inline void AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m986153D9C65EFEE6B71217764BC94BCA05D60068 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* ___stateMachine0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E*, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m98162EFA262C669C37DF2D5B4449671CEEABA477_gshared)(__this, ___stateMachine0, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9*, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m986153D9C65EFEE6B71217764BC94BCA05D60068_gshared)(__this, ___stateMachine0, method);
 }
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
@@ -7534,10 +7249,10 @@ inline bool TaskAwaiter_1_get_IsCompleted_mEA2D770124AE05121AC7C3EDEFED61E367329
 {
 	return ((  bool (*) (TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B*, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mEEBB09E26F4165A0F864D92E1890CFCD2C8CFD54_gshared)(__this, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.CreateTableResponse>,AmazonDynamoComunicator/<CreateTable>d__4>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m80CFCF330FDE13E2C1CEC355CA1502BFE3E0658D (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B* ___awaiter0, U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* ___stateMachine1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.CreateTableResponse>,AmazonDynamoComunicator/<CreateTable>d__3>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_mB474659546F76B2A2FCC0753821709D82B6A8F97 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B* ___awaiter0, U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B*, U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m191B2E963BBD1B17FCA2EAFC7D348A566EEAFB63_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B*, U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_mC4F0082C11A81AE55F299F57264183A2F9A63DA6_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // TResult System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.CreateTableResponse>::GetResult()
 inline CreateTableResponse_t9E07C372A771B7CEE6E2FC1FAB1341936CD66F5C* TaskAwaiter_1_GetResult_m2C8A6FEC15E915265C3D7E2ED3331AE46CECDC31 (TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B* __this, const RuntimeMethod* method)
@@ -7558,12 +7273,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m059825802BB6AF7EA9693FEB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, Exception_t* ___exception0, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetResult()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, const RuntimeMethod* method) ;
-// System.Void AmazonDynamoComunicator/<CreateTable>d__4::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__4_MoveNext_m6DA6014F8B6C4CC4BCD9BF651DF466D7BD14CE61 (U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* __this, const RuntimeMethod* method) ;
+// System.Void AmazonDynamoComunicator/<CreateTable>d__3::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__3_MoveNext_m6F0A0E6D3B57D33AE83E88543E3071035FCF11B9 (U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetStateMachine_m48640FB81C34D4C2B5A5BBA7F5AE17DC50BF1A25 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
-// System.Void AmazonDynamoComunicator/<CreateTable>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__4_SetStateMachine_m935BED430773CF37066E60E05C343E7065B9A974 (U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void AmazonDynamoComunicator/<CreateTable>d__3::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__3_SetStateMachine_m70AA1497F2C176021A3F90761066C2629A716F06 (U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
 // System.Void Amazon.DynamoDBv2.Model.PutItemRequest::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PutItemRequest__ctor_m2F6906725752BA0E8577BF92AE7CD46E658CD062 (PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* __this, const RuntimeMethod* method) ;
 // System.Void Amazon.DynamoDBv2.Model.PutItemRequest::set_TableName(System.String)
@@ -7580,20 +7295,20 @@ inline bool TaskAwaiter_1_get_IsCompleted_m33BCF4BFC5148C88D82669327877B3DD04707
 {
 	return ((  bool (*) (TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5*, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mEEBB09E26F4165A0F864D92E1890CFCD2C8CFD54_gshared)(__this, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.PutItemResponse>,AmazonDynamoComunicator/<PutData>d__5>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m6CC425C657223CEDB36143FFADBA68C3F4E3B080 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5* ___awaiter0, U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* ___stateMachine1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.PutItemResponse>,AmazonDynamoComunicator/<PutData>d__4>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m961D59CDB592500DBBBF7C4D54C19AA8DD327D21 (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5* ___awaiter0, U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5*, U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m6F1F8BF6DE3DA91C1D4A92D7BAEAD270EE2F22A8_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5*, U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0B808409CD8201F13AAC85F29D646518C4857BEA_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m5F43FAA2233B76913A44E63D02C143EA095CDD16_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // TResult System.Runtime.CompilerServices.TaskAwaiter`1<Amazon.DynamoDBv2.Model.PutItemResponse>::GetResult()
 inline PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* TaskAwaiter_1_GetResult_mA4E2157CF7536B4767A83074B5049F3A9E0C28CA (TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5* __this, const RuntimeMethod* method)
 {
 	return ((  PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* (*) (TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5*, const RuntimeMethod*))TaskAwaiter_1_GetResult_mA4A8A1F43A456B40DDA251D00026C60919AED85B_gshared)(__this, method);
 }
-// System.Void AmazonDynamoComunicator/<PutData>d__5::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__5_MoveNext_mDAC2CABA8A8D867719D56C6F5D5EF30CC906C022 (U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* __this, const RuntimeMethod* method) ;
-// System.Void AmazonDynamoComunicator/<PutData>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__5_SetStateMachine_mF3B23994CA51AC8A3E7D28F14A32B0DBF9644672 (U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
+// System.Void AmazonDynamoComunicator/<PutData>d__4::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__4_MoveNext_mAA89E9C543E180E06F8E993F1E86F986281C31F3 (U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* __this, const RuntimeMethod* method) ;
+// System.Void AmazonDynamoComunicator/<PutData>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__4_SetStateMachine_mA4303EAC2D99C7F0BFF13D92F831D890B5B83879 (U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Transform::get_position()
@@ -7618,8 +7333,6 @@ inline BarChart_t9908C60A209A81E0F9CDA1D8FE2261D58234EC71* Component_GetComponen
 {
 	return ((  BarChart_t9908C60A209A81E0F9CDA1D8FE2261D58234EC71* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
-// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
 // ChartAndGraph.BarData ChartAndGraph.BarChart::get_DataSource()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BarData_t8911D0AB0B8219D50FC91166C09CF9851C619A69* BarChart_get_DataSource_mEDB86C8B57465E596B66979FB50D0F296FFCB9B3_inline (BarChart_t9908C60A209A81E0F9CDA1D8FE2261D58234EC71* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Random::get_value()
@@ -7736,8 +7449,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollableChartData_EndBatch_m638B97B40B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
-// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.GameObject::get_activeSelf()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GameObject::SetActive(System.Boolean)
@@ -8466,8 +8177,6 @@ inline LargeDataFeedU5BU5D_t58613C904BE5A46C00AFB20073BCB89727CC8208* GameObject
 {
 	return ((  LargeDataFeedU5BU5D_t58613C904BE5A46C00AFB20073BCB89727CC8208* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponents_TisRuntimeObject_m1654344F5C897CA86F9AB51530972086BDB05948_gshared)(__this, method);
 }
-// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,StackedGraphManager/CategoryEntry>::Remove(TKey)
 inline bool Dictionary_2_Remove_mD062347EB41950E95B424F945C65E6C5BCE94C16 (Dictionary_2_tA7C938230F79A98D62C2FDE4FABEC83ACD3287C3* __this, String_t* ___key0, const RuntimeMethod* method)
 {
@@ -9461,55 +9170,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoComunicator_Awake_mC12C826D7
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	{
+		// if (instance != null && instance != this)
+		AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* L_0 = ((AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_StaticFields*)il2cpp_codegen_static_fields_for(AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var))->___instance_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* L_2 = ((AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_StaticFields*)il2cpp_codegen_static_fields_for(AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var))->___instance_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_2, __this, NULL);
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		// Destroy(this);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(__this, NULL);
+		return;
+	}
+
+IL_0021:
 	{
 		// instance = this;
 		((AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_StaticFields*)il2cpp_codegen_static_fields_for(AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var))->___instance_4 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_StaticFields*)il2cpp_codegen_static_fields_for(AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var))->___instance_4), (void*)__this);
-		// }
-		return;
-	}
-}
-// System.Void AmazonDynamoComunicator::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoComunicator_Start_mD98520B60AF654965BEE4909A30ACD683170AD76 (AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		s_Il2CppMethodInitialized = true;
-	}
-	BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2* V_0 = NULL;
-	AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8* V_1 = NULL;
-	{
-		// var credentials = new Amazon.Runtime.BasicAWSCredentials("", "");
-		BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2* L_0 = (BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2*)il2cpp_codegen_object_new(BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		BasicAWSCredentials__ctor_mBFEC114131A859B256619276D1EB090D61AC938A(L_0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		V_0 = L_0;
-		// var config = new AmazonDynamoDBConfig { RegionEndpoint = RegionEndpoint.APSoutheast1 };
-		AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8* L_1 = (AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8*)il2cpp_codegen_object_new(AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		AmazonDynamoDBConfig__ctor_m59C6EAF56819F76C1CA36B32BDD8FA37A5B8AC0A(L_1, NULL);
-		AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8* L_2 = L_1;
-		il2cpp_codegen_runtime_class_init_inline(RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1_il2cpp_TypeInfo_var);
-		RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1* L_3 = ((RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1_StaticFields*)il2cpp_codegen_static_fields_for(RegionEndpoint_tDA5A44B1471EF8D48E96851B5A518775330D1CE1_il2cpp_TypeInfo_var))->___APSoutheast1_15;
-		NullCheck(L_2);
-		ClientConfig_set_RegionEndpoint_m6EB951071A579ECD3E0A3917A6D646081BE8756B(L_2, L_3, NULL);
-		V_1 = L_2;
-		// client = new AmazonDynamoDBClient(credentials, config);
-		BasicAWSCredentials_tC7DB6C69488C39424CDDA55EB208C438FEB6A0C2* L_4 = V_0;
-		AmazonDynamoDBConfig_t36167DA250E5D59F546601B71A8716FCE946FFC8* L_5 = V_1;
-		AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* L_6 = (AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D*)il2cpp_codegen_object_new(AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D_il2cpp_TypeInfo_var);
-		NullCheck(L_6);
-		AmazonDynamoDBClient__ctor_m1B7A50B24FFD91E4A6179322A510196C07C1A21D(L_6, L_4, L_5, NULL);
-		__this->___client_5 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___client_5), (void*)L_6);
+		// DontDestroyOnLoad(gameObject);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9(L_4, NULL);
 		// }
 		return;
 	}
@@ -9520,10 +9221,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoComunicator_CreateTable_m45B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m52E56F54EF009FD99399D0AA43012B7CB2866061_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_m5F1E8BCA3C7F732872E98175D650C41499B7CEB3_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1 V_0;
+	U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D L_0;
@@ -9539,11 +9240,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoComunicator_CreateTable_m45B
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_0)->___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
 		#endif
-		(&V_0)->___U3CU3E4__this_2 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_2), (void*)__this);
 		(&V_0)->___U3CU3E1__state_0 = (-1);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_1 = (&(&V_0)->___U3CU3Et__builder_1);
-		AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m52E56F54EF009FD99399D0AA43012B7CB2866061(L_1, (&V_0), AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m52E56F54EF009FD99399D0AA43012B7CB2866061_RuntimeMethod_var);
+		AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_m5F1E8BCA3C7F732872E98175D650C41499B7CEB3(L_1, (&V_0), AsyncVoidMethodBuilder_Start_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_m5F1E8BCA3C7F732872E98175D650C41499B7CEB3_RuntimeMethod_var);
 		return;
 	}
 }
@@ -9553,10 +9252,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoComunicator_PutData_m57BCE8F
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m98162EFA262C669C37DF2D5B4449671CEEABA477_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m986153D9C65EFEE6B71217764BC94BCA05D60068_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E V_0;
+	U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D L_0;
@@ -9572,14 +9271,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoComunicator_PutData_m57BCE8F
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_0)->___U3CU3Et__builder_1))->___m_task_2), (void*)NULL);
 		#endif
-		(&V_0)->___U3CU3E4__this_3 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this_3), (void*)__this);
 		Dictionary_2_tC5542E027DF096EDF9B02E78BFD62451FBB69B80* L_1 = ___keyValuePairs0;
 		(&V_0)->___keyValuePairs_2 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___keyValuePairs_2), (void*)L_1);
 		(&V_0)->___U3CU3E1__state_0 = (-1);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_2 = (&(&V_0)->___U3CU3Et__builder_1);
-		AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m98162EFA262C669C37DF2D5B4449671CEEABA477(L_2, (&V_0), AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m98162EFA262C669C37DF2D5B4449671CEEABA477_RuntimeMethod_var);
+		AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m986153D9C65EFEE6B71217764BC94BCA05D60068(L_2, (&V_0), AsyncVoidMethodBuilder_Start_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m986153D9C65EFEE6B71217764BC94BCA05D60068_RuntimeMethod_var);
 		return;
 	}
 }
@@ -9599,13 +9296,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoComunicator__ctor_mC08E0C70F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void AmazonDynamoComunicator/<CreateTable>d__4::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__4_MoveNext_m6DA6014F8B6C4CC4BCD9BF651DF466D7BD14CE61 (U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* __this, const RuntimeMethod* method) 
+// System.Void AmazonDynamoComunicator/<CreateTable>d__3::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__3_MoveNext_m6F0A0E6D3B57D33AE83E88543E3071035FCF11B9 (U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m80CFCF330FDE13E2C1CEC355CA1502BFE3E0658D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_mB474659546F76B2A2FCC0753821709D82B6A8F97_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -9635,29 +9333,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__4_MoveNext_m6DA6014F
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* V_1 = NULL;
-	CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* V_2 = NULL;
-	CreateTableResponse_t9E07C372A771B7CEE6E2FC1FAB1341936CD66F5C* V_3 = NULL;
-	TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B V_4;
+	CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* V_1 = NULL;
+	CreateTableResponse_t9E07C372A771B7CEE6E2FC1FAB1341936CD66F5C* V_2 = NULL;
+	TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED V_4;
 	memset((&V_4), 0, sizeof(V_4));
-	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED V_5;
-	memset((&V_5), 0, sizeof(V_5));
-	int32_t V_6 = 0;
-	Exception_t* V_7 = NULL;
+	int32_t V_5 = 0;
+	Exception_t* V_6 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
-		AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* L_1 = __this->___U3CU3E4__this_2;
-		V_1 = L_1;
 	}
 	try
 	{// begin try (depth: 1)
 		{
-			int32_t L_2 = V_0;
-			if (!L_2)
+			int32_t L_1 = V_0;
+			if (!L_1)
 			{
-				goto IL_00f6_1;
+				goto IL_00ec_1;
 			}
 		}
 		{
@@ -9678,156 +9373,154 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__4_MoveNext_m6DA6014F
 			//         WriteCapacityUnits = 5 // Adjust the write capacity units as per your requirements
 			//     }
 			// };
-			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_3 = (CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD*)il2cpp_codegen_object_new(CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD_il2cpp_TypeInfo_var);
-			NullCheck(L_3);
-			CreateTableRequest__ctor_m468185C79F893C5BE8CE438CADAAE55045728853(L_3, NULL);
-			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_4 = L_3;
+			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_2 = (CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD*)il2cpp_codegen_object_new(CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD_il2cpp_TypeInfo_var);
+			NullCheck(L_2);
+			CreateTableRequest__ctor_m468185C79F893C5BE8CE438CADAAE55045728853(L_2, NULL);
+			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_3 = L_2;
 			il2cpp_codegen_runtime_class_init_inline(SavingManager_tF7AD8D800B0FF492720BFFA6A0C1104548461DB9_il2cpp_TypeInfo_var);
-			String_t* L_5;
-			L_5 = SavingManager_Load_TisString_t_m9223CD2EF4ABC4C4493CB6AC8E66E6C2AF8E6B8D(_stringLiteralC0B8E91E0851783430118F0133181A374E0B78E6, _stringLiteral2E8FA0F397E70B1EBBD2A97547156F722AFB91DD, SavingManager_Load_TisString_t_m9223CD2EF4ABC4C4493CB6AC8E66E6C2AF8E6B8D_RuntimeMethod_var);
-			NullCheck(L_4);
-			CreateTableRequest_set_TableName_m9E05AD5E2FEA11FE1C6EB2CD46BAF3BE73479A97_inline(L_4, L_5, NULL);
-			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_6 = L_4;
-			List_1_t83C4F5616EA5E7C59193D303DEFE0739BDEEAA57* L_7 = (List_1_t83C4F5616EA5E7C59193D303DEFE0739BDEEAA57*)il2cpp_codegen_object_new(List_1_t83C4F5616EA5E7C59193D303DEFE0739BDEEAA57_il2cpp_TypeInfo_var);
-			NullCheck(L_7);
-			List_1__ctor_m83B18476DCD85F7CE66A57903DE6CDD5F5478545(L_7, List_1__ctor_m83B18476DCD85F7CE66A57903DE6CDD5F5478545_RuntimeMethod_var);
-			List_1_t83C4F5616EA5E7C59193D303DEFE0739BDEEAA57* L_8 = L_7;
-			AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193* L_9 = (AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193*)il2cpp_codegen_object_new(AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193_il2cpp_TypeInfo_var);
-			NullCheck(L_9);
-			AttributeDefinition__ctor_mF19E8C286F7470FFE2C744BFF73EBD48BCFD0942(L_9, NULL);
-			AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193* L_10 = L_9;
-			NullCheck(L_10);
-			AttributeDefinition_set_AttributeName_m882CC050F40A3C8E98344A0D35A7010B4E6CA584_inline(L_10, _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, NULL);
-			AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193* L_11 = L_10;
-			il2cpp_codegen_runtime_class_init_inline(ScalarAttributeType_t34E115C0C17E99FA597A9A1F97AF373E67FDFBD9_il2cpp_TypeInfo_var);
-			ScalarAttributeType_t34E115C0C17E99FA597A9A1F97AF373E67FDFBD9* L_12;
-			L_12 = ScalarAttributeType_op_Implicit_m4DFF0E5CD8768CBA13AE91AAC9DDAC038862BADC(_stringLiteral09684B67A5909FD48E1F14A8AF8DDD483C620B10, NULL);
-			NullCheck(L_11);
-			AttributeDefinition_set_AttributeType_m32BAEBE00A0ECB2D18C541383443309380D50ED7_inline(L_11, L_12, NULL);
-			NullCheck(L_8);
-			List_1_Add_m32B03AE6CF7A162A9FBBE7D406BDF2BE086DE40B_inline(L_8, L_11, List_1_Add_m32B03AE6CF7A162A9FBBE7D406BDF2BE086DE40B_RuntimeMethod_var);
+			String_t* L_4;
+			L_4 = SavingManager_Load_TisString_t_m9223CD2EF4ABC4C4493CB6AC8E66E6C2AF8E6B8D(_stringLiteralC0B8E91E0851783430118F0133181A374E0B78E6, _stringLiteral2E8FA0F397E70B1EBBD2A97547156F722AFB91DD, SavingManager_Load_TisString_t_m9223CD2EF4ABC4C4493CB6AC8E66E6C2AF8E6B8D_RuntimeMethod_var);
+			NullCheck(L_3);
+			CreateTableRequest_set_TableName_m9E05AD5E2FEA11FE1C6EB2CD46BAF3BE73479A97_inline(L_3, L_4, NULL);
+			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_5 = L_3;
+			List_1_t83C4F5616EA5E7C59193D303DEFE0739BDEEAA57* L_6 = (List_1_t83C4F5616EA5E7C59193D303DEFE0739BDEEAA57*)il2cpp_codegen_object_new(List_1_t83C4F5616EA5E7C59193D303DEFE0739BDEEAA57_il2cpp_TypeInfo_var);
 			NullCheck(L_6);
-			CreateTableRequest_set_AttributeDefinitions_mBFDA7CDFE2349380674FDDFC4EEDC4369446DC87_inline(L_6, L_8, NULL);
-			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_13 = L_6;
-			List_1_t4D13EA3B0D563B8C45F72FF159A4471AC1E523C3* L_14 = (List_1_t4D13EA3B0D563B8C45F72FF159A4471AC1E523C3*)il2cpp_codegen_object_new(List_1_t4D13EA3B0D563B8C45F72FF159A4471AC1E523C3_il2cpp_TypeInfo_var);
-			NullCheck(L_14);
-			List_1__ctor_mBD6610FE765BB6E03190D6D837A315C67471AD59(L_14, List_1__ctor_mBD6610FE765BB6E03190D6D837A315C67471AD59_RuntimeMethod_var);
-			List_1_t4D13EA3B0D563B8C45F72FF159A4471AC1E523C3* L_15 = L_14;
-			KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E* L_16 = (KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E*)il2cpp_codegen_object_new(KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E_il2cpp_TypeInfo_var);
-			NullCheck(L_16);
-			KeySchemaElement__ctor_mA43937FEF78AF7AB09DE9FEB34B73FA316A9D8AC(L_16, NULL);
-			KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E* L_17 = L_16;
-			NullCheck(L_17);
-			KeySchemaElement_set_AttributeName_m424036A862EE34C7B78996FB7EB620B5C3879D9B_inline(L_17, _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, NULL);
-			KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E* L_18 = L_17;
-			il2cpp_codegen_runtime_class_init_inline(KeyType_t701DF66D7C305DD40F5ECC98D6677497DBFEDF65_il2cpp_TypeInfo_var);
-			KeyType_t701DF66D7C305DD40F5ECC98D6677497DBFEDF65* L_19;
-			L_19 = KeyType_op_Implicit_m1CCD9A68B09CCECC5F390FDA8BB0F04D3A336052(_stringLiteral82050252F41EB6E5C378B7FE0A655451E12F91A7, NULL);
-			NullCheck(L_18);
-			KeySchemaElement_set_KeyType_m354CACC81FDDA0DE1E764B7FE96B3E1259318DD0_inline(L_18, L_19, NULL);
-			NullCheck(L_15);
-			List_1_Add_mA17807EDAD49444CF90C7EBD767AA628B1DDAE38_inline(L_15, L_18, List_1_Add_mA17807EDAD49444CF90C7EBD767AA628B1DDAE38_RuntimeMethod_var);
+			List_1__ctor_m83B18476DCD85F7CE66A57903DE6CDD5F5478545(L_6, List_1__ctor_m83B18476DCD85F7CE66A57903DE6CDD5F5478545_RuntimeMethod_var);
+			List_1_t83C4F5616EA5E7C59193D303DEFE0739BDEEAA57* L_7 = L_6;
+			AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193* L_8 = (AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193*)il2cpp_codegen_object_new(AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193_il2cpp_TypeInfo_var);
+			NullCheck(L_8);
+			AttributeDefinition__ctor_mF19E8C286F7470FFE2C744BFF73EBD48BCFD0942(L_8, NULL);
+			AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193* L_9 = L_8;
+			NullCheck(L_9);
+			AttributeDefinition_set_AttributeName_m882CC050F40A3C8E98344A0D35A7010B4E6CA584_inline(L_9, _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, NULL);
+			AttributeDefinition_t3FAA734EF9E9D762C65ABDDDA6A7B1ECE3766193* L_10 = L_9;
+			il2cpp_codegen_runtime_class_init_inline(ScalarAttributeType_t34E115C0C17E99FA597A9A1F97AF373E67FDFBD9_il2cpp_TypeInfo_var);
+			ScalarAttributeType_t34E115C0C17E99FA597A9A1F97AF373E67FDFBD9* L_11;
+			L_11 = ScalarAttributeType_op_Implicit_m4DFF0E5CD8768CBA13AE91AAC9DDAC038862BADC(_stringLiteral09684B67A5909FD48E1F14A8AF8DDD483C620B10, NULL);
+			NullCheck(L_10);
+			AttributeDefinition_set_AttributeType_m32BAEBE00A0ECB2D18C541383443309380D50ED7_inline(L_10, L_11, NULL);
+			NullCheck(L_7);
+			List_1_Add_m32B03AE6CF7A162A9FBBE7D406BDF2BE086DE40B_inline(L_7, L_10, List_1_Add_m32B03AE6CF7A162A9FBBE7D406BDF2BE086DE40B_RuntimeMethod_var);
+			NullCheck(L_5);
+			CreateTableRequest_set_AttributeDefinitions_mBFDA7CDFE2349380674FDDFC4EEDC4369446DC87_inline(L_5, L_7, NULL);
+			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_12 = L_5;
+			List_1_t4D13EA3B0D563B8C45F72FF159A4471AC1E523C3* L_13 = (List_1_t4D13EA3B0D563B8C45F72FF159A4471AC1E523C3*)il2cpp_codegen_object_new(List_1_t4D13EA3B0D563B8C45F72FF159A4471AC1E523C3_il2cpp_TypeInfo_var);
 			NullCheck(L_13);
-			CreateTableRequest_set_KeySchema_mE6ECBF85E45F6C61E7AD75AB3E5D1061D38635D5_inline(L_13, L_15, NULL);
-			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_20 = L_13;
-			ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F067A375AE5CFA* L_21 = (ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F067A375AE5CFA*)il2cpp_codegen_object_new(ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F067A375AE5CFA_il2cpp_TypeInfo_var);
+			List_1__ctor_mBD6610FE765BB6E03190D6D837A315C67471AD59(L_13, List_1__ctor_mBD6610FE765BB6E03190D6D837A315C67471AD59_RuntimeMethod_var);
+			List_1_t4D13EA3B0D563B8C45F72FF159A4471AC1E523C3* L_14 = L_13;
+			KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E* L_15 = (KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E*)il2cpp_codegen_object_new(KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E_il2cpp_TypeInfo_var);
+			NullCheck(L_15);
+			KeySchemaElement__ctor_mA43937FEF78AF7AB09DE9FEB34B73FA316A9D8AC(L_15, NULL);
+			KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E* L_16 = L_15;
+			NullCheck(L_16);
+			KeySchemaElement_set_AttributeName_m424036A862EE34C7B78996FB7EB620B5C3879D9B_inline(L_16, _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, NULL);
+			KeySchemaElement_t23F7A30A8D601B463F32013EBE44BFAF235A792E* L_17 = L_16;
+			il2cpp_codegen_runtime_class_init_inline(KeyType_t701DF66D7C305DD40F5ECC98D6677497DBFEDF65_il2cpp_TypeInfo_var);
+			KeyType_t701DF66D7C305DD40F5ECC98D6677497DBFEDF65* L_18;
+			L_18 = KeyType_op_Implicit_m1CCD9A68B09CCECC5F390FDA8BB0F04D3A336052(_stringLiteral82050252F41EB6E5C378B7FE0A655451E12F91A7, NULL);
+			NullCheck(L_17);
+			KeySchemaElement_set_KeyType_m354CACC81FDDA0DE1E764B7FE96B3E1259318DD0_inline(L_17, L_18, NULL);
+			NullCheck(L_14);
+			List_1_Add_mA17807EDAD49444CF90C7EBD767AA628B1DDAE38_inline(L_14, L_17, List_1_Add_mA17807EDAD49444CF90C7EBD767AA628B1DDAE38_RuntimeMethod_var);
+			NullCheck(L_12);
+			CreateTableRequest_set_KeySchema_mE6ECBF85E45F6C61E7AD75AB3E5D1061D38635D5_inline(L_12, L_14, NULL);
+			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_19 = L_12;
+			ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F067A375AE5CFA* L_20 = (ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F067A375AE5CFA*)il2cpp_codegen_object_new(ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F067A375AE5CFA_il2cpp_TypeInfo_var);
+			NullCheck(L_20);
+			ProvisionedThroughput__ctor_m4DC315FFDB38CAD35ACE6DF949E26146C0E1C135(L_20, NULL);
+			ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F067A375AE5CFA* L_21 = L_20;
 			NullCheck(L_21);
-			ProvisionedThroughput__ctor_m4DC315FFDB38CAD35ACE6DF949E26146C0E1C135(L_21, NULL);
+			ProvisionedThroughput_set_ReadCapacityUnits_m07EA7073A95E5D52BDD3F3A8165A283A2C4DC515(L_21, ((int64_t)5), NULL);
 			ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F067A375AE5CFA* L_22 = L_21;
 			NullCheck(L_22);
-			ProvisionedThroughput_set_ReadCapacityUnits_m07EA7073A95E5D52BDD3F3A8165A283A2C4DC515(L_22, ((int64_t)5), NULL);
-			ProvisionedThroughput_t1C6BB09B391D90C563B21F34E1F067A375AE5CFA* L_23 = L_22;
-			NullCheck(L_23);
-			ProvisionedThroughput_set_WriteCapacityUnits_mD8FB1AE2ECDC2DF7DAA1726ED12EB584CCDD338F(L_23, ((int64_t)5), NULL);
-			NullCheck(L_20);
-			CreateTableRequest_set_ProvisionedThroughput_mE67535211A175138C923E43F4EE43B7CEA4040BC_inline(L_20, L_23, NULL);
-			V_2 = L_20;
+			ProvisionedThroughput_set_WriteCapacityUnits_mD8FB1AE2ECDC2DF7DAA1726ED12EB584CCDD338F(L_22, ((int64_t)5), NULL);
+			NullCheck(L_19);
+			CreateTableRequest_set_ProvisionedThroughput_mE67535211A175138C923E43F4EE43B7CEA4040BC_inline(L_19, L_22, NULL);
+			V_1 = L_19;
 			// var response = await client.CreateTableAsync(request);
-			AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* L_24 = V_1;
-			NullCheck(L_24);
-			AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* L_25 = L_24->___client_5;
-			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_26 = V_2;
-			il2cpp_codegen_initobj((&V_5), sizeof(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED));
-			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_27 = V_5;
-			NullCheck(L_25);
-			Task_1_t1348BA3754104D20342DAC19F8F9B9C7B2CB3786* L_28;
-			L_28 = VirtualFuncInvoker2< Task_1_t1348BA3754104D20342DAC19F8F9B9C7B2CB3786*, CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(106 /* System.Threading.Tasks.Task`1<Amazon.DynamoDBv2.Model.CreateTableResponse> Amazon.DynamoDBv2.AmazonDynamoDBClient::CreateTableAsync(Amazon.DynamoDBv2.Model.CreateTableRequest,System.Threading.CancellationToken) */, L_25, L_26, L_27);
-			NullCheck(L_28);
-			TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B L_29;
-			L_29 = Task_1_GetAwaiter_m5254DFA0FE288809DBD7DD31AEDEC171EF5C55A3(L_28, Task_1_GetAwaiter_m5254DFA0FE288809DBD7DD31AEDEC171EF5C55A3_RuntimeMethod_var);
-			V_4 = L_29;
-			bool L_30;
-			L_30 = TaskAwaiter_1_get_IsCompleted_mEA2D770124AE05121AC7C3EDEFED61E367329126((&V_4), TaskAwaiter_1_get_IsCompleted_mEA2D770124AE05121AC7C3EDEFED61E367329126_RuntimeMethod_var);
-			if (L_30)
+			AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* L_23 = ((AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_StaticFields*)il2cpp_codegen_static_fields_for(AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var))->___client_5;
+			CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD* L_24 = V_1;
+			il2cpp_codegen_initobj((&V_4), sizeof(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED));
+			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_25 = V_4;
+			NullCheck(L_23);
+			Task_1_t1348BA3754104D20342DAC19F8F9B9C7B2CB3786* L_26;
+			L_26 = VirtualFuncInvoker2< Task_1_t1348BA3754104D20342DAC19F8F9B9C7B2CB3786*, CreateTableRequest_t3206A6BF43018C19A92D250FC09DE989DADE25FD*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(106 /* System.Threading.Tasks.Task`1<Amazon.DynamoDBv2.Model.CreateTableResponse> Amazon.DynamoDBv2.AmazonDynamoDBClient::CreateTableAsync(Amazon.DynamoDBv2.Model.CreateTableRequest,System.Threading.CancellationToken) */, L_23, L_24, L_25);
+			NullCheck(L_26);
+			TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B L_27;
+			L_27 = Task_1_GetAwaiter_m5254DFA0FE288809DBD7DD31AEDEC171EF5C55A3(L_26, Task_1_GetAwaiter_m5254DFA0FE288809DBD7DD31AEDEC171EF5C55A3_RuntimeMethod_var);
+			V_3 = L_27;
+			bool L_28;
+			L_28 = TaskAwaiter_1_get_IsCompleted_mEA2D770124AE05121AC7C3EDEFED61E367329126((&V_3), TaskAwaiter_1_get_IsCompleted_mEA2D770124AE05121AC7C3EDEFED61E367329126_RuntimeMethod_var);
+			if (L_28)
 			{
-				goto IL_0113_1;
+				goto IL_0108_1;
 			}
 		}
 		{
-			int32_t L_31 = 0;
-			V_0 = L_31;
-			__this->___U3CU3E1__state_0 = L_31;
-			TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B L_32 = V_4;
-			__this->___U3CU3Eu__1_3 = L_32;
-			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
-			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_33 = (&__this->___U3CU3Et__builder_1);
-			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m80CFCF330FDE13E2C1CEC355CA1502BFE3E0658D(L_33, (&V_4), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1_m80CFCF330FDE13E2C1CEC355CA1502BFE3E0658D_RuntimeMethod_var);
-			goto IL_0186;
+			int32_t L_29 = 0;
+			V_0 = L_29;
+			__this->___U3CU3E1__state_0 = L_29;
+			TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B L_30 = V_3;
+			__this->___U3CU3Eu__1_2 = L_30;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_2))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_31 = (&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_mB474659546F76B2A2FCC0753821709D82B6A8F97(L_31, (&V_3), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B_TisU3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD_mB474659546F76B2A2FCC0753821709D82B6A8F97_RuntimeMethod_var);
+			goto IL_017b;
 		}
 
-IL_00f6_1:
+IL_00ec_1:
 		{
-			TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B L_34 = __this->___U3CU3Eu__1_3;
-			V_4 = L_34;
-			TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B* L_35 = (&__this->___U3CU3Eu__1_3);
-			il2cpp_codegen_initobj(L_35, sizeof(TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B));
-			int32_t L_36 = (-1);
-			V_0 = L_36;
-			__this->___U3CU3E1__state_0 = L_36;
+			TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B L_32 = __this->___U3CU3Eu__1_2;
+			V_3 = L_32;
+			TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B* L_33 = (&__this->___U3CU3Eu__1_2);
+			il2cpp_codegen_initobj(L_33, sizeof(TaskAwaiter_1_tB7C19A94114979B0BC57ABF8CB21A20EB5FE919B));
+			int32_t L_34 = (-1);
+			V_0 = L_34;
+			__this->___U3CU3E1__state_0 = L_34;
 		}
 
-IL_0113_1:
+IL_0108_1:
 		{
-			CreateTableResponse_t9E07C372A771B7CEE6E2FC1FAB1341936CD66F5C* L_37;
-			L_37 = TaskAwaiter_1_GetResult_m2C8A6FEC15E915265C3D7E2ED3331AE46CECDC31((&V_4), TaskAwaiter_1_GetResult_m2C8A6FEC15E915265C3D7E2ED3331AE46CECDC31_RuntimeMethod_var);
-			V_3 = L_37;
+			CreateTableResponse_t9E07C372A771B7CEE6E2FC1FAB1341936CD66F5C* L_35;
+			L_35 = TaskAwaiter_1_GetResult_m2C8A6FEC15E915265C3D7E2ED3331AE46CECDC31((&V_3), TaskAwaiter_1_GetResult_m2C8A6FEC15E915265C3D7E2ED3331AE46CECDC31_RuntimeMethod_var);
+			V_2 = L_35;
 			// if (response.HttpStatusCode == System.Net.HttpStatusCode.OK)
-			CreateTableResponse_t9E07C372A771B7CEE6E2FC1FAB1341936CD66F5C* L_38 = V_3;
-			NullCheck(L_38);
-			int32_t L_39;
-			L_39 = AmazonWebServiceResponse_get_HttpStatusCode_m9E297713C398879B7F862DE4ACEFFE93E2BCF429_inline(L_38, NULL);
-			if ((!(((uint32_t)L_39) == ((uint32_t)((int32_t)200)))))
+			CreateTableResponse_t9E07C372A771B7CEE6E2FC1FAB1341936CD66F5C* L_36 = V_2;
+			NullCheck(L_36);
+			int32_t L_37;
+			L_37 = AmazonWebServiceResponse_get_HttpStatusCode_m9E297713C398879B7F862DE4ACEFFE93E2BCF429_inline(L_36, NULL);
+			if ((!(((uint32_t)L_37) == ((uint32_t)((int32_t)200)))))
 			{
-				goto IL_0134_1;
+				goto IL_0129_1;
 			}
 		}
 		{
 			// Debug.Log("Table created successfully!");
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral0131CE8E213677A3FAD9F7D4A696317CEFFE523B, NULL);
-			goto IL_0158_1;
+			goto IL_014d_1;
 		}
 
-IL_0134_1:
+IL_0129_1:
 		{
 			// Debug.LogError("Failed to create table: " + response.HttpStatusCode);
-			CreateTableResponse_t9E07C372A771B7CEE6E2FC1FAB1341936CD66F5C* L_40 = V_3;
-			NullCheck(L_40);
-			int32_t L_41;
-			L_41 = AmazonWebServiceResponse_get_HttpStatusCode_m9E297713C398879B7F862DE4ACEFFE93E2BCF429_inline(L_40, NULL);
-			V_6 = L_41;
-			Il2CppFakeBox<int32_t> L_42(HttpStatusCode_t530B6899270B44ED560C3872DB5F9698FB7D7374_il2cpp_TypeInfo_var, (&V_6));
-			String_t* L_43;
-			L_43 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_42), NULL);
-			String_t* L_44;
-			L_44 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral6565596176CC3C71DB79B637305110BCB44FE245, L_43, NULL);
+			CreateTableResponse_t9E07C372A771B7CEE6E2FC1FAB1341936CD66F5C* L_38 = V_2;
+			NullCheck(L_38);
+			int32_t L_39;
+			L_39 = AmazonWebServiceResponse_get_HttpStatusCode_m9E297713C398879B7F862DE4ACEFFE93E2BCF429_inline(L_38, NULL);
+			V_5 = L_39;
+			Il2CppFakeBox<int32_t> L_40(HttpStatusCode_t530B6899270B44ED560C3872DB5F9698FB7D7374_il2cpp_TypeInfo_var, (&V_5));
+			String_t* L_41;
+			L_41 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_40), NULL);
+			String_t* L_42;
+			L_42 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral6565596176CC3C71DB79B637305110BCB44FE245, L_41, NULL);
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-			Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(L_44, NULL);
+			Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(L_42, NULL);
 		}
 
-IL_0158_1:
+IL_014d_1:
 		{
-			goto IL_0173;
+			goto IL_0168;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -9835,44 +9528,44 @@ IL_0158_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_015a;
+			goto CATCH_014f;
 		}
 		throw e;
 	}
 
-CATCH_015a:
+CATCH_014f:
 	{// begin catch(System.Exception)
-		V_7 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		V_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_45 = (&__this->___U3CU3Et__builder_1);
-		Exception_t* L_46 = V_7;
-		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_45, L_46, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_43 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_44 = V_6;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_43, L_44, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0186;
+		goto IL_017b;
 	}// end catch (depth: 1)
 
-IL_0173:
+IL_0168:
 	{
 		// }
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_47 = (&__this->___U3CU3Et__builder_1);
-		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_47, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_45 = (&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_45, NULL);
 	}
 
-IL_0186:
+IL_017b:
 	{
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void U3CCreateTableU3Ed__4_MoveNext_m6DA6014F8B6C4CC4BCD9BF651DF466D7BD14CE61_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void U3CCreateTableU3Ed__3_MoveNext_m6F0A0E6D3B57D33AE83E88543E3071035FCF11B9_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* _thisAdjusted;
+	U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1*>(__this + _offset);
-	U3CCreateTableU3Ed__4_MoveNext_m6DA6014F8B6C4CC4BCD9BF651DF466D7BD14CE61(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD*>(__this + _offset);
+	U3CCreateTableU3Ed__3_MoveNext_m6F0A0E6D3B57D33AE83E88543E3071035FCF11B9(_thisAdjusted, method);
 }
-// System.Void AmazonDynamoComunicator/<CreateTable>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__4_SetStateMachine_m935BED430773CF37066E60E05C343E7065B9A974 (U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) 
+// System.Void AmazonDynamoComunicator/<CreateTable>d__3::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__3_SetStateMachine_m70AA1497F2C176021A3F90761066C2629A716F06 (U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) 
 {
 	{
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_0 = (&__this->___U3CU3Et__builder_1);
@@ -9881,12 +9574,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateTableU3Ed__4_SetStateMachine_m9
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void U3CCreateTableU3Ed__4_SetStateMachine_m935BED430773CF37066E60E05C343E7065B9A974_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void U3CCreateTableU3Ed__3_SetStateMachine_m70AA1497F2C176021A3F90761066C2629A716F06_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
-	U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1* _thisAdjusted;
+	U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<U3CCreateTableU3Ed__4_t87E7181926EF7A188525F78771DA98EF6C5A38F1*>(__this + _offset);
-	U3CCreateTableU3Ed__4_SetStateMachine_m935BED430773CF37066E60E05C343E7065B9A974(_thisAdjusted, ___stateMachine0, method);
+	_thisAdjusted = reinterpret_cast<U3CCreateTableU3Ed__3_tDC2045CA181DD8BFBE0FED4FEC16B8F2F2482DCD*>(__this + _offset);
+	U3CCreateTableU3Ed__3_SetStateMachine_m70AA1497F2C176021A3F90761066C2629A716F06(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -9896,13 +9589,14 @@ IL2CPP_EXTERN_C  void U3CCreateTableU3Ed__4_SetStateMachine_m935BED430773CF37066
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void AmazonDynamoComunicator/<PutData>d__5::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__5_MoveNext_mDAC2CABA8A8D867719D56C6F5D5EF30CC906C022 (U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* __this, const RuntimeMethod* method) 
+// System.Void AmazonDynamoComunicator/<PutData>d__4::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__4_MoveNext_mAA89E9C543E180E06F8E993F1E86F986281C31F3 (U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m6CC425C657223CEDB36143FFADBA68C3F4E3B080_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m961D59CDB592500DBBBF7C4D54C19AA8DD327D21_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HttpStatusCode_t530B6899270B44ED560C3872DB5F9698FB7D7374_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41_il2cpp_TypeInfo_var);
@@ -9918,29 +9612,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__5_MoveNext_mDAC2CABA8A8D
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* V_1 = NULL;
-	PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* V_2 = NULL;
-	PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* V_3 = NULL;
-	TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 V_4;
+	PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* V_1 = NULL;
+	PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* V_2 = NULL;
+	TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED V_4;
 	memset((&V_4), 0, sizeof(V_4));
-	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED V_5;
-	memset((&V_5), 0, sizeof(V_5));
-	int32_t V_6 = 0;
-	Exception_t* V_7 = NULL;
+	int32_t V_5 = 0;
+	Exception_t* V_6 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
-		AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* L_1 = __this->___U3CU3E4__this_3;
-		V_1 = L_1;
 	}
 	try
 	{// begin try (depth: 1)
 		{
-			int32_t L_2 = V_0;
-			if (!L_2)
+			int32_t L_1 = V_0;
+			if (!L_1)
 			{
-				goto IL_0082_1;
+				goto IL_0078_1;
 			}
 		}
 		{
@@ -9949,106 +9640,104 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__5_MoveNext_mDAC2CABA8A8D
 			//     TableName = SavingManager.Load<string>("InputName", SavingManager.PERSONALDATASAVEPATH),
 			//     Item = keyValuePairs
 			// };
-			PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* L_3 = (PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41*)il2cpp_codegen_object_new(PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41_il2cpp_TypeInfo_var);
-			NullCheck(L_3);
-			PutItemRequest__ctor_m2F6906725752BA0E8577BF92AE7CD46E658CD062(L_3, NULL);
-			PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* L_4 = L_3;
+			PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* L_2 = (PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41*)il2cpp_codegen_object_new(PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41_il2cpp_TypeInfo_var);
+			NullCheck(L_2);
+			PutItemRequest__ctor_m2F6906725752BA0E8577BF92AE7CD46E658CD062(L_2, NULL);
+			PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* L_3 = L_2;
 			il2cpp_codegen_runtime_class_init_inline(SavingManager_tF7AD8D800B0FF492720BFFA6A0C1104548461DB9_il2cpp_TypeInfo_var);
-			String_t* L_5;
-			L_5 = SavingManager_Load_TisString_t_m9223CD2EF4ABC4C4493CB6AC8E66E6C2AF8E6B8D(_stringLiteralC0B8E91E0851783430118F0133181A374E0B78E6, _stringLiteral2E8FA0F397E70B1EBBD2A97547156F722AFB91DD, SavingManager_Load_TisString_t_m9223CD2EF4ABC4C4493CB6AC8E66E6C2AF8E6B8D_RuntimeMethod_var);
-			NullCheck(L_4);
-			PutItemRequest_set_TableName_m2514A4F2890C23F58471897C06C07141B53F9237_inline(L_4, L_5, NULL);
-			PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* L_6 = L_4;
-			Dictionary_2_tC5542E027DF096EDF9B02E78BFD62451FBB69B80* L_7 = __this->___keyValuePairs_2;
-			NullCheck(L_6);
-			PutItemRequest_set_Item_mF580B4AB81D5DFAAE03F1BE15B86CBFC7C08ADC9_inline(L_6, L_7, NULL);
-			V_2 = L_6;
+			String_t* L_4;
+			L_4 = SavingManager_Load_TisString_t_m9223CD2EF4ABC4C4493CB6AC8E66E6C2AF8E6B8D(_stringLiteralC0B8E91E0851783430118F0133181A374E0B78E6, _stringLiteral2E8FA0F397E70B1EBBD2A97547156F722AFB91DD, SavingManager_Load_TisString_t_m9223CD2EF4ABC4C4493CB6AC8E66E6C2AF8E6B8D_RuntimeMethod_var);
+			NullCheck(L_3);
+			PutItemRequest_set_TableName_m2514A4F2890C23F58471897C06C07141B53F9237_inline(L_3, L_4, NULL);
+			PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* L_5 = L_3;
+			Dictionary_2_tC5542E027DF096EDF9B02E78BFD62451FBB69B80* L_6 = __this->___keyValuePairs_2;
+			NullCheck(L_5);
+			PutItemRequest_set_Item_mF580B4AB81D5DFAAE03F1BE15B86CBFC7C08ADC9_inline(L_5, L_6, NULL);
+			V_1 = L_5;
 			// var putResponse = await client.PutItemAsync(putRequest);
-			AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* L_8 = V_1;
-			NullCheck(L_8);
-			AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* L_9 = L_8->___client_5;
-			PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* L_10 = V_2;
-			il2cpp_codegen_initobj((&V_5), sizeof(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED));
-			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_11 = V_5;
-			NullCheck(L_9);
-			Task_1_tE0F56F19CE902F1A73295DF71980FF124A5D36C2* L_12;
-			L_12 = VirtualFuncInvoker2< Task_1_tE0F56F19CE902F1A73295DF71980FF124A5D36C2*, PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(182 /* System.Threading.Tasks.Task`1<Amazon.DynamoDBv2.Model.PutItemResponse> Amazon.DynamoDBv2.AmazonDynamoDBClient::PutItemAsync(Amazon.DynamoDBv2.Model.PutItemRequest,System.Threading.CancellationToken) */, L_9, L_10, L_11);
-			NullCheck(L_12);
-			TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 L_13;
-			L_13 = Task_1_GetAwaiter_mCE66DD7D06BF1839EB2BA28E2DD19D736BCA6287(L_12, Task_1_GetAwaiter_mCE66DD7D06BF1839EB2BA28E2DD19D736BCA6287_RuntimeMethod_var);
-			V_4 = L_13;
-			bool L_14;
-			L_14 = TaskAwaiter_1_get_IsCompleted_m33BCF4BFC5148C88D82669327877B3DD04707F9B((&V_4), TaskAwaiter_1_get_IsCompleted_m33BCF4BFC5148C88D82669327877B3DD04707F9B_RuntimeMethod_var);
-			if (L_14)
+			AmazonDynamoDBClient_t3BF10AD0DBCF997DA90BC6029E555BE347B8D46D* L_7 = ((AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_StaticFields*)il2cpp_codegen_static_fields_for(AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var))->___client_5;
+			PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41* L_8 = V_1;
+			il2cpp_codegen_initobj((&V_4), sizeof(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED));
+			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_9 = V_4;
+			NullCheck(L_7);
+			Task_1_tE0F56F19CE902F1A73295DF71980FF124A5D36C2* L_10;
+			L_10 = VirtualFuncInvoker2< Task_1_tE0F56F19CE902F1A73295DF71980FF124A5D36C2*, PutItemRequest_t57FE09E64D900F51A89EEA83D63D9FA0ED2BCF41*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(182 /* System.Threading.Tasks.Task`1<Amazon.DynamoDBv2.Model.PutItemResponse> Amazon.DynamoDBv2.AmazonDynamoDBClient::PutItemAsync(Amazon.DynamoDBv2.Model.PutItemRequest,System.Threading.CancellationToken) */, L_7, L_8, L_9);
+			NullCheck(L_10);
+			TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 L_11;
+			L_11 = Task_1_GetAwaiter_mCE66DD7D06BF1839EB2BA28E2DD19D736BCA6287(L_10, Task_1_GetAwaiter_mCE66DD7D06BF1839EB2BA28E2DD19D736BCA6287_RuntimeMethod_var);
+			V_3 = L_11;
+			bool L_12;
+			L_12 = TaskAwaiter_1_get_IsCompleted_m33BCF4BFC5148C88D82669327877B3DD04707F9B((&V_3), TaskAwaiter_1_get_IsCompleted_m33BCF4BFC5148C88D82669327877B3DD04707F9B_RuntimeMethod_var);
+			if (L_12)
 			{
-				goto IL_009f_1;
+				goto IL_0094_1;
 			}
 		}
 		{
-			int32_t L_15 = 0;
-			V_0 = L_15;
-			__this->___U3CU3E1__state_0 = L_15;
-			TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 L_16 = V_4;
-			__this->___U3CU3Eu__1_4 = L_16;
-			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
-			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_17 = (&__this->___U3CU3Et__builder_1);
-			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m6CC425C657223CEDB36143FFADBA68C3F4E3B080(L_17, (&V_4), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E_m6CC425C657223CEDB36143FFADBA68C3F4E3B080_RuntimeMethod_var);
-			goto IL_0112;
+			int32_t L_13 = 0;
+			V_0 = L_13;
+			__this->___U3CU3E1__state_0 = L_13;
+			TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 L_14 = V_3;
+			__this->___U3CU3Eu__1_3 = L_14;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_15 = (&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m961D59CDB592500DBBBF7C4D54C19AA8DD327D21(L_15, (&V_3), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5_TisU3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9_m961D59CDB592500DBBBF7C4D54C19AA8DD327D21_RuntimeMethod_var);
+			goto IL_0107;
 		}
 
-IL_0082_1:
+IL_0078_1:
 		{
-			TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 L_18 = __this->___U3CU3Eu__1_4;
-			V_4 = L_18;
-			TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5* L_19 = (&__this->___U3CU3Eu__1_4);
-			il2cpp_codegen_initobj(L_19, sizeof(TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5));
-			int32_t L_20 = (-1);
-			V_0 = L_20;
-			__this->___U3CU3E1__state_0 = L_20;
+			TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5 L_16 = __this->___U3CU3Eu__1_3;
+			V_3 = L_16;
+			TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5* L_17 = (&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_17, sizeof(TaskAwaiter_1_tF45C5C24F85909DC9B081C7B5E9424649D1E45D5));
+			int32_t L_18 = (-1);
+			V_0 = L_18;
+			__this->___U3CU3E1__state_0 = L_18;
 		}
 
-IL_009f_1:
+IL_0094_1:
 		{
-			PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* L_21;
-			L_21 = TaskAwaiter_1_GetResult_mA4E2157CF7536B4767A83074B5049F3A9E0C28CA((&V_4), TaskAwaiter_1_GetResult_mA4E2157CF7536B4767A83074B5049F3A9E0C28CA_RuntimeMethod_var);
-			V_3 = L_21;
+			PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* L_19;
+			L_19 = TaskAwaiter_1_GetResult_mA4E2157CF7536B4767A83074B5049F3A9E0C28CA((&V_3), TaskAwaiter_1_GetResult_mA4E2157CF7536B4767A83074B5049F3A9E0C28CA_RuntimeMethod_var);
+			V_2 = L_19;
 			// if (putResponse.HttpStatusCode == System.Net.HttpStatusCode.OK)
-			PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* L_22 = V_3;
-			NullCheck(L_22);
-			int32_t L_23;
-			L_23 = AmazonWebServiceResponse_get_HttpStatusCode_m9E297713C398879B7F862DE4ACEFFE93E2BCF429_inline(L_22, NULL);
-			if ((!(((uint32_t)L_23) == ((uint32_t)((int32_t)200)))))
+			PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* L_20 = V_2;
+			NullCheck(L_20);
+			int32_t L_21;
+			L_21 = AmazonWebServiceResponse_get_HttpStatusCode_m9E297713C398879B7F862DE4ACEFFE93E2BCF429_inline(L_20, NULL);
+			if ((!(((uint32_t)L_21) == ((uint32_t)((int32_t)200)))))
 			{
-				goto IL_00c0_1;
+				goto IL_00b5_1;
 			}
 		}
 		{
 			// Debug.Log("Data inserted successfully!");
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral4A978052C6D8563AB651A6CC25F306D5D0140551, NULL);
-			goto IL_00e4_1;
+			goto IL_00d9_1;
 		}
 
-IL_00c0_1:
+IL_00b5_1:
 		{
 			// Debug.LogError("Failed to insert data: " + putResponse.HttpStatusCode);
-			PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* L_24 = V_3;
-			NullCheck(L_24);
-			int32_t L_25;
-			L_25 = AmazonWebServiceResponse_get_HttpStatusCode_m9E297713C398879B7F862DE4ACEFFE93E2BCF429_inline(L_24, NULL);
-			V_6 = L_25;
-			Il2CppFakeBox<int32_t> L_26(HttpStatusCode_t530B6899270B44ED560C3872DB5F9698FB7D7374_il2cpp_TypeInfo_var, (&V_6));
-			String_t* L_27;
-			L_27 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_26), NULL);
-			String_t* L_28;
-			L_28 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralAB28406D4150CAF3B545E4E3FB560E0F14423900, L_27, NULL);
+			PutItemResponse_t79D47C57B35E674371D72104783BC0C5633A8E98* L_22 = V_2;
+			NullCheck(L_22);
+			int32_t L_23;
+			L_23 = AmazonWebServiceResponse_get_HttpStatusCode_m9E297713C398879B7F862DE4ACEFFE93E2BCF429_inline(L_22, NULL);
+			V_5 = L_23;
+			Il2CppFakeBox<int32_t> L_24(HttpStatusCode_t530B6899270B44ED560C3872DB5F9698FB7D7374_il2cpp_TypeInfo_var, (&V_5));
+			String_t* L_25;
+			L_25 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_24), NULL);
+			String_t* L_26;
+			L_26 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralAB28406D4150CAF3B545E4E3FB560E0F14423900, L_25, NULL);
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-			Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(L_28, NULL);
+			Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(L_26, NULL);
 		}
 
-IL_00e4_1:
+IL_00d9_1:
 		{
-			goto IL_00ff;
+			goto IL_00f4;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -10056,44 +9745,44 @@ IL_00e4_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_00e6;
+			goto CATCH_00db;
 		}
 		throw e;
 	}
 
-CATCH_00e6:
+CATCH_00db:
 	{// begin catch(System.Exception)
-		V_7 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
+		V_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_29 = (&__this->___U3CU3Et__builder_1);
-		Exception_t* L_30 = V_7;
-		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_29, L_30, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_27 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_28 = V_6;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_27, L_28, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0112;
+		goto IL_0107;
 	}// end catch (depth: 1)
 
-IL_00ff:
+IL_00f4:
 	{
 		// }
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_31 = (&__this->___U3CU3Et__builder_1);
-		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_31, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_29 = (&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_29, NULL);
 	}
 
-IL_0112:
+IL_0107:
 	{
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void U3CPutDataU3Ed__5_MoveNext_mDAC2CABA8A8D867719D56C6F5D5EF30CC906C022_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void U3CPutDataU3Ed__4_MoveNext_mAA89E9C543E180E06F8E993F1E86F986281C31F3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* _thisAdjusted;
+	U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E*>(__this + _offset);
-	U3CPutDataU3Ed__5_MoveNext_mDAC2CABA8A8D867719D56C6F5D5EF30CC906C022(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9*>(__this + _offset);
+	U3CPutDataU3Ed__4_MoveNext_mAA89E9C543E180E06F8E993F1E86F986281C31F3(_thisAdjusted, method);
 }
-// System.Void AmazonDynamoComunicator/<PutData>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__5_SetStateMachine_mF3B23994CA51AC8A3E7D28F14A32B0DBF9644672 (U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) 
+// System.Void AmazonDynamoComunicator/<PutData>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__4_SetStateMachine_mA4303EAC2D99C7F0BFF13D92F831D890B5B83879 (U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method) 
 {
 	{
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_0 = (&__this->___U3CU3Et__builder_1);
@@ -10102,12 +9791,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPutDataU3Ed__5_SetStateMachine_mF3B23
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void U3CPutDataU3Ed__5_SetStateMachine_mF3B23994CA51AC8A3E7D28F14A32B0DBF9644672_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void U3CPutDataU3Ed__4_SetStateMachine_mA4303EAC2D99C7F0BFF13D92F831D890B5B83879_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
-	U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E* _thisAdjusted;
+	U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<U3CPutDataU3Ed__5_tDAC0A19566E778963EE4465FA443438941D4718E*>(__this + _offset);
-	U3CPutDataU3Ed__5_SetStateMachine_mF3B23994CA51AC8A3E7D28F14A32B0DBF9644672(_thisAdjusted, ___stateMachine0, method);
+	_thisAdjusted = reinterpret_cast<U3CPutDataU3Ed__4_tA7A11D6A26697ECCAF2B299AC6633BE4B8BCDFF9*>(__this + _offset);
+	U3CPutDataU3Ed__4_SetStateMachine_mA4303EAC2D99C7F0BFF13D92F831D890B5B83879(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
