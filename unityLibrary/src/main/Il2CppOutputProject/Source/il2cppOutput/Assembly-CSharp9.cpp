@@ -9990,8 +9990,6 @@ inline TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* GameObject_GetCompone
 }
 // System.Void UnityEngine.PlayerPrefs::SetInt(System.String,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetInt_mDC9617BFD56FEC670626A1002D9A5FE963D8D175 (String_t* ___key0, int32_t ___value1, const RuntimeMethod* method) ;
-// System.Void AmazonDynamoComunicator::CreateTable()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AmazonDynamoComunicator_CreateTable_m45B3BE8F491024C244112736E8DD2FF13D1C455D (AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<UnityEngine.RectTransform>::get_Item(System.Int32)
 inline RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* List_1_get_Item_mE11D272997FCFEA3932C7EF10D990376C973CFEB (List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* __this, int32_t ___index0, const RuntimeMethod* method)
 {
@@ -22372,7 +22370,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartingPageController_NextButtonPressed
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_mB2E2DFC9835043E9EA38AB359AEBDD53CE90A690_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SavingManager_Save_TisString_t_m61A925ACE475F9186365DB8CB3030985ACD22A90_RuntimeMethod_var);
@@ -22414,7 +22411,7 @@ IL_0026:
 		int32_t L_6 = __this->____pressedThreshhold_8;
 		if ((!(((uint32_t)L_5) == ((uint32_t)L_6))))
 		{
-			goto IL_0075;
+			goto IL_006b;
 		}
 	}
 	{
@@ -22429,20 +22426,16 @@ IL_0026:
 		SavingManager_Save_TisString_t_m61A925ACE475F9186365DB8CB3030985ACD22A90(L_8, _stringLiteralD00502A31E919DB64F15F3BF40F264A277BE14C1, _stringLiteral2E8FA0F397E70B1EBBD2A97547156F722AFB91DD, (bool)0, SavingManager_Save_TisString_t_m61A925ACE475F9186365DB8CB3030985ACD22A90_RuntimeMethod_var);
 		// PlayerPrefs.SetInt("Started", 1);
 		PlayerPrefs_SetInt_mDC9617BFD56FEC670626A1002D9A5FE963D8D175(_stringLiteralC7DB27B18C7041D9392EA06384420490D7253D1C, 1, NULL);
-		// AmazonDynamoComunicator.instance.CreateTable();
-		AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654* L_9 = ((AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_StaticFields*)il2cpp_codegen_static_fields_for(AmazonDynamoComunicator_t457844C64AAA399D75844B6F98122B6522E19654_il2cpp_TypeInfo_var))->___instance_4;
-		NullCheck(L_9);
-		AmazonDynamoComunicator_CreateTable_m45B3BE8F491024C244112736E8DD2FF13D1C455D(L_9, NULL);
 		// SceneManager.LoadScene("Revamped Home Page");
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m7237839058F581BFCA0A79BB96F6F931469E43CF(_stringLiteral6100FB95D03BAF4334E2CF9D639263B49E0A326A, NULL);
 	}
 
-IL_0075:
+IL_006b:
 	{
 		// _pressedCount++;
-		int32_t L_10 = __this->____pressedCount_7;
-		__this->____pressedCount_7 = ((int32_t)il2cpp_codegen_add(L_10, 1));
+		int32_t L_9 = __this->____pressedCount_7;
+		__this->____pressedCount_7 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 		// }
 		return;
 	}
